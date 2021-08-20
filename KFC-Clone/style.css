@@ -1,0 +1,110 @@
+@font-face{
+	font-family: RenosRough-Regular;
+	src : url('assets/fonts/RenosRough-Regular.otf');
+}
+
+@font-face{
+	font-family: American Purpose;
+	src : url('assets/fonts/American Purpose.otf');
+}
+
+.sign-in{
+	font-family: RenosRough-Regular;
+	padding-top: 25px;
+}
+
+.nav-link{
+	color: #999999;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nav-text{
+  position: absolute;
+  top: 50%;
+  padding-left: 10px;
+  transform: translateY(-50%);
+}
+
+i{
+	padding-left: 100px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .nav-text {
+    position: static;
+  }
+  i{
+	  padding-left: 10px;
+  }
+  img.sign-up{
+	  display: none;
+  }
+  h1.heading{
+	  font-size: 25px;
+	  font-weight: bold;
+	  padding-left: 30px;
+  }
+  div.products{
+	  padding-left: 30px;
+	  padding-right: 30px;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .nav-text {
+    position: static;
+  }
+  i{
+	  padding-left: 10px;
+  }
+  img.sign-up{
+	  display: none;
+  }
+  div.products{
+	  padding-left: 30px;
+	  padding-right: 30px;
+  }
+}
+
+.sign-up{
+	padding-top: 10px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.heading{
+	font-family: American Purpose;
+	font-size: 60px;
+	font-weight: bold;
+	padding-left: 175px;
+}
+
+.products{
+	padding-left: 175px;
+	padding-right: 175px;
+}
+
+.card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+}
+
+.card-btn{
+	background-color: #E4002B;
+	color: white;
+	font-family: RenosRough-Regular;
+	float: right;
+}	
+
+.footer-links{
+	font-family: RenosRough-Regular;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+hr.horizontal-line{
+	border-top: 2px solid #BDBDBD; 
+}
+
