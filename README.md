@@ -53,7 +53,7 @@
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 <!-- ABOUT THE PROJECT -->
-## About the Clone IT :
+## About the Clone IT
 
 <p align="center">
  The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design . New contributors can add more websites clone to the list and suggest new features in the existing ones. Also there is scope to introduce new features in websites and thus creating a upgraded version of their clones.
@@ -62,7 +62,7 @@
 
 <br>
 
-Available Clones :
+Available Clones:
 
 | Serial No. | Websites | Clone-Output | Used | Official-Website |
 |:--|:--|:--|:--|:--|
@@ -79,7 +79,7 @@ Available Clones :
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Open Source programs this repo has been part of :
+## Open Source programs this repo has been part of
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 
 <div align="center">
@@ -99,7 +99,7 @@ Available Clones :
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Contribution Guidelines :
+## Contribution Guidelines
 <a href="https://github.com/Dezenix/frontend-reactjs"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
 
 
@@ -128,7 +128,7 @@ Never made an open source contribution before? Wondering how contributions work 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Contributors :
+## Contributors
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="207" ></a> 
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="123" ></a> 
 
