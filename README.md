@@ -148,6 +148,6 @@ Thanks to all the **people who contribute**
 
 <div align="center">
 
-### Show some ❤️ by starring this awesome repositorie!
+### Show some ❤️ by starring this awesome  repository!
 
 </div>
