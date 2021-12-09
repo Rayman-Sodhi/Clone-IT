@@ -100,7 +100,7 @@ Available Clones:
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contribution Guidelines
-<a href="https://github.com/Dezenix/frontend-reactjs"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
 
 
 Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
