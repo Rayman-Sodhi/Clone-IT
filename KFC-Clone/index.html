@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 	
 		<title>KFC</title>
-		<link rel="stylesheet" href="style.css">
+		
 		<!-- Favicons -->
 		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 		
@@ -13,9 +13,10 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-4">
 					<img height="80px" width="120px" src="assets/images/logo.png"/>
@@ -25,14 +26,39 @@
 					<p class="sign-in">SIGN IN</p>
 				</div>
 			</div>
-		</div>
-		<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+		</div> -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"> <i><b>KFC</b></i> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Deals</a>
+				</li>
+			  </ul>
+			  <div>
+				<div class="nav-item">
+					<a class="nav-link" id="signin" href="#"><i class="fa fa-user-circle"></i> Sign In</a>
+				</div>
+				</div>
+				<img class="food-bucket" src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="">
+		
+			  
+			</div>
+		  </nav>
+		 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 			  <li class="nav-item active">
 				<a class="nav-link" href="#" style="color: #E8002A;"><i class="fa fa-truck" style="font-size:48px;"></i> <span class="nav-text">Delivery</span></a>
 			  </li>
@@ -42,7 +68,7 @@
 			  <li class="nav-item">
 				<a class="nav-link" href="#"><i class="fa fa-coffee" style="font-size:48px;"></i> <span class="nav-text">Dine-in</span></a>
 			  </li>
-			</ul>
+			</ul> -->
 			<button type="button" class="btn btn-dark border border-white rounded px-5" style="font-size: 18px;" data-toggle="modal" data-target="#map">Our Location</button>
 			<i class="fa fa-search" style="font-size:40px; padding-left: 50px; color: #999999;"></i>
 			<i class="fa fa-shopping-cart" style="font-size:40px; padding-left: 30px; padding-right: 100px; color: #999999;"></i>

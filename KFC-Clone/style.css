@@ -12,9 +12,25 @@
 	font-family: RenosRough-Regular;
 	padding-top: 25px;
 }
+.navbar{
+	padding: 0.5rem 10rem;
+}
 
+.food-bucket{
+	width: 70px;
+}
+.navbar-light .navbar-brand {
+	color: rgb(196, 14, 14);
+	font-size: 2rem;	
+}
+.bg-light {
+    background-color: #ffffff !important;
+}
+#signin{
+	border-style: none groove none none;
+}
 .nav-link{
-	color: #999999;
+	color: #141414;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -24,10 +40,6 @@
   top: 50%;
   padding-left: 10px;
   transform: translateY(-50%);
-}
-
-i{
-	padding-left: 100px;
 }
 
 @media only screen and (max-width:800px) {
