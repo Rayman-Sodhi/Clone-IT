@@ -7,6 +7,7 @@
 	font-family: American Purpose;
 	src : url('assets/fonts/American Purpose.otf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .sign-in{
 	font-family: RenosRough-Regular;
@@ -41,9 +42,29 @@
   padding-left: 10px;
   transform: translateY(-50%);
 }
+.second-nav .navbar{
+    justify-content: center;
+}
+.nav-para{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+.order-btn{
+	background-color: #E4002B;
+	color: white;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin: 10px;
+}
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
+  .navbar{
+	padding: 0.5rem ;
+  }
   .nav-text {
     position: static;
   }
@@ -67,6 +88,9 @@
   /* For mobile phones: */
   .nav-text {
     position: static;
+  }
+  .nav-para{
+	  display: none;
   }
   i{
 	  padding-left: 10px;
