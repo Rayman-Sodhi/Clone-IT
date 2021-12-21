@@ -22,3 +22,14 @@ function placed(){
       }, false)
     })
 })()
+
+$('.card-header').on('click', function() {
+  if($(this).hasClass('footer-accordion-open')) {
+    $(this).removeClass('footer-accordion-open');
+    $('.fa-chevron-down', this).removeClass('rotate-icon');
+  }
+  else {
+    $(this).addClass('footer-accordion-open');
+    $('.fa-chevron-down', this).addClass('rotate-icon');
+  }
+})

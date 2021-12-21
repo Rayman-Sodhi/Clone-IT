@@ -8,6 +8,10 @@
 	src : url('assets/fonts/American Purpose.otf');
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 .sign-in{
 	font-family: RenosRough-Regular;
 	padding-top: 25px;
@@ -98,13 +102,210 @@ i{
 	float: right;
 }	
 
-.footer-links{
-	font-family: RenosRough-Regular;
-	font-size: 12px;
-	padding-left: 10px;
-}
 
 hr.horizontal-line{
 	border-top: 2px solid #BDBDBD; 
 }
 
+
+/*=== Footer ===*/
+.footer-desk {
+	background-color: #202124;
+	padding: 60px 0 20px 0;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+}
+.footer-desk .container {
+	max-width: 1150px;
+}
+.footer-desk .footer-logo {
+	flex: 0 0 13%;
+	max-width: 13%;
+}
+.footer-desk .footer-head {
+	font-weight: bold;
+}
+.footer-desk .footer-links {
+	display: flex;
+	flex-direction: column;
+}
+.footer-desk .footer-links a {
+	color: #e3e3e3;
+	text-decoration: none;
+}
+.footer-desk .footer-links a:hover {
+	color: #fff;
+}
+footer .links {
+	flex: 0 0 46%;
+	max-width: 46%;
+}
+.footer-desk .kfc-food, footer .support {
+	flex: 0 0 22%;
+	max-width: 22%;
+}
+.footer-desk .terms {
+	flex: 0 0 31%;
+	max-width: 31%;
+}
+.footer-desk .kfc-india {
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+.footer-desk .find-a-kfc {
+	flex: 0 0 10%;
+	max-width: 10%;
+}
+.footer-desk .find-a-kfc i {
+	padding-left: 0;
+	color: #E4002B;
+}
+.footer-desk .find-a-kfc a {
+	color: #fff;
+	text-decoration: underline;
+}
+.footer-desk .apps {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+.footer-desk .apps img {
+	width: 120px;
+	margin-left: 20px;
+}
+.footer-desk .footer-below {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 80px;
+	color: #BFBFBF;
+	font-weight: 700;
+}
+.footer-desk .footer-below .socials {
+	float: right;
+}
+.footer-desk .footer-below .socials img {
+	margin: 0 3px;
+}
+
+@media screen and (max-width: 1150px) {
+	.footer-desk {
+		display: none;
+	}
+	.footer-mob {
+		display: block !important;
+	}
+}
+
+.footer-mob {
+	display: none;
+	background-color: #202124;
+	padding: 60px 0 60px 0;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+}
+.footer-mob .footer-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 100px 0;
+}
+.footer-mob .accordion .card {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+}
+.footer-mob .accordion .card-header {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	border-bottom: 2px solid #444;
+	border-radius: 0;
+	padding: 0;
+}
+#headingOne1 {
+	border-top: 2px solid #444;
+}
+.footer-mob .accordion .card-header a {
+	color: white;
+	text-decoration: none;
+}
+.footer-mob .accordion .card-header a h5 {
+	padding: 20px 20px;
+	font-size: 14px;
+}
+.footer-mob .accordion .card-header a i {
+	padding-left: 0;
+	float: right;
+	font-size: 12px;
+}
+.footer-accordion-open {
+	background-color: #303133 !important;
+}
+.footer-mob .accordion .card-body {
+	display: flex;
+	flex-direction: column;
+	background-color: #303133;
+	border-bottom: 2px solid #444;
+	padding: 0 20px;
+}
+.footer-mob .accordion .card-body a {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 10px 0;
+}
+.footer-mob .accordion .fa-chevron-down {
+	transform: rotate(0deg);
+	transition: 0.5s ease;
+}
+.footer-mob .accordion .fa-chevron-down.rotate-icon {
+	transform: rotate(180deg);
+}
+.footer-mob .find-a-kfc {
+	padding: 30px 0;
+	border-bottom: 2px solid #444;
+}
+.footer-mob .find-a-kfc i {
+	padding-left: 20px;
+	color: #E4002B;
+}
+.footer-mob .find-a-kfc a {
+	color: #fff;
+	text-decoration: underline;
+}
+.footer-mob .download p {
+	padding-left: 20px;
+	padding-top: 30px;
+}
+.footer-mob .download .appstore {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-mob .download .appstore img {
+	margin: 0 40px;
+}
+.footer-mob .socials {
+	width: 100%;
+}
+.footer-mob .socials img {
+	width: 50px;
+	padding-top: 100px;
+	margin: 0 4px;
+	float: right
+}
+.footer-mob .copyright {
+	text-align: center;
+	padding: 200px 0 100px 0;
+	font-size: 12px;
+	color: #BFBFBF;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 400px) {
+	.footer-mob .download .appstore img {
+		margin: 0 5px;
+	}
+}
