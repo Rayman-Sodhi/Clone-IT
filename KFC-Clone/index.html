@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width">
 	
 		<title>KFC</title>
-		<link rel="stylesheet" href="style.css">
+		
 		<!-- Favicons -->
 		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 		
@@ -13,9 +13,10 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-4">
 					<img height="80px" width="120px" src="assets/images/logo.png"/>
@@ -25,29 +26,38 @@
 					<p class="sign-in">SIGN IN</p>
 				</div>
 			</div>
-		</div>
-		<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#" style="color: #E8002A;"><i class="fa fa-truck" style="font-size:48px;"></i> <span class="nav-text">Delivery</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#"><i class="fa fa-shopping-bag" style="font-size:48px;"></i> <span class="nav-text">Take away</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#"><i class="fa fa-coffee" style="font-size:48px;"></i> <span class="nav-text">Dine-in</span></a>
-			  </li>
-			</ul>
-			<button type="button" class="btn btn-dark border border-white rounded px-5" style="font-size: 18px;" data-toggle="modal" data-target="#map">Our Location</button>
-			<i class="fa fa-search" style="font-size:40px; padding-left: 50px; color: #999999;"></i>
-			<i class="fa fa-shopping-cart" style="font-size:40px; padding-left: 30px; padding-right: 100px; color: #999999;"></i>
-		  </div>
-		</nav>
+		</div> -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"> <i><b>KFC</b></i> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Deals</a>
+				</li>
+			  </ul>
+			  <div>
+				<div class="nav-item">
+					<a class="nav-link" id="signin" href="#"><i class="fa fa-user-circle"></i> Sign In</a>
+				</div>
+				</div>
+				<img class="food-bucket" src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="">
+		
+			  
+			</div>
+		  </nav>
+		<div class="second-nav">
+			<nav class="navbar sticky-top navbar-dark bg-dark">
+			   <h4 class="nav-para">LET'S ORDER FOR DELIVERY, PICKUP OR DINE-IN</h4>
+				 <button class="order-btn">Start Order</button>
+		   
+		   </nav></div>
 		
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
@@ -57,13 +67,13 @@
 		  </ol>
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
-			  <img class="d-block w-100" src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Category/Carousel/Sunday-Specials--Banner-1366X380_01.jpg" alt="First slide">
+			  <img class="d-block w-100" src="assets/images/4Value_Burger_1440x396px.png" alt="First slide">
 			</div>
 			<div class="carousel-item">
-			  <img class="d-block w-100" src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Category/Carousel/Box-Meal-banner.jpg" alt="Second slide">
+			  <img class="d-block w-100" src="assets/images/December_Fest_1440x396px.jpg" alt="Second slide">
 			</div>
 			<div class="carousel-item">
-			  <img class="d-block w-100" src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Category/Carousel/01_1366-X-380_website1.jpg" alt="Third slide">
+			  <img class="d-block w-100" src="assets/images/Express_pick_up_app_banner_1440x396.jpg" alt="Third slide">
 			</div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -83,7 +93,7 @@
 		<div class="row products">
 		  <div class="col-sm-4">
 			<div class="card mb-3">
-			  <img src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/CAT86-6928.jpg?v=15.15" class="card-img-top" alt="...">
+			  <img src="assets/images/A-33113-0.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 				<img height="19px" width="19px" style="float: left; padding-top: 6px; padding-right: 6px;" src="assets/images/non-veg.png"/>
 				<b><p class="card-text">Ultimate Savings Bucket</p></b>
@@ -94,7 +104,7 @@
 		  </div>
 		  <div class="col-sm-4">
 			<div class="card mb-3">
-			  <img src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/CAT86-8205.jpg?v=15.15" class="card-img-top" alt="...">
+			  <img src="assets/images/A-32256-0.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 				<img height="19px" width="19px" style="float: left; padding-top: 6px; padding-right: 6px;" src="assets/images/non-veg.png"/>
 				<b><p class="card-text">Family Fest</p></b>
@@ -105,7 +115,7 @@
 		  </div>
 		  <div class="col-sm-4">
 			<div class="card mb-3">
-			  <img src="https://online.kfc.co.in/Content/OnlineOrderingImages/Menu/Items/big-8.jpg?v=15.15" class="card-img-top" alt="...">
+			  <img src="assets/images/A-32197-0.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 				<img height="19px" width="19px" style="float: left; padding-top: 6px; padding-right: 6px;" src="assets/images/non-veg.png"/>
 				<b><p class="card-text">Big 8</p></b>
@@ -116,7 +126,7 @@
 		  </div>
 		</div>
 
-		<img class="sign-up" src="https://online.kfc.co.in/Content/OnlineOrderingImages/Shared/AirtelOffer.png"/>
+		<img class="sign-up" src="assets/images/signup.png"/>
 		<br>
 		
 		<div class="modal fade" id="buy" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
