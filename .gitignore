@@ -1,0 +1,6 @@
+# ignore these dependecies and modules
+SPOTIFY-CLONE/node_modules
+SPOTIFY-CLONE/.next/
+SPOTIFY-CLONE/build
+SPOTIFY-CLONE/package-lock.json
+SPOTIFY-CLONE/.env.local
