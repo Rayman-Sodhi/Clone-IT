@@ -1,0 +1,28 @@
+.navbar {
+    width: 100vw;
+    height: 65px;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .navbar__left {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__left img {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .navbar__left span {
+    font-size: 20px;
+  }
+  .navbar__right {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__logo {
+    height: 30px;
+    width: auto;
+  }

@@ -1,0 +1,58 @@
+.social__share-content {
+    position: relative;
+    z-index: 500;
+}
+
+.social__share-popup {
+    position: absolute;
+    background-color: #fff;
+    z-index: 500;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+
+    @include respond(phone){
+        width: 80vw;
+    }
+
+    .header__area {
+        height: 250px;
+        width: 100%;
+        background-color: $color-grey-light;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    img {
+        width: 350px;
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+        box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.2);
+
+        @include respond(phone){
+            width: 60vw;
+        }
+    }
+
+    .content__area {
+        padding: 20px 50px 50px 50px;
+
+        h2 {
+            color: $color-black-2;
+            font-weight: 900;
+        }
+
+        @include respond(tab-land){
+            h2 {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

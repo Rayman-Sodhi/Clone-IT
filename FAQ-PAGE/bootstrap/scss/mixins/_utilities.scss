@@ -68,14 +68,14 @@
                 --#{$variable-prefix}#{$local-var}: #{$value};
               }
             }
-            #{$property}: $value if($enable-important-utilities, !important, null);
+            #{$property}: $value if($enable-important-utilities,  , null);
           }
         }
 
         @each $pseudo in $state {
           .#{$property-class + $infix + $property-class-modifier}-#{$pseudo}:#{$pseudo} {
             @each $property in $properties {
-              #{$property}: $value if($enable-important-utilities, !important, null);
+              #{$property}: $value if($enable-important-utilities,  , null);
             }
           }
         }

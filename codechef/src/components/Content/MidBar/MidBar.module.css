@@ -1,0 +1,9 @@
+.MidBar {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+

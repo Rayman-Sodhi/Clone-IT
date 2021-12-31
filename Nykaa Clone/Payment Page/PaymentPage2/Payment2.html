@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Your Bill</title>
+    <link rel="stylesheet" href="Payment2.css">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="../nykaa-logo.png" alt="">
+        </div>
+        <div id="steps">
+            <div class="steps-div">
+                <div class="steps-number">1</div>
+                <div id="bag-text">BAG</div>
+            </div>
+            <div class="steps-dash"></div>
+            <div class="steps-div">
+                <div class="steps-number">2</div>
+                <div id="address-text">ADDRESS</div>
+            </div>
+            <div class="steps-dash"></div>
+            <div class="steps-div">
+                <div class="steps-number">3</div>
+                <div id="payment-text">PAYMENT</div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <h3>CHOOSE PAYMENT METHOD</h3>
+        <div class="payment">
+            <div class="methods">
+                <div id="methods1"><h3>Credit/Devit Card</h3></div>
+                <div id="methods2"><h3>UPI</h3></div>
+                <div id="methods3"><h3>Google Pay</h3></div>
+                <div id="methods4"><h3>Cash On Delivery</h3></div>
+            </div>
+            <div class="details">
+             <div id="details-card">
+              <h3>Credit/Debit Card</h3>
+              <input id="card-number" placeholder="Card Number" type="number">
+              <div><input id="card-expiry" placeholder="Expiry Date" type="number"><input id="card-cvv" placeholder="CVV" type="number"></div>
+              
+            </div>
+            <div id="details-upi">
+                <h3>UPI</h3>
+                <input id="upi" placeholder="Enter Your UPI ID" type="text">
+              </div>
+              <div id="details-google">
+                <h3>GOOGLE PAY</h3>
+                <input id="gpay" placeholder="Google Pay Number" type="number">
+              </div>
+              <div id="details-cash">
+                <h3>CASH ON DELIVERY</h3>
+                 <P>Kindly, pay the amount in cash at the time of delivery.</P>
+              </div>
+              <button id="payBtn">PAY NOW</button>
+            </div>
+            <div class="prices">
+                <h3>PRICE SUMMARY</h3>
+                <div><div>Bag Total</div><div id="p1"></div></div>
+                <div><div>Sub Total</div><div id="p2"></div></div>
+                <div><div>Discount</div><div id="p3"></div></div>
+                <div><div>Shipping Charges</div><div id="p4"></div></div>
+                <span></span>
+                <div><div>Grand Total</div><div id="p5"></div></div>
+            </div>
+        </div>
+    </main>
+    <div class="window">
+        <div id="close">✕</div>
+        <h2>You have sucessfully made the payment</h2>
+        <button id="shopagain">Continue with your shoping</button>
+    </div>
+</body>
+<script src="./Payment2.js"></script>
+</html>

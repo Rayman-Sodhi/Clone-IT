@@ -1,0 +1,266 @@
+@import "../colors";
+@import "../fonts";
+
+
+
+.UserSettings {
+    position: absolute;
+    box-sizing: border-box;
+
+    background-color: $primary-color;
+    width: 20rem;
+    height: auto;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    box-shadow: 0 0 1rem black;
+
+    transform: translateY(29rem);
+
+    animation-name: appear;
+    animation-timing-function: ease;
+    animation-duration: 550ms;
+
+    & .Profile {
+        display: flex;
+        flex-direction: row;
+
+        margin-bottom: 1rem;
+
+        & .Avatar {
+            width: 4rem;
+            height: 4rem;
+    
+            margin-right: 1rem;
+            border-radius: 100%;
+        }
+
+        & h3,
+        & p {
+            margin: 0;
+
+            font-size: $font-size-5;
+        }
+
+        & p {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            margin-top: .25rem;
+            color: $text-subcolor;
+
+            & .littleBubble {
+                display: block;
+
+                width: .6rem;
+                height: .6rem;
+
+                margin-right: 0.5rem;
+                border-radius: 100%;
+
+                background-color: #fff;
+
+                transition: background-color 250ms ease;
+                &.online {
+                    background-color: #00f593;
+                }
+            }
+        }
+
+    }
+
+    & .setStatus {
+        display: flex;
+        flex-direction: column;
+    
+
+        box-sizing: border-box;
+        cursor: pointer;
+
+        width: 100%;
+        height: auto;
+
+        padding: 0.5rem;
+        border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 1rem;
+
+        & .status,
+        & .activity {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            margin-bottom: 1rem;
+
+            animation-name: activityFade;
+            animation-timing-function: ease;
+            animation-duration: 0.3s;
+
+            &.activated {
+                & .toggleButtonActivity {
+                    border: 2px solid $text-purple;
+
+                    & .bubbleActivity {
+                        background-color: $text-purple;
+
+                        transform: translateX(2rem);
+                    }
+                }
+            }
+            
+            & p {
+                font-size: $font-size-5;
+                margin: 0;
+            }
+
+            & .toggleButton,
+            & .toggleButtonActivity {
+                display: flex;
+                align-items: center;
+
+                height: 1.6rem;
+                width: 3.5rem;
+
+                border: 2px solid $text;
+                border-radius: 50rem;
+
+                transition: border 250ms ease;
+                & .bubble,
+                & .bubbleActivity {
+                    display: block;
+
+                    width: 1.2rem;
+                    height: 1.2rem;
+
+                    border-radius: 100%;
+                    background-color: $text;
+
+                    transform: translateX(0.2rem);
+
+                    transition: background-color 250ms ease, transform 250ms ease;
+                }
+
+            }
+
+        }
+
+        &.online {
+
+            & .toggleButton {
+                border: 2px solid $text-purple;
+
+                & .bubble {
+                    background-color: $text-purple;
+
+                    transform: translateX(2rem);
+                }
+            }
+        }
+    }
+
+    & .subCategory {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        width: 100%;
+        height: 3rem;
+
+        box-sizing: border-box;
+
+        padding: 0.5rem;
+
+        & .Icon,
+        & .ArrowIcon {
+            width: 2rem;
+            height: 2rem;
+
+            margin-right: 0.5rem;
+        }
+
+        & .ArrowIcon {
+            margin-left: auto;
+        }
+
+        & p {
+            font-size: $font-size-5;
+            color: $text;
+        }
+
+        & .toggleButton {
+            display: flex;
+            align-items: center;
+
+            height: 1.6rem;
+            width: 3.5rem;
+            
+            margin-left: auto;
+
+            border: 2px solid $text;
+            border-radius: 50rem;
+
+            transition: border 250ms ease;
+
+            &.Theme {
+                border: 2px solid $text-purple;
+            }
+
+            & .bubble {
+                display: block;
+
+                width: 1.2rem;
+                height: 1.2rem;
+
+                border-radius: 100%;
+                background-color: $text;
+
+                transform: translateX(0.2rem);
+
+                transition: background-color 250ms ease, transform 250ms ease;
+
+                &.Theme {
+                    background-color: $text-purple;
+
+                    transform: translateX(2rem);
+                }
+            }
+
+        }
+    }
+
+    .hr {
+        width: 100%;
+        height: 1px ;
+        background-color: rgba($color: #fff, $alpha: 0.2);
+
+        margin-block: 1rem;
+    }
+}
+
+
+
+
+@keyframes activityFade {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateX(50%)  translateY(29rem) ;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%)  translateY(29rem) ;
+    }
+}

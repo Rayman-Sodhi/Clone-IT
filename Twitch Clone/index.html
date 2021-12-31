@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Twitch Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/392da76e91.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="http://www.newdesignfile.com/postpic/2014/02/white-transparent-twitch-logo_99116.png"
+          alt="Twitch Logo"
+          class="logo"
+        />
+        <a href="#" class="active">Discover</a>
+        <a href="#">Following</a>
+        <a href="#">Browse</a>
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </nav>
+      <div class="search">
+        <button type="submit" disabled class="search-icon">
+          <i class="fas fa-search"></i>
+        </button>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="right-menu">
+        <i class="fas fa-crown"></i>
+        <i class="fas fa-bell rm"></i>
+        <a href="#" class="bits rm"><i class="fas fa-cubes"></i>Get Bits</a>
+        <div class="profile rm">
+          <div class="img-cropper">
+            <img
+              src="http://www.pngall.com/wp-content/uploads/2016/05/Man-Download-PNG.png"
+              alt="Display Picture"
+            />
+          </div>
+          <div class="status"></div>
+        </div>
+      </div>
+    </header>
+
+    <aside>
+      <div class="channels">
+        <h3>Followed Channels</h3>
+
+        <div class="followed">
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Bahroo"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">AdmiralBahroo</p>
+              <div class="info">
+                <span class="game">Borderlands 3</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  4.3K</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1464235173750-ae45ddb17e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="KarQ"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">KarQ</p>
+              <div class="info">
+                <span class="game">Overwatch</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  203</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="aDrive"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">aDrive</p>
+              <div class="info">
+                <span class="game">Pokemon Go</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  200</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="EasyAllies"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">EasyAllies</p>
+              <div class="info">
+                <span class="game">Monster Hunter World</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  188</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1506956191951-7a88da4435e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Cuppcaake"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">Cuppcaake</p>
+              <div class="info">
+                <span class="game">Overwatch</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  154</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="moistcr1tikal"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">moistcr1tikal</p>
+              <div class="info">
+                <span class="game">Call of Duty</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  110</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="CryoSneasel"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">CryoSneasel</p>
+              <div class="info">
+                <span class="game">Overwatch</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  101</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1495078065017-564723e7e3e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="DanielFenrir"
+                class="followed-img offline"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">DanielFenrir</p>
+              <div class="info">
+                <span class="game">8 Videos</span>
+                <span class="viewers">Offline</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="show-link">Show More</a>
+        <h3 class="recommended">Recommended Channels</h3>
+
+        <div class="recommended-channels">
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1482235225574-c37692835cf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Valkia"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">Valkia</p>
+              <div class="info">
+                <span class="game">Call of Cthulhu</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  604</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="LarihMage"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">LarihMage</p>
+              <div class="info">
+                <span class="game">Borderlands 3</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  981</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="channel">
+            <div class="img-cropper">
+              <img
+                src="https://images.unsplash.com/photo-1515486191131-efd6be9f711f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Drth7"
+                class="followed-img"
+              />
+            </div>
+            <div class="info-container">
+              <p class="name">Drth7</p>
+              <div class="info">
+                <span class="game">Bayonetta</span>
+                <span class="viewers"
+                  ><div class="live-dot"></div>
+                  14,440</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="show-link">Show More</a>
+      </div>
+      <div class="search-section">
+        <div class="aside-search">
+          <button type="submit" disabled class="search-icon">
+            <i class="fas fa-search"></i>
+          </button>
+          <input type="text" placeholder="Search to Add Friends" />
+        </div>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <div class="content">
+        <section id="featured">
+          <div class="main">
+            <div class="live-image">
+              <img
+                src="https://i.ytimg.com/vi/_TxsZiK8hVc/maxresdefault.jpg"
+                alt="Gameplay"
+              />
+              <div class="live-icon">LIVE</div>
+            </div>
+            <div class="featured-info">
+              <div class="header">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    alt="Profile"
+                  />
+                </div>
+                <div class="info-section">
+                  <p class="featured-name">HelloWorld!</p>
+                  <p class="featured-game">Fortnite</p>
+                  <div class="viewers">221 viewers</div>
+                </div>
+              </div>
+              <div class="tags">
+                <div class="live-lang">FPS</div>
+                <div class="live-lang">Battle Roayle</div>
+              </div>
+              <p class="summary">
+                We are shooting for these wins today! I know we can do it! Check
+                out my stream and hang out as I climb the ranks!
+              </p>
+            </div>
+          </div>
+          <div class="left1">
+            <div class="featured-content">
+              <img
+                src="https://cdn.vox-cdn.com/thumbor/PCymIH689h6J7l9MJV7t-lkveCs=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19743154/OVR_PR_Switch_GameplayShots_XA_036_A.png"
+                alt="Gameplay"
+                class="featured-gameplay"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1450609283058-0ec52fa7eac4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Channel"
+                class="featured-channel"
+              />
+            </div>
+          </div>
+          <div class="left2">
+            <div class="featured-content">
+              <img
+                src="https://i.ytimg.com/vi/eLQGVkuv8oo/maxresdefault.jpg"
+                alt="Gameplay"
+                class="featured-gameplay"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                alt="Channel"
+                class="featured-channel"
+              />
+            </div>
+          </div>
+          <div class="right2">
+            <div class="featured-content">
+              <img
+                src="https://i0.wp.com/coin-drop.com/wp-content/uploads/Dying-Light-2-1-1.png?resize=1400%2C791"
+                alt="Gameplay"
+                class="featured-gameplay"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Channel"
+                class="featured-channel"
+              />
+            </div>
+          </div>
+          <div class="right1">
+            <div class="featured-content">
+              <img
+                src="https://www.gamehackstudios.com/wp-content/uploads/2014/11/escape-dead-island-full-PC-game-download-gameplay-image.jpg"
+                alt="Gameplay"
+                class="featured-gameplay"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Channel"
+                class="featured-channel"
+              />
+            </div>
+          </div>
+        </section>
+        <h2>Recommended live channels</h2>
+        <section class="recommended-live">
+          <div id="live-channels">
+            <div class="live-channel">
+              <div class="live-image">
+                <div class="live-icon">LIVE</div>
+                <div class="live-views">81 viewers</div>
+                <img
+                  src="https://i.ytimg.com/vi/jSdIUQ_iHtI/maxresdefault.jpg"
+                  alt="Gameplay"
+                  class="thumbnail"
+                />
+              </div>
+              <div class="live-info">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1458071103673-6a6e4c4a3413?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    alt="Profile Image"
+                  />
+                </div>
+                <div class="live-text">
+                  <p class="live-title">Overwatch Awesomeness</p>
+                  <p class="live-user">Ganiman</p>
+                  <p class="live-game">Overwatch</p>
+                  <span class="live-lang">English</span>
+                  <span class="live-lang">Multiplayer</span>
+                </div>
+                <div class="live-dots">
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="live-channel">
+              <div class="live-image">
+                <div class="live-icon">LIVE</div>
+                <div class="live-views">8.2k viewers</div>
+                <img
+                  src="http://i.ytimg.com/vi/eurXJnfsfhs/maxresdefault.jpg"
+                  alt="Gameplay"
+                  class="thumbnail"
+                />
+              </div>
+              <div class="live-info">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1474260295919-57362ec1d17c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    alt="Profile img"
+                  />
+                </div>
+                <div class="live-text">
+                  <p class="live-title">Let's Loot!</p>
+                  <p class="live-user">Dynamo</p>
+                  <p class="live-game">Dead Island 2</p>
+                  <span class="live-lang">English</span>
+                </div>
+                <div class="live-dots">
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="live-channel">
+              <div class="live-image">
+                <div class="live-icon">LIVE</div>
+                <div class="live-views">18 viewers</div>
+                <img
+                  src="https://i.ytimg.com/vi/B6z7Tf4f8zM/maxresdefault.jpg"
+                  alt="Gameplay"
+                  class="thumbnail"
+                />
+              </div>
+              <div class="live-info">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1508285296015-c0b524447532?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    alt="Profile Picture"
+                  />
+                </div>
+                <div class="live-text">
+                  <p class="live-title">Wie Geht's?</p>
+                  <p class="live-user">Mixxie</p>
+                  <p class="live-game">Silent Hill</p>
+                  <span class="live-lang">German</span>
+                </div>
+                <div class="live-dots">
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="live-channel">
+              <div class="live-image">
+                <div class="live-icon">LIVE</div>
+                <div class="live-views">837 viewers</div>
+                <img
+                  src="https://www.bing.com/th?id=OIP.6OEcyAWwAhZIB7a1fhTzNgHaEK&w=300&h=168&c=7&o=5&dpr=1.25&pid=1.7"
+                  alt="Gameplay"
+                  class="thumbnail"
+                />
+              </div>
+              <div class="live-info">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    alt="Profile Image"
+                  />
+                </div>
+                <div class="live-text">
+                  <p class="live-title">Shooty Shooty</p>
+                  <p class="live-user">BioGuy</p>
+                  <p class="live-game">Call of Duty</p>
+                  <span class="live-lang">English</span>
+                </div>
+                <div class="live-dots">
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="live-channel">
+              <div class="live-image">
+                <div class="live-icon">LIVE</div>
+                <div class="live-views">21k viewers</div>
+                <img
+                  src="https://wallpapershome.com/images/wallpapers/anthem-2560x1440-4k-screenshot-gameplay-e3-2017-13824.jpg"
+                  alt="Gameplay"
+                  class="thumbnail"
+                />
+              </div>
+              <div class="live-info">
+                <div class="img-cropper">
+                  <img
+                    src="https://images.unsplash.com/photo-1544098485-2a2ed6da40ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    alt="Profile Img"
+                  />
+                </div>
+                <div class="live-text">
+                  <p class="live-title">Don't *Beep* With Me!</p>
+                  <p class="live-user">UmbraCrow</p>
+                  <p class="live-game">Anthem</p>
+                  <span class="live-lang">English</span>
+                </div>
+                <div class="live-dots">
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                  <div class="rec-live-dot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="special-divider">
+          <div class="line"></div>
+          <div class="special-text">
+            Show More <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+        <h2>Recommended <span class="highlight">categories</span></h2>
+        <section class="categories">
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Overwatch-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Overwatch</p>
+                <p class="live-game">11.6K viewers</p>
+                <span class="live-lang">FPS</span>
+                <span class="live-lang">Shooter</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Borderlands%203-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Borderlands 3</p>
+                <p class="live-game">7.2K viewers</p>
+                <span class="live-lang">FPS</span>
+                <span class="live-lang">RPG</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Retro-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Retro</p>
+                <p class="live-game">2K viewers</p>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Devil%20May%20Cry%205-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Devil May Cry 5</p>
+                <p class="live-game">43 viewers</p>
+                <span class="live-lang">Action</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/The%20Legend%20of%20Zelda:%20Link%27s%20Awakening-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">The Legend of...</p>
+                <p class="live-game">1.9K viewers</p>
+                <span class="live-lang">Action</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">World of Warcraft</p>
+                <p class="live-game">69.9K viewers</p>
+                <span class="live-lang">MMORPG</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Final%20Fantasy%20VII-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Final Fantasy VII</p>
+                <p class="live-game">52 viewers</p>
+                <span class="live-lang">RPG</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Minecraft</p>
+                <p class="live-game">15.6K viewers</p>
+                <span class="live-lang">Adventure</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Apex%20Legends-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Apex Legends</p>
+                <p class="live-game">303K viewers</p>
+                <span class="live-lang">FPS</span>
+                <span class="live-lang">Shooter</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <img
+              src="https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg"
+              alt="Game"
+            />
+            <div class="live-info">
+              <div class="live-text">
+                <p class="live-title">Just Chatting</p>
+                <p class="live-game">60.9K viewers</p>
+                <span class="live-lang">IRL</span>
+              </div>
+              <div class="live-dots">
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+                <div class="rec-live-dot"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

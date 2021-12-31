@@ -1,0 +1,122 @@
+.header-background{
+background-image: url(https://www.kali.org/images/home-banner.jpg);
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%), inset 0 -8px rgb(0 0 0 / 30%);
+    min-height: 100vh;
+    --nav-text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-background::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    filter: brightness(.4);
+    background-color: #367BF0;
+}
+#logo{
+   margin-top: 8px;
+    max-height: 70px;
+    min-width: 100px;
+    margin-left: 90px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-background #logo{
+    filter: brightness(0)invert(1)drop-shadow(var(--nav-text-shadow));
+}
+
+.nav-bar{
+    list-style: none;
+    display: inline-block;
+    flex: 1;
+    margin: 0;
+  padding: 0;
+}
+.nav-link{
+    filter: brightness(0)invert(1)drop-shadow(var(--nav-text-shadow));
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 12px;
+    font-size: 26px;
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+}
+
+
+
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 16px 44px;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    border: 0;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: #fff!important;
+    text-align: center;
+    transition: box-shadow .1s ease;
+}
+.circle-logo{
+    background-image: url(https://www.kali.org/images/kali-dragon-icon.svg);
+    width: 25.1vw;
+    filter:drop-shadow(var(--nav-text-shadow));
+    height: 20vw;
+    position: relative;
+    top: 60px;
+    margin-left: 240px;
+}
+
+.circle-logo { 
+    animation-name: circle-logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes circle-logo {
+    0% { transform: translate(0,  0px);}
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px);}   
+}
+.logo-text{
+    position: relative;
+    left: 720px;
+    bottom: 310px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    margin: auto;
+    filter:drop-shadow(var(--nav-text-shadow));
+    padding: 80px 0;
+    margin: 0 60px;
+    text-shadow: 0 0 20px #000;
+    width: 600px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+li a{
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

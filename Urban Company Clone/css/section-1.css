@@ -1,0 +1,123 @@
+/* Section-1 */
+.sec-1 {
+    text-align: right;
+    background: #fff;
+    position: relative;
+}
+
+.sec-1-1 {
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+}
+
+.sec-1-2 {
+    display: inline-block;
+    width: 70%;
+    height: 550px;
+    background: linear-gradient(90deg, transparent, #000 40%);
+    text-align: right;
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.sec-1-1-div {
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    background: #f6f7f8;
+    background-image: linear-gradient(90deg, #f6f7f8 0, #edeef1 20%, #f6f7f8 40%, #f6f7f8);
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: TemplateShimmer__placeholderShimmer--3ABuG;
+    animation-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s ease-in-out;
+}
+
+.sec-1-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec-1 .sec-1-2>section {
+    width: 60%;
+    padding: 60px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+.sec-1-2-span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 5.33px;
+    color: #bdbdbd;
+    text-transform: uppercase;
+}
+
+.sec-1 .sec-1-2>section>h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    margin: 20px 0 16px;
+}
+
+.sec-1 .sec-1-2>section>p {
+    font-size: 18px;
+    line-height: 1.44;
+    color: #bdbdbd;
+    margin: 0 0 36px;
+}
+
+.sec-1 .sec-1-2>section>.sec-1-2-div {
+    width: 332px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 24px 16px;
+}
+
+.sec-1 .sec-1-2>section>.sec-1-2-div>p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+.sec-1 .sec-1-2>section .sec-1-2-div .sec-1-2--div {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%);
+    border: 1px solid #e2e2e2;
+    padding: 12px;
+    width: 90%;
+}
+
+.up-arrow{
+    margin-left: 10.5rem;
+}
+
+.sec-2-box {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: space-between !important;
+    font-size: 15px !important;
+}

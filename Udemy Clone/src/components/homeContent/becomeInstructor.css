@@ -1,0 +1,60 @@
+.becomeInstructorDiv {
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.becomeInstructorDiv .backgroundColorDiv {
+  background-color: #fbfbf8;
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+  top: 50px;
+  left: 0px;
+}
+
+.becomeInstructorDiv .contentDiv {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  color: #3c3b37;
+  line-height: 1.4;
+  margin-left: 100px;
+}
+
+.becomeInstructorDiv .contentDiv .heading {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.becomeInstructorDiv .contentDiv .about {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.becomeInstructorDiv .contentDiv .button {
+  width: 180px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  height: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.becomeInstructorDiv .contentDiv .button:hover {
+  background-color: #094c59;
+}

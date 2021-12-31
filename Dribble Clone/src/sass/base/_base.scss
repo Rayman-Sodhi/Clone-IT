@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --swiper-theme-color: #EA4C89 !important;
+}
+
+
+html {
+    font-size: 16px;
+    // margin-left: calc(100vw - 100%);
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+body {
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: $color-black;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 1em;
+        
+      }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        
+      }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        border-radius: 50px;
+        background-color: $color-primary;
+      }
+
+    ::selection {
+        color: white;
+        background-color: $color-primary;
+    }
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.content__area {
+    margin-top: 30px;
+}
