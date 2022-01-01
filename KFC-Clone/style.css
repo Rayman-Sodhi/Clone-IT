@@ -12,7 +12,27 @@
 html, body {
 	overflow-x: hidden;
 }
-
+.kfc-loader {
+    position: fixed;
+    z-index: 10004;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width: 769px)
+{
+.kfc-loader img {
+    width: 35vw;
+    height: 25vh;
+}
+}
 .sign-in{
 	font-family: RenosRough-Regular;
 	padding-top: 25px;
