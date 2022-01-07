@@ -33,7 +33,7 @@
 <p align="center">
     <a href="https://opensource.guide/"><strong>Open Source Guides »</strong></a>
     <br />
-    <a href="https://github.com/Rayman-Sodhi/Clone-IT">View Demo</a>
+    <a href="https://tusharjain365.github.io/index-clone-it/">View Demo</a>
     ·
     <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Report Bug</a>
     ·
@@ -84,7 +84,7 @@
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Open Source programs this repo has been part of
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://tusharjain365.github.io/index-clone-it/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/79747022/144800351-13fa1e9d-6417-4330-bc87-00d33404cc76.png" width="150px">
