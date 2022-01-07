@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     animation: loading 1s linear; /*animation for website*/
-    font-family: 'Ubuntu', sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
 body::-webkit-scrollbar {
     width: 12px;    
@@ -53,6 +53,7 @@ a {
 .text-color{ 
     color: grey;
     margin-top: 1rem;
+    font-size: .89rem;
 }
 
 /* navbar section */
@@ -66,7 +67,7 @@ a {
     z-index: 999;
 }
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     width: 10%;
     color: white;
@@ -307,7 +308,7 @@ textarea {
     justify-content: space-around;
 }
 .menu h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .menu ul {
     margin-top: 1rem;
@@ -343,9 +344,8 @@ textarea {
 
 /* media queries */
 @media (max-width:1156px) {
-    .logo {
-        font-size: 1.8rem;
-    }
+    .logo {font-size: 1.4rem;}
+    .card-details {font-size: .9rem;}
 }
 @media (max-width:1056px) {
     .footer-background { height: auto;}
@@ -361,23 +361,30 @@ textarea {
     }
     .icon {margin-right: .6rem;}
     .logo {font-size: 1.5rem;}
+    .info-left,
+    .info-right {
+        font-size: 1rem;
+    }
+    .card-details {font-size: .9rem;}
+
 }
 @media (max-width:959px) {
     .projects {grid-template-columns: repeat(2,.78fr);}
-    .left {flex-basis: 70%;}
+    .left {flex-basis: 70%;font-size: 1.2rem;}
     .nav-links {font-size: 1rem;}
+    .logo {font-size: 1.2rem;}
 }
 
 @media (max-width:896px) {  
     .info-left,
     .info-right {
-        font-size: 1rem;
+        font-size:.9rem;
         height: 18rem;
     }
     img,
     .gif {height: 12rem;}
     .card {height: 20rem;}
-    .card-details {font-size: .9rem;}
+    .card-details {font-size: .8rem;}
     .card-details h3 {font-size: 1.2rem;}
     .logo {
         font-size:1.3rem;
