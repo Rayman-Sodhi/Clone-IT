@@ -1,15 +1,12 @@
-<div id="top"></div>
+<div id="top"></div> 
+<h1 align="center"> <a href="https://rayman-sodhi.github.io/Clone-IT/"><strong> ✨ Clone IT ✨</strong></a></h1> 
 
-<h1 align="center">Clone IT</h1>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/Rayman-Sodhi/Clone-IT?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Rayman-Sodhi/Clone-IT?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Rayman-Sodhi/Clone-IT?style=social)
-![Repo. Size](https://img.shields.io/github/repo-size/Rayman-Sodhi/Clone-IT?color=white) 
+
     
 ![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?color=blue)
 ![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?color=brightgreen)
@@ -28,12 +25,13 @@
 
 <div id="top"></div>
 
-<h2 align="center"> <strong> This the place, Where you can find Clone of some of the best Websites. </strong> </h2>
+<h2 align="center"> <strong>WE SEE IT 👀 ... WE CLONE IT 🚀</strong> </h2>
+<h2 align="center">Here you can find clones of all famous websites 💻</h2>
 
 <p align="center">
     <a href="https://opensource.guide/"><strong>Open Source Guides »</strong></a>
     <br />
-    <a href="https://tusharjain365.github.io/index-clone-it/">View Demo</a>
+    <a href="https://rayman-sodhi.github.io/Clone-IT/">View Demo</a>
     ·
     <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Report Bug</a>
     ·
@@ -44,7 +42,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-### Table of Contents :
+### Table of Contents 🧾:
 * [About the Clone IT](#About-the-Clone-IT)
 * [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
 * [Contribution Guidelines](#Contribution-Guidelines)
@@ -203,6 +201,8 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contributors
@@ -220,6 +220,8 @@ git push -u origin <your_branch_name>
 <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
