@@ -1,0 +1,33 @@
+{
+  "name": "netflix-clone",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.22.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "cookies-next": "^2.0.3",
+    "daisyui": "^1.20.0",
+    "mongoose": "^6.1.4",
+    "next": "^12.0.7",
+    "nodemailer": "^6.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "recoil": "^0.5.2",
+    "stripe": "^8.195.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  }
+}
