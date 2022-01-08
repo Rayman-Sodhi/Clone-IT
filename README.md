@@ -1,15 +1,12 @@
-<div id="top"></div>
+<div id="top"></div> 
+<h1 align="center"> <a href="https://rayman-sodhi.github.io/Clone-IT/"><strong> ✨ Clone IT ✨</strong></a></h1> 
 
-<h1 align="center">Clone IT</h1>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/Rayman-Sodhi/Clone-IT?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Rayman-Sodhi/Clone-IT?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Rayman-Sodhi/Clone-IT?style=social)
-![Repo. Size](https://img.shields.io/github/repo-size/Rayman-Sodhi/Clone-IT?color=white) 
+
     
 ![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?color=blue)
 ![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?color=brightgreen)
@@ -28,12 +25,13 @@
 
 <div id="top"></div>
 
-<h2 align="center"> <strong> This the place, Where you can find Clone of some of the best Websites. </strong> </h2>
+<h2 align="center"> <strong>WE SEE IT 👀 ... WE CLONE IT 🚀</strong> </h2>
+<h2 align="center">Here you can find clones of all famous websites 💻</h2>
 
 <p align="center">
     <a href="https://opensource.guide/"><strong>Open Source Guides »</strong></a>
     <br />
-    <a href="https://github.com/Rayman-Sodhi/Clone-IT">View Demo</a>
+    <a href="https://rayman-sodhi.github.io/Clone-IT/">View Demo</a>
     ·
     <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Report Bug</a>
     ·
@@ -44,7 +42,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-### Table of Contents :
+### Table of Contents 🧾:
 * [About the Clone IT](#About-the-Clone-IT)
 * [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
 * [Contribution Guidelines](#Contribution-Guidelines)
@@ -71,6 +69,9 @@
 | 2. | Flipkart | [Flipkart Clone](https://rayman-sodhi.github.io/Flipkart-Clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Flipkart Official Web.](https://www.flipkart.com/) |
 | 3. | LinkedIn | [LinkedIn Clone](https://rayman-sodhi.github.io/Connected-In/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [LinkedIn Official Web.](https://www.linkedin.com/feed/) |
 | 4. | Zoom | [Zoom Clone](https://rayman-video-app.herokuapp.com/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Zoom Official Web.](https://zoom.us/) |
+| 5. | Hulu | [Hulu Clone](https://harshit995.github.io/hulu-clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [hulu Official Web.](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F) |
+| 6. | Spotify | [Spotify Clone](https://spotify-clone-khaki-six.vercel.app/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Spotify Official Web.](https://www.spotify.com/us/) |
+| 7. | Netflix | [Netflix Clone](https://netflix-clone-tau-livid.vercel.app/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Netflix Official Web.](https://www.netflix.com/in/) |
 
 <br>
 
@@ -81,7 +82,7 @@
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Open Source programs this repo has been part of
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://tusharjain365.github.io/index-clone-it/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/79747022/144800351-13fa1e9d-6417-4330-bc87-00d33404cc76.png" width="150px">
@@ -200,6 +201,8 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contributors
@@ -217,6 +220,8 @@ git push -u origin <your_branch_name>
 <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 

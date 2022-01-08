@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .animation {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+* {
+  background: "#fff";
+}
+
+.netflix-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("../img/netflix-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

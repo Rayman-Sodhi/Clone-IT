@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body onload="Preloader()">
 		<!-- <div class="container">
 			<div class="row">
 				<div class="col-4">
@@ -27,6 +27,14 @@
 				</div>
 			</div>
 		</div> -->
+		<div id="loading" class="kfc-loader"><img id="loading-image" src="assets/images/KFC_Loader_Gif.gif" alt="Loading..."></div>
+		<script>
+			var preloader=document.getElementById('loading');
+			function Preloader()
+			{
+				preloader.style.display='none';
+			}
+		</script>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#"> <i><b>KFC</b></i> </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -217,6 +225,74 @@
 			</div>
 		  </div>
 		</div>
+		<!--OFFERS & DEALS-->
+		<section id="offers">
+			<div class="offers-container">
+				<div class="offers-Icon"><div><svg xmlns="http://www.w3.org/2000/svg" width="80" height="42" viewBox="0 0 80 42" fill="none" class="injected-svg" data-src="/static/media/Stripes_Small_OffersIcon.87fc6256.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<rect width="16.4103" height="41.0256" fill="#E4002B"></rect>
+					<rect x="32.8203" width="16.4103" height="41.0256" fill="#E4002B"></rect>
+					<rect x="63.5898" width="16.4103" height="41.0256" fill="#E4002B"></rect>
+					</svg></div></div>
+				<div class="offers-container-items">
+					<h2 class="header"> OFFERS & DEALS </h2>
+					<div class="view-all-text" style="display: block;"><a class="offersViewAll-link" data-testid="view-all-deals-handler" href="#">View All Deals</a><div class="offersViewAlldeals-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="7" viewBox="0 0 19 7" fill="none" class="injected-svg" data-src="/static/media/ViewDetailsArrow.53c29b5a.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<path d="M0 3.46484H18" stroke="white"></path>
+						<path d="M15.5352 1L18 3.46484L15.5352 5.92969" stroke="white"></path>
+						</svg></div></div>
+					</div>
+					<div class="offers-card">
+						<div class="cards">
+						<div class="card-1">
+							<img src="assets/images/ADDCHK99.jpg">
+							<div class="card-container">
+								<div class="title">
+									Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd & 3rd order for signed in user.
+								</div>
+								<div class="offersCard-text">Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user.</div>
+								<div class="offersButton-item"><button class="offersView-details" role="button" aria-label="View Details Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="view-details-btn-img-txt">View Details</button><button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Redeem Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="offer-and-promtion-image-text-button">Redeem</button></div>
+							</div>
+						</div>
+						<div class="card-2">
+							<img src="assets/images/CHKZINGER.jpg">
+							<div class="card-container">
+								<div class="title">
+									1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+								</div>
+								<div class="offersCard-text">
+									1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+								</div>
+								<div class="offersButton-item"><button class="offersView-details" role="button" aria-label="View Details Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="view-details-btn-img-txt">View Details</button><button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Redeem Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="offer-and-promtion-image-text-button">Redeem</button></div>
+							</div>
+						</div>
+						<div class="card-3">
+							<img src="assets/images/BIGSAVE.jpg">
+							<div class="card-container">
+								<div class="title">
+									Upto Rs 100 off on min cart value of Rs 599 or more . Applicable on 4th order onwards for signed in user.
+								</div>
+								<div class="offersCard-text">
+									Upto Rs 100 off on min cart value of Rs 599 or more . Applicable on 4th order onwards for signed in user.
+								</div>
+								<div class="offersButton-item"><button class="offersView-details" role="button" aria-label="View Details Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="view-details-btn-img-txt">View Details</button><button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Redeem Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="offer-and-promtion-image-text-button">Redeem</button></div>
+							</div>
+						</div>
+						<div class="card-4">
+							<img src="assets/images/VEGZINGER.jpg">
+							<div class="card-container">
+								<div class="title">
+									1 Pc free Veg Zinger on a cart value of 399 or above on first order. Only for registered users
+								</div>
+								<div class="offersCard-text">
+									1 Pc free Veg Zinger on a cart value of 399 or above on first order. Only for registered users
+								</div>
+								<div class="offersButton-item"><button class="offersView-details" role="button" aria-label="View Details Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="view-details-btn-img-txt">View Details</button><button class="offers-redeem button transparent-btn black-border whiteButton blackBorder" role="button" aria-label="Redeem Add 2 Pc  Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd &amp; 3rd order for signed in user." data-testid="offer-and-promtion-image-text-button">Redeem</button></div>
+							</div>
+						</div>
+						</div>
+					</div>
+				
+			</div>
+		</section>
 		
 		<!-- Map Modal -->
 		<div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

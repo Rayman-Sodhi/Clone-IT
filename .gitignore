@@ -1,0 +1,12 @@
+# ignore these dependecies and modules
+SPOTIFY-CLONE/node_modules
+SPOTIFY-CLONE/.next/
+SPOTIFY-CLONE/build
+SPOTIFY-CLONE/package-lock.json
+SPOTIFY-CLONE/.env.local
+
+NETFLIX-CLONE/node_modules
+NETFLIX-CLONE/.next/
+NETFLIX-CLONE/build
+NETFLIX-CLONE/package-lock.json
+NETFLIX-CLONE/.env.local
