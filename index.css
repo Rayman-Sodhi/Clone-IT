@@ -284,11 +284,10 @@ li {
 }
 .card {
     border: 1px solid var(--dark-light);
-    height: 20rem;
-    width: 280px;
-    /* height: 25rem;
-    width: 300px; */
-    /* border-radius: var(--bradius); */
+    /* height: 20rem;
+    width: 280px; */
+    height: 11rem;
+    width: 145px;
     border-radius: 40px;
     display: grid;
     grid-template-rows:.8fr auto;
@@ -323,12 +322,12 @@ li {
     transition: opacity 0.2s ease;
 }
 .card-details h3 {
-    /* text-align: center; */
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
-    /* color: var(--dark); */
     font-weight: bold;
-
+}
+.card-details p {
+    font-size: 12px;
 }
 /* project section end */
 
@@ -589,9 +588,6 @@ footer {
         font-size: 1.5rem;
     }
     .nav-links a .text{display: none;}
-    .card h3 {
-        margin-bottom: 2rem;
-    }
     .logo {text-align: center;}
     .navbar {
         flex-direction: column;
