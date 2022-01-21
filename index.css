@@ -137,7 +137,7 @@ li {
 } */
 .right img{
     width: 25rem;
-    height: fit-content;
+    height: 20rem;
 }
 .header .left h2 {
     font-size: 3.5rem;
@@ -596,5 +596,6 @@ footer {
 @media (max-width:393px){
     .right img {
         width: 18rem;
+        height: 17rem;
     }
 }
