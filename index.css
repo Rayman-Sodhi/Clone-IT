@@ -284,10 +284,8 @@ li {
 }
 .card {
     border: 1px solid var(--dark-light);
-    /* height: 20rem;
-    width: 280px; */
-    height: 11rem;
-    width: 145px;
+    height: 15rem;
+    width: 194px;
     border-radius: 40px;
     display: grid;
     grid-template-rows:.8fr auto;
@@ -322,12 +320,12 @@ li {
     transition: opacity 0.2s ease;
 }
 .card-details h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: white;
     font-weight: bold;
 }
 .card-details p {
-    font-size: 12px;
+    font-size: 14px;
 }
 /* project section end */
 
