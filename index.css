@@ -199,12 +199,13 @@ li {
     box-shadow: 0 0 17px 10px #f7f2f2;
 }
 .info-right {
-    /* border: 1px solid; */
-    height: 100%;
     border-radius: 20px;
     box-sizing: border-box;
     padding: 1.5rem;
     background-color: #dadfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .info-right img{
     width: 100%;
@@ -215,7 +216,7 @@ li {
 .info-left,
 .info-right{
     flex-basis: 50%;
-    /* height: 15rem; */
+    height: 20rem;
     font-size: 1.1rem;
 }
 /* about section end */
@@ -505,6 +506,16 @@ footer {
     .img-div {
         padding-top: 60px;
     }
+}
+@media (max-width: 1276px){
+    .info-left, .info-right {
+        font-size: 1rem;
+      }
+}
+@media (max-width: 1024px) {
+    .info-left, .info-right {
+        font-size: .92rem;
+      }
 }
 @media (max-width:924px) {
     .links a {
