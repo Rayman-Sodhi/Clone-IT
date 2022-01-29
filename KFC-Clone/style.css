@@ -7,6 +7,17 @@
 	font-family: American Purpose;
 	src : url('assets/fonts/American Purpose.otf');
 }
+
+@font-face{
+	font-family: "National 2 Condensed";
+	src : url('assets/fonts/TestNational2Condensed-Bold.otf');
+}
+
+@font-face{
+	font-family: "National 2 Regular";
+	src : url('assets/fonts/TestNational2-Regular.otf');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
@@ -181,8 +192,8 @@ hr.horizontal-line{
 }
 
 .inner-welcome-container {
-    width: 40%;
-    margin-left: 140px
+    width: 30%;
+    margin-left: 13%;
 }
 
 .welcome-svg{
@@ -191,10 +202,10 @@ hr.horizontal-line{
 }
 
 .welcome-message{
-	font-family: "Open Sans Condensed", sans-serif;
+	font-family: "National 2 Condensed";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 58px;
     text-transform: uppercase;
     color: #202124;
@@ -246,11 +257,12 @@ div {
 
 .browse-category {
 	text-transform: uppercase;
-	font-family: "Open Sans Condensed", sans-serif;
-	font-size: 37px;
+	font-family: "National 2 Condensed";
+	font-size: 38px;
+	line-height: 43px;
 	margin-left: 10px;
 	margin-right: 30px;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 	font-weight: 700;
 }
 
@@ -291,8 +303,9 @@ div {
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "Open Sans Condensed", sans-serif;
-	letter-spacing: 0.1px;
+	font-family: "National 2 Condensed";
+	line-height: 25px;
+	letter-spacing: 0.5px;
 	font-weight: 700;
 }
 
@@ -303,27 +316,6 @@ div {
 	text-transform: none;
 	font-weight: 600;
 }
-
-
-
-@media (max-width:692px) {
-	.menu-container {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-
-	.browse-category {
-		font-size: 20px;
-	}
-
-	.menu-item-des {
-		font-size: 12px;
-	}
-
-
-}
-
-
 
 @media (max-width: 1024px) {
 	.menu-container {
@@ -352,11 +344,38 @@ div {
 		background-color: #f8f7f5;
 	}
 
+	.menu-item-des {
+		font-size: 5vw;
+		line-height: 5vw;
+	}
+
 	.menu-item-img {
 		border-radius: 4px 4px 0px 0px;
 		width: 100%;
 		height: 31.85185vw;
 	}
+
+	.view-in-menu {
+		font-size: 2.5vw;
+	}
+
+}
+
+@media (max-width:692px) {
+	.menu-container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.browse-category {
+		font-size: 20px;
+	}
+
+	.menu-item-des {
+		font-size: 12px;
+	}
+
+	
 }
 
 @media (min-width: 1025px) {
@@ -390,17 +409,25 @@ div {
 	color: red;
 	display: flex;
 	flex-direction: column;
-	height: 445px;
-	width: 345px;
+	height: 398px;
+	position: relative;
+	width:310px;
 	justify-content: space-between;
 	background-color: white;
 	border-radius:9px;
 }
 
 .offer-img {
-	height: 262px;
-	width: 345px;
+	height: 59%;
+    object-fit: cover;
 	border-radius:9px 9px 0px 0px;
+}
+
+.inner-container{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .title {
@@ -417,13 +444,15 @@ div {
 	display: -webkit-box;
 	-webkit-line-clamp: 1;
 	-webkit-box-orient: vertical;
+	
+
 }
 
 .offersCard-text {
 	height: 48px;
 	font-family: "National 2 Regular";
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 14px;
 	color: #202124;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -447,10 +476,10 @@ div {
 	background: none;
 	text-decoration: underline;
 	padding-bottom: 1px;
-	font-family: "National2-Medium";
+	font-family: "National 2 Regular";
 	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 	color: #494949;
 	cursor: pointer;
@@ -469,7 +498,7 @@ div {
 	flex-direction: row;
 	font-family: "National 2 Regular";
 	font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 	line-height: 24px;
 	cursor: pointer;
@@ -548,6 +577,11 @@ div {
 
   .header{
 	  margin-left: 3.2%;
+	  font-family: "National 2 condensed";
+	  letter-spacing: 0.1px;
+      font-size: 38px;
+      line-height: 43px;
+   	  font-weight: 700;
   }
 
   .offers-container .offers-container-items .view-all-text 
@@ -570,17 +604,29 @@ a{
 
 
 @media (min-width: 1441px){
-.offers-container .offersCard-container .offersContainerHeader-items .view-all-text {
+.offers-container .offersCard-container  .view-all-text {
   margin-right: 186px;
 }}
 
 @media (min-width: 1200px) and (max-width: 1439px){
-.offers-container .offersCard-container .offersContainerHeader-items .view-all-text {
+.offers-container .offersCard-container  .view-all-text {
   margin-right: 167px;
 }}
 
+@media (max-width:692px) {
+	.offercard-list {
+		padding-left: 0px;
+		margin-left: 9%;
+	}
+}
+
 @media (max-width: 1023px)
 {
+
+	.offers-container{
+		margin-left:0px ;
+	}
+	
 .offers-container .header {
   width: 100%;
   height: 32px;
@@ -607,6 +653,8 @@ a{
 }
 
 }
+
+
 
 
 
