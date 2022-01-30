@@ -283,6 +283,12 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.linktree    {
+    background-image: url(assets/linktree.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .card {
     border: 1px solid var(--dark-light);
     height: 15rem;
