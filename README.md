@@ -87,10 +87,20 @@
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/79747022/144800351-13fa1e9d-6417-4330-bc87-00d33404cc76.png" width="150px">
+    
 </div>
 
 <div align="center">
     <a href="https://swoc.scriptindia.org/#/">Script Winter of Code</a>
+
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65675692/155158944-4a603577-f051-46fa-a741-63913336e6d4.png" width="250px">
+</div>
+
+<div align="center">
+    <a href="https://gssoc.girlscript.tech/">Girl Script Summer of Code</a>
 
 </div>
 
