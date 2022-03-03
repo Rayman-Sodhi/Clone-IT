@@ -85,6 +85,7 @@ a {
     font-family: 'Dongle', sans-serif;
 }
 li {
+    transition: all .3s ease-in-out;
     list-style: none;
 }
 .nav-links {
@@ -99,6 +100,7 @@ li {
     border-radius: var(--bradius);
 }
 .nav-links a {
+    transition: all .3s ease-in-out;
     padding:.7rem 1rem;
     color: white;
     border-radius: var(--bradius);
@@ -107,6 +109,7 @@ li {
     display: none;
 }
 .nav-links a:hover{
+    transition: all .3s ease-in-out;
     box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
 }
 .nav-links li:hover {
@@ -161,6 +164,7 @@ li {
     color: white;
 }
 .links a{
+    transition: all .3s ease-in-out;
     padding: 0.75rem 1.25rem;
     margin-right: 3rem;
     margin-top: 1.2rem;
@@ -290,6 +294,7 @@ li {
     background-repeat: no-repeat;
 }
 .card {
+    transition: all .2s ease;
     border: 1px solid var(--dark-light);
     height: 15rem;
     width: 194px;
@@ -374,6 +379,7 @@ input {
     width: 100%;
 }
 input[type="submit"] {
+    transition: all .3s ease-in-out;
     height: 3rem;
     background: white;
     border-radius: var(--bradius);
@@ -446,6 +452,7 @@ footer {
     margin-top: 1rem;
 }
 .menu a {
+    transition: .3s all ease-in-out;
     color: grey;
     width: 100%;
 }
@@ -467,6 +474,7 @@ footer {
     gap: 20px;
 }
 .icon {
+    transition: .3s all ease-in-out;
     border: 1px solid white;
     /* padding: .4rem; */
     border-radius: var(--bradius);
