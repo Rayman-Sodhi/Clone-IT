@@ -3,6 +3,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/storage'
 import 'firebase/compat/database'
 
+//Enter your own firebase config
 const firebaseConfig = {
     apiKey: "AIzaSyAvHbSfPRXSzs_ln6yiTavygHrXp3-Ua4E",
     authDomain: "slack-clone-react-1a9c5.firebaseapp.com",
