@@ -74,6 +74,8 @@
 | 7. | Netflix | [Netflix Clone](https://netflix-clone-tau-livid.vercel.app/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Netflix Official Web.](https://www.netflix.com/in/) |
 | 8. | Linktree | [Linktree Clone](https://clonelinktree.netlify.app/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>| [Linktree Official Web.](https://linktr.ee/) |
 | 9. | Facebook | [Facebook Clone](https://vaib215.github.io/Facebook-Clone/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="Tailwind CSS" src="https://img.shields.io/badge/tailwindcss-%230b1121.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)"> | [Facebook Official Web.](https://www.facebook.com)
+| 10. | Microsoft | [Microsoft Clone](https://19arnab190201.github.io/Microsoft-Clone/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>| [Microsoft Official Web.](https://www.microsoft.com/en-in)
+
 <br>
 
 <br>
