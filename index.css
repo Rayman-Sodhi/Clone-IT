@@ -293,6 +293,12 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.microsoft    {
+    background-image: url(assets/microsoft.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .card {
     transition: all .2s ease;
     border: 1px solid var(--dark-light);
