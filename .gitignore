@@ -5,6 +5,7 @@ SPOTIFY-CLONE/build
 SPOTIFY-CLONE/package-lock.json
 SPOTIFY-CLONE/.env.local
 
+AMAZON-CLONE
 NETFLIX-CLONE/node_modules
 NETFLIX-CLONE/.next/
 NETFLIX-CLONE/build
