@@ -1,0 +1,16 @@
+
+.register{
+    height: 100vh;
+    padding:2rem;
+    align-items: right;
+    background-color: rgba(244,237,228,.5);
+}
+.logo{
+    margin-left: 550px;
+    width: 500px;
+    height: 500px;
+}
+.top-logo{
+    width: 20px;
+    height: 20px;
+}
