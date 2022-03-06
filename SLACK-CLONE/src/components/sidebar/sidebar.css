@@ -1,0 +1,5 @@
+.side_bar{
+    background : #470d47 !important;
+    font-size : 1.2rem  !important;
+    overflow-y: scroll;
+}
