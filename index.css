@@ -328,6 +328,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.google_keep {
+    background-image: url(assets/google-keep.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border: 1px solid var(--dark-light);
