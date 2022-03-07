@@ -299,11 +299,40 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.google {
+    background-image: url(assets/google.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.slack {
+    background-image: url(assets/slack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    background-image: url(assets/youtube.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(assets/facebook.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border: 1px solid var(--dark-light);
-    height: 15rem;
-    width: 194px;
+    height: 15.5rem;
+    width: 240px;
     border-radius: 40px;
     display: grid;
     grid-template-rows:.8fr auto;
