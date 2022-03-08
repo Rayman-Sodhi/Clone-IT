@@ -343,6 +343,14 @@ li {
     background-repeat: no-repeat;
 }
 
+.apple {
+    background-image: url(assets/apple.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .card {
     transition: all .2s ease;
     border: 1px solid var(--dark-light);

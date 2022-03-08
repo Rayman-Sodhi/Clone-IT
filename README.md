@@ -79,7 +79,7 @@
 | 12. | YouTube | [YouTube Clone]( https://anveshajain19.github.io/YOUTUBE-CLONE/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> |[YouTube Official Web.](https://www.youtube.com/)
 | 13. | SLACK | [Slack Clone](https://chatifyslack.netlify.app/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>| [Slack Official Web.](https://slack.com/intl/en-in/)
 | 14. | Google Keep Notes| [Google Keep Notes Clone](https://ajoe12.github.io/Google-Keep-Clone/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Google  Keep Notes Official Web](https://keep.google.com/)
-
+| 15. | APPLE | [Apple Clone](https://pranai2518.github.io/Apple-clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a><a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>| [Apple India Official Web.](https://www.apple.com/in/)
 <br>
 
 <br>
