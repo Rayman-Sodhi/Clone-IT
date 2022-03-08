@@ -338,6 +338,7 @@ li {
 
 .apple {
     background-image: url(assets/apple.png);
+    background-image: url(assets/apple.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
