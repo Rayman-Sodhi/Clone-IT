@@ -244,6 +244,7 @@ li {
     gap: 30px;
     justify-content: space-around;
 }
+
 .kfc{
     background-image: url(assets/kfc.png);
     background-position: center;
@@ -336,6 +337,7 @@ li {
 }
 
 .apple {
+    background-image: url(assets/apple.png);
     background-image: url(assets/apple.jpg);
     background-position: center;
     background-size: cover;
