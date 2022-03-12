@@ -300,6 +300,14 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.starbucks{
+    background-image: url(https://github.com/Girlwithasmile/Clone-IT/blob/starbucks/starbucks%20clone/previewstarbucks.png?raw=true);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .google {
     background-image: url(assets/google.webp);
     background-position: center;
