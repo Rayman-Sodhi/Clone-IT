@@ -1,0 +1,16 @@
+{
+  "name": "faq",
+  "version": "1.0.0",
+  "description": "\"FAQ Page\"",
+  "main": "faq.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kumar Laxmikant",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
