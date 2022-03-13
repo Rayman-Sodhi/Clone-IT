@@ -6,6 +6,7 @@
      box-sizing: border-box;
  }
 
+
  /*.body {
      font-family: 'Roboto',sans-serif;
  }*/
@@ -65,6 +66,7 @@
     border: none;
  }
 
+
  /*.header__search button{
      padding: 0;
      margin: 0;
@@ -81,7 +83,9 @@
     border-radius: 0;
  }
 
+ 
  /*style for mainbody*/
+
 
  .mainbody{
      height: calc(100vh-70px);
@@ -89,7 +93,9 @@
      overflow: hidden;
  }
 
+
  /*sidebar*/
+
 
  .sidebar{
      height: 100%;
@@ -132,7 +138,9 @@ hr{
     border: none;
 }
 
+
 /* Videos*/
+
 
 .videos{
     background-color: #f9f9f9;
@@ -256,3 +264,5 @@ h1{
       width: 300px;
     }
   }
+  
+
