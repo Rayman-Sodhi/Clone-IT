@@ -350,6 +350,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.starbucks {
+    background-image: url(assets/starbucks.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
