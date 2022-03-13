@@ -76,7 +76,11 @@
 | 9. | Facebook | [Facebook Clone](https://vaib215.github.io/Facebook-Clone/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="Tailwind CSS" src="https://img.shields.io/badge/tailwindcss-%230b1121.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)"> | [Facebook Official Web.](https://www.facebook.com)
 | 10. | Microsoft | [Microsoft Clone](https://19arnab190201.github.io/Microsoft-Clone/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>| [Microsoft Official Web.](https://www.microsoft.com/en-in)
 | 11. | Google | [Google Search Engine Clone](https://quizzical-payne-d3e222.netlify.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> <a href="#"><img src="https://img.shields.io/badge/React%20router-000?style=for-the-badge&logo=react-router&logoColor=F44250" alt="react-router"></a> <a href="#"><img src="https://img.shields.io/badge/express-000?style=for-the-badge&logo=express&logoColor=fff" alt="express"></a> | [Google Official Web](https://www.google.co.in/)
-
+| 12. | YouTube | [YouTube Clone]( https://anveshajain19.github.io/YOUTUBE-CLONE/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> |[YouTube Official Web.](https://www.youtube.com/)
+| 13. | SLACK | [Slack Clone](https://chatifyslack.netlify.app/) | <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>| [Slack Official Web.](https://slack.com/intl/en-in/)
+| 14. | Google Keep Notes| [Google Keep Notes Clone](https://ajoe12.github.io/Google-Keep-Clone/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Google  Keep Notes Official Web](https://keep.google.com/)
+| 15. | APPLE | [Apple Clone](https://pranai2518.github.io/Apple-clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a><a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>| [Apple India Official Web.](https://www.apple.com/in/)
+| 16. | Starbucks | [Starbucks Clone](https://girlwithasmile.github.io/Starbucks-clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Starbucks Official Web.](https://www.starbucks.in/) 
 
 <br>
 
@@ -119,33 +123,50 @@
 ## Contribution Guidelines
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
 
-
 ### Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
-<br>
 
-*  Fork [this](https://github.com/Rayman-Sodhi/Clone-IT) repository.
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158055651-fb9caff1-2b91-4711-8c54-6577b64f04f2.jpeg" alt="fork this repository" />
 
+## Fork this repository
 
-*  Clone your forked copy of the project.
+* Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158056061-204eedb3-482b-47f0-8d57-45755bb69bcd.jpeg" alt="clone this repository" />
+
+* Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
 
 ```
-git clone https://github.com/<your_user_name>/clone-it.git
+git clone "url you just copied"
 ```
 
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). 
 
-* Navigate to the project directory :file_folder: .
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158056350-900959ef-c826-469f-bb35-aff4f9d95c71.jpeg" alt="clone this repository" />
 
+For example:
+
+```
+git clone https://github.com/name/Clone-IT.git
+```
+
+where `name` is your GitHub username. Here you're copying the contents of the Clone-IT repository on GitHub to your computer.
+
+## Navigate to the project directory
+* After cloning the project in your computer, navigate to the project file using the command below.
 ```
 cd clone-it
 ```
 
-
-* Add a reference(remote) to the original repository.
+## Add a reference(remote) to the original repository
 
 ```
 git remote add upstream https://github.com/Rayman-Sodhi/Clone-IT.git 
 ```
-
 
 * Check the remotes for this repository.
 
@@ -160,8 +181,7 @@ git remote -v
 git pull upstream main
 ```
 
-
-* Create a new branch.
+## Create a new branch
 
 ```
 git checkout -b <your_branch_name>

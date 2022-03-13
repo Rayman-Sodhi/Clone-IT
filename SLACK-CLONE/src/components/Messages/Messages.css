@@ -1,0 +1,8 @@
+.messageContent{
+    height:707px;
+    overflow-y: scroll;
+  }
+  .messages{
+    padding-top:20px;
+    
+  }
