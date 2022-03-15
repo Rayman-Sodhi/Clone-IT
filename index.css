@@ -302,14 +302,14 @@ li {
 }
 
 .starbucks{
-    background-image: url(https://github.com/Girlwithasmile/Clone-IT/blob/starbucks/starbucks%20clone/previewstarbucks.png?raw=true);
+    background-image: url(assets/starbucks.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .google {
-    background-image: url(assets/google.webp);
+    background-image: url(assets/google.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;   
@@ -344,7 +344,7 @@ li {
 }
 
 .apple {
-    background-image: url(assets/apple.png);
+    background-image: url(assets/apple.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,6 +352,13 @@ li {
 
 .starbucks {
     background-image: url(assets/starbucks.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.github {
+    background-image: url(assets/Github.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
