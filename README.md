@@ -1,48 +1,67 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
+<div id="top"></div> 
+<h1 align="center"> <a href="https://rayman-sodhi.github.io/Clone-IT/"><strong> ✨ Clone IT ✨</strong></a></h1> 
 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+<div align="center">
+
+
+    
+![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?color=brightgreen)
+    ![GitHub PR Open](https://img.shields.io/github/issues-pr/Rayman-Sodhi/Clone-IT?color=red)
+    ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Rayman-Sodhi/Clone-IT?color=red)
+    ![GitHub language count](https://img.shields.io/github/languages/count/Rayman-Sodhi/Clone-IT?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/Rayman-Sodhi/Clone-IT?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rayman-Sodhi/Clone-IT?color=red&style=plastic)
+    ![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103)
+    ![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+<br>
+
+<div id="top"></div>
+
+<h2 align="center"> <strong>WE SEE IT 👀 ... WE CLONE IT 🚀</strong> </h2>
+<h2 align="center">Here you can find clones of all famous websites 💻</h2>
+
+<p align="center">
+    <a href="https://opensource.guide/"><strong>Open Source Guides »</strong></a>
+    <br />
+    <a href="https://rayman-sodhi.github.io/Clone-IT/">View Demo</a>
+    ·
+    <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Request Feature</a>
+  </p>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- TABLE OF CONTENTS -->
+
+### Table of Contents 🧾:
+* [About the Clone IT](#About-the-Clone-IT)
+* [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
+* [Contribution Guidelines](#Contribution-Guidelines)
+* [Contributors](#Contributors)
+
+<br>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<!-- ABOUT THE PROJECT -->
+## About the Clone IT
+
+<p align="center">
+ The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design . New contributors can add more websites clone to the list and suggest new features in the existing ones. Also there is scope to introduce new features in websites and thus creating a upgraded version of their clones.
+    
+</p>
+
+<br>
+
+### Available Clones:
 
 | Serial No. | Websites | Clone-Output | Used | Official-Website |
 |:--|:--|:--|:--|:--|
@@ -65,29 +84,186 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 | 17. | GitHub | [GitHub HomePage Clone](https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> | [GitHub Official Web](https://github.com/)
 | 18. | Discord | [Discord App Clone](https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> | [Discord Official App](https://discord.com/app/)
 
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-### Analyzing the Bundle Size
+## Open Source programs this repo has been part of
+<a href="https://tusharjain365.github.io/index-clone-it/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/79747022/144800351-13fa1e9d-6417-4330-bc87-00d33404cc76.png" width="150px">
+    
+</div>
 
-### Making a Progressive Web App
+<div align="center">
+    <a href="https://swoc.scriptindia.org/#/">Script Winter of Code</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</div>
 
-### Advanced Configuration
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65675692/155158944-4a603577-f051-46fa-a741-63913336e6d4.png" width="250px">
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<div align="center">
+    <a href="https://gssoc.girlscript.tech/">Girl Script Summer of Code</a>
 
-### Deployment
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+## Contribution Guidelines
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
+
+### Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158055651-fb9caff1-2b91-4711-8c54-6577b64f04f2.jpeg" alt="fork this repository" />
+
+## Fork this repository
+
+* Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158056061-204eedb3-482b-47f0-8d57-45755bb69bcd.jpeg" alt="clone this repository" />
+
+* Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). 
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158056350-900959ef-c826-469f-bb35-aff4f9d95c71.jpeg" alt="clone this repository" />
+
+For example:
+
+```
+git clone https://github.com/name/Clone-IT.git
+```
+
+where `name` is your GitHub username. Here you're copying the contents of the Clone-IT repository on GitHub to your computer.
+
+## Navigate to the project directory
+* After cloning the project in your computer, navigate to the project file using the command below.
+```
+cd clone-it
+```
+
+## Add a reference(remote) to the original repository
+
+```
+git remote add upstream https://github.com/Rayman-Sodhi/Clone-IT.git 
+```
+
+* Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+
+* Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream main
+```
+
+## Create a new branch
+
+```
+git checkout -b <your_branch_name>
+```
+
+
+* Perfom your desired changes to the code base.
+
+
+* Track your changes:heavy_check_mark: .
+
+```
+git add . 
+```
+
+
+* Commit your changes .
+
+```
+git commit -m "Relevant message"
+```
+
+
+* Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+
+* To create a pull request, click on `compare and pull requests`.
+
+
+* Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+
+* Click on `Create Pull Request`.
+
+
+* Congrats :exclamation: You have made a PR to the Clone-IT :boom: . Wait for your submission to be accepted and your PR to be merged.
+
+
+* Wait for the pull request to be reviewed by a maintainer, Make changes to the pull request if the reviewing maintainer recommends them.
+
+
+* Celebrate  🥳  your success after your pull request is merged!
+
+
+<br>
+
+<br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+## Contributors
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="207" ></a> 
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="123" ></a> 
+
+### Thanks to all the **people who contribute**
+
+![Contributors](https://contributors-img.web.app/image?repo=Rayman-Sodhi/Clone-IT)
+
+
+
+<br>
+
+<br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+<div align="center">
+
+### Show some ❤️ by starring this awesome repository!
+
+</div>
