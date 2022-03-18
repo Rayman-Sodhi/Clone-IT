@@ -704,26 +704,3 @@ footer {
         height: 17rem;
     }
 }
-#searchbar{
-    left: 20%;
-    padding: 25px;
-   
-    font-size: larger;
-    border: 2px solid black;
-    border-radius: 12px;
-    width: 1300px;
-}
-#myUL li{
-    width: 1300px;
-    display: block;
-    border: 2px solid black;
-    background-color: #f7f2f2;
-    text-align: left;
-    padding: 3px;
-    text-decoration: none;
-    margin-left: 110px;
-    padding: 3px;
-}
-#myUL li a{
-    color: #1A2238;
-}
