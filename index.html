@@ -155,6 +155,138 @@
 
       <div class="projects-background" id="projects">
         <h2>Projects</h2>
+        <input type="text" id="searchbar" placeholder="Search your favourite clone..." onkeyup="myFunction()">
+        <div><ul id="myUL">
+          <li><a
+            href="https://pranai2518.github.io/Apple-clone/"
+           
+            target="_blank"
+           
+          >Apple Clone</a></li>
+          <li><a
+            href="https://vaib215.github.io/Facebook-Clone/"
+           
+            target="_blank"
+           
+          >Facebook Clone</a></li>
+          <li><a
+            href="https://rayman-sodhi.github.io/Flipkart-Clone/"
+           
+            target="_blank"
+            
+            >Flipkart Clone</a></li>
+            <li>
+              <a
+              href="https://rayman-sodhi.github.io/KFC-Clone/"
+              
+              target="_blank"
+             
+              >KFC Clone</a>
+            </li>
+            <li><a
+              href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html"
+              
+              target="_blank"
+             
+            >Github Clone</a></li>
+            <li> <a
+              href="https://quizzical-payne-d3e222.netlify.app/"
+              
+              target="_blank"
+             
+            >Google Search Engine Clone</a></li>
+            <li><a
+              href="https://ajoe12.github.io/Google-Keep-Clone/"
+              
+              target="_blank"
+             
+            >Google Keep Clone</a>
+            </li>
+            <li> <a
+              href="https://harshit995.github.io/hulu-clone/"
+             
+              target="_blank"
+             
+            >Hulu Clone</a></li>
+            <li> <a
+              href="https://rayman-sodhi.github.io/Connected-In/"
+              
+              target="_blank"
+              
+            >LinkedIn Clone</a></li>
+            <li><a
+              href="https://clonelinktree.netlify.app/"
+              
+              target="_blank"
+             
+            >Linktree Clone</a></li>
+            <li><a
+              href="https://19arnab190201.github.io/Microsoft-Clone/"
+             
+              target="_blank"
+             
+            >Microsoft Clone</a></li>
+            <li> <a
+              href="https://netflix-clone-tau-livid.vercel.app/"
+             
+              target="_blank"
+              
+            >Netflix Clone</a></li>
+            <li>
+              <a
+              href="https://chatifyslack.netlify.app/"
+             
+              target="_blank"
+             
+            >Slack Clone</a>
+            </li>
+            <li><a
+              href="https://girlwithasmile.github.io/Starbucks-clone/"
+              
+              target="_blank"
+              
+            >Starbucks Clone</a></li>
+            <li><a
+              href="https://spotify-clone-khaki-six.vercel.app/"
+              
+              target="_blank"
+             
+            >Spotify Clone</a></li>
+            <li><a
+              href="https://anveshajain19.github.io/YOUTUBE-CLONE/"
+        
+              target="_blank"
+             
+            >Youtube Clone</a></li>
+            <li><a
+              href="https://rayman-video-app.herokuapp.com/"
+              
+              target="_blank"
+             
+            >Zoom Clone</a></li>
+        </ul></div>
+        <script>
+            function myFunction() {
+              
+                  // Declare variables
+                  var input, filter, ul, li, a, i;
+                  input = document.getElementById("searchbar");
+                  filter = input.value.toUpperCase();
+                  ul = document.getElementById("myUL");
+                  li = ul.getElementsByTagName("li");
+                 
+                  // Loop through all list items, and hide those who don't match the search query
+                  for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    a = a.innerHTML.toUpperCase();
+                    if (a.indexOf(filter) > -1) {
+                      li[i].style.display = "";
+                    } else {
+                      li[i].style.display = "none";
+                    }
+                  }
+                }
+        </script>
         <div class="projects center">
 
           <!-- Apple Clone -->
