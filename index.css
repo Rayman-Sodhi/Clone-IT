@@ -704,3 +704,17 @@ footer {
         height: 17rem;
     }
 }
+
+#searchbar{
+    display: block;
+    width: 1000px;
+    padding: 12px;
+    line-height: 30px;
+    font-size: 25px;
+}
+#searchbtn{
+    margin-left: 990px;
+    margin-top: -105px;
+    margin-bottom: 50px;
+    width: 50px;
+}
