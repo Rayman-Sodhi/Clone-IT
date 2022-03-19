@@ -85,6 +85,7 @@ a {
     font-family: 'Dongle', sans-serif;
 }
 li {
+    transition: all .3s ease-in-out;
     list-style: none;
 }
 .nav-links {
@@ -99,6 +100,7 @@ li {
     border-radius: var(--bradius);
 }
 .nav-links a {
+    transition: all .3s ease-in-out;
     padding:.7rem 1rem;
     color: white;
     border-radius: var(--bradius);
@@ -107,6 +109,7 @@ li {
     display: none;
 }
 .nav-links a:hover{
+    transition: all .3s ease-in-out;
     box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
 }
 .nav-links li:hover {
@@ -161,6 +164,7 @@ li {
     color: white;
 }
 .links a{
+    transition: all .3s ease-in-out;
     padding: 0.75rem 1.25rem;
     margin-right: 3rem;
     margin-top: 1.2rem;
@@ -183,7 +187,7 @@ li {
 
 /* about section start */
 .about {
-    padding: 4rem 0;
+    padding: 2rem 0;
     color: var(--dark);
     text-align: center;
 }
@@ -231,9 +235,10 @@ li {
 }
 .projects-background h2 {
     color: #fff;
+     margin-top: 50px;
 }
 .projects {
-    margin-top: 2.2rem;
+   
     padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -243,25 +248,25 @@ li {
 .kfc{
     background-image: url(assets/kfc.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .zoom {
-    background-image: url(assets/zoom.png);
+    background-image: url(assets/zoom.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .hulu {
     background-image: url(assets/hulu.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .flipkart {
     background-image: url(assets/flipkart.png);
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 20px 10px rgba(49, 100, 240, 0.3);
 }
@@ -289,11 +294,82 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.microsoft    {
+    background-image: url(assets/microsoft.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starbucks{
+    background-image: url(assets/starbucks.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.google {
+    background-image: url(assets/google.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.slack {
+    background-image: url(assets/slack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    background-image: url(assets/youtube.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(assets/facebook.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.google_keep {
+    background-image: url(assets/google-keep.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(assets/apple.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starbucks {
+    background-image: url(assets/starbucks.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.github {
+    background-image: url(assets/Github.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
-    border: 1px solid var(--dark-light);
-    height: 15rem;
-    width: 194px;
-    border-radius: 40px;
+    transition: all .2s ease;
+    border:none !important;
+    height: 190px;
+    width: 190px;
+    border-radius: 13px;
     display: grid;
     grid-template-rows:.8fr auto;
     gap:.3rem;
@@ -301,29 +377,39 @@ li {
     position: relative;
     margin-top: 60px;
     transform: scale(1);
-    box-shadow: 0 0 20px 10px rgba(51, 109, 144, 0.3);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
 }
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: all .2s ease;
 }
 .card:hover .card-details {
-    display: block;
-    opacity: 0.99;
-    background-image: linear-gradient(rgba(4, 8, 15, 0), rgb(25, 33, 51), rgb(25, 33, 51))
+    opacity: 0.9;
+    background-color: #1A2238;
+    border-radius: 0px;
 }
 .card-details {
+    min-height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
+    padding: 10px;
+    align-items: flex-start;
     color: var(--dark);
     width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    bottom: 0px;    
     color: #dadfff;
     opacity: 0;
+    padding-left: 20px;
     transition: opacity 0.2s ease;
 }
 .card-details h3 {
@@ -333,6 +419,7 @@ li {
 }
 .card-details p {
     font-size: 14px;
+    margin-top: 10px;
 }
 /* project section end */
 
@@ -374,6 +461,7 @@ input {
     width: 100%;
 }
 input[type="submit"] {
+    transition: all .3s ease-in-out;
     height: 3rem;
     background: white;
     border-radius: var(--bradius);
@@ -446,6 +534,7 @@ footer {
     margin-top: 1rem;
 }
 .menu a {
+    transition: .3s all ease-in-out;
     color: grey;
     width: 100%;
 }
@@ -467,6 +556,7 @@ footer {
     gap: 20px;
 }
 .icon {
+    transition: .3s all ease-in-out;
     border: 1px solid white;
     /* padding: .4rem; */
     border-radius: var(--bradius);
@@ -613,4 +703,18 @@ footer {
         width: 18rem;
         height: 17rem;
     }
+}
+
+#searchbar{
+    display: block;
+    width: 1000px;
+    padding: 12px;
+    line-height: 30px;
+    font-size: 25px;
+}
+#searchbtn{
+    margin-left: 990px;
+    margin-top: -105px;
+    margin-bottom: 50px;
+    width: 50px;
 }
