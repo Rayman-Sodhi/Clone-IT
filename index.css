@@ -238,12 +238,36 @@ li {
      margin-top: 50px;
 }
 .projects {
-   
     padding-bottom: 20px;
+}
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-around;
+
+}
+.searchbar-container {
+    position: relative;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.searchbar-container input {
+    display: block;
+    padding: 12px;
+    line-height: 30px;
+    font-size: 25px;
+}
+.searchbar-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 98%;
+    border: 0;
+    cursor: pointer;
+    width: 50px;
 }
 .kfc{
     background-image: url(assets/kfc.png);
@@ -703,18 +727,4 @@ footer {
         width: 18rem;
         height: 17rem;
     }
-}
-
-#searchbar{
-    display: block;
-    width: 1000px;
-    padding: 12px;
-    line-height: 30px;
-    font-size: 25px;
-}
-#searchbtn{
-    margin-left: 990px;
-    margin-top: -105px;
-    margin-bottom: 50px;
-    width: 50px;
 }
