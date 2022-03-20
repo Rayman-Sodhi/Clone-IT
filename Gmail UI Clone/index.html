@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gmail UI Clone</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header_left">
+        <span class="material-icons"> menu </span>
+        <img src="gamil_logo.png" alt="Gmail Logo" />
+      </div>
+
+      <div class="header_middle">
+        <span class="material-icons"> search </span>
+        <input type="text" placeholder="search Mail" />
+        <span class="material-icons">arrow_drop_down</span>
+      </div>
+
+      <div class="header_right">
+        <span class="material-icons">apps</span>
+        <span class="material-icons">notifications</span>
+        <span class="material-icons">account_circle</span>
+      </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- Body Starts -->
+    <div class="main-body">
+      <!-- sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar_compose">
+          <span class="material-icons">add</span>
+          Compose
+        </button>
+        <div class="sidebar_option sidebarOption_active">
+          <span class="material-icons">inbox</span>
+          <h3>Inbox</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">star</span>
+          <h3>Starred</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">label_important</span>
+          <h3>Important</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">near_me</span>
+          <h3>Sent</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">note</span>
+          <h3>Drafts</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">access_time</span>
+          <h3>Snoozed</h3>
+        </div>
+        <div class="sidebar_option">
+          <span class="material-icons">expand_more</span>
+          <h3>More</h3>
+        </div>
+
+        <div class="sidebar_footer">
+          <div class="sidebar_footerIcons">
+            <span class="material-icons">person</span>
+            <span class="material-icons">duo</span>
+            <span class="material-icons">phone</span>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar ends-->
+
+
+      <!-- Email list Starts -->
+      <div class="emailList">
+        <!-- settings starts -->
+        <div class="emailList_settings">
+          <div class="emailList_settingsLeft">
+            <input type="checkbox">
+            <span class="material-icons">arrow_drop_down</span>
+            <span class="material-icons">redo</span>
+            <span class="material-icons">more_vert</span>
+          </div>
+          <div class="emailList_settingsRight">
+            <span class="material-icons">chevron_left</span>
+            <span class="material-icons">chevron_right</span>
+            <span class="material-icons">keyboard_hide</span>
+            <span class="material-icons">settings</span>
+          </div>
+        </div>
+        <!-- settings ends -->
+
+        <!-- Section Starts -->
+        <div class="emailList_sections">
+          <div class="section section_selected">
+            <span class="material-icons ">inbox</span><h4>Primary</h4>
+         </div>
+          <div class="section ">
+            <span class="material-icons">people</span><h4>Social</h4>
+         </div>
+          <div class="section ">
+            <span class="material-icons">local_offer</span><h4>Promotions</h4>
+         </div>
+        </div>
+        <!-- Section Ends -->
+
+
+ <!-- Email list row starts -->
+ <div class="emailList_list">
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Google</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">9.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Micrsoft</h3>
+    <div class="emailRow_message">
+      <h4>You got The Offer Letter for SDE II <span class="emailRow_description">
+        -On your mail. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">11.25pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Hashedin</h3>
+    <div class="emailRow_message">
+      <h4>Congratulations! You got The Offer Letter for Product Engg <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">6.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Deloite</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">1.12am</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">IIM Calcutta</h3>
+    <div class="emailRow_message">
+      <h4>You got a seat for 2-Years PG program <span class="emailRow_description">
+       
+      </span></h4>
+    </div>
+    <p class="emailRow_time">9.00am</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Amazon</h3>
+    <div class="emailRow_message">
+      <h4>You got Offer Letter for CEO-Amazon, India <span class="emailRow_description">
+       
+      </span></h4>
+    </div>
+    <p class="emailRow_time">7.20pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">ServiceNow</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Paytm</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Myntra</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Flipkart</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">CEMK</h3>
+    <div class="emailRow_message">
+      <h4>You have completed your B.Tech <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">PhonePe</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Flying Beast</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Katrina Kaif</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Sunny Leone</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">BOSCH </h3>
+    <div class="emailRow_message">
+      <h4>You got a new 😎subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Happy Holi!</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Alex</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Jonny Bro</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Youtube</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Tesla</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">Facebook</h3>
+    <div class="emailRow_message">
+      <h4>You got a new subscriber <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+  <!-- row starts -->
+  <div class="emailRow">
+    <div class="emailRow_options">
+      <input type="checkbox">
+      <span class="material-icons">star_border</span>
+      <span class="material-icons">label_important</span>
+    </div>
+    <h3 class="emailRow_title">M.S Dhoni</h3>
+    <div class="emailRow_message">
+      <h4>Selected for ICC President role <span class="emailRow_description">
+        -On your channel Tridib. 
+      </span></h4>
+    </div>
+    <p class="emailRow_time">8.30pm</p>
+  </div>
+  <!-- row ends -->
+</div>
+<!-- Email list row Ends -->
+
+      </div>
+      <!-- Email list ends -->
+
+     
+
+    </div>
+    <!-- Body ends -->
+  </body>
+</html>
