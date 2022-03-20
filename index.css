@@ -245,8 +245,8 @@ li {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-around;
-
 }
+
 .searchbar-container {
     position: relative;
     max-width: 1000px;
