@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <title>Unsplash Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+</head>
+<body>
+    <form action="search.html" class="search-container">
+        <input type="text" autocomplete="off" name="search" class="search-input" placeholder="search">&nbsp;
+        <button class="search-btn" type="submit">Search</button>
+    </form>
+    <div class="image-popup hide">
+        <button class="close-btn"></button>
+        <a href="#" class="download-btn">download image</a>
+        <img src="" alt="" class="large-img">
+        <button class="controls pre-btns"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="controls nxt-btns"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <section class="gallery">
+        <!---<img src="" alt="" class="gallery-img">--->
+    </section>
+<script src="script.js"></script>
+</body>
+</html>

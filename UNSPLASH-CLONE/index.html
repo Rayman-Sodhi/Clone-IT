@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <title>Unsplash Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Unsplash</h1>
+                        <p>Photos For Everyone</p>
+                    </a>
+                </div>
+                <div class="nav-search-form">
+                    <form action="search.html">
+                        <input type="text" placeholder="search free high-resolution photos" autocomplete="off" 
+            class="search-box" />
+                    </form>
+                </div>
+            </div>
+        <ul class="nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Join Free</a></li>
+        </ul>
+        </nav>
+    <div class="category-nav">
+        <div class="category">
+            <a href="#">Editorial</a>
+        </div>
+        <div class="category">
+            <a href="#">Wallpapers</a>
+        </div>
+        <div class="category">
+            <a href="#">Texture & Patterns</a>
+        </div>
+        <div class="category">
+            <a href="#">Nature</a>
+        </div>
+        <div class="category">
+            <a href="#">Current Events</a>
+        </div>
+        <div class="category">
+            <a href="#">Architecture</a>
+        </div>
+        <div class="category">
+            <a href="#">Business & Work</a>
+        </div>
+        <div class="category">
+            <a href="#">Film</a>
+        </div>
+        <div class="category">
+            <a href="#">Animals</a>
+        </div>
+        <div class="category">
+            <a href="#">Travel</a>
+        </div>
+        <div class="category">
+            <a href="#">Fashion</a>
+        </div>
+        <div class="category">
+            <a href="#">Food & Drink</a>
+        </div>
+        <div class="category">
+            <a href="#">Spirituality</a>
+        </div>
+    </header>
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Unsplash</h1>
+            <p>The internet's source of freely useable images<br/>Powered by creatorw everywhere</p>
+        <div class="hero-search-form">
+            <form>
+                <input type="text" placeholder="Search free high-resolution photos">
+            </form>
+        </div>
+        <div class="trending-search-tags">
+             <p>Trending Searches: 
+                <a href="#">Flower</a>,
+                <a href="#">Wallpapers</a>,
+                <a href="#">Sad</a>,
+                <a href="#">love</a>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="hero-overlay"></div>
+</section>
+<!-------------------------->
+<div class="image-popup hide">
+    <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+    <a href="#" class="download-btn">download image</a>
+    <img src="" alt="" class="large-img">
+    <button class="controls pre-btns"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="controls nxt-btns"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<section class="gallery">
+    <!---<img src="" alt="" class="gallery-img">--->
+</section>
+<script src="script.js"></script>
+</body>
+</html>
