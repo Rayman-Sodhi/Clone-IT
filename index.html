@@ -48,6 +48,12 @@
               <span class="text">Connect</span>
             </a>
           </li>
+          <li>
+            <a href="FAQ-PAGE/faq.html"
+              ><i class="fa fa-users symbol"></i>
+              <span class="text">FAQ</span>
+            </a>
+          </li>
         </ul>
       </div>
       <!-- navbar section ends -->
@@ -544,7 +550,7 @@
           </a>
 
           <!-- Zoom Clone -->
-
+          
           <a
             href="https://rayman-video-app.herokuapp.com/"
             class="card zoom"
@@ -561,13 +567,19 @@
               </div>
             </div>
           </a>
-        </div>
+  
+          <!-- projects section ends -->
+          
+          <div class="searchbar-container">
+            <input type="text" id="searchbar" placeholder="Enter your favourite clone...">
+            <button id="searchbtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+          <div id="clones-list" class="projects-container"></div>
         </div>
       </div>
 
-      <!-- projects section ends -->
-
       <!-- connect section start -->
+        
       <div class="connect center" id="connect">
         <h2>Connect with us</h2>
         <p>Let's connect together by filling this form...</p>
@@ -662,5 +674,6 @@
       </footer>
       <!-- footer section ends -->
     </div>
+    <script type="module" src="INDEX-JS/handleSearch.js"></script> <!-- js that will display all the clones -->
   </body>
 </html>

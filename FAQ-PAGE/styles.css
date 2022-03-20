@@ -83,3 +83,16 @@ body{margin-top:20px;}
         font-size: 13px;
     }
 }
+
+/* ASK QUESTION */
+
+.ask.input-container {
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+.ask.input-container input {
+    width: 100%;
+    margin-bottom: 20px;
+}
