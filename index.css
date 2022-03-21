@@ -245,8 +245,8 @@ li {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-around;
-
 }
+
 .searchbar-container {
     position: relative;
     max-width: 1000px;
@@ -388,6 +388,20 @@ li {
     background-repeat: no-repeat;
 }
 
+.inshorts {
+    background-image: url(assets/inshorts.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quora {
+    background-image: url(assets/quora.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
@@ -437,12 +451,12 @@ li {
     transition: opacity 0.2s ease;
 }
 .card-details h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: white;
     font-weight: bold;
 }
 .card-details p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
 }
 /* project section end */
