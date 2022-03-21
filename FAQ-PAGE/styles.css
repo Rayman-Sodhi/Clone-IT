@@ -1,8 +1,77 @@
-body{margin-top:20px;}
+body{
+    margin-top:20px;
+}
 .section_padding_130 {
     padding-top: 130px;
     padding-bottom: 130px;
 }
+
+/* navbar section */
+.navbar {
+    height: 6rem;
+    justify-content: space-around !important;
+    background-color: var(--dark-light);
+    position: sticky !important;
+    width: 100%;
+    top: 0;
+
+}
+
+.navbar a{
+    text-decoration: none;
+}
+.logo {
+    font-weight: bold;
+    color: white;
+    display: flex;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo span{
+    font-size: 3rem;
+    font-family: 'Dongle', sans-serif;
+}
+li {
+    transition: all .3s ease-in-out;
+    list-style: none;
+}
+.nav-links {
+    display: flex;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    max-width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: var(--bradius);
+}
+.nav-links a {
+    transition: all .3s ease-in-out;
+    padding:.7rem 1rem;
+    color: white;
+    border-radius: var(--bradius);
+}
+.nav-links a .symbol{
+    display: none;
+}
+.nav-links a:hover{
+    transition: all .3s ease-in-out;
+    box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
+}
+.nav-links li:hover {
+    transition: all .3s ease-in-out;
+    margin-top: .3rem ;
+}
+.nav-links li span {
+    font-size: 2rem;
+    font-family: 'Dongle', sans-serif;
+}
+/* navbar ends */
+
+
 .faq_area {
     position: relative;
     z-index: 1;
@@ -96,3 +165,81 @@ body{margin-top:20px;}
     width: 100%;
     margin-bottom: 20px;
 }
+
+/* footer section start */
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+}
+.footer {
+    /* display: grid;
+    grid-template-columns:1.5fr 1fr 1fr ;
+    gap: 1.5rem; */
+    padding: 40px 10%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3 img {
+    width: 44px;
+    position: relative;
+    top: 12px;
+}
+.footer .site {
+    width: 37%;
+}
+.footer h3 {
+    font-size: 1.6rem;
+}
+.fot-logo{
+    display: flex;
+    align-items: baseline;
+    
+}
+.menu {
+    height: 100%;
+    justify-content: space-around;
+}
+.menu ul {
+    margin-top: 1rem;
+}
+.menu a {
+    transition: .3s all ease-in-out;
+    color: grey;
+    width: 100%;
+}
+.menu li {
+    margin:.5rem 0 ;
+}
+.menu a:hover {
+    transition: .3s all ease-in-out;
+    margin-left: .4rem;
+    color: var(--lighter);
+}
+.follow {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.icon-div {
+    display: flex;
+    gap: 20px;
+}
+.icon {
+    transition: .3s all ease-in-out;
+    border: 0px !important;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover {
+    transition: .3s all ease-in-out;
+    transform: scale(1.2);
+    background-color: var(--light);
+    border: 1px solid var(--light);
+}
+/* footer  section end */
