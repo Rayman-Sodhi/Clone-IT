@@ -31,6 +31,6 @@ https://user-images.githubusercontent.com/77873383/159214045-6487fb1e-f53f-434d-
 ---
 # Deployed Link : 
 ```
-  https://mrjoy832.github.io/plularsight/
+  https://mrjoy832.github.io/PluralSight_clone/
 
 ```
