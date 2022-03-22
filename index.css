@@ -402,6 +402,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.twitter {
+    background-image: url(assets/twitter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
