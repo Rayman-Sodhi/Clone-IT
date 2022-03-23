@@ -300,6 +300,12 @@ li {
     cursor: pointer;
     width: 50px;
 }
+.candy{
+    background-image: url(assets/candy-crush.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
 .kfc{
     background-image: url(assets/kfc.png);
     background-position: center;
