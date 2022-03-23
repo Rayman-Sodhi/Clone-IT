@@ -1,3 +1,37 @@
+body{
+   background: rgb(17,27,51);
+background: linear-gradient(90deg, rgba(17,27,51,1) 5%, rgba(17,15,116,1) 87%, rgba(71,8,83,1) 99%);
+}
 #none{
  color: white;
+}
+#nav{
+    padding-left: 100px;
+    padding-right: 70px;
+}
+.navbar-dark{
+     background: rgb(17,27,51);
+background: linear-gradient(90deg, rgba(17,27,51,1) 5%, rgba(17,15,116,1) 87%, rgba(71,8,83,1) 99%);
+}
+.form-control{
+    background-color: transparent;
+}
+
+.world{
+    font-size: 56px;
+    line-height: 60px ;
+    letter-spacing: -0.03em ;
+    color: #ffffff;
+        font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-feature-settings: "ss02" on,"ss01" on;
+    font-weight: 800;
+}
+.wp{
+        z-index: 2 !important;
+            font-size: 20px !important;
+    line-height: 28px !important;
+        font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-feature-settings: "ss02" on,"ss01" on;
+    font-weight: 400;
+    color: grey;
 }
