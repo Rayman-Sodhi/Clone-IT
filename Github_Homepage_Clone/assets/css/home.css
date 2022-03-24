@@ -42,9 +42,13 @@ background: linear-gradient(90deg, rgba(17,27,51,1) 5%, rgba(17,15,116,1) 87%, r
     padding-left: 105px;
 }
 footer{
+  border-top-style: solid;
+    border-top-width: 1px;
+border-color: rgb(102, 102, 102);
+
     display: flex;
     color: white;
-    margin-top: 70px;
+    margin-top: 120px;
         white-space: nowrap !important;
         font-size: 20px;
         font-weight: 400;
@@ -56,4 +60,8 @@ footer{
 }
 .ff{
     font-size: 12px;
+}
+img{
+    height: 100%;
+    width: 100%;
 }
