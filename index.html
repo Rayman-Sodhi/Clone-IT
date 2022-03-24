@@ -169,6 +169,8 @@
                  
                  if(filter=="APPLE CLONE")
                  window.open("https://pranai2518.github.io/Apple-clone/");
+                 if(filter=="CANDY CRUSH CLONE")
+                 window.open("https://adit0507.github.io/Candy-Crush/")
                  if(filter=="FLIPKART CLONE")
                  window.open("https://rayman-sodhi.github.io/Flipkart-Clone/");
                  if(filter=="FACEBOOK CLONE")
@@ -223,6 +225,22 @@
             </div>
           </a>
 
+          <!--CANDY CRUSH CLONE-->
+          <a
+            href="https://adit0507.github.io/Candy-Crush/"
+            class="card candy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Candy Crush Clone</h3>
+                <p>
+                  Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012, originally for Facebook; other versions for iOS, Android, Windows Phone, and Windows 10 followed.
+                </p>
+              </div>
+            </div>
+          </a>
           <!-- Facebook Clone -->
 
           <a
@@ -682,5 +700,25 @@
       </footer>
       <!-- footer section ends -->
     </div>
+    <button onclick="topFunction()" id="scrollBtn" title="Top"> <img class="arrow" src="assets/arrow.png"/> <br> Top</button>
+    <script>
+      scrollButton = document.getElementById("scrollBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollButton.style.display = "block";
+        } else {
+          scrollButton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+    </script>
   </body>
 </html>
