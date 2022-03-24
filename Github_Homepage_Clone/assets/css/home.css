@@ -35,3 +35,25 @@ background: linear-gradient(90deg, rgba(17,27,51,1) 5%, rgba(17,15,116,1) 87%, r
     font-weight: 400;
     color: grey;
 }
+.ins{
+    display: block;
+    width: 40%;
+    padding-top: 200px; 
+    padding-left: 105px;
+}
+footer{
+    display: flex;
+    color: white;
+    margin-top: 70px;
+        white-space: nowrap !important;
+        font-size: 20px;
+        font-weight: 400;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+}
+.head{
+    font-size: 20px;
+    padding-right: 200px;
+}
+.ff{
+    font-size: 12px;
+}
