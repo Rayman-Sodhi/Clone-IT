@@ -45,13 +45,13 @@ const clones = [
     },
     {
         "id": "GOOGLE",
-        "name": "Google Search Engine Clone",
+        "name": "Google Clone",
         "description": "Google LLC is a technology company that specializes in Internet-related services and products.",
         "class": "google",
         "href": "https://quizzical-payne-d3e222.netlify.app/"
     },
     {
-        "id": "GOOGLE",
+        "id": "GOOGLE KEEP",
         "name": "Google Keep Clone",
         "description": "Google Keep is a note-taking service included as part of the free, web-based Google Docs Editors suite offered by Google",
         "class": "google_keep",
