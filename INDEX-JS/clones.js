@@ -135,6 +135,13 @@ const clones = [
         "href": "https://spotify-clone-khaki-six.vercel.app/"
     },
     {
+        "id": "TESLA",
+        "name": "Tesla Clone",
+        "description": "Tesla, Inc. is an American electric vehicle and clean energy company based in Austin, Texas. Tesla designs and manufactures electric cars, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services",
+        "class": "tesla",
+        "href": "https://ayushsleeping-teslaclone.netlify.app/"
+    },
+    {
         "id": "YOUTUBE",
         "name": "YouTube Clone",
         "description": "YouTube is an American online video sharing and social media platform owned by Google.",
