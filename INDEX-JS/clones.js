@@ -16,6 +16,13 @@ const clones = [
         "href": "https://pranai2518.github.io/Apple-clone/"
     },
     {
+        "id": "DISCORD",
+        "name": "Discord Clone",
+        "description": "Users communicate with voice calls, video calls, text messaging, media and files in private chats or as part of communities called servers",
+        "class": "discord",
+        "href": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html" 
+    },
+    {
         "id": "FACEBOOK",
         "name": "Facebook Clone",
         "description": "Meta Platforms, Inc., doing business as Meta and formerly known as Facebook, Inc. ,multinational technology.",
@@ -28,13 +35,6 @@ const clones = [
         "description": "Flipkart is a popular Indian company that deals with e-commerce.",
         "class": "flipkart",
         "href": "https://rayman-sodhi.github.io/Flipkart-Clone/"
-    },
-    {
-        "id": "KFC",
-        "name": "KFC Clone",
-        "description": "KFC is an American fast food restaurant that specializes in fried chicken.",
-        "class": "apple",
-        "href": "https://rayman-sodhi.github.io/KFC-Clone/"
     },
     {
         "id": "GITHUB",
@@ -58,11 +58,25 @@ const clones = [
         "href": "https://ajoe12.github.io/Google-Keep-Clone//"
     },
     {
+        "id": "GOOGLE",
+        "name": "Gmail Clone",
+        "description": "Gmail is a free email service provided by Google. As of 2019, it had 1.5 billion active users worldwide. A user typically accesses Gmail in a web browser or the official mobile app. Google also supports the use of email clients via the POP and IMAP protocols.",
+        "class": "gmail",
+        "href": "#"
+    },
+    {
         "id": "HULU",
         "name": "Hulu Clone",
         "description": "Hulu is a streaming platform owned by The Walt Disney Company.",
         "class": "hulu",
         "href": "https://harshit995.github.io/hulu-clone/"
+    },
+    {
+        "id": "KFC",
+        "name": "KFC Clone",
+        "description": "KFC is an American fast food restaurant that specializes in fried chicken.",
+        "class": "apple",
+        "href": "https://rayman-sodhi.github.io/KFC-Clone/"
     },
     {
         "id": "LINKEDIN",
@@ -91,6 +105,13 @@ const clones = [
         "description": "Netflix is a streaming service that offers a variety of TV shows, movies, anime and more",
         "class": "netflix",
         "href": "https://chatifyslack.netlify.app/"
+    },
+    {
+        "id": "QUORA",
+        "name": "Quora Clone",
+        "description": "Users can collaborate by editing questions and commenting on answers that have been submitted by other users.",
+        "class": "quora",
+        "href": "https://rhydham2809.github.io/Qoura-Clone/"
     },
     {
         "id": "SLACK",

@@ -453,6 +453,20 @@ li {
     background-repeat: no-repeat;
 }
 
+.discord {
+    background-image: url(assets/discord.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gmail {
+    background-image: url(assets/gmail.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
