@@ -446,6 +446,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.rockstar {
+    background-image: url(assets/rockstar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
