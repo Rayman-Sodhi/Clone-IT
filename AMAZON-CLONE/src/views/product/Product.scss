@@ -1,0 +1,82 @@
+.product {
+  @include breakpoint(l) {
+    display: flex;
+  }
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  &__gallery {
+    flex-basis: 50%;
+    margin-right: 3rem;
+    width: fit-content;
+    overflow: hidden;
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    &__title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    &__brand {
+      font-weight: 600;
+      color: $text-color-blue;
+      font-size: 0.8rem;
+      margin: 0.8rem 0;
+    }
+    &__price span:first-child {
+      color: $text-color-grey;
+      font-weight: 600;
+    }
+    &__price span:last-child {
+      color: $text-color-red;
+      font-weight: 600;
+    }
+
+    &__line {
+      content: "";
+      height: 1px;
+      background: $line-color;
+      width: 100%;
+      margin-left: 0.5rem;
+      margin: 1.5rem 0;
+    }
+
+    &__content li {
+      padding-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    &__content {
+      padding-left: 1rem;
+    }
+  }
+  &__cart {
+    flex-basis: 10%;
+    border: 1px solid $line-color;
+    border-radius: 0.2rem;
+    background-color: $background-color;
+    width: 18rem;
+    min-width: 18rem;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    &__price {
+      margin-bottom: 1rem;
+      color: $text-color-red;
+      font-weight: 600;
+    }
+  }
+
+  &__related {
+    margin: 2rem;
+    @include breakpoint(l) {
+      margin: 4rem;
+    }
+
+    & > h3 {
+      color: $secondary-color-dark;
+    }
+  }
+}

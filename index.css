@@ -453,6 +453,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.amazon {
+    background-image: url(assets/amazon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .discord {
     background-image: url(assets/discord.jpg);
     background-position: center;
