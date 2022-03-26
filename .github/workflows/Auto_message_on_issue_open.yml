@@ -1,19 +1,18 @@
-name: Auto message on issue opened
+name: Auto message on Creating Issue.
 
 on:
-  issue_comment:
+  issues:
     types: [opened]
 
 jobs:
-  auto-response:
+  greeting:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: derekprior/add-autoresponse@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create comment for issue
+      if: github.event_name =='issues' 
+      uses: peter-evans/create-or-update-comment@v1
       with:
-        respondableId: ${{ github.event.pull_request.node_id }}
-        response: "Thanks for your contribution @${{ github.event.pull_request.user.login }} :)"
-        author: ${{ github.event.issue.user.login }}
-        exemptedAuthors: "Rayman-Sodhi"
+        issue-number: ${{tojson(github.event.issue.number)}}
+        body: Thank you for opening issue in this project @${{ github.event.issue.user.login }}
+             
+  
