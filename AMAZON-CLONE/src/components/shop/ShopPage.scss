@@ -1,0 +1,51 @@
+.shopPage {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-weight: 600;
+  position: relative;
+  background-color: $background-color-light;
+  &__sideBar {
+    display: none;
+    @include breakpoint(m){
+      display: inline-block;
+      &::after {
+        content: "";
+        width: 0.1rem;
+        height: 96%;
+        background: $line-color;
+        left: 16rem;
+        top: 0.5rem;
+        position: absolute;
+      }
+    }
+    &__refinedBy__title {
+      font-weight: 800;
+      padding: 0.5rem 0;
+      // make sure the space is fully occupied by content
+      width: 16rem;
+    }
+
+    &__refinedBy__content {
+      & a {
+        display: block;
+      }
+      &__star {
+        fill: $star-color;
+        width: 1.3rem;
+      }
+
+      &--form {
+        margin: 0 !important;
+      }
+    }
+  }
+
+  &__list {
+    @include breakpoint(m){
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
