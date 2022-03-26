@@ -1,7 +1,7 @@
 name: Auto message on issue opened
 
 on:
-  pull_request_target:
+  issue_comment:
     types: [opened]
 
 jobs:
