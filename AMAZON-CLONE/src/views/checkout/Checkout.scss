@@ -1,0 +1,79 @@
+.checkout {
+  @include breakpoint(l){
+    display: flex;
+  }
+  padding: 1rem;
+
+  &__cart {
+    flex-grow: 1;
+    &__ad {
+      width: 70vw;
+      padding-top: 0.2rem;
+    }
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0.5rem;
+      margin-top: 1rem;
+      border-bottom: 1px solid $line-color;
+      & span:first-child {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+      }
+      & span:last-child {
+        align-self: flex-end;
+      }
+    }
+    &__message {
+      margin: 1rem;
+      & > p {
+        font-weight: 600;
+        font-size: 1.8rem;
+      }
+    }
+    &__subtotal {
+      text-align: right;
+      margin: 1rem auto;
+      & span:first-child {
+        font-weight: 600;
+      }
+      & span:last-child {
+        font-weight: 800;
+      }
+    }
+    &__card {
+      content: "";
+      height: 1px;
+      background: $line-color;
+      width: 100%;
+      margin-left: 0.5rem;
+    }
+  }
+  &__subtotal {
+    border: 1px solid $line-color;
+    border-radius: 0.2rem;
+    background-color: $background-color;
+    width: 18rem;
+    min-width: 18rem;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+
+    &__title {
+      margin-bottom: 1rem;
+      & span:first-child {
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+      & span:last-child {
+        margin-bottom: 1rem;
+        font-weight: 800;
+      }
+    }
+    &__button {
+      background-color: $button-color !important;
+      border: 1px solid $button-border !important;
+      color: $primary-color-light !important;
+    }
+  }
+}

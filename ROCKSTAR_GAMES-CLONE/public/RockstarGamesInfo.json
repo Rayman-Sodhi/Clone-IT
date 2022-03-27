@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "gameImage": "assets/gtaiv.jpg",
+      "date": "2 month ago"
+    },
+    {
+      "id": 2,
+      "gameImage": "assets/rdr2.jpg",
+      "date": "1 year ago"
+    },
+    {
+      "id": 3,
+      "gameImage": "assets/bully.jpg",
+      "date": "3 days ago"
+    },
+    {
+      "id": 4,
+      "gameImage": "assets/gtav.jpg",
+      "date": "1 year ago"
+    },
+    {
+      "id": 5,
+      "gameImage": "assets/lan.jpg",
+      "date": "2 years ago"
+    },
+    {
+      "id": 6,
+      "gameImage": "assets/gtaiv_tlad.jpg",
+      "date": "1 year ago"
+    },
+    {
+      "id": 7,
+      "gameImage": "assets/gtaiv_tbogt.jpg",
+      "date": "1 year ago"
+    }
+  ]
+}

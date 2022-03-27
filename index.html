@@ -164,47 +164,64 @@
           function func()
           {
             var input, filter;
-                  input = document.getElementById("searchbar");
-                  filter = input.value.toUpperCase();
-                 
-                 if(filter=="APPLE CLONE")
-                 window.open("https://pranai2518.github.io/Apple-clone/");
-                 if(filter=="FLIPKART CLONE")
-                 window.open("https://rayman-sodhi.github.io/Flipkart-Clone/");
-                 if(filter=="FACEBOOK CLONE")
-                 window.open("https://vaib215.github.io/Facebook-Clone/");
-                 if(filter=="KFC CLONE")
-                 window.open("https://rayman-sodhi.github.io/KFC-Clone/");
-                 if(filter=="GITHUB CLONE")
-                 window.open("https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html");
-                 if(filter=="NETFLIX CLONE")
-                 window.open("https://netflix-clone-tau-livid.vercel.app/");
-                 if(filter=="SLACK CLONE")
-                 window.open("https://chatifyslack.netlify.app/");
-                 if(filter=="GOOGLE SEARCH ENGINE CLONE")
-                 window.open("https://quizzical-payne-d3e222.netlify.app/");
-                 if(filter=="GOOGLE KEEP CLONE")
-                 window.open("https://ajoe12.github.io/Google-Keep-Clone/");
-                 if(filter=="HULU CLONE")
-                 window.open("https://harshit995.github.io/hulu-clone/");
-                 if(filter=="LINKTREE CLONE")
-                 window.open("https://clonelinktree.netlify.app/");
-                 if(filter=="LINKEDIN CLONE")
-                 window.open("https://rayman-sodhi.github.io/Connected-In/");
-                 if(filter=="MICROSOFT CLONE")
-                 window.open("https://19arnab190201.github.io/Microsoft-Clone/");
-                 if(filter=="SPOTIFY CLONE")
-                 window.open("https://spotify-clone-khaki-six.vercel.app/");
-                 if(filter=="YOUTUBE CLONE")
-                 window.open("https://anveshajain19.github.io/YOUTUBE-CLONE/");
-                 if(filter=="STARBUCKS CLONE")
-                 window.open("https://girlwithasmile.github.io/Starbucks-clone/")
-                 if(filter=="ZOOM CLONE")
-                 window.open("https://rayman-video-app.herokuapp.com/");
+            input = document.getElementById("searchbar");
+            filter = input.value.toUpperCase();
+            const filterMapping = {
+                "AMAZON CLONE": "https://github-c5c88.firebaseapp.com",
+                "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
+                "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
+                "DISCORD CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
+                "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
+                "FLIPKART CLONE": "https://rayman-sodhi.github.io/Flipkart-Clone/",
+                "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
+                "GMAIL CLONE": "#",
+                "GITHUB CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
+                "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
+                "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
+                "SLACK CLONE": "https://chatifyslack.netlify.app/",
+                "GOOGLE SEARCH ENGINE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
+                "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
+                "GOOGLE KEEP CLONE": "https://ajoe12.github.io/Google-Keep-Clone/",
+                "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
+                "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
+                "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
+                "MICROSOFT CLONE": "https://19arnab190201.github.io/Microsoft-Clone/",
+                "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
+                "ROCKSTAR GAMES CLONE": "https://rockstar-social-club-clone-6fmypfzp2-emmanuelokuchukwu.vercel.app",
+                "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
+                "TWITTER CLONE": "https://twitter-geek.netlify.app",
+                "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
+                "STARBUCKS CLONE": "https://girlwithasmile.github.io/Starbucks-clone/",
+                "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
+                "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
+            }
+            if(filterMapping[filter]!=undefined)
+            {
+             window.open(filterMapping[filter]);
+            }
           }
         </script>
 
         <div class="projects-container">  
+
+          <!-- Amazon Clone -->
+
+          <a
+            href="https://github-c5c88.firebaseapp.com/"
+            class="card amazon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Amazon Clone</h3>
+                <p>
+                  Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. 
+                </p>
+              </div>
+            </div>
+          </a>
+          
           <!-- Apple Clone -->
           <a
             href="https://pranai2518.github.io/Apple-clone/"
@@ -218,6 +235,43 @@
                 <p>
                   Apple India website is a online official store which sells all the Apple 
                   products including the MacBooks, iPad series, Apple Watch and iPhones. 
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!--CANDY CRUSH CLONE-->
+
+          <a
+            href="https://adit0507.github.io/Candy-Crush/"
+            class="card candy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Candy Crush Clone</h3>
+                <p>
+                  Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012, originally for Facebook; other versions for iOS, Android, Windows Phone, and Windows 10 followed.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- Discord Clone -->
+
+          <a
+            href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html"
+            class="card discord"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Discord Clone</h3>
+                <p>
+                  Users communicate with voice calls, video calls, text messaging, media and files in 
+                  private chats or as part of communities called "servers".
                 </p>
               </div>
             </div>
@@ -256,25 +310,6 @@
               <p>
                 Flipkart is a popular Indian company that deals with
                 e-commerce.
-                </p>
-              </div>
-            </div>
-          </a>
-          
-          <!-- KFC Clone -->
-
-          <a
-            href="https://rayman-sodhi.github.io/KFC-Clone/"
-            class="card kfc"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            <div class="card-info">
-              <div class="card-details">
-                <h3>KFC Clone</h3>
-                <p>
-                  KFC is an American fast food restaurant that specializes in
-                  fried chicken.
                 </p>
               </div>
             </div>
@@ -336,7 +371,29 @@
             </div>
           </a>
 
-        <!-- Hulu Clone -->
+          <!-- Gmail Clone -->
+
+          <!-- KFC Clone -->
+
+          <a
+            href="#"
+            class="card gmail"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Gmail Clone</h3>
+                <p>
+                  Gmail is a free email service provided by Google. As of 2019, it had 1.5 billion active users worldwide. 
+                  A user typically accesses Gmail in a web browser or the official mobile app. 
+                  Google also supports the use of email clients via the POP and IMAP protocols.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- Hulu Clone -->
 
           <a
             href="https://harshit995.github.io/hulu-clone/"
@@ -368,6 +425,25 @@
                 <p>
                   Inshorts is a Noida-based company that provides a content discovery app for Android and iOS.
                   It aggregates news and other content such as videos, infographics, and blogs
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- KFC Clone -->
+
+          <a
+            href="https://rayman-sodhi.github.io/KFC-Clone/"
+            class="card kfc"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>KFC Clone</h3>
+                <p>
+                  KFC is an American fast food restaurant that specializes in
+                  fried chicken.
                 </p>
               </div>
             </div>
@@ -449,6 +525,45 @@
             </div>
           </a>
 
+          <!-- Quora Clone -->
+
+          <a
+            href="https://rhydham2809.github.io/Qoura-Clone/"
+            class="card quora"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Quora Clone</h3>
+                <p>
+                  Quora is an American social question-and-answer website based in Mountain View, California.  
+                  Users can collaborate by editing questions and commenting on answers that have been submitted 
+                  by other users
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- Rockstar Games Clone -->
+
+          <a
+            href="https://rockstar-social-club-clone-6fmypfzp2-emmanuelokuchukwu.vercel.app/"
+            class="card rockstar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Rockstar Games Clone</h3>
+                <p>
+                  Rockstar Games, Inc. is an American video game publisher based in New York City. 
+                </p>
+              </div>
+            </div>
+          </a>
+
+        
           <!-- Slack Clone -->
 
           <a
@@ -505,26 +620,43 @@
             </div>
           </a>
 
-          <!-- Quora Clone -->
+          <!-- Tesla Clone -->
 
           <a
-            href="#"
-            class="card quora"
+            href="https://ayushsleeping-teslaclone.netlify.app/"
+            class="card tesla"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div class="card-info">
               <div class="card-details">
-                <h3>Quora Clone</h3>
+                <h3>Tesla Clone</h3>
                 <p>
-                  Quora is an American social question-and-answer website based in Mountain View, California.  
-                  Users can collaborate by editing questions and commenting on answers that have been submitted 
-                  by other users
+                  Tesla, Inc. is an American electric vehicle and clean energy company based in Austin, Texas. 
+                  Tesla designs and manufactures electric cars, battery energy storage from home to grid-scale, 
+                  solar panels and solar roof tiles, and related products and services.
                 </p>
               </div>
             </div>
           </a>
 
+          <!-- Twitter Clone -->
+
+          <a
+            href="https://twitter-geek.netlify.app/"
+            class="card twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Twitter Clone</h3>
+                <p>
+                  Twitter is an American microblogging and social networking service.
+                </p>
+              </div>
+            </div>
+          </a>
 
           <!-- Youtube Clone -->
 
@@ -543,6 +675,8 @@
               </div>
             </div>
           </a>
+
+          
 
           <!-- Zoom Clone -->
           
@@ -665,5 +799,25 @@
       </footer>
       <!-- footer section ends -->
     </div>
+    <button onclick="topFunction()" id="scrollBtn" title="Top"> <img class="arrow" src="assets/arrow.png"/> <br> Top</button>
+    <script>
+      scrollButton = document.getElementById("scrollBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollButton.style.display = "block";
+        } else {
+          scrollButton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+    </script>
   </body>
 </html>

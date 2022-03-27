@@ -1,0 +1,41 @@
+.footer {
+  background-color: $primary-color-light;
+  &__container {
+    max-width: 1500px;
+    color: $text-color;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  &__title {
+    font-weight: 800;
+    & ~ p {
+      font-size: .9rem;
+    }
+  }
+
+  &__copyright {
+    color: $text-color;
+    background-color: $primary-color-light;
+    padding: 2rem;
+    position: relative;
+    &__info {
+      transform: translate(-50%, -50%);
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      & span {
+        padding-right: 1rem;
+        font-size: small;
+        &:last-child {
+            color: $text-color-grey;
+        }
+      }
+    }
+    
+  }
+}
