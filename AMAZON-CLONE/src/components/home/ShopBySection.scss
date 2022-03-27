@@ -1,0 +1,41 @@
+.shop-by-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+
+  // &:after {
+  //   content: "";
+  //   flex: auto;
+  // }
+
+  &__card {
+    
+    height: 350px !important;
+    overflow: hidden;
+  }
+  &__user {
+    display: none !important;
+    min-width: 320px !important;
+    height: 350px !important;
+    &__button {
+      background-color: $button-color !important;
+      border: 1px solid $button-border !important;
+      color: $primary-color-light !important;
+    }
+
+    @include breakpoint(xxl) {
+      display: inline !important;
+    }
+  }
+
+  &__category {
+    display: flex;
+    justify-content: space-around;
+
+    & p {
+      font-size: smaller;
+    }
+  }
+}

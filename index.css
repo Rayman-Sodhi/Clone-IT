@@ -40,6 +40,37 @@ body::-webkit-scrollbar-thumb {
     --light:#FF6A3D;
     --lighter:#dadfff;
 }
+#scrollBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    background-color: rgba(0, 174, 255, 0.774);
+    color: white;
+    cursor: pointer; 
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 20px;
+  }
+  
+  #scrollBtn:hover {
+    background-color: rgba(0, 132, 255, 0.774); 
+    background-position: 100% 0;
+  }
+  
+  #scrollBtn:focus {
+    outline: none;
+  }
+  img.arrow{
+      width: 40px;
+  }
+
 a {
     text-decoration: none;
 }
@@ -245,8 +276,8 @@ li {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-around;
-
 }
+
 .searchbar-container {
     position: relative;
     max-width: 1000px;
@@ -268,6 +299,12 @@ li {
     border: 0;
     cursor: pointer;
     width: 50px;
+}
+.candy{
+    background-image: url(assets/candy-crush.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 .kfc{
     background-image: url(assets/kfc.png);
@@ -388,6 +425,69 @@ li {
     background-repeat: no-repeat;
 }
 
+.inshorts {
+    background-image: url(assets/inshorts.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.makemytrip {
+    background-image: url(assets/makemytrip.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quora {
+    background-image: url(assets/quora.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url(assets/twitter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rockstar {
+    background-image: url(assets/rockstar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.amazon {
+    background-image: url(assets/amazon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.discord {
+    background-image: url(assets/discord.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gmail {
+    background-image: url(assets/gmail.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tesla {
+    background-image: url(assets/tesla.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
@@ -437,12 +537,12 @@ li {
     transition: opacity 0.2s ease;
 }
 .card-details h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: white;
     font-weight: bold;
 }
 .card-details p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
 }
 /* project section end */
