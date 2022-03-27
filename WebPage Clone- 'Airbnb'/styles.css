@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root{
+  --light: #f8f9fa!important;
+  --white: white;
+  --pink: #FF385C !important;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+* a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item a{
+  color: inherit;
+  text-decoration: none;
+}
+.nav-item a:hover{
+  background-color: var(--light);
+  box-shadow: 1px 1px 3px rgb(31, 30, 30);
+}
+.footer-nav-item a{
+  color: inherit;
+  text-decoration: inherit;
+}
+.footer-nav-item a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.h-screen{
+  min-height: 100vh;
+}
+
+.reverse-wrapp{
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+.cover-image{
+  width: 100%;
+  object-fit: cover;
+}
+.variable-width a{
+  color: inherit;
+  text-decoration: none;
+}
+.variable-width a:hover{
+  border: 1px solid black;
+  color: inherit;
+}
+.w-auto{
+  width: auto;
+}
+.slick-next{
+  background-color: var(--light);
+  color: var(--light);
+}
+.rounded-5{
+  border-radius: 15px;
+  overflow: hidden;
+}
+.rounded-4{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fs-7{
+  font-size: 14px;
+}
+.vertical-card{
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+}
+.vertical-card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.btn-outline{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.this-week .card{
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.this-week .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bg-black-light{
+  background-color: rgb(20, 20, 20);
+}
+.bg-black-light:hover{
+  background-color: black;
+}
+footer .container .row .col li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.footer-link{
+  color: inherit;
+}
+.h-third{
+  height: 70vh;
+  overflow: hidden;
+}
+.h-half{
+  height: 50%;
+  overflow: hidden;
+}
+.fit{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ticks{
+  list-style-type: none;
+}
+.text-danger{
+  color: var(--pink);
+}
+.bg-danger{
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+}
+.max-h-screen{
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+.decoration-none{
+  text-decoration: none;
+}
