@@ -16,13 +16,6 @@ const clones = [
         "href": "https://mrjoy832.github.io/AIRBNB/"
     },
     {
-        "id": "AMAZON",
-        "name": "Amazon Clone",
-        "description": "",
-        "class": "apple",
-        "href": ""
-    },
-    {
         "id": "APPLE",
         "name": "Apple Clone",
         "description": "Apple India website is a online official store which sells all the Apple  products including the MacBooks, iPad series, Apple Watch and iPhones. ",

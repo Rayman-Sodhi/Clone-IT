@@ -432,14 +432,6 @@ li {
     background-repeat: no-repeat;
 }
 
-
-.makemytrip {
-    background-image: url(assets/makemytrip.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .quora {
     background-image: url(assets/quora.png);
     background-position: center;
@@ -449,20 +441,6 @@ li {
 
 .twitter {
     background-image: url(assets/twitter.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.rockstar {
-    background-image: url(assets/rockstar.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.amazon {
-    background-image: url(assets/amazon.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
