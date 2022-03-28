@@ -467,6 +467,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.airbnb {
+    background-image: url(assets/airbnb.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
