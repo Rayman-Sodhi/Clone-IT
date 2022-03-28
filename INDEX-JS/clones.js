@@ -9,6 +9,20 @@
 
 const clones = [
     {
+        "id": "AIRBNB",
+        "name": "Airbnb Clone",
+        "description": "Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities",
+        "class": "airbnb",
+        "href": "https://mrjoy832.github.io/AIRBNB/"
+    },
+    {
+        "id": "AMAZON",
+        "name": "Amazon Clone",
+        "description": "",
+        "class": "apple",
+        "href": ""
+    },
+    {
         "id": "APPLE",
         "name": "Apple Clone",
         "description": "Apple India website is a online official store which sells all the Apple  products including the MacBooks, iPad series, Apple Watch and iPhones. ",

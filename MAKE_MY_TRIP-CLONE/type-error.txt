@@ -1,6 +1,0 @@
-Pressable
---onPress
-scrollview
---horizontal
-button
---onPress
