@@ -1,0 +1,504 @@
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 11.9%;
+    z-index: 2;
+  }
+  
+  
+  .Containers {
+   width: 100%;
+   height: 50vh;
+    
+  }
+  
+  
+  
+  
+  .Back{
+    background: url(https://images-static.nykaa.com/uploads/3df01759-af0c-4d81-b2f7-f61577ac3807.svg);
+      background-repeat:no-repeat;
+      transform:initial;
+      height:56px;
+      width:56px;
+      top:40%;
+      content:' ';
+      display:inline-block;
+      position:absolute;
+      left:8px;
+      border:5px;
+      cursor:pointer;
+      z-index: 7;
+  }
+  .forward{
+    background: url(https://images-static.nykaa.com/uploads/45d5a7b6-86eb-4850-9568-4d6ed91731fe.svg);
+      background-repeat:no-repeat;
+      transform:initial;
+      height:56px;
+      width:56px;
+      top: 40%;
+      content:'';
+      display:inline-block;
+      position:absolute;
+      right:8px;
+      border:5px ;
+      cursor:pointer;
+      z-index:7;
+  }
+  
+  
+  .Containers img{
+    width: 100%;
+  }
+  
+  .indicator{
+    text-align: center;
+  position: absolute;
+ left: 44%;
+  top: 78%;
+  }
+  
+  .dots {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 7px;
+     
+    background: #F8BBD0 !important;
+    border-radius: 50%;
+   
+    transition: background-color 0.2s ease;
+  }
+  
+  .enable, .dots:hover {
+   background-color: #E91E63 !important;;
+  }
+.mid-img{
+    width: 70%;
+    
+   
+    margin-top: 100px;
+    transform: translateX(20%);
+}
+.mid-img:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.8);
+}
+.mid-img img{
+    max-width: 100%;
+}
+.spotlight-cont{
+    width: 100% ;
+    
+    
+    
+   
+}
+.gridcard{
+    width: 70%;
+   
+    transform: translateX(20%);
+    display: grid;
+    
+    grid-template-columns: repeat(2,49.5%);
+    gap: 1.3%;
+    
+}
+.img-1{
+   
+    border-radius: 1%;
+    
+    
+    
+}
+.img-1:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);
+}
+
+.img-1 img{
+    max-width: 100%;
+    border-radius: 1%;
+    position: relative;
+}
+.freeshiping{
+    width: 70%;
+    
+   
+    margin-top: 100px;
+    transform: translateX(20%);
+    border-radius: 1%;
+}
+.freeshiping img{
+    max-width: 100%;
+    border-radius: 1%;
+}
+.freeshiping:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);
+}
+.freeshiping-2{
+    width: 70%;
+    
+   margin-top: 50px;
+
+    transform: translateX(20%);
+}
+.freeshiping-2 img{
+    max-width: 100%;
+}
+.freeshiping-2:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);
+}
+.img-1-l{
+transform: translateX(50%);
+border-radius: 1%;
+
+}
+.img-1-l:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);
+
+}
+.img-1-l img{
+    max-width: 100%;
+    border-radius: 1%;
+    
+}
+.featured-cont{
+    display: grid;
+    width: 70%;
+   
+    transform: translateX(20%);
+   
+    grid-template-columns: repeat(4,24.1%);
+    gap: 1.3%;
+}
+.below-img{
+transform: translateX(105%);
+}
+.bestseller{
+    display: grid;
+    width: 70%;
+    
+    transform: translateX(20%);
+   
+    grid-template-columns: repeat(2,49.5%);
+    gap: 1.3%;
+    margin-top: 110px;
+}
+.mid-img-foc{
+    width: 70%;
+    
+   
+    margin-top: 5px;
+    transform: translateX(20%);
+}
+.mid-img-foc:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);
+}
+.mid-img-foc img{
+    max-width: 100%;
+}
+.containt-for-all{
+    position: absolute; 
+    top: 208px; left: 10px;
+     width: 47.5%;
+     -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+     background-color: white;
+     height: 87px;
+     border-radius: 2%;
+}
+.image-4{
+    position: relative;
+  
+}
+.containt-for-all-4{
+    position: absolute; 
+    top: 208px; left: 10px;
+     width: 95.5%;
+     -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+     background-color: white;
+     height: 87px;
+     border-radius: 2%;
+}
+.containt-for-all-8{
+    position: absolute; 
+    top: 250px; 
+    
+     width: 100%;
+     -webkit-box-shadow: 2px 10px 6px -6px #777;
+     -moz-box-shadow: 2px 10px 6px -6px #777;
+          box-shadow: 2px 10px 6px -6px #777;
+     background-color: white;
+     height: 70px;
+     border-radius: 2%;
+}
+.pinky{
+    color: #fc2779;
+    font-weight: 600;
+}
+.blacky{
+   font-weight: 600;
+   color: #010000;
+}
+.normal{
+    color: #3f414d;
+    margin-top: 1px;
+}
+.marginup{
+    margin-top: -5px;
+    
+}
+.margind{
+    margin-bottom: 0px;
+}
+.pinkypofeaturebrand{
+    font-weight: 400;
+    font-size: 15px;
+}
+.mt-10{
+    margin-top: 80px;
+}
+.blackfeature{
+font-size: 14px;
+}
+.blackyf{
+    font-weight: 400;
+    font-size: 15px;
+    color: #010000;
+}
+/* product slider */
+.productslider{
+    width: 70%;
+   
+    transform: translateX(20%);
+    border: 1px solid red;
+    display: flex;
+    
+    
+}
+.pro-1{
+    width: 19%;
+}
+
+.pro-1 img{
+    width: 100%;
+}
+/* product slider */
+.slider-box-prod {
+    width: 70%;
+    transform: translateX(20%);
+   
+
+    position: relative;
+    overflow: hidden;
+  }
+  #slider-prod {
+    display: flex;
+    gap: 1.5%;
+   
+    white-space: nowrap;
+    width: 100%;
+    height: 35vh;
+    transition: 0.7s;
+  
+  }
+  #slider-prod img {
+    width: 40%;
+    -webkit-box-shadow: 2px 10px 6px -6px #777;
+    -moz-box-shadow: 2px 10px 6px -6px #777;
+         box-shadow: 2px 10px 6px -6px #777;
+    object-fit: cover;
+  }
+  #getto {
+    background: url(https://images-static.nykaa.com/uploads/3df01759-af0c-4d81-b2f7-f61577ac3807.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top:45%;
+    content:' ';
+    display:inline-block;
+    position:absolute;
+    left:8px;
+    border:5px;
+    cursor:pointer;
+    z-index: 7;
+   
+   
+  }
+  #left {
+    background: url(https://images-static.nykaa.com/uploads/45d5a7b6-86eb-4850-9568-4d6ed91731fe.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top: 45%;
+    content:'';
+    display:inline-block;
+    position:absolute;
+    right:8px;
+    border:5px ;
+    cursor:pointer;
+    z-index:7;
+    
+    
+  }
+  #slider-prod img:hover{
+    box-shadow: 0px 18px 18px rgba(31, 29, 29, 0.5);
+}
+.slider-box-prod-2{
+    width: 70%;
+    transform: translateX(20%);
+   
+
+    position: relative;
+     overflow: hidden;
+} 
+#slider-prod-2 {
+    display: flex;
+    gap: 1.5%;
+  
+    white-space: nowrap;
+    width: 100%;
+    height: 50vh;
+    transition: 0.7s;
+  
+  }
+  #slider-prod-2 img {
+    width: 24%;
+    -webkit-box-shadow: 2px 10px 6px -6px #777;
+    -moz-box-shadow: 2px 10px 6px -6px #777;
+    box-shadow: 2px 10px 6px -6px #777;
+    object-fit: cover;
+  }
+  #slider-prod-2 img:hover{
+    box-shadow: 0px 18px 18px rgba(31, 29, 29, 0.5);
+}
+
+/* css for product-slider for tr hidden */
+#getto-2{
+    background: url(https://images-static.nykaa.com/uploads/3df01759-af0c-4d81-b2f7-f61577ac3807.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top:46%;
+    content:' ';
+    display:inline-block;
+    position:absolute;
+    left:8px;
+    border:5px;
+    cursor:pointer;
+    z-index: 7;
+}
+#left-2 {
+    background: url(https://images-static.nykaa.com/uploads/45d5a7b6-86eb-4850-9568-4d6ed91731fe.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top: 46%;
+    content:'';
+    display:inline-block;
+    position:absolute;
+    right:8px;
+    border:5px ;
+    cursor:pointer;
+    z-index:7;
+    
+    
+  }
+  /* hidden gems */
+  #getto-1{
+    background: url(https://images-static.nykaa.com/uploads/3df01759-af0c-4d81-b2f7-f61577ac3807.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top:45%;
+    content:' ';
+    display:inline-block;
+    position:absolute;
+    left:8px;
+    border:5px;
+    cursor:pointer;
+    z-index: 7;
+}
+#left-1 {
+    background: url(https://images-static.nykaa.com/uploads/45d5a7b6-86eb-4850-9568-4d6ed91731fe.svg);
+    background-repeat:no-repeat;
+    transform:initial;
+    height:56px;
+    width:56px;
+    top: 45%;
+    content:'';
+    display:inline-block;
+    position:absolute;
+    right:8px;
+    border:5px ;
+    cursor:pointer;
+    z-index:7;
+    
+    
+  }
+  #slider-prodone {
+    display: flex;
+    gap: 1.5%;
+   
+    white-space: nowrap;
+    width: 100%;
+    height: 35vh;
+    transition: 0.2s;
+  
+  }
+  #slider-prodone img {
+    width: 40%;
+    -webkit-box-shadow: 2px 10px 6px -6px #777;
+    -moz-box-shadow: 2px 10px 6px -6px #777;
+         box-shadow: 2px 10px 6px -6px #777;
+    object-fit: cover;
+  }
+  .mid-img-foctop{
+    width: 70%;
+    
+   
+    margin-top: 110px;
+    transform: translateX(20%);
+  }
+  .mid-img-foctop:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);  
+  }
+  .mid-img-foctop img
+  {
+    max-width: 100%; 
+  }
+  .bestsellerblw{
+    display: grid;
+    width: 70%;
+    
+    transform: translateX(20%);
+   
+    grid-template-columns: repeat(2,49.5%);
+    gap: 1.3%;
+    margin-top: 0px;
+}
+.mid-img-focblw{
+    width: 70%;
+    
+   
+    margin-top: 20px;
+    transform: translateX(20%); 
+}
+.mid-img-focblw:hover{
+    box-shadow: 0px 0px 18px rgba(31, 29, 29, 0.5);  
+  }
+  .mid-img-focblw img
+  {
+    max-width: 100%; 
+  }

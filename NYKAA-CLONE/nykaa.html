@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        
+        body {
+            background-color: #F3F3F3;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-family: sans-serif;
+
+        }
+
+        .main-div {
+            margin: 64px 302px;
+            background-color: white;
+            height: 560px;
+            width: 300px;
+            border-radius: 3% 3% 0 0;
+            outline: 1px solid #c9c8c8;
+            padding: 0 30px 37px;
+        }
+
+        .mid_part {
+            margin-right: 30 px;
+            margin-left: 30 px;
+            padding: 0 32 px;
+        }
+
+        #close_btn_div {
+            /* position: relative ; */
+            display: flex;
+            padding: 5px;
+            padding-top: 20px;
+        }
+
+        .close-btn {
+            display: flex;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            padding: 0%;
+        }
+
+        #email {
+            background-color: #FC2779;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 3px;
+            border: none;
+            margin: 0 0 16px;
+        }
+
+        ::placeholder {
+            color: white;
+            opacity: 1;
+        }
+
+        #para {
+            font: 14px/1.42857 Source Sans Pro, sans-serif;
+            box-sizing: border-box;
+            margin: 0 0 10px;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: .28px;
+            color: #001325;
+            opacity: .92;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 19, 37, .16);
+        }
+
+        #register_para {
+
+            font: 14px/1.42857 Source Sans Pro, sans-serif;
+            box-sizing: border-box;
+            margin: 0 0 10px;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: .28px;
+            color: #001325;
+            opacity: .92;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        #sign_in {
+            font-size: 36px;
+            font-weight: 600;
+            text-align: left;
+            text-transform: none;
+            color: #000f1d;
+            opacity: .92;
+            margin:10px 0;
+            font:Source Sans Pro,sans-serif;
+        }
+        .google{
+            outline:1px solid rgb(223, 219, 219);
+            height:40px;
+            width: 100%;
+            border-radius: 3px;
+            padding:2px 0 ;
+        }
+        .login-note{
+            opacity:.64;
+            font-size: 14px;
+            margin-top:20px;
+        }
+        a{
+            color:black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <div id="close_btn_div">
+            <button type="button" class="close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" >
+                    <title>back/close</title>
+                    <path fill="#3F414D"
+                        d="M1.319 0L0 1.319 6.681 8 0 14.681 1.319 16 8 9.319 14.681 16 16 14.681 9.319 8 16 1.319 14.681 0 8 6.681z">
+                    </path>
+                </svg></button>
+        </div>
+
+        <div class="mid_part">
+            <h2 id="sign_in">Sign in</h2>
+            <h3 id="para">To quickly find your favourites items, saved addresses and payments.</h3>
+
+
+            <h3 id="register_para">
+                Register and earn 2000 reward points
+            </h3>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="296" height="160">
+                <title>gift box</title>
+                <g fill="none" fill-rule="evenodd">
+                    <ellipse cx="148" cy="155.5" fill="#FFF6FA" fill-rule="nonzero" rx="148" ry="4">
+
+                    </ellipse>
+                    <rect width="133" height="133" x="82" y="23" fill="#FFF6FA" fill-rule="nonzero" rx="66.5">
+                    </rect>
+                    <path fill="#FF4A90" fill-rule="nonzero" d="M112 82h73v74h-73z"></path>
+                    <path d="M112 82h73v74h-73z"></path>
+                    <path stroke="#C50060" stroke-width="3.83"
+                        d="M148.2 155.5V82.57s-29.33-22.33-23.41-31.26c10.65-16 23.4 31.26 23.4 31.26s15.18-32.62 20.87-34.12c14.13-3.75 4.57 20.57-20.56 33.55">
+                    </path>
+                    <path fill="#E80071" fill-rule="nonzero" d="M163 91h13v6h-13z"></path>
+                    <path stroke="#C50060" stroke-linecap="square" stroke-width="3.5" d="M114.17 115.78h68.6">
+                    </path>
+                    <circle cx="63" cy="31.71" r="7" fill="#E80071" fill-rule="nonzero"></circle>
+                    <circle cx="232" cy="14.71" r="7" fill="#92E7E0" fill-rule="nonzero"></circle>
+                    <path fill="#194476" fill-rule="nonzero" d="M149.92.71l7.79 7.81-7.79 7.81-7.78-7.8z"></path>
+                    <g fill-rule="nonzero">
+                        <path fill="#E80071" d="M205 100v22h9v-17.34z"></path>
+                        <path fill="#001325" d="M203 120h13v29.5a6.5 6.5 0 11-13 0 NaNvNaNz"></path>
+                    </g>
+                    <circle cx="218" cy="68.72" r="5" stroke="#001325"></circle>
+                    <circle cx="12" cy="58.72" r="5" stroke="#001325"></circle>
+                    <path fill="#3063A0" fill-rule="nonzero" d="M24 112h59v44H24z"></path>
+                    <path stroke="#194476" stroke-width="3"
+                        d="M41.67 156v-44.03S19.9 97.32 29.4 97.32c9.5 0 12.27 10.21 12.27 10.21s6.67-15.56 12.44-13.3c5.78 2.25-18.56 24.14-18.56 24.14">
+                    </path>
+                    <path stroke="#194476" stroke-linecap="square" stroke-width="3" d="M25.61 141.78H81.6"></path>
+                    <path fill="#194476" fill-rule="nonzero" d="M55 120h13v6H55z"></path>
+                    <g>
+                        <path fill="#92E7E0" fill-rule="nonzero" d="M230 115h59v41h-59z"></path>
+                        <path stroke="#59B7B7" stroke-linecap="square" stroke-width="3" d="M231.5 141.78h56.02">
+                        </path>
+                        <path stroke="#59B7B7" stroke-width="3"
+                            d="M259.68 156v-43.3S237.9 98.28 247.4 98.28s12.28 10.04 12.28 10.04 6.66-15.32 12.43-13.1c5.78 2.22-18.55 23.74-18.55 23.74">
+                        </path>
+                        <path fill="#59B7B7" fill-rule="nonzero" d="M268 120h13v6h-13z"></path>
+                    </g>
+                </g>
+            </svg>
+            <br>
+            <br>
+
+            <div class="bottom_mid">
+
+                <input type="text" id="email" placeholder="Enter Phone Number or Email" />
+                <div class="google">
+                    <span class="google_button">Google</span>
+                </div>
+                <p class="login-note">
+                By continuing, you agree that you have read and accept our <a href="./terms-conditions" target="_blank">T&amp;Cs</a>
+                &nbsp;and&nbsp;<a href="./privacy-policy" target="_blank">Privacy Policy</a>.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

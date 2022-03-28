@@ -439,6 +439,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.nykaa {
+    background-image: url(assets/nykaa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .quora {
     background-image: url(assets/quora.png);
     background-position: center;

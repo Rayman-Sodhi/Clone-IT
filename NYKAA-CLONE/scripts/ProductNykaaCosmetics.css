@@ -1,0 +1,269 @@
+footer {
+    margin-top: 25rem;
+}
+body {
+    background-color: #F3F3F3;
+}
+
+.NAV-HOME-PRO {
+    margin-top: 11rem;
+    margin-bottom: 2rem;
+    margin-left: 12%;
+}
+.NAV-HOME-PRO > a {
+    color: gray;
+    font-size: 14px;
+}
+.CollectionSlideBox {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.MYSlides {
+    display: none;
+}
+
+.slideShows-container{
+    position: relative;
+}
+
+.Prev, .Next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 18px 20px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+  .Next {
+    right: 1%;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .Prev {
+      left: 1%;
+      background-color: white;
+    border-radius: 50%;
+  }
+
+  .indicator {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgb(228, 199, 203);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .indicator:hover {
+    background-color: #fc2779;
+  }
+  .indi-container{
+      text-align: center;
+  }
+  .AfterSlideBox{
+      display: grid;
+      grid-template-columns: 60% 40%;
+  }
+  .AftertextBox {
+      background-color: #CACACA;
+      padding:4rem 2rem;
+  }
+  .AftertextBox > p:nth-child(1) {
+      font-size: 25px;
+      font-weight: 400;
+      color: rgb(65, 64, 64);
+  }
+  .AftertextBox > p:nth-child(2) {
+      font-size: 14px;
+      margin:3rem 3rem;
+      text-align: left;
+      margin-bottom: 0rem;
+  }
+  .AftertextBox > a {
+      color: #fc2779;
+      font-weight: 500;
+      font-size: 14px;
+  }
+
+  
+  .All-Products-text{
+      text-align: center;
+      margin: 1rem 0;
+  }
+
+
+  .NykaaCosmeticsContainer{
+      width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 22%  78%;
+      grid-gap: 2%;
+  }
+
+  .SortPopularityBox{
+      background-color: #fff;
+      display: grid;
+      grid-template-columns: 90% 10%;
+      font-size: 14px;
+      padding:0rem 0.8rem;
+      border-radius: 5px;
+      padding-top: 0.4rem;
+      padding-bottom: 0;
+  }
+  .ARROWCOM{
+      color: #fc2779;
+      font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .UpArrows{
+      display: none;
+  }
+
+
+  .OptionsForSortBy{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-top: 0.4rem;
+    padding-bottom: 0;
+    display: none;
+
+  }
+  .SortByCircles{
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      border: 1px solid grey;
+      float: right;
+    cursor: pointer;
+
+  }
+  .SORTPOPULARITY {
+      background-color: #fc3a84;
+  }
+  .FilterFunctions-Box{
+      margin-top: 1rem;
+      padding:0.8rem;
+      background-color: #fff;
+  }
+
+
+  .Categery{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+  }
+
+  .Cat-UpArrow {
+      display: none;
+      background-color: rgb(105, 102, 102);
+      color: white;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+  .CatArrow{
+      font-size: 18px;
+      margin-right: 0.8rem;
+  }
+  .CATMAKEUP{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-size: 14px;
+  }
+  .Makeup-resul {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin-left: 5%;
+    display: none;
+  }
+  .Makeup-resul > span {
+      margin-left: 95%;
+  }
+  .Makeup-resul > p {
+      font-size: 12px;
+  }
+
+  .multiple {
+      display: none;
+  }
+
+
+
+  /* products container */
+
+  .NykaaCosProducts-Container{
+      display: grid;
+      grid-template-columns: repeat(3, 32%);
+      grid-gap: 2%;
+  }
+  .main__div {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .prod_box {
+    text-align: center;
+    font-size: 14px;
+    padding: 1.5rem;
+    padding-bottom: 40px;
+    line-height: 15px;
+  }
+  .prod_box > img {
+      height:60%;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .starating {
+      font-size: 16px;
+  }
+  .btn_div {
+    display: grid;
+    grid-template-columns: 22% 78%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+  .wish_btn {
+      font-size: 22px;
+      padding: 5px;
+      border: none;
+      outline: none;
+      background-color: #fff;
+      color: #fc2779;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .cart_btn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      padding: 5px;
+      background-color:#fc2779;
+      color: #fff;
+  }
+  .main__div:hover .btn_div {
+      display: grid;
+  }
+  .mrp-text {
+      color:lightgrey;
+      font-weight: 400;
+  }

@@ -1,0 +1,312 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: #F3F3F3;
+        }
+      */
+
+        #foo_one{
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            /* justify-content: space-evenly; */
+            background-color:#3F414D;
+            width: 100%;
+            padding: 2.5rem 0;
+        }
+        /* ============================================== */
+        /* Footer Get Special Discount Section CSS */
+        /* ============================================== */
+
+        #foo_one div#foo_email{
+            /* border:1px solid green; */
+            color: white;
+            padding:0 1.87rem;
+            line-height: 1.25rem;
+            font-size: 0.87rem;
+            /*  */
+            margin: 0 4rem 0 8rem;
+        }
+
+        #foo_one #foo_email p{
+            line-height: 2rem;
+            font-weight: 500;
+        }
+
+        #foo_email p i{
+            font-size: 1.5rem;
+        }
+
+        i{
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+            vertical-align: middle;
+        }
+
+        #foo_email form{
+            /* border: 1px solid linen; */
+            height: 3rem;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        #foo_email form input[type="email"]{
+            background-color: #3F414D;
+            outline: none;
+            border: 1px solid #3F414D;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+            width: 13.5rem;
+            height: 80%;
+            border-bottom: 1.5px solid white;
+            caret-color: white;
+            color: white;
+        }
+
+        #foo_email form input[type="email"]::placeholder{
+            color: white;
+        }
+
+        #foo_email form button{
+            color: white;
+            background-color: #3F414D;
+            outline: none;
+            border: 1px solid white;
+            border-radius: 0.3rem;
+            height: 90%;
+            padding: 0 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* ============================================== */
+        /* Footer Experience Nykaa Mobile App Section CSS */
+        /* ============================================== */
+
+        #foo_experience{
+            /* border: 1px solid white; */
+            font-size:0.87rem;
+            color: white;
+            padding: 0 1.87rem;
+            line-height: 1.25rem;
+            font-size: 0.87rem;
+            /*  */
+            margin: 0 4rem 0 0;
+        }
+
+        #foo_experience div#icon_wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 2rem;
+
+        }
+
+        #foo_experience div#svg_wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 3rem;
+        }
+
+        #icon_wrapper p{
+            font-weight: 500;
+            vertical-align: middle;
+        }
+        #foot--mobile{
+            vertical-align: middle;
+        
+        }
+        #foot--expe{
+            vertical-align: middle;
+        }
+
+        #foo_experience div#svg_wrapper a{
+            margin-top: 1rem;
+        }
+
+        #foo_experience div#svg_wrapper a:nth-child(2){
+            margin-right: -0.4rem;
+        }
+
+        /* ============================================== */
+        /* Footer Contact Section CSS */
+        /* ============================================== */
+
+        #foo_contact{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid; */
+            font-size: 0.87rem;
+        }
+
+        #foo_contact #icon{
+            font-size:1.5rem;
+        }
+
+        #foo_contact #text_container{
+            height: 5rem;
+        }
+
+        #foo_contact #text_container p:nth-child(1){
+            margin-bottom: 1rem;
+        }
+
+        /* ============================================== */
+        /* Footer Menu Section CSS */
+        /* ============================================== */
+
+        #foo_menu{
+            width: 100%;
+            padding: 2.81rem 0 1.87rem 0;
+            display: flex;
+            justify-content: center;
+            background-color:#8C8D94;
+        }
+
+        .foo_menu_container{
+            width: 17%;
+            /* border: 1px solid; */
+            padding: 0.625rem;
+        }
+
+        .foo_menu_container a{
+            text-decoration: none;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .foo_menu_container a:hover{
+            color: #FC2779;
+            transition: all 0.2s ease-in-out;
+        }
+
+        #foo_menu .foo_menu_container:nth-child(1) img{
+            width: 4.5rem;
+        }
+
+        #foo_menu .foo_menu_container ul{
+            list-style: none;
+        }
+
+        #foo_menu .foo_menu_container ul li:first-child{
+            margin-bottom: 1rem;
+            color: white;
+            font-size: 1rem;
+        }
+
+        #foo_menu .foo_menu_container ul li{
+            /* padding: 0.2rem 0; */
+            padding: 0 0 0.4rem 0;
+            font-size: 0.87rem;
+            color: white;
+        }
+
+        /* ============================================== */
+        /* Footer Social Section CSS */
+        /* ============================================== */
+
+        #foo_social{
+            /* border: 1px solid; */
+            padding: 2.5rem 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #foo_social > div{
+            padding: 20px 0 0 10px;
+            margin-top: 9px ;
+        }
+
+        #foo_social #foo_social_prod_icons{
+            display: flex;
+            justify-content:space-between;
+            width: 63%;
+        }
+
+        #foo_social_prod_icons .product_guideline{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+            width: 23%;
+        }
+
+        #foo_social_prod_icons .product_guideline .icon_wrapper{
+            margin-right: 1rem;
+        }
+
+        #foo_social_prod_icons .product_guideline .text_wrapper{
+            padding: 0.4rem 0 0 0;
+        }
+
+        #foo_social_prod_icons .product_guideline .text_wrapper .prod_heading{
+            border-bottom: 1px solid #dadada;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        #foo_social_icons_heading h2{
+            line-height:0.875rem;
+            font-size: 0.875rem;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .prod_heading h3{
+            font-size: 1rem;
+            font-weight: 600;
+            color: #3f3f51;
+        }
+
+        .text_content p{
+            font-size: 0.97rem;
+            line-height: 1.2rem;
+        }
+        #foo_social_icons ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1rem;
+        }
+
+        /* ============================================== */
+        /* Footer Last Section CSS */
+        /* ============================================== */
+
+        #foo_last{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #FC2779;
+            color: white;
+        }
+
+        #foo_last div:nth-child(1){
+            padding: 1rem 0 1.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid; */
+            width: 35%;
+        }
+
+        #foo_last div:nth-child(1) a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.875rem;
+            line-height:0.875rem;
+        }
+
+        #foo_last div:nth-child(2){
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+            padding: 0 0 0.2rem 0;
+        }
