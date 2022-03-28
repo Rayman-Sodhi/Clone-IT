@@ -1,0 +1,1081 @@
+#topbanner {
+    width: 1350px;
+    height: 45px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#logo {
+    margin-left: 145px;
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 100px;
+    float: left;
+}
+.topbarSection {
+    float: left;
+    border-left: 1px #cccccc solid;
+    height: 45px;
+}
+.topbarSection a {
+    text-decoration: none;
+    color: black;
+}
+#signinImage {
+    margin: 8px;
+    float: left;
+}
+#signinText {
+    font-weight: bold;
+    font-size: 95%;
+    position: relative;
+    top: 15px;
+    padding-right: 50px;
+}
+.topbarMenu {
+    font-weight: bold;
+    font-size: 95%;
+    padding: 15px;
+    height: 15px;
+    float: left;
+}
+.topbarMenuMore {
+    font-weight: bold;
+    font-size: 95%;
+    padding: 10px;
+    height: 25px;
+    float: left;
+}
+#moreArrow {
+    margin-left: 5px;
+}
+#searchBar {
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px;
+    margin: 9px 0 9px 9px;
+    float: left;
+}
+#searchIcon {
+    width: 20px;
+    background-color: #E4E4E4;
+    margin: 9px 9px 9px 0;
+    padding: 2px;
+}
+.clear {
+    clear: both;
+}
+.menuBarContainer {
+    width: 1350;
+    height: 60px;
+    background-color: #BB1919;
+    border-top: 1px #cccccc solid;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: normal;
+    margin-left: 145px;
+    padding-top: 10px;
+}
+.menuBarContainer2 {
+    width: 1350px;
+    height: 42px;
+    background-color: #A91717;
+}
+.container2 {
+    float: left;
+    border-left: 1px solid #BB4545;
+    height: 25px;
+    padding-left: 10px;
+}
+.container2menu {
+    margin: 10px 10px 0 10px;
+    
+}
+.container2menu a {
+    text-decoration: none;
+    color: white;
+}
+.home {
+    float: left;
+    height: 25px;
+    border-left: none;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+#con2more {
+    margin-left: 5px;
+    position: relative;
+    top: -8px;
+    float: right;
+}
+#pageContainer {
+    width: 1300px;
+    margin: 0 auto;
+}
+#mainArticle {
+    width: 700px;
+    float: left;
+    padding-right: 20px;
+}
+#mainArticleHr {
+    width: 600px;
+    margin-top: 3px;
+    margin-left: 118px;
+    margin-bottom: 3px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+}
+
+h2 {
+    margin-left: 120px;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 3px solid #a91717;
+    width: 105px;
+}
+h1 a {
+    color: black;
+    text-decoration: none;
+    margin-left: -23px;
+    float: left;
+}
+h1 a:hover {
+    color: #1167A8;
+}
+#articleSummary {
+    color: #5a5a5a;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-right: 17px;
+    width: 260px;
+    float: left;
+    font-size: 15px;
+}
+#articleSummary img {
+    height: 27px;
+    position: relative;
+    top: 7px;
+}
+#articleSummary a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+#articleLink {
+    color: #a91717;
+}
+#articleLink a:hover {
+    color: #1167A8;
+}
+#articleImage img {
+    width: 300;
+    height: 190;
+}
+#articleHr {
+    width: 46px;
+    margin-left: 0px;
+    background-color: #a91717;
+    height: 1px;
+    border: none;
+}
+#moreLink a:hover {
+    color: #1167A8;
+}
+.moreLinkC {
+    margin-top: -6px;
+}
+#rightFlow {               
+    border-left: 1px solid #cccccc;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+}
+#rightFlow h3{
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 30px;
+}
+.sliderPic {
+    float: left;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.sliderTitle {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.sliderTimer {
+    position: relative;
+    top: -15px;
+}
+.sliderDate {
+    text-decoration: none;
+    font-size: 12px;
+    color: #5a5a5a;
+    position: relative;
+    top: -20px;
+    
+}
+.slider a:hover {
+    color: #1167ab;
+}
+#sub3 {
+    float: left;
+    width: 700px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.subThree {
+    float: left;
+    width: 182px;
+    border-right: 1px solid #DBDBDB;
+    padding-right: 10px;
+}
+.subThreeExtra {
+    float: left;
+    width: 182px;
+    margin-left: 12px;
+}
+.subImage img {
+    width: 180px;
+}
+.subTitle {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.subThree a:hover {
+    color:  #1167A8;
+}
+.subPara {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 14px;
+    float: left;
+}
+.subTimer {
+    float: left;
+    margin-top: 5px;
+}
+.subDate {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 12px;
+    float: left;
+    margin-top: 9px;
+}
+#subArticleHr {
+    width: 46px;
+    background-color: #a91717;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: -20px;
+}
+.subEnd {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.portion {
+    text-decoration: none;
+    color: black;
+}
+#portion1 {
+    float: left;
+    margin-top: -18px;
+}
+#portion2 {
+    float: left;
+    margin-top: -8px;
+}
+#portion3 {
+    float: left;
+    margin-top: -8px;
+}
+.endTimer {
+    float: left;
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+.endDate {
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -8px;
+    color: #5a5a5a;
+}
+#endHr {
+    width: 169px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+}
+.anotherPortion a:hover {
+    color: #1167A8;
+}
+#endHr2 {
+    width: 590px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#moreHeading {
+    float: left;
+    margin-left: 120px;
+}
+#moreHeadingLeft {
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+}
+#moreHeadingRight {
+    width: 287px;
+    float: right;
+    margin-left: 13px;    
+}
+.moreHeadingLink {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    float: left;
+}
+.moreHeadingLink2 {
+    text-decoration: none;
+    float: left;
+    color: #5a5a5a;
+    font-size: 13px;
+    margin-top: -16px;
+    margin-left: 25px;
+}
+#moreHeadingTimer {
+    margin-top: -20px;
+    float: left;
+}
+#moreHeading a:hover {
+    color: #1167A8;
+}
+#moreHeadingLeftHr {
+    width: 285px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-top: 10px;
+}
+#shareWithBBC {
+    margin-left: 30px;
+    float: left;
+}
+#shareWithBBC h3 {
+    margin-left: 0px;
+}
+#shareWithBBC a {
+    text-decoration: none;
+    color: black;
+}
+#shareWithBBC a:hover {
+    color: #1167A8;
+}
+#shareWithBBC img {
+    float: left;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.shareWithBBCBold {
+    font-weight: bold;
+}
+#followUs {
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+}
+#followUsPara {
+    color: black;
+    font-size: 20px;
+}
+#facebook {
+   float: left;
+   width: 150px;
+   height: 20px;
+   background: #f7f7f7;
+   margin-right: 6px;
+   margin-bottom: 20px;
+   padding: 12px;
+   border-bottom: 4px solid #3C5A98;
+}
+.ftLink a {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    left: 45px;
+    color: black;
+}
+.ftLink a:hover {
+    color: #1167ab;
+}
+#twitter {
+    float: left;
+    width: 150px;
+    height: 20px;
+    background: #f7f7f7;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-bottom: 4px solid #47C7FA;
+}
+#rss {
+    float: left;
+    width: 340px;
+    height: 20px;
+    background: #f7f7f7;
+    padding: 10px;
+    border-bottom: 4px solid black;
+}
+#rss a {
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 130px;
+    color: black;
+}
+#rss a:hover {
+    color: #1167ab;
+}
+#handsOn {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#handsOnTitle {
+    font-size: 25px;
+}
+.handsOnClass {
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+}
+.handsOnClass img {
+    width: 140px;
+    height: 80px;
+}
+.handsOnClass a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.handsOnClass a:hover {
+    color: #1167ab;
+}
+#also {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+    margin-bottom: -50px;
+}
+#alsoTitle {
+    font-size: 25px;
+}
+.alsoClass {
+    width: 305px;
+    float: left;
+}
+.alsoClass a {
+    text-decoration: none;
+    color: black;
+}
+.alsoImg {
+    float: left;
+}
+.alsoClass1 {
+    margin-right: 20px;
+}
+.alsoPara {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 7px;
+}
+.alsoTimer {
+    position: relative;
+    top: -12px;
+    left: 3px;
+}
+.alsoDes {
+    font-size: 13px;
+    float: right;
+    position: relative;
+    top: -57px;
+    left: -24px;
+    color: #5a5a5a;
+}
+.alsoClass a:hover {
+    color: #1167A8;
+}
+#features {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#featuresTitle {
+    font-size: 25px;
+}
+.featuresClass {
+    float: left;
+    width: 200px;
+    height: 230px;
+    margin-right: 20px;
+}
+.ftitle a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+.fsubTitle {
+    text-decoration: none;
+    color: #5a5a5a;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+    float: left;
+}
+.ftimer img {
+    position: relative;
+    left: -3px;
+    top: 25px;
+    float: left;
+}
+.fdes {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+    position: relative;
+    top: 29px;
+    left: 0px;
+    float: left;
+}
+.fimg img {
+    width: 200px;
+}
+.fcat a{
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    left: 3px;
+    color: #A91717;
+}
+.ftitle a:hover {
+    color: #1167A8;
+}
+.fcat a:hover {
+    color: #1167A8;
+}
+.ftimerE img {
+    position: relative;
+    left: -3px;
+    top: 35px;
+    float: left;
+}
+.fdesE {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+    position: relative;
+    top: 39px;
+    left: 0px;
+    float: left;
+}
+.fcatE a{
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top: 39px;
+    left: 3px;
+    color: #A91717;
+}
+.fcatE a:hover {
+    color: #1167A8;
+}
+#ourExperts {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+}
+#expertsTitle {
+    font-size: 25px;
+}
+#endHr3 {
+    width: 640px;
+    background-color: #DBDBDB;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#ourExperts {
+    margin-bottom: -15px;
+}
+.expertsDiv {
+    float: left;
+    width: 640px;
+    height: 120px;
+    background: #EDEDED;
+    margin-bottom: 15px;
+}
+.insider {
+    margin: 15px;
+}
+.insider a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.insider a:hover {
+    color: #1167ab;
+}
+.insider p {
+    font-size: 15px;
+    margin-top: 7px;
+    color: #5a5a5a;
+}
+.timerE img{
+    position: relative;
+    top: -9px;
+}
+.dateE {
+    position: relative;
+    top: -14px;
+    left: 2px;
+}
+#anotherDiv {
+    float: left;
+    margin-bottom: 30px;
+}
+#anotherDiv a {
+    text-decoration: none;
+}
+.expertName a {
+    color: #BB4545;
+    margin-left: 25px;
+}
+.expertName a:hover {
+    color: #1167A8;
+}
+.expertDis a {
+    color: #5a5a5a;
+}
+.exImg {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: -111px;
+}
+.exImg2 {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: -107px;
+}
+.angle {
+    position: relative;
+    top: -17px;
+}
+#technologyWorld {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+}
+#techHeader a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#techHeader a:hover {
+    color: #1167A8;
+}
+.techWorldDiv {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+}
+.techWorldDivE {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+}
+.techWorldDivImg img {
+    width: 205px;
+}
+.techWorldDivTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 5px 10px 10px;
+    float: left;
+}
+.techWorldDivTitle a:hover {
+    color: #1167ab;
+}
+.techWorldDivTimer img {
+    margin-left: 8px;
+    float: left;
+}
+.techWorldDivDate {
+    text-decoration: none;
+    font-size: 15px;
+    color: #5a5a5a;
+    float: left;
+    margin: 2px 0px 0px 5px;
+}
+.techWorldDivCat {
+    color: #dcdcdc;
+    float: left;
+    margin-left: -14px;
+    margin-top: 5px;
+}
+.techWorldDivCat a {
+    text-decoration: none;
+    color: #A91717;
+    font-size: 15px;
+}
+.techWorldDivCat a:hover {
+    color: #1167A8;
+}
+#specialReports {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+}
+#srHeading {
+    font-size: 22px;
+    color: #404040;
+}
+#srImg img {
+    width: 405px;
+}
+#srDivLeft {
+    float: left;
+    width: 200px;
+    margin-right: 27px;
+}
+#srDivRight {
+    float: left;
+    width: 400px;
+}
+#srLink a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    float: left;
+    margin-top: -19px;
+}
+#srLink a:hover {
+    color: #1167ab;
+}
+#srPara {
+    font-size: 17px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+#srPara p {
+    margin-top: 38px;
+}
+#srTimer {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 13px;
+    margin-left: -4px;
+}
+#srDate {
+    position: relative;
+    top: -5px;
+}
+.srDiv {
+    margin-top: 15px;
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+}
+.srDivE {
+    margin-top: 15px;
+    width: 205px;
+    float: left;
+}
+.srDivTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 5px 10px 0px;
+}
+#bbcFuture {
+    margin-left: 120px;
+    width: 700px;
+    float: left;
+}
+#futureHeading {
+    font-size: 25px;
+}
+.bbcDiv {
+    float: left;
+    width: 315px;
+    margin-right: 10px;
+}
+.futureImg img {
+    width: 315px;
+}
+.futureP a {
+    text-decoration: none;
+    color: black;
+    font-size: 15.8px;
+}
+.futureP {
+    margin-bottom: -10px;
+}
+.futureP a:hover {
+    color: #1167A8;
+}
+.futureP2 a {
+    color: #5a5a5a;
+    text-decoration: none;
+    font-size: 14px;
+}
+#lastSection {
+    margin-left: 145px;
+    width: 1050px;
+    float: left;
+}
+#podcastHeading {
+    font-size: 22px;
+}
+#podcast {
+    width: 1050px;
+}
+#podcastLeft {
+    background: #151212;
+    width: 600px;
+    height: 420px;
+    float: left;
+}
+#podcastLeftImg {
+    width: 580px;
+    margin: 10px;
+    height: 350px;
+}
+#podcastRight {
+    width: 450px;
+    background: #1F1F1F;
+    height: 420px;
+    float: left;
+}
+#podcastCamera {
+    width: 50px;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+#podcastLeftHeading {
+    margin-top: -90px;
+    margin-left: 60px;
+    font-size: 25px;   
+}
+#podcastLeftHeading a {
+    text-decoration: none;
+    color: white;
+}
+#podcastLeftHeading a:hover {
+    text-decoration: underline;
+}
+#podcastLeftP {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: -15px;
+}
+.podcastRightOne {
+    width: 210px;
+    margin: 7px 0px 3px 12px;
+    float: left;
+}
+.podcastRightOne a {
+    text-decoration: none;
+    color: white;
+}
+.podcastRightOne img {
+    width: 200px;
+}
+.podcastRHeading {
+    font-size: 15.5px;
+}
+.podcastRHeading a:hover {
+    text-decoration: underline;
+}
+.podcastRSub {
+    font-size: 13px;
+    margin-top: -10px;
+}
+.podcastRSub a {
+    color: #BDBDBD;
+}
+#moreBBCHeading {
+    font-size: 24px;
+}
+.moreBBCDivF {
+    float: left;
+    background-color: #EDEDED;
+    width: 247px;
+    margin-right: 20px;
+    margin-bottom: 17px;
+}
+.moreBBCDivF2 {
+    margin-right: 0px;
+}
+.moreBBCDivFHeading a {
+    color: red;
+    text-decoration: none;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.moreBBCDivFHeading a:hover {
+    color: #1167A8;
+}
+.moreBBCDivFHr {
+    margin: -10px 0px 0px 7px;
+    width: 45px;
+    height: 1px;
+    background-color: red;
+    border: none;
+}
+.moreBBCDivFTitle  {
+    margin: 10px 0px 7px 7px;
+}
+.moreBBCDivFTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.moreBBCDivFTitle a:hover {
+    color: #1167A8;
+}
+.moreBBCDivF img {
+    width: 247px;
+}
+#BBCServices {
+    width: 1350px;
+    background-color: #2F2F2F;
+    float: left;
+}
+.BBCServices2 {
+    margin: 10px 0px 10px 145px;
+}
+#BBCServicesHeading {
+    color: white;
+    font-size: 22px;
+}
+.BBCSer {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 105px;
+}
+.BBCSer img {
+    float: left;
+    margin-right: 5px;
+}
+.BBCSer a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin-top: 6px;
+}
+.BBCSer a:hover {
+    text-decoration: underline;
+}
+#explore {
+    width: 1350px;
+    background-color: #4C4C4C;
+    float: left;
+    border-top: 1px solid #949494;
+    
+}
+.explore2 {
+    margin: 10px 0px 10px 145px;
+}
+#exploreHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.explore3 {
+    margin: 10px 0px 10px 145px;
+    float: left;
+}
+.explore3 a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+.explore3 a:hover {
+    text-decoration: underline;
+}
+.explore4 {
+    border-left: 1px solid #949494;
+    margin-left: 110px;
+    
+}
+.explore4 a {
+    margin-left: 20px;
+}
+#xHr {
+    width: 1050px;
+    height: 1px;
+    border: 0px;
+    float: left;
+    margin-left: 145px;
+    background-color: #949494;
+}
+#fotter {
+    float: left;
+    margin-left: 145px;
+    margin-top: 0px;
+}
+#fotter p a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 22px;
+}
+#fotter p {
+    color: white;
+    font-size: 14px;
+}
+#fotter p a:hover {
+    text-decoration: underline;
+}
