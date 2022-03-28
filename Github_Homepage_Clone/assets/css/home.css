@@ -38,14 +38,17 @@ background: linear-gradient(90deg, rgba(17,27,51,1) 5%, rgba(17,15,116,1) 87%, r
 .ins{
     display: block;
     width: 40%;
+    position: relative;
     padding-top: 200px; 
     padding-left: 105px;
+      top: -60px;
+
 }
 footer{
   border-top-style: solid;
     border-top-width: 1px;
 border-color: rgb(102, 102, 102);
-
+padding-top: 20px;
     display: flex;
     color: white;
     margin-top: 120px;
@@ -60,8 +63,4 @@ border-color: rgb(102, 102, 102);
 }
 .ff{
     font-size: 12px;
-}
-img{
-    height: 100%;
-    width: 100%;
 }
