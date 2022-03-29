@@ -439,13 +439,6 @@ li {
     background-repeat: no-repeat;
 }
 
-.twitter {
-    background-image: url(assets/twitter.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .discord {
     background-image: url(assets/discord.jpg);
     background-position: center;
@@ -469,6 +462,13 @@ li {
 
 .airbnb {
     background-image: url(assets/airbnb.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mac_os {
+    background-image: url(assets/mac_os.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

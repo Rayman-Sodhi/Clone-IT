@@ -100,6 +100,13 @@ const clones = [
         "href": "https://clonelinktree.netlify.app/"
     },
     {
+        "id": "MAC OS",
+        "name": "Mac OS Clone",
+        "description": "It is the primary operating system for Apple's Mac computers. Within the market of desktop and laptop computers",
+        "class": "mac_os",
+        "href": "https://mrjoy832.github.io/MAC-OS-/"
+    },
+    {
         "id": "MICROSOFT",
         "name": "Microsoft Clone",
         "description": "Microsoft Corporation is a technology company which produces computer software related services",
