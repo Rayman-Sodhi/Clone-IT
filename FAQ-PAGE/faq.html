@@ -29,35 +29,43 @@
       <!-- navbar section start -->
       <div class="navbar d-flex">
         <!-- <a href="/index-clone-it/" class="logo">Clone-<span>IT</span></a> -->
+        
+        <a href="#" class="logo">
         <a href="../index.html" class="logo">
           <img src="../assets/alogo.png" alt="" />
           <span>lone-IT</span>
         </a>
+
         <ul class="nav-links">
-          <li>
+          <li class="nav-item">
             <a href="../index.html"
               ><i class="fa fa-home symbol"></i> <span class="text">Home</span>
             </a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#about"
               ><i class="fa fa-users symbol"></i>
               <span class="text">About</span>
             </a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#projects"
               ><i class="fa fa-laptop symbol"></i>
               <span class="text">Projects</span>
             </a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#connect"
               ><i class="fa fa-address-card symbol"></i>
               <span class="text">Connect</span>
             </a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
       </div>
       <!-- navbar section ends -->
 
@@ -267,6 +275,19 @@
       <!-- footer section ends -->
     </div>
 
+    <!-- for hamburger  -->
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+      }
+
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="./jquery/dist/jquery.slim.min.js"></script>
     <script src="./popper.js/dist/umd/popper.min.js"></script>

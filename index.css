@@ -802,7 +802,7 @@ footer {
         display: inline-block;
         font-size: 1.5rem;
     }
-    .nav-links a .text{display: none;}
+    
     .logo {text-align: center;}
     .navbar {
         flex-direction: column;
