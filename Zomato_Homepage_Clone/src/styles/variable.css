@@ -1,0 +1,22 @@
+#root{
+    --primary-box-shadow: rgb(28 , 28 , 28 / 8%) 0px 2px 0px;
+    --border-white: rgb(232,232,232);
+    --primary-bg: rgb(255,255,255);
+    --zomato-gray:rgb(87, 85, 85);
+    --zomato-red:rgb(250, 90, 90);
+    --grey:grey;
+    --filter-text: #9c9c9c;
+    --secondary-bg: #f8f8f8;
+    --heading-text: #1c1c1c;    
+    --tag-red: #d92662;
+    --tag-blue: #256fef;
+    --tag-green: #24963f;
+    --subtitle-text: #363636;
+    --bg-gradient: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%,
+      rgba(0, 0, 0, 0.05) 85%
+      )
+    --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+}

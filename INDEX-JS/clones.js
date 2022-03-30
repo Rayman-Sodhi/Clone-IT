@@ -9,6 +9,13 @@
 
 const clones = [
     {
+        "id": "AIRBNB",
+        "name": "Airbnb Clone",
+        "description": "Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities",
+        "class": "airbnb",
+        "href": "https://mrjoy832.github.io/AIRBNB/"
+    },
+    {
         "id": "APPLE",
         "name": "Apple Clone",
         "description": "Apple India website is a online official store which sells all the Apple  products including the MacBooks, iPad series, Apple Watch and iPhones. ",
@@ -91,6 +98,13 @@ const clones = [
         "description": "Linktree is the launchpad to your latest video, article, recipe, tour, store, website, social post.",
         "class": "linktree",
         "href": "https://clonelinktree.netlify.app/"
+    },
+    {
+        "id": "MAC OS",
+        "name": "Mac OS Clone",
+        "description": "It is the primary operating system for Apple's Mac computers. Within the market of desktop and laptop computers",
+        "class": "mac_os",
+        "href": "https://mrjoy832.github.io/MAC-OS-/"
     },
     {
         "id": "MICROSOFT",
