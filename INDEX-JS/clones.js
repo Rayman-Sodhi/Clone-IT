@@ -177,6 +177,13 @@ const clones = [
         "href": "https://anveshajain19.github.io/YOUTUBE-CLONE/"
     },
     {
+        "id": "ZOMATO",
+        "name": "Zomato Clone",
+        "description": "Zomato is an Indian multinational restaurant aggregator and food delivery company founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants.",
+        "class": "zomato",
+        "href": "https://zomatoclone-blush.vercel.app/"
+    },
+    {
         "id": "ZOOM",
         "name": "Zoom Clone",
         "description": "Zoom is an American communications technology company used for video chats or meeting.",
