@@ -184,6 +184,13 @@ const clones = [
         "href": "https://sulagna-dutta-roy.github.io/Unsplash-Clone/"
     },
     {
+        "id": "WINDOWS 11",
+        "name": "Windows 11 Clone",
+        "description": "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released in October 2021. It is a free upgrade to its predecessor, Windows 10, on some Windows 10 devices",
+        "class": "windows11",
+        "href": "#"
+    },
+    {
         "id": "YOUTUBE",
         "name": "YouTube Clone",
         "description": "YouTube is an American online video sharing and social media platform owned by Google.",

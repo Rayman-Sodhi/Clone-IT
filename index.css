@@ -509,6 +509,12 @@ li {
     background-repeat: no-repeat;
 }
 
+.windows11 {
+    background-image: url(assets/windows11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .card {
     transition: all .2s ease;
