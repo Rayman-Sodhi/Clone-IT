@@ -502,6 +502,14 @@ li {
     background-repeat: no-repeat;
 }
 
+.microsoft_teams {
+    background-image: url(assets/microsoft-teams.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 .card {
     transition: all .2s ease;
     border:none !important;

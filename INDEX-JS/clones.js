@@ -121,6 +121,13 @@ const clones = [
         "href": "https://19arnab190201.github.io/Microsoft-Clone/"
     },
     {
+        "id": "MICROSOFT TEAMS",
+        "name": "Microsoft Teams Clone",
+        "description": "Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products",
+        "class": "microsoft_teams",
+        "href": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html"
+    },
+    {
         "id": "NETFLIX",
         "name": "Netflix Clone",
         "description": "Netflix is a streaming service that offers a variety of TV shows, movies, anime and more",
