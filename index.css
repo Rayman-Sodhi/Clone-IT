@@ -495,6 +495,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.pluralsight {
+    background-image: url(assets/pluralsight.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;

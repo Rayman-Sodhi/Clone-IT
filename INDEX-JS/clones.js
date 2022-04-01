@@ -128,6 +128,13 @@ const clones = [
         "href": "https://chatifyslack.netlify.app/"
     },
     {
+        "id": "PLURALSIGHT",
+        "name": "Pluralsight Clone",
+        "description": "Pluralsight, Inc. is an American privately held online education company that offers a variety of video training courses for software developers, IT administrators, and creative professionals through its website.",
+        "class": "pluralsight",
+        "href": "https://mrjoy832.github.io/PluralSight_clone/"
+    },
+    {
         "id": "QUORA",
         "name": "Quora Clone",
         "description": "Users can collaborate by editing questions and commenting on answers that have been submitted by other users.",
