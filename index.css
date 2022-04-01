@@ -474,6 +474,48 @@ li {
     background-repeat: no-repeat;
 }
 
+.twozero_foureight {
+    background-image: url(assets/2048.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.unsplash {
+    background-image: url(assets/unsplash.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.zomato {
+    background-image: url(assets/zomato.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pluralsight {
+    background-image: url(assets/pluralsight.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.microsoft_teams {
+    background-image: url(assets/microsoft-teams.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.windows11 {
+    background-image: url(assets/windows11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;
