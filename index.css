@@ -474,6 +474,13 @@ li {
     background-repeat: no-repeat;
 }
 
+.twozero_foureight {
+    background-image: url(assets/2048.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     transition: all .2s ease;
     border:none !important;

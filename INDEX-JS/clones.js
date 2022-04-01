@@ -9,6 +9,13 @@
 
 const clones = [
     {
+        "id": "2048",
+        "name": "2048 Clone",
+        "description": "2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub.",
+        "class": "2048",
+        "href": "https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/"
+    },
+    {
         "id": "AIRBNB",
         "name": "Airbnb Clone",
         "description": "Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities",
