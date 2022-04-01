@@ -163,6 +163,13 @@ const clones = [
         "href": "https://ayushsleeping-teslaclone.netlify.app/"
     },
     {
+        "id": "UNSPLASH",
+        "name": "Unsplash Clone",
+        "description": "Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.",
+        "class": "unsplash",
+        "href": "https://sulagna-dutta-roy.github.io/Unsplash-Clone/"
+    },
+    {
         "id": "YOUTUBE",
         "name": "YouTube Clone",
         "description": "YouTube is an American online video sharing and social media platform owned by Google.",
