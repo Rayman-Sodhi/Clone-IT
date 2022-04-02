@@ -7,9 +7,14 @@
 
 ---
 ## It Look's like:
+![image](https://user-images.githubusercontent.com/77873383/161383734-e6495787-160a-448d-919c-86a12695b220.png)
 
 ---
 
 ## Video Demo=>
+
+
+https://user-images.githubusercontent.com/77873383/161383744-b849c793-9e09-4b03-a9fa-f66c427b1258.mp4
+
 
 ---
