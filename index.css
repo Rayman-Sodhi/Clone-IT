@@ -512,7 +512,7 @@ li {
 .windows11 {
     background-image: url(assets/windows11.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
