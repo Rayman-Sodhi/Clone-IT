@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
     display: none; 
     position: fixed; 
     bottom: 20px;
-    right: 30px; 
+    right: 100em; 
     z-index: 99; 
     background-color: rgba(0, 174, 255, 0.774);
     color: white;
@@ -512,7 +512,7 @@ li {
 .windows11 {
     background-image: url(assets/windows11.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
