@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
     display: none; 
     position: fixed; 
     bottom: 20px;
-    right: 30px; 
+    right: 100em; 
     z-index: 99; 
     background-color: rgba(0, 174, 255, 0.774);
     color: white;
