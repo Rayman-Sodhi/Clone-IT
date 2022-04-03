@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
 }
 @keyframes loading {
     from {
-       transform: translateX(-50%);
+       transform: translateX(50%);
        opacity: 0;
     }
     to {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 #scrollBtn {
     display: none; 
     position: fixed; 
-    bottom: 20px;
+    bottom: 115px;
     right: 100em; 
     z-index: 99; 
     background-color: rgba(0, 174, 255, 0.774);
@@ -726,6 +726,37 @@ footer {
     border: 1px solid var(--light);
 }
 /* footer  section end */
+/* SCROLL TO THE TOP BUTTON */
+#scrollBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position*/
+    bottom: 106px; /*Place the button at the bottom of the page */
+    right: 23px; /*Place the button 30px from the right*/
+    z-index: 100; /*Make sure it does not overlap*/
+    border: none; /*Remove borders*/
+    outline: none; /*Remove outline*/
+    background-color: rgba(0, 174, 255, 0.774); /*Set a background color */
+    color: white; /*Text color */
+    cursor: pointer; /*Add a mouse pointer on hover*/
+    padding: 12px; /*Some padding*/
+    margin: 2px;
+    border-radius: 10px; /*Rounded corners*/
+    font-size: 17px; /*Increase font size*/
+    line-height: 24px;
+    width: fit-content; 
+  }
+  
+#scrollBtn:hover {
+    background-color: rgb(32, 70, 240); /* Add a dark-grey background on hover */
+}
+.scroll-icon{
+    padding: 0; 
+}
+.scroll-name{
+    font-size: var(--smaller-font-size);
+    transform: rotate(-90deg);
+  } 
+
 
 /* media queries */
 @media (max-width:1156px) {

@@ -958,25 +958,36 @@
         </div>
       </footer>
       <!-- footer section ends -->
-    <button onclick="topFunction()" id="scrollBtn" title="Top"> <img class="arrow" src="assets/arrow.png"/> <br> Top</button>
-    <script>
-      scrollButton = document.getElementById("scrollBtn");
+    
+    
+      
+      <!-- <span class="scroll-name">Top</span> -->
+    
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">
+      <i class='bx bx-up-arrow-alt scroll-icon'></i> ↑ <br>Top
+    </button>
+    
 
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          scrollButton.style.display = "block";
-        } else {
-          scrollButton.style.display = "none";
-        }
-      }
-
-      function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      }
-
-    </script>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("scrollBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
   </body>
 </html>
