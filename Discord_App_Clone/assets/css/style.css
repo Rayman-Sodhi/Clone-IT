@@ -281,6 +281,10 @@ svg {
 	border-radius: 8px;
 }
 
+h5 {
+	padding-left: 6px;
+}
+
 @media (min-width: 1100px) {
 	.d-status {
 		display: block;
