@@ -1,39 +1,50 @@
+const functions = require("firebase-functions");
+
+// // Create and Deploy Your First Cloud Functions
+// // https://firebase.google.com/docs/functions/write-firebase-functions
+//
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//  response.send("Hello from Firebase!");
+// });
+
+// set env vars: gcloud functions deploy FUNCTION_NAME --set-env-vars FOO=bar , get env vars : process.env.FOO
+
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-  "sk_test_51HPvU9DFg5koCdLGeOEiFvwHat4v8eMjX6SY0YCwxPBQBUPhKy1fPVhiSM5cQtgW7QBG9ydQcXnW57TDxVE2f3H000HSfmEQZF"
+  process.env.STRIPE_KEY
 );
 
-// API
-
-// - App config
+// - App Config
 const app = express();
 
-// - Middlewares
-app.use(cors({ origin: true }));
+// - Middlrwares
+app.use(cors());
 app.use(express.json());
 
-// - API routes
-app.get("/", (request, response) => response.status(200).send("hello world"));
+// - API Routes
+app.get("/", (req, res) => res.status(200).send("welcome"));
 
-app.post("/payments/create", async (request, response) => {
-  const total = request.query.total;
+app.post("/payments/create/:total", async (req, res) => {
+    
+    if (req.params.total > 0) {
+        // only accept  integer
+    const total = parseFloat(req.params.total).toFixed(0);
+    console.log("Payment request received. Amount ->>>", total);
 
-  console.log("Payment Request Recieved BOOM!!! for this amount >>> ", total);
-
-  const paymentIntent = await stripe.paymentIntents.create({
-    amount: total, // subunits of the currency
-    currency: "usd",
-  });
-
-  // OK - Created
-  response.status(201).send({
-    clientSecret: paymentIntent.client_secret,
-  });
+    const paymentIntent = await stripe.paymentIntents.create({
+      amount: total,
+      currency: "usd",
+    });
+    res.status(201).send({
+      clientSecret: paymentIntent.client_secret,
+    });
+  } else {
+    res.status(201).send({
+        clientSecret: 'no session id',
+      })
+  }
 });
 
-// - Listen command
-exports.api = functions.https.onRequest(app);
-
-// Example endpoint
-// http://localhost:5001/challenge-4b2b2/us-central1/api
+// - Listen Command
+exports.amazonStripeApi = functions.https.onRequest(app);
