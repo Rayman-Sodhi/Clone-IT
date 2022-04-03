@@ -516,11 +516,18 @@ li {
     background-repeat: no-repeat;
 }
 
+.amazon {
+    background-image: url(assets/amazon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
-    transition: all .2s ease;
+    transition: all .3s ease-in;
     border:none !important;
-    height: 190px;
-    width: 190px;
+    height: 200px;
+    width: 200px;
     border-radius: 13px;
     display: grid;
     grid-template-rows:.8fr auto;
@@ -724,6 +731,30 @@ footer {
     transform: scale(1.2);
     background-color: var(--light);
     border: 1px solid var(--light);
+}
+
+#icon1 {
+    color: white;
+}
+
+#icon1:hover  {
+    background-color: #1299F6;
+}
+
+#icon2 {
+    color: white;
+}
+
+#icon2:hover {
+    background-color: #E94969;
+}
+
+#icon3 {
+    color: white;
+}
+
+#icon3:hover {
+    background-color: #1B1F23;
 }
 /* footer  section end */
 
