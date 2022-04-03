@@ -1,22 +1,27 @@
-html{
+html {
 	height: 100%;
 }
-body{
+
+body {
 	min-height: 100%;
 	background-color: #36393F;
 	overflow-x: hidden;
 }
-hr{
+
+hr {
 	height: 2px;
 	border-radius: 1px;
 	background-color: hsla(0, 0%, 100%, 0.3);
 	margin-top: 3px;
 	margin-bottom: 9px;
 }
+
 /* I copied this part */
 *::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* just make scrollbar invisible */
+	width: 0;
+	/* Remove scrollbar space */
+	background: transparent;
+	/* just make scrollbar invisible */
 }
 
 
@@ -24,7 +29,7 @@ hr{
 /*****************/
 /* Guilds Column */
 /*****************/
-.server_col{
+.server_col {
 	flex: 0 0 auto;
 	width: 85px;
 	background-color: #202225;
@@ -35,12 +40,12 @@ hr{
 	overflow-y: scroll;
 }
 
-.discord_server_icon{
+.discord_server_icon {
 	border-radius: 15px !important;
 	padding-bottom: 0 !important;
 }
 
-.server_icon{
+.server_icon {
 	width: 100%;
 	border-radius: 50%;
 	transition: 0.2s ease-in-out;
@@ -49,10 +54,12 @@ hr{
 	background-size: 100% 100%
 }
 
-.server_icon:focus, .server_icon:hover{
+.server_icon:focus,
+.server_icon:hover {
 	border-radius: 10px !important;
 	transition: 0.2s ease-in-out;
 }
+
 /*****************/
 /* Guilds Column */
 /*****************/
@@ -62,7 +69,7 @@ hr{
 /******************/
 /* Friends Column */
 /******************/
-.friends_col{
+.friends_col {
 	flex: 0 0 auto;
 	width: 240px;
 	background-color: #2F3136;
@@ -70,13 +77,15 @@ hr{
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-.search_div{
+
+.search_div {
 	z-index: 2;
 	height: 48px;
-	box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+	box-shadow: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
 	padding: 10px 10px;
 }
-.search_input{
+
+.search_input {
 	width: 100%;
 	background-color: #202225;
 	color: hsla(0, 0%, 100%, 0.3);
@@ -85,17 +94,21 @@ hr{
 	padding: 4px 5px;
 	font-size: small;
 }
-.record{
+
+.record {
 	width: 100%;
 	border-radius: 5px;
 	color: hsla(0, 0%, 100%, 0.3);
 }
-.record:hover, .record:focus{
+
+.record:hover,
+.record:focus {
 	background-color: #34373C;
 	color: #DCDDDE;
 	cursor: pointer;
 }
-.friend{
+
+.friend {
 	display: table-cell;
 	vertical-align: middle;
 	justify-content: center;
@@ -103,10 +116,12 @@ hr{
 	padding: 0 11px;
 	height: 42px;
 }
-svg{
+
+svg {
 	margin-right: 12px;
 }
-.direct_messages{
+
+.direct_messages {
 	height: 42px;
 	padding: 0px 16px;
 	padding-top: 6px;
@@ -115,16 +130,20 @@ svg{
 	font-size: small;
 	font-weight: bold;
 }
-.direct_messages:hover, .direct_messages:focus{
+
+.direct_messages:hover,
+.direct_messages:focus {
 	color: #DCDDDE;
 }
-.background_hover:hover{
+
+.background_hover:hover {
 	background-color: #34373C;
 	color: #DCDDDE;
 	border-radius: 4px;
 	cursor: pointer;
 }
-.friend_card{
+
+.friend_card {
 	height: 42px;
 	padding: 0px 8px;
 	padding-top: 4px;
@@ -132,6 +151,7 @@ svg{
 	color: hsla(0, 0%, 100%, 0.3);
 	font-size: medium;
 }
+
 /******************/
 /* Friends Column */
 /******************/
@@ -141,17 +161,18 @@ svg{
 /*************/
 /* Main Body */
 /*************/
-.main_body{
+.main_body {
 	flex: 0 0 auto;
 	flex-grow: 1;
 	width: auto;
-	color: hsla(0, 0%, 100%, 0.3);
+	color: rgb(186, 184, 184);
 	background-color: transparent;
 	padding: 0 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-.nav_bar{
+
+.nav_bar {
 	display: inline-block;
 	width: 100%;
 	background-color: #202225;
@@ -163,39 +184,63 @@ svg{
 	padding: 4px 8px;
 	font-size: medium;
 }
-.nav_bar_element{
+
+.nav_bar_element {
 	margin-right: 25px;
 	font-size: medium;
 }
-.nav_bar_element_active{
+
+.nav_bar_element_active {
 	background-color: rgba(79, 84, 92, 0.32);
-	color: #DCDDDE;
+	border-radius: 6px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	color: #fff;
 }
-.nav_bar_element:hover{
+
+.nav_bar_element:hover {
 	background-color: rgba(79, 84, 92, 0.32);
+
 	color: #DCDDDE;
+
 }
-.add_friend{
+
+.add_friend {
 	background-color: #3BA55D;
 	color: #fff;
 	margin-right: 25px;
 	font-size: medium;
+	border-radius: 6px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+
 }
-.main_body_input{
+
+.hov:hover {
+	cursor: pointer;
+}
+
+.main_body_input {
 	height: 34px;
 	font-size: 16px;
 	padding-left: 10px;
 	padding-bottom: 8px;
 }
-.online_text{
+
+.online_text {
 	font-size: small;
 	font-weight: bold;
 	margin-top: 18px;
 	color: hsla(0, 0%, 100%, 0.3);
 	padding-left: 10px;
 }
-.msgs_record{
-	border-top:  1px solid hsla(0, 0%, 100%, 0.1);
+
+.msgs_record {
+	border-top: 1px solid hsla(0, 0%, 100%, 0.1);
 	height: 65px;
 	padding-top: 12px;
 	padding-bottom: 18px;
@@ -203,12 +248,14 @@ svg{
 	padding-right: 16px;
 	cursor: pointer;
 }
-.msgs_text{
+
+.msgs_text {
 	font-size: medium;
 	font-weight: bold;
 	color: #efefef;
 }
-.msgs_button{
+
+.msgs_button {
 	display: inline;
 	width: 36px;
 	height: 36px;
@@ -218,20 +265,24 @@ svg{
 	float: right;
 	text-align: center;
 }
-.msgs_button > svg{
+
+.msgs_button>svg {
 	margin-right: 0;
 	margin-top: 6px;
 }
-.msgs_button > svg:hover{
+
+.msgs_button>svg:hover {
 	color: #DCDDDE;
 }
-.msgs_record:hover{
-	background-color: rgba(79,84,92,0.16);
-	
+
+.msgs_record:hover {
+	background-color: rgba(79, 84, 92, 0.16);
+
 	border-radius: 8px;
 }
-@media (min-width: 1100px){
-	.d-status{
+
+@media (min-width: 1100px) {
+	.d-status {
 		display: block;
 		width: 360px;
 		background-color: transparent;
@@ -239,25 +290,28 @@ svg{
 		padding-right: 8px;
 		font-weight: bolder;
 	}
-	.d_friends{
+
+	.d_friends {
 		width: calc(100% - 360px);
 		background-color: transparent;
 		padding: 6px 20px;
 	}
 }
 
-@media (max-width: 1100px){
-	.d-status{
+@media (max-width: 1100px) {
+	.d-status {
 		display: none;
 		width: 360px;
 		background-color: transparent;
 	}
-	.d_friends{
+
+	.d_friends {
 		width: 100%;
 		background-color: transparent;
 		padding: 6px 20px;
 	}
 }
+
 /*************/
 /* Main Body */
 /*************/
