@@ -25,7 +25,7 @@
           <img src="assets/alogo.png" alt="" />
           <span>lone-IT</span>
         </a>
-        <ul class="nav-links">
+        <ul class="nav-links" id="top-nav">
           <li>
             <a href="#"
               ><i class="fa fa-home symbol"></i> <span class="text">Home</span>
@@ -49,6 +49,9 @@
               <span class="text">Connect</span>
             </a>
           </li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </ul>
       </nav>
       <!-- navbar section ends -->
@@ -127,82 +130,94 @@
           </div>
         </div>
         <div class="info d-flex center">
-           
-            <div class="info-left">
-              <p>
-                GirlScript Summer Of Code is a three-month-long Open-Source Program conducted every 
-                summer by the Girlscript Foundation. With constant efforts, participants contribute 
-                to numerous projects under the extreme guidance of skilled mentors over these months.
-              
-              </p>
-              <p>
-                The GirlScript Foundation aims to change lives by imparting tech 
-                education and relevant skills while fostering diversity. Their tremendous endeavors 
-                curb the gap to offer a technophilic environment and revolutionize the 
-                tech domain by promoting, sharing, and spreading knowledge equally to every individual.  GirlScript Summer Of Code has witnessed active participation 
-                over the years, and the 2022 edition aims to carry the legacy with a promising impact.
-              </p>
-            </div>
-            <div class="info-right">
-              <img src="assets/GSSOC.png" alt="clone-it-info-repo " />
-            </div>
+          <div class="info-left">
+            <p>
+              GirlScript Summer Of Code is a three-month-long Open-Source
+              Program conducted every summer by the Girlscript Foundation. With
+              constant efforts, participants contribute to numerous projects
+              under the extreme guidance of skilled mentors over these months.
+            </p>
+            <p>
+              The GirlScript Foundation aims to change lives by imparting tech
+              education and relevant skills while fostering diversity. Their
+              tremendous endeavors curb the gap to offer a technophilic
+              environment and revolutionize the tech domain by promoting,
+              sharing, and spreading knowledge equally to every individual.
+              GirlScript Summer Of Code has witnessed active participation over
+              the years, and the 2022 edition aims to carry the legacy with a
+              promising impact.
+            </p>
+          </div>
+          <div class="info-right">
+            <img src="assets/GSSOC.png" alt="clone-it-info-repo " />
+          </div>
         </div>
       </section>
     </main>
-      <!-- about section ends -->
+    <!-- about section ends -->
 
-      <!-- projects section start -->
+    <!-- projects section start -->
 
-      <section class="projects-background" id="projects">
-        <h2>Projects</h2>
-        <div class="projects center">
+    <section class="projects-background" id="projects">
+      <h2>Projects</h2>
+      <div class="projects center">
         <div class="searchbar-container">
-          <input type="text" id="searchbar" placeholder="Enter your favourite clone...">
-          <button id="searchbtn" onclick="func()"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <input
+            type="text"
+            id="searchbar"
+            placeholder="Enter your favourite clone..."
+          />
+          <button id="searchbtn" onclick="func()">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
         </div>
         <script>
-          function func()
-          {
+          function func() {
             var input, filter;
             input = document.getElementById("searchbar");
             filter = input.value.toUpperCase();
             const filterMapping = {
-                "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
-                "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
-                "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
-                "DISCORD CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
-                "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
-                "FLIPKART CLONE": "https://rayman-sodhi.github.io/Flipkart-Clone/",
-                "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
-                "GMAIL CLONE": "#",
-                "GITHUB CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
-                "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
-                "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
-                "SLACK CLONE": "https://chatifyslack.netlify.app/",
-                "GOOGLE SEARCH ENGINE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-                "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-                "GOOGLE KEEP CLONE": "https://ajoe12.github.io/Google-Keep-Clone/",
-                "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
-                "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
-                "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
-                "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
-                "MICROSOFT CLONE": "https://19arnab190201.github.io/Microsoft-Clone/",
-                "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
-                "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
-                "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
-                "STARBUCKS CLONE": "https://girlwithasmile.github.io/Starbucks-clone/",
-                "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
-                "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
-            }
-            if(filterMapping[filter]!=undefined)
-            {
-             window.open(filterMapping[filter]);
+              "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
+              "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
+              "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
+              "DISCORD CLONE":
+                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
+              "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
+              "FLIPKART CLONE":
+                "https://rayman-sodhi.github.io/Flipkart-Clone/",
+              "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
+              "GMAIL CLONE": "#",
+              "GITHUB CLONE":
+                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
+              "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
+              "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
+              "SLACK CLONE": "https://chatifyslack.netlify.app/",
+              "GOOGLE SEARCH ENGINE CLONE":
+                "https://quizzical-payne-d3e222.netlify.app/",
+              "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
+              "GOOGLE KEEP CLONE":
+                "https://ajoe12.github.io/Google-Keep-Clone/",
+              "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
+              "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
+              "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
+              "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
+              "MICROSOFT CLONE":
+                "https://19arnab190201.github.io/Microsoft-Clone/",
+              "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
+              "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
+              "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
+              "STARBUCKS CLONE":
+                "https://girlwithasmile.github.io/Starbucks-clone/",
+              "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
+              "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
+            };
+            if (filterMapping[filter] != undefined) {
+              window.open(filterMapping[filter]);
             }
           }
         </script>
 
-        <ul class="projects-container">  
-
+        <ul class="projects-container">
           <!-- 2048 Clone -->
 
           <li>
@@ -216,17 +231,18 @@
                 <div class="card-details">
                   <h3>2048 Clone</h3>
                   <p>
-                    2048 is a single-player sliding tile puzzle video game written by Italian web developer 
-                    Gabriele Cirulli and published on GitHub.
+                    2048 is a single-player sliding tile puzzle video game
+                    written by Italian web developer Gabriele Cirulli and
+                    published on GitHub.
                   </p>
                 </div>
               </div>
             </a>
           </li>
 
-           <!-- Airbnb Clone -->
+          <!-- Airbnb Clone -->
 
-           <li>
+          <li>
             <a
               href="https://mrjoy832.github.io/AIRBNB/"
               class="card airbnb"
@@ -237,16 +253,17 @@
                 <div class="card-details">
                   <h3>Airbnb Clone</h3>
                   <p>
-                    Airbnb, Inc. is an American company that operates an online marketplace for lodging, 
-                    primarily homestays for vacation rentals, and tourism activities
+                    Airbnb, Inc. is an American company that operates an online
+                    marketplace for lodging, primarily homestays for vacation
+                    rentals, and tourism activities
                   </p>
                 </div>
               </div>
             </a>
           </li>
-          
+
           <!-- Apple Clone -->
-          
+
           <li>
             <a
               href="https://pranai2518.github.io/Apple-clone/"
@@ -258,8 +275,9 @@
                 <div class="card-details">
                   <h3>Apple Clone</h3>
                   <p>
-                    Apple India website is a online official store which sells all the Apple 
-                    products including the MacBooks, iPad series, Apple Watch and iPhones. 
+                    Apple India website is a online official store which sells
+                    all the Apple products including the MacBooks, iPad series,
+                    Apple Watch and iPhones.
                   </p>
                 </div>
               </div>
@@ -279,7 +297,10 @@
                 <div class="card-details">
                   <h3>Candy Crush Clone</h3>
                   <p>
-                    Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012, originally for Facebook; other versions for iOS, Android, Windows Phone, and Windows 10 followed.
+                    Candy Crush Saga is a free-to-play match-three puzzle video
+                    game released by King on April 12, 2012, originally for
+                    Facebook; other versions for iOS, Android, Windows Phone,
+                    and Windows 10 followed.
                   </p>
                 </div>
               </div>
@@ -299,8 +320,9 @@
                 <div class="card-details">
                   <h3>Discord Clone</h3>
                   <p>
-                    Users communicate with voice calls, video calls, text messaging, media and files in 
-                    private chats or as part of communities called "servers".
+                    Users communicate with voice calls, video calls, text
+                    messaging, media and files in private chats or as part of
+                    communities called "servers".
                   </p>
                 </div>
               </div>
@@ -320,8 +342,8 @@
                 <div class="card-details">
                   <h3>Facebook Clone</h3>
                   <p>
-                    Meta Platforms, Inc., doing business as Meta and formerly known as Facebook, Inc.,
-                    multinational technology.
+                    Meta Platforms, Inc., doing business as Meta and formerly
+                    known as Facebook, Inc., multinational technology.
                   </p>
                 </div>
               </div>
@@ -332,17 +354,17 @@
 
           <li>
             <a
-            href="https://rayman-sodhi.github.io/Flipkart-Clone/"
-            class="card flipkart"
-            target="_blank"
-            rel="noopener noreferrer"
+              href="https://rayman-sodhi.github.io/Flipkart-Clone/"
+              class="card flipkart"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-            <div class="card-info">
-              <div class="card-details">
-                <h3>Flipkart Clone</h3>
-                <p>
-                  Flipkart is a popular Indian company that deals with
-                  e-commerce.
+              <div class="card-info">
+                <div class="card-details">
+                  <h3>Flipkart Clone</h3>
+                  <p>
+                    Flipkart is a popular Indian company that deals with
+                    e-commerce.
                   </p>
                 </div>
               </div>
@@ -362,7 +384,8 @@
                 <div class="card-details">
                   <h3>Github Clone</h3>
                   <p>
-                    GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.
+                    GitHub, Inc. is a provider of Internet hosting for software
+                    development and version control using Git.
                   </p>
                 </div>
               </div>
@@ -382,8 +405,8 @@
                 <div class="card-details">
                   <h3>Google Search Engine Clone</h3>
                   <p>
-                    Google LLC is a technology company that specializes 
-                    in Internet-related services and products.
+                    Google LLC is a technology company that specializes in
+                    Internet-related services and products.
                   </p>
                 </div>
               </div>
@@ -391,7 +414,7 @@
           </li>
 
           <!-- Google Keep Clone -->
-          
+
           <li>
             <a
               href="https://ajoe12.github.io/Google-Keep-Clone/"
@@ -403,10 +426,10 @@
                 <div class="card-details">
                   <h3>Google Keep Clone</h3>
                   <p>
-                    Google Keep is a note-taking service included as part of the free, 
-                    web-based Google Docs Editors suite offered by Google.
+                    Google Keep is a note-taking service included as part of the
+                    free, web-based Google Docs Editors suite offered by Google.
                   </p>
-              </div>
+                </div>
               </div>
             </a>
           </li>
@@ -419,20 +442,21 @@
               class="card gmail"
               target="_blank"
               rel="noopener noreferrer"
-              >
+            >
               <div class="card-info">
                 <div class="card-details">
                   <h3>Gmail Clone</h3>
                   <p>
-                    Gmail is a free email service provided by Google. As of 2019, it had 1.5 billion active users worldwide. 
-                    A user typically accesses Gmail in a web browser or the official mobile app. 
-                    Google also supports the use of email clients via the POP and IMAP protocols.
+                    Gmail is a free email service provided by Google. As of
+                    2019, it had 1.5 billion active users worldwide. A user
+                    typically accesses Gmail in a web browser or the official
+                    mobile app. Google also supports the use of email clients
+                    via the POP and IMAP protocols.
                   </p>
                 </div>
               </div>
             </a>
           </li>
-
 
           <!-- Hulu Clone -->
 
@@ -447,7 +471,8 @@
                 <div class="card-details">
                   <h3>Hulu Clone</h3>
                   <p>
-                    Hulu is a streaming platform owned by The Walt Disney Company.
+                    Hulu is a streaming platform owned by The Walt Disney
+                    Company.
                   </p>
                 </div>
               </div>
@@ -467,8 +492,9 @@
                 <div class="card-details">
                   <h3>Inshorts Clone</h3>
                   <p>
-                    Inshorts is a Noida-based company that provides a content discovery app for Android and iOS.
-                    It aggregates news and other content such as videos, infographics, and blogs
+                    Inshorts is a Noida-based company that provides a content
+                    discovery app for Android and iOS. It aggregates news and
+                    other content such as videos, infographics, and blogs
                   </p>
                 </div>
               </div>
@@ -483,7 +509,7 @@
               class="card kfc"
               target="_blank"
               rel="noopener noreferrer"
-              >
+            >
               <div class="card-info">
                 <div class="card-details">
                   <h3>KFC Clone</h3>
@@ -509,8 +535,8 @@
                 <div class="card-details">
                   <h3>LinkedIn Clone</h3>
                   <p>
-                    LinkedIn is a platform that is primarily used for professional
-                    networking and career.
+                    LinkedIn is a platform that is primarily used for
+                    professional networking and career.
                   </p>
                 </div>
               </div>
@@ -551,8 +577,10 @@
                 <div class="card-details">
                   <h3>Mac OS Clone</h3>
                   <p>
-                    Mac OS is a proprietary graphical operating system developed and marketed by Apple Inc. since 2001. 
-                    It is the primary operating system for Apple's Mac computers. Within the market of desktop and laptop computers
+                    Mac OS is a proprietary graphical operating system developed
+                    and marketed by Apple Inc. since 2001. It is the primary
+                    operating system for Apple's Mac computers. Within the
+                    market of desktop and laptop computers
                   </p>
                 </div>
               </div>
@@ -581,7 +609,7 @@
           </li>
 
           <!-- Microsoft Teams Clone -->
-          
+
           <li>
             <a
               href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html"
@@ -593,8 +621,9 @@
                 <div class="card-details">
                   <h3>Microsoft Teams Clone</h3>
                   <p>
-                    Microsoft Teams is a proprietary business communication platform developed by Microsoft, 
-                    as part of the Microsoft 365 family of products
+                    Microsoft Teams is a proprietary business communication
+                    platform developed by Microsoft, as part of the Microsoft
+                    365 family of products
                   </p>
                 </div>
               </div>
@@ -635,9 +664,10 @@
                 <div class="card-details">
                   <h3>Pluralsight Clone</h3>
                   <p>
-                    Pluralsight, Inc. is an American privately held online education company that offers a variety of 
-                    video training courses for software developers, IT administrators, and creative professionals 
-                    through its website.
+                    Pluralsight, Inc. is an American privately held online
+                    education company that offers a variety of video training
+                    courses for software developers, IT administrators, and
+                    creative professionals through its website.
                   </p>
                 </div>
               </div>
@@ -657,16 +687,16 @@
                 <div class="card-details">
                   <h3>Quora Clone</h3>
                   <p>
-                    Quora is an American social question-and-answer website based in Mountain View, California.  
-                    Users can collaborate by editing questions and commenting on answers that have been submitted 
-                    by other users
+                    Quora is an American social question-and-answer website
+                    based in Mountain View, California. Users can collaborate by
+                    editing questions and commenting on answers that have been
+                    submitted by other users
                   </p>
                 </div>
               </div>
             </a>
           </li>
 
-        
           <!-- Slack Clone -->
 
           <li>
@@ -679,9 +709,7 @@
               <div class="card-info">
                 <div class="card-details">
                   <h3>Slack Clone</h3>
-                  <p>
-                    Slack is a proprietary business communication platform  
-                  </p>
+                  <p>Slack is a proprietary business communication platform</p>
                 </div>
               </div>
             </a>
@@ -700,8 +728,9 @@
                 <div class="card-details">
                   <h3>Starbucks Clone</h3>
                   <p>
-                    Starbucks is the world's largest coffeehouse chain which offers variety 
-                    of coffee beverages, smoothies, baked items,etc.
+                    Starbucks is the world's largest coffeehouse chain which
+                    offers variety of coffee beverages, smoothies, baked
+                    items,etc.
                   </p>
                 </div>
               </div>
@@ -742,9 +771,11 @@
                 <div class="card-details">
                   <h3>Tesla Clone</h3>
                   <p>
-                    Tesla, Inc. is an American electric vehicle and clean energy company based in Austin, Texas. 
-                    Tesla designs and manufactures electric cars, battery energy storage from home to grid-scale, 
-                    solar panels and solar roof tiles, and related products and services.
+                    Tesla, Inc. is an American electric vehicle and clean energy
+                    company based in Austin, Texas. Tesla designs and
+                    manufactures electric cars, battery energy storage from home
+                    to grid-scale, solar panels and solar roof tiles, and
+                    related products and services.
                   </p>
                 </div>
               </div>
@@ -764,8 +795,9 @@
                 <div class="card-details">
                   <h3>Unsplash Clone</h3>
                   <p>
-                    Unsplash is a website dedicated to sharing stock photography under the Unsplash license. 
-                    Since 2021, it has been owned by Getty Images.
+                    Unsplash is a website dedicated to sharing stock photography
+                    under the Unsplash license. Since 2021, it has been owned by
+                    Getty Images.
                   </p>
                 </div>
               </div>
@@ -785,9 +817,10 @@
                 <div class="card-details">
                   <h3>Windows 11 Clone</h3>
                   <p>
-                    Windows 11 is the latest major release of Microsoft's Windows NT operating system, 
-                    released in October 2021. It is a free upgrade to its predecessor, Windows 10, 
-                    on some Windows 10 devices
+                    Windows 11 is the latest major release of Microsoft's
+                    Windows NT operating system, released in October 2021. It is
+                    a free upgrade to its predecessor, Windows 10, on some
+                    Windows 10 devices
                   </p>
                 </div>
               </div>
@@ -807,7 +840,8 @@
                 <div class="card-details">
                   <h3>Youtube Clone</h3>
                   <p>
-                    YouTube is an American online video sharing and social media platform owned by Google.
+                    YouTube is an American online video sharing and social media
+                    platform owned by Google.
                   </p>
                 </div>
               </div>
@@ -827,9 +861,10 @@
                 <div class="card-details">
                   <h3>Zomato Clone</h3>
                   <p>
-                    Zomato is an Indian multinational restaurant aggregator and food delivery company founded by 
-                    Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews 
-                    of restaurants.
+                    Zomato is an Indian multinational restaurant aggregator and
+                    food delivery company founded by Deepinder Goyal and Pankaj
+                    Chaddah in 2008. Zomato provides information, menus and
+                    user-reviews of restaurants.
                   </p>
                 </div>
               </div>
@@ -837,7 +872,7 @@
           </li>
 
           <!-- Zoom Clone -->
-          
+
           <li>
             <a
               href="https://rayman-video-app.herokuapp.com/"
@@ -849,82 +884,81 @@
                 <div class="card-details">
                   <h3>Zoom Clone</h3>
                   <p>
-                    Zoom is an American communications technology company used for
-                    video chats or meeting.
+                    Zoom is an American communications technology company used
+                    for video chats or meeting.
                   </p>
                 </div>
               </div>
             </a>
           </li>
         </ul>
-        </div>
-      </section> 
-  
-      <!-- projects section ends -->
-      
+      </div>
+    </section>
 
-      <!-- connect section start -->
-        
-      <section class="connect center" id="connect">
-        <h2>Connect with us</h2>
-        <p>Let's connect together by filling this form...</p>
-        <div class="connect-form center">
-          <div class="form-div">
-            <form
-              action="mailto:emailid@example.com"
-              method="post"
-              enctype="text/plain"
-            >
-              <label for="name">Hello energetic</label>
-              <input
-                type="text"
-                id="name"
-                placeholder="Type your beautiful name here.."
-                required
-                title="Put your name"
-              />
-              <label for="email">Connect with email id</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Let's connect with your email id.."
-                required
-                title="Put your email id"
-              />
-              <label for="message">Have something for us, let's type</label>
-              <textarea
-                name="textarea"
-                id="message"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <input type="submit" value="Send Message" />
-            </form>
-          </div>
-          <div class="img-div">
-            <img src="assets/person.png" alt="form-image" class="contact-img" />
-          </div>
-        </div>
-      </section>
-      <!-- connect section ends -->
+    <!-- projects section ends -->
 
-      <!-- footer section start -->
-      <footer>
-        <div class="footer">
-          <section class="menu site">
-            <h3 class="fot-logo">
-              <img src="assets/alogo.png" alt="" /><span>lone-IT</span>
-            </h3>
-            <p class="text-color">
-              The idea behind this project is to learn how different websites
-              are made by directly cloning them using the same layout and design
-              . New contributors can ad more websites to the list and suggest
-              new features in the existing ones .Also there is scope to
-              introduce new features in websites and thus creating a upgraded
-              version of their clone.
-            </p>
-          </section>
-          <!-- <div class="menu">
+    <!-- connect section start -->
+
+    <section class="connect center" id="connect">
+      <h2>Connect with us</h2>
+      <p>Let's connect together by filling this form...</p>
+      <div class="connect-form center">
+        <div class="form-div">
+          <form
+            action="mailto:emailid@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label for="name">Hello energetic</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Type your beautiful name here.."
+              required
+              title="Put your name"
+            />
+            <label for="email">Connect with email id</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Let's connect with your email id.."
+              required
+              title="Put your email id"
+            />
+            <label for="message">Have something for us, let's type</label>
+            <textarea
+              name="textarea"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+        <div class="img-div">
+          <img src="assets/person.png" alt="form-image" class="contact-img" />
+        </div>
+      </div>
+    </section>
+    <!-- connect section ends -->
+
+    <!-- footer section start -->
+    <footer>
+      <div class="footer">
+        <section class="menu site">
+          <h3 class="fot-logo">
+            <img src="assets/alogo.png" alt="" /><span>lone-IT</span>
+          </h3>
+          <p class="text-color">
+            The idea behind this project is to learn how different websites are
+            made by directly cloning them using the same layout and design . New
+            contributors can ad more websites to the list and suggest new
+            features in the existing ones .Also there is scope to introduce new
+            features in websites and thus creating a upgraded version of their
+            clone.
+          </p>
+        </section>
+        <!-- <div class="menu">
                     <h3>Menu</h3>
                     <ul>
                         <li><a href="#about">About Us</a></li>
@@ -932,40 +966,51 @@
                         <li><a href="https://github.com/Rayman-Sodhi/Clone-IT">Top Contributors</a></li>
                     </ul>
                 </div> -->
-          <section class="menu">
-            <h3>Support</h3>
-            <ul>
-              <li><a href="./FAQ-PAGE/faq.html">Help & FAQ</a></li>
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#connect">Contact</a></li>
-            </ul>
-          </section>
-          <section class="follow d-flex">
-            <h3>Follow us</h3>
-            <div class="icon-div">
-              <a href="https://www.facebook.com" target="_blank" class="icon"
-                ><i class="fa fa-facebook"></i
-              ></a>
-              <a href="https://www.instagram.com" target="_blank" class="icon"
-                ><i class="fa fa-instagram"></i
-              ></a>
-              <a href="https://github.com/Rayman-Sodhi/Clone-IT" target="_blank" class="icon"
-                ><i class="fa fa-github"></i
-              ></a>
-            </div>
-          </section>
-        </div>
-      </footer>
-      <!-- footer section ends -->
-    <button onclick="topFunction()" id="scrollBtn" title="Top"> <img class="arrow" src="assets/arrow.png"/> <br> Top</button>
+        <section class="menu">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="./FAQ-PAGE/faq.html">Help & FAQ</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#connect">Contact</a></li>
+          </ul>
+        </section>
+        <section class="follow d-flex">
+          <h3>Follow us</h3>
+          <div class="icon-div">
+            <a href="https://www.facebook.com" target="_blank" class="icon"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank" class="icon"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              href="https://github.com/Rayman-Sodhi/Clone-IT"
+              target="_blank"
+              class="icon"
+              ><i class="fa fa-github"></i
+            ></a>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+    <button onclick="topFunction()" id="scrollBtn" title="Top">
+      <img class="arrow" src="assets/arrow.png" /> <br />
+      Top
+    </button>
     <script>
       scrollButton = document.getElementById("scrollBtn");
 
-      window.onscroll = function() {scrollFunction()};
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
       function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
           scrollButton.style.display = "block";
         } else {
           scrollButton.style.display = "none";
@@ -977,6 +1022,14 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
 
+      function myFunction() {
+        var x = document.getElementById("top-nav");
+        if (x.className === "nav-links") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav-links";
+        }
+      }
     </script>
   </body>
 </html>
