@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
 }
 @keyframes loading {
     from {
-       transform: translateX(50%);
+       transform: translateX(-50%);
        opacity: 0;
     }
     to {
@@ -40,36 +40,6 @@ body::-webkit-scrollbar-thumb {
     --light:#FF6A3D;
     --lighter:#dadfff;
 }
-#scrollBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 115px;
-    right: 100em; 
-    z-index: 99; 
-    background-color: rgba(0, 174, 255, 0.774);
-    color: white;
-    cursor: pointer; 
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 600;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 20px;
-  }
-  
-  #scrollBtn:hover {
-    background-color: rgba(0, 132, 255, 0.774); 
-    background-position: 100% 0;
-  }
-  
-  #scrollBtn:focus {
-    outline: none;
-  }
-  img.arrow{
-      width: 40px;
-  }
 
 a {
     text-decoration: none;
@@ -730,8 +700,8 @@ footer {
 #scrollBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position*/
-    bottom: 106px; /*Place the button at the bottom of the page */
-    right: 23px; /*Place the button 30px from the right*/
+    bottom: 20px; /*Place the button at the bottom of the page */
+    left: 20px; /*Place the button 30px from the right*/
     z-index: 100; /*Make sure it does not overlap*/
     border: none; /*Remove borders*/
     outline: none; /*Remove outline*/
