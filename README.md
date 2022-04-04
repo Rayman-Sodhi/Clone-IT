@@ -248,6 +248,16 @@ git push -u origin <your_branch_name>
 <br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+    
+## Project Admin
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Rayman-Sodhi"><img src="https://avatars.githubusercontent.com/u/65675692?v=4" width=150px height=150px /></a></br> <h4>Rayman Sodhi</h4>
+<a href="https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
+
+</tr>
+</table>
 
 
 
