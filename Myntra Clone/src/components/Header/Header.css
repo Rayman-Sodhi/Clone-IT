@@ -1,0 +1,45 @@
+
+.left-items{
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+}
+
+.right-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    flex-basis: 60%;
+    
+}
+.search-bar{
+    flex-basis:55%;
+}
+
+.profile-links{
+    display: flex;
+}
+
+.bar_icon{
+    display: none;
+}
+@media only screen and (max-width:992px){
+    .search-bar{
+        display: none;
+
+    }
+    .nav_link{
+        display: none;
+    }
+    .bar_icon{
+        display: block;
+        margin-right: 20px;
+    }
+
+ 
+ 
+
+
+}
+
