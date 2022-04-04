@@ -763,7 +763,7 @@ footer {
     padding: 12px; /*Some padding*/
     margin: 2px;
     border-radius: 10px; /*Rounded corners*/
-    font-size: 17px; /*Increase font size*/
+    font-size: 13px; /*Increase font size*/
     line-height: 24px;
     width: fit-content; 
   }
