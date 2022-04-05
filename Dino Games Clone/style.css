@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+canvas {
+    background-image: url("dinobackground.png");
+    animation: animatedBackground 4s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -600px 0px;
+    }
+}
+
+h1{
+    color: rgb(71, 60, 225);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-weight: 200;
+}
