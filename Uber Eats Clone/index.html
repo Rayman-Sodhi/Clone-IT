@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript, API">
+  <meta name="description" content="Uber Eats Clone">
+  <meta name="author" content="Hatem Soliman">
+  <meta http-equiv="refresh" content="600">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" type="x-icon" href="./Assets/uberEatsLogo.png">
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+  <title>Uber-Eats🍕</title>
+</head>
+
+<body>
+  <nav>
+    <div class="btn__menu">
+      <button class="btn__menu" onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="menu__backdrop">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+          <i class="fas fa-times"></i>
+        </button>
+        <div id="sign-out__status" class="account__container">
+          <figure class="account__img--wrapper">
+            <i class="far fa-user-circle account__img"></i>
+          </figure>
+          <div class="account__preview">
+            <span class="account__name">User#097651727</span>
+            <span>
+              <button id="sign-in" class="account__viewer">Sign in</butt>
+            </span>
+          </div>
+        </div>
+        <div id="sign-in__status" class="account__container--logged">
+          <figure class="account__img--wrapper-logged">
+            <img src="./Assets/man-avatar.png" alt="Avatar" class="account__img--logged" title="Cartoon icons created by GeekClick - Flaticon">
+          </figure>
+          <div class="account__preview--logged">
+            <span class="account__name--logged">Greg Heffley</span>
+            <span>
+              <button id="sign-out" class="account__viewer--logged no-cursor" href="">View account</button>
+            </span>
+          </div>
+        </div>
+        <!-- <ul class="menu__links">
+          <li class="menu__list">
+            <i class="menu__link--icon fas fa-ticket-alt"></i>
+            <a href="#home-section" class="menu__link no-cursor" onclick="closeMenu()">Orders</a>
+          </li>
+          <li class="menu__list">
+            <i class="menu__link--icon fas fa-heart"></i>
+            <a href="#about-section" class="menu__link no-cursor" onclick="closeMenu()">Favourites</a>
+          </li>
+          <li class="menu__list">
+            <i class="menu__link--icon fas fa-wallet"></i>
+            <a href="#projects-section" class="menu__link no-cursor" onclick="closeMenu()">Wallet</a>
+          </li>
+          <li class="menu__list">
+            <i class="menu__link--icon far fa-life-ring"></i>
+            <a href="#contact-section" class="menu__link no-cursor" onclick="closeMenu()">Help</a>
+          </li>
+          <li class="menu__list">
+            <i class="menu__link--icon fas fa-tags"></i>
+            <a href="#contact-section" class="menu__link no-cursor" onclick="closeMenu()">Promotions</a>
+          </li>
+          <li class="menu__list">
+            <i class="menu__link--icon fab fa-uber"></i>
+            <a href="#contact-section" class="menu__link no-cursor" onclick="closeMenu()">Uber One</a>
+          </li>
+          <!-- <li class="menu__list">
+            <i class="menu__link--icon fas fa-gift"></i>
+            <a href="#contact-section" class="menu__link no-cursor" onclick="closeMenu()">Invite friends</a>
+          </li> -->
+        <!-- </ul> --> 
+        <!-- <button id="sign-in-two" class="menu__btn--sign">Sign in</button>
+        <button id="sign-out-two" class="menu__btn--sign">Sign out</button> -->
+      </div>
+    </div>
+    <span id="logo" class="logo">Uber <span class="orange"><b>Eats</b></span></span>
+    <div class="address__search--wrapper">
+      <i class="fas fa-map-marker-alt"></i>
+      <input class="address__search" type="search" placeholder="Enter delivery address">
+    </div>
+    <div class="item__search--wrapper">
+      <!-- <a id="search-btn" href="index-2.html"> -->
+        <i class="fas fa-search"></i>
+        <input id="search-input" class="item__search" type="text" placeholder="Food, Ingredients, etc">
+      </a>
+    </div>
+    <button id="item__cart--btn" class="item__cart--btn">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="item__cart--name">Cart •</span>
+      <span id="item__cart--count" class="item__cart--count">2</span>
+    </button>
+  </nav>
+
+  <div class="container">
+    <ul class="category__list">
+      <li class="category__item">
+        <img class="category__img" src="./Assets/deals.png" alt="Deals">
+        <span class="category__name">Deals</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/salad.png" alt="Salads" title="Salad icons created by Freepik - Flaticon">
+        <span class="category__name">Salads</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/tteok.png" alt="Meals" title="Korea icons created by justicon - Flaticon">
+        <span class="category__name">Plates</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/burger.png" alt="Sanwiches" title="Burger icons created by Freepik - Flaticon">
+        <span class="category__name">Sandwiches</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/fish.png" alt="Seafood" title="Fish icons created by Freepik - Flaticon">
+        <span class="category__name">Seafood</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/japanese-food.png" alt="Sushi" title="Japanese food icons created by amonrat rungreangfangsai - Flaticon">
+        <span class="category__name">Sushi</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/pizza.png" alt="Pizza" title="Pizza icons created by Freepik - Flaticon">
+        <span class="category__name">Pizzas</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/cupcake.png" alt="Dessert" title="Dessert icons created by Freepik - Flaticon">
+        <span class="category__name">Dessert</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/fruits.png" alt="Fruits" title="Fruits icons created by Freepik - Flaticon">
+        <span class="category__name">Fruits</span>
+      </li>
+      <li class="category__item">
+        <img class="category__img" src="./Assets/drink.png" alt="Drinks" title="Drink icons created by Smashicons - Flaticon">
+        <span class="category__name">Drinks</span>
+      </li>
+      <li class="category__item mobile__nav--icons">
+        <figure class="search__wrapper--mobile">
+          <i id="gps__icon" class="fas fa-map-marker-alt search__icon--mobile"></i>
+        </figure>
+      </li>
+      <li class="category__item mobile__nav--icons">
+        <figure class="search__wrapper--mobile">
+          <!-- <a href="index-2.html"> -->
+            <i class="fas fa-search search__icon--mobile"></i>
+          </a>
+        </figure>
+      </li>
+    </ul>
+  </div>
+
+  <hr class="separators">
+
+  <section id="slider-section">
+    <div class="container">
+      <div class="slider__section--wrapper">
+        <span class="slider__arrow">←</span>
+        <ul class="slider__options">
+          <li class="slider__option">
+            <img class="slider__option--img" src="./Assets/coca-cola-2.png" alt="Coca Cola" title="Photo by Ayesha C on Unsplash">
+            <div class="slider__option--title">Get a free coke when ordering a large Super Supreme pizza</div>
+            <button class="slider__option--btn">
+              <a href="" class="slider__option--anchor">Order Now →</a>
+            </button>
+          </li>
+          <li class="slider__option">
+            <img class="slider__option--img" src="./Assets/doughnuts.png" alt="Doughnuts" title="Photo by Anastasiia Chepinska on Unsplash">
+            <div class="slider__option--title">Save $15 when ordering 12 doughnuts or more</div>
+            <button class="slider__option--btn">
+              <a href="" class="slider__option--anchor">Save Now →</a>
+            </button>
+          </li>
+          <li class="slider__option">
+            <img class="slider__option--img" src="./Assets/tester.png" alt="Uber Expert Taster" title="Photo by The BlackRabbit on Unsplash">
+            <div class="slider__option--title">Become an Uber Taster with our Expert Taster program</div>
+            <button class="slider__option--btn">
+              <a href="" class="slider__option--anchor">Apply Now →</a>
+            </button>
+          </li>
+        </ul>
+        <span class="slider__arrow">→</span>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="listings-section">
+    <div class="listings">
+      <div class="container">
+        <div class="listings__header--section">
+          <div class="header__title">When you're hungry now</div>
+          <span class="header__subtitle">The fastest food to your door</span>
+          <div class="header__view--options">
+            <a class="header__view--options--link" href="index-2.html">View all</a>
+          </div>
+        </div>
+        <div class="listings__grid">
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Crispy Bites</h3>
+                  <div class="info">
+                    <span>$4.99 delivery fee | 20-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.6</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >American | Middle Eastern | Halal | Plates | Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>The Bon Juvi Burger</h3>
+                  <div class="info">
+                    <span>$7.99 delivery fee | 20-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >German | Middle Eastern | Halal | Burger | Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1532636875304-0c89119d9b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Egyptian Doner Kebab</h3>
+                  <div class="info">
+                    <span>$11.99 delivery fee | 20-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.5</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Egyptian | Middle Eastern | Halal | Plates | Meals</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Ceaser Salad</h3>
+                  <div class="info">
+                    <span>$16.99 delivery fee | 10-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Greek | Middle Eastern | Halal | Salads| Plates</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Mr. Pepi</h3>
+                  <div class="info">
+                    <span>$12.99 delivery fee | 30-50 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >American | Middle Eastern | Halal | Pizzas| Plates</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Mamcita's Chickpeas</h3>
+                  <div class="info">
+                    <span>$17.99 delivery fee | 20-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">3.8</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Latvian | Middle Eastern | Halal | Salads| Plates</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Second Listing -->
+    <div class="listings">
+      <div class="container">
+        <div class="listings__header--section">
+          <div class="header__title">When you're craving now</div>
+          <span class="header__subtitle">The yummiest food to your tummy</span>
+          <div class="header__view--options">
+            <a class="header__view--options--link" href="index-2.html">View all</a>
+          </div>
+        </div>
+        <div class="listings__grid">
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/koushari.jpg"
+                  alt="Listing pic"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Classic Koushari</h3>
+                  <div class="info">
+                    <span>$14.99 delivery fee | 25-35 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Egyptian | Middle Eastern | Halal | Plates | Meals</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/pizza.jpg"
+                  alt="Listing pic"
+                  title="Photo by Ivan Torres on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Cheesievany Pizza</h3>
+                  <div class="info">
+                    <span>$24.99 delivery fee | 30-45 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.1</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Italian | Middle Eastern | Halal | Pizza | Fast Food</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/lobster.jpg"
+                  alt="Listing pic"
+                  title="Photo by Ratapan Anantawat on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Luciana Lobster</h3>
+                  <div class="info">
+                    <span>$64.99 delivery fee | 60-75 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.8</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >American | Middle Eastern | Halal | Seafood | Meals</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/turkey.jpg"
+                  alt="Listing pic"
+                  title="Photo by Farhad Ibrahimzade on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Turkey Masala</h3>
+                  <div class="info">
+                    <span>$57.99 delivery fee | 50-80 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Indian | Middle Eastern | Halal | Meals| Plates</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/sushi maki.jpg"
+                  alt="Listing pic"
+                  title="Photo by Jakub Dziubak on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Sushi-Maki</h3>
+                  <div class="info">
+                    <span>$104.99 delivery fee | 70-90 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.2</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Japanese | Middle Eastern | Halal | Sushi| Meals</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/spmb.jpg"
+                  alt="Listing pic"
+                  title="Photo by No Revisions on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Spaghetti & Meatballs</h3>
+                  <div class="info">
+                    <span>$26.99 delivery fee | 30-45 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.1</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Italian | Middle Eastern | Halal | Pasta | Fast Food</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Third Listing -->
+    <div class="listings">
+      <div class="container">
+        <div class="listings__header--section">
+          <div class="header__title">When you're thirsty now</div>
+          <span class="header__subtitle">The freshest drinks to your door</span>
+          <div class="header__view--options">
+            <a class="header__view--options--link" href="index-2.html">View all</a>
+          </div>
+        </div>
+        <div class="listings__grid">
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/juice-jar.jpg"
+                  alt="Listing pic"
+                  title="Photo by Yulia Khlebnikova on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Berry Slushy</h3>
+                  <div class="info">
+                    <span>$3.99 delivery fee | 15-20 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.4</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Canadian | Middle Eastern | Halal | Drinks | Juice</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/soda.jpg"
+                  alt="Listing pic"
+                  title="Photo by Qasim Malick on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Classic Coke</h3>
+                  <div class="info">
+                    <span>$1.99 delivery fee | 10-15 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.7</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >American | Middle Eastern | Halal | Drinks| Fizzy</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/water.jpg"
+                  alt="Listing pic"
+                  title="Photo by Steve Johnson on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Mineral Water</h3>
+                  <div class="info">
+                    <span>$0.99 delivery fee | 10-15 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.9</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Egyptian | Middle Eastern | Halal | Drinks | Water</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="listings__col">
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/rasberry_pop.jpg"
+                  alt="Listing pic"
+                  title="Photo by LyfeFuel on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Raspberry Pop</h3>
+                  <div class="info">
+                    <span>$8.99 delivery fee | 20-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.5</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Finnish | Middle Eastern | Halal | Drinks| Smoothies</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/markus-winkler-b_xYQe69eec-unsplash.jpg"
+                  alt="Listing pic"
+                  title="Photo by Markus Winkler on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Classic Pickle Juice</h3>
+                  <div class="info">
+                    <span>$6.99 delivery fee | 10-30 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">3.7</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Irish | Middle Eastern | Halal | Drinks| Juice</span
+                >
+              </div>
+            </div>
+            <div class="listings__grid--element">
+              <div class="image">
+                <img
+                  src="./Assets/olena-sergienko-YhMZRcdjARQ-unsplash.jpg"
+                  alt="Listing pic"
+                  title="Photo by Olena Sergienko on Unsplash"
+                />
+              </div>
+              <div class="text">
+                <div class="text__title">
+                  <h3>Sandorra Cocktail Juice</h3>
+                  <div class="info">
+                    <span>$3.99 delivery fee | 10-15 MINS | $</span>
+                  </div>
+                </div>
+                <div class="rating">
+                  <span class="circle">4.1</span>
+                </div>
+              </div>
+              <div class="text__lower">
+                <span class="smallText"
+                  >Canadian | Middle Eastern | Halal | Drinks| Juice</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
