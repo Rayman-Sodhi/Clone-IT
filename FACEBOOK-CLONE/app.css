@@ -1,5 +1,6 @@
 body{
     background-color: rgb(244, 244, 244);
+    margin:0;
 }
 main{
     display:flex;
@@ -84,4 +85,6 @@ input[type="submit"]{
 #spanP{
     text-align: center; 
 }
+
+
 

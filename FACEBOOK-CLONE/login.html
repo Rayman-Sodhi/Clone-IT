@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="app.css">
+    <script href="app.js"></script>
 </head>
 
 <body>
@@ -24,10 +25,10 @@
         </section>
         <section>
             <div id="wbox">
-            <form action="get">
+            <form action="index.html" method="post" name="form1">
                 <input type="text" placeholder="Email address or Phone number" required
                     pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$" /><br>
-                <input type="password" placeholder="Password"><br>
+                <input type="password" placeholder="Password" required><br>
                 <input type="submit" value="Log In">
                 <p id="forget">Forgotten password?</p>
 
@@ -38,6 +39,7 @@
         
     </main>
     <footer>
+        <div id="footerdiv">
         <p>English(UK) hindi اردو ਪੰਜਾਬੀ বাংলা ગુજરાતી मराठी தமிழ் తెలుగు മലയാളം ಕನ್ನಡ <button>+</button></p>
         <hr>
         <div><a href="">Sign Up</a>
@@ -69,8 +71,9 @@
             <a href="">Terms</a>
             <a href="">Help</a>
         </div>
-        <p>Meta © 2022</p>
+        <p>Meta © 2022</p></div>
     </footer>
+
 </body>
 
 </html>
