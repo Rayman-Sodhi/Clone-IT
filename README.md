@@ -55,7 +55,7 @@
 ## About the Clone IT
 
 <p align="center">
- The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design . New contributors can add more websites clone to the list and suggest new features in the existing ones. Also there is scope to introduce new features in websites and thus creating a upgraded version of their clones.
+The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. New contributors can add more websites clone to the list and suggest new features in the existing ones. Also, there is a scope to introduce new features in websites and thus creating an upgraded version of their clones.
     
 </p>
 
@@ -136,7 +136,7 @@
 ## Contribution Guidelines
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
 
-### Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
+### Never made an open source contribution before? Wondering how contributions work in our project? Here's a quick rundown!
 
 <img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158055651-fb9caff1-2b91-4711-8c54-6577b64f04f2.jpeg" alt="fork this repository" />
 
@@ -228,7 +228,7 @@ git push -u origin <your_branch_name>
 * To create a pull request, click on `compare and pull requests`.
 
 
-* Add appropriate title and description to your pull request explaining your changes and efforts done.
+* Add an appropriate title and description to your pull request explaining your changes and efforts done.
 
 
 * Click on `Create Pull Request`.
@@ -237,7 +237,7 @@ git push -u origin <your_branch_name>
 * Congrats :exclamation: You have made a PR to the Clone-IT :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 
-* Wait for the pull request to be reviewed by a maintainer, Make changes to the pull request if the reviewing maintainer recommends them.
+* Wait for the pull request to be reviewed by a maintainer. Make changes to the pull request if the reviewing maintainer recommends them.
 
 
 * Celebrate  🥳  your success after your pull request is merged!
