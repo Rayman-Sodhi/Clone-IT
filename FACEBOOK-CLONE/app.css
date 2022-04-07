@@ -86,5 +86,22 @@ input[type="submit"]{
     text-align: center; 
 }
 
+footer{
+    background-color: white;
+    margin:0;
+    /* text-align:center; */
+    color:rgb(146, 145, 145);
+    padding:5px;
+    font-size:15px;
+}
+footer a{
+    color:rgb(146, 145, 145);
+    padding-right:15px;
+    font-size:13px;
+}
+#footerdiv{
+    width:85%;
+    padding:0 100px;
 
+}
 
