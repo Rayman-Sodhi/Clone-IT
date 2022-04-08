@@ -112,9 +112,16 @@ li {
 .nav-links a .symbol {
   display: none;
 }
+
+.nav-links a:hover{
+    transition: all .3s ease 0s;
+    background: #0ba9da; 
+    box-shadow: 0px 0px 48px -10px rgba(255,255,255,1);
+
 .nav-links a:hover {
   transition: all 0.3s ease-in-out;
   box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
+
 }
 .nav-links li:hover {
   transition: all 0.3s ease-in-out;
