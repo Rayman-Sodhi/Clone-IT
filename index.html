@@ -25,34 +25,38 @@
           <img src="assets/alogo.png" alt="" />
           <span>lone-IT</span>
         </a>
-        <ul class="nav-links" id="top-nav">
-          <li>
-            <a href="#"
-              ><i class="fa fa-home symbol"></i> <span class="text">Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="#about"
-              ><i class="fa fa-users symbol"></i>
-              <span class="text">About</span>
-            </a>
-          </li>
-          <li>
-            <a href="#projects"
-              ><i class="fa fa-laptop symbol"></i>
-              <span class="text">Projects</span>
-            </a>
-          </li>
-          <li>
-            <a href="#connect"
-              ><i class="fa fa-address-card symbol"></i>
-              <span class="text">Connect</span>
-            </a>
-          </li>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </ul>
+            <div class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        <div class="navbar-links">
+            <ul>
+              <li>
+                <a href="#" class="menuLink">
+                  <!--<i class="fa fa-home symbol"></i>--> <span class="text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about" class="menuLink">
+                  <!--<i class="fa fa-users symbol"></i>-->
+                  <span class="text">About</span>
+                </a>
+              </li>
+              <li>
+                <a href="#projects" class="menuLink">
+                  <!--<i class="fa fa-laptop symbol"></i>-->
+                  <span class="text">Projects</span>
+                </a>
+              </li>
+              <li>
+                <a href="#connect" class="menuLink">
+                  <!--<i class="fa fa-address-card symbol"></i>-->
+                  <span class="text">Connect</span>
+                </a>
+              </li>
+            </ul>
+        </div>
       </nav>
       <!-- navbar section ends -->
 
@@ -207,6 +211,11 @@
                 "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
                 "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
             }
+
+                if(filterMapping[filter]!=undefined)
+            {
+             window.open(filterMapping[filter]);
+
 
             };
             if (filterMapping[filter] != undefined) {
@@ -1018,7 +1027,7 @@
     <button onclick="topFunction()" id="scrollBtn" title="Go to top">
       <i class='bx bx-up-arrow-alt scroll-icon'></i> ↑ <br>Top
     </button>
-    
+   
 
     <script>
       //Get the button
