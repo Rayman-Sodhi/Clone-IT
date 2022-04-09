@@ -182,43 +182,6 @@
             filter = input.value.toUpperCase();
             const filterMapping = {
 
-              "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
-              "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
-              "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
-              "DISCORD CLONE":
-                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
-              "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
-              "FLIPKART CLONE":
-                "https://rayman-sodhi.github.io/Flipkart-Clone/",
-              "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
-              "GMAIL CLONE": "#",
-              "GITHUB CLONE":
-                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
-              "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
-              "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
-              "SLACK CLONE": "https://chatifyslack.netlify.app/",
-              "GOOGLE SEARCH ENGINE CLONE":
-                "https://quizzical-payne-d3e222.netlify.app/",
-              "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-              "GOOGLE KEEP CLONE":
-                "https://ajoe12.github.io/Google-Keep-Clone/",
-              "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
-              "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
-              "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
-              "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
-              "MICROSOFT CLONE":
-                "https://19arnab190201.github.io/Microsoft-Clone/",
-              "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
-              "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
-              "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
-              "STARBUCKS CLONE":
-                "https://girlwithasmile.github.io/Starbucks-clone/",
-              "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
-              "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
-            };
-            if (filterMapping[filter] != undefined) {
-              window.open(filterMapping[filter]);
-
                 "2048 CLONE": "https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/",
                 "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
                 "AMAZON CLONE": "#",
@@ -248,12 +211,17 @@
                 "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
                 "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
             }
+
                 if(filterMapping[filter]!=undefined)
             {
              window.open(filterMapping[filter]);
 
+
+            };
+            if (filterMapping[filter] != undefined) {
+              window.open(filterMapping[filter]);
+
             }
-          }
         </script>
 
         <ul class="projects-container">
@@ -1040,16 +1008,13 @@
         <section class="follow d-flex">
           <h3>Follow us</h3>
           <div class="icon-div">
-            <a href="https://www.facebook.com" target="_blank" class="icon"
+            <a href="https://www.facebook.com" target="_blank" class="icon" id="icon1"
               ><i class="fa fa-facebook"></i
             ></a>
-            <a href="https://www.instagram.com" target="_blank" class="icon"
+            <a href="https://www.instagram.com" target="_blank" class="icon" id="icon2"
               ><i class="fa fa-instagram"></i
             ></a>
-            <a
-              href="https://github.com/Rayman-Sodhi/Clone-IT"
-              target="_blank"
-              class="icon"
+            <a href="https://github.com/Rayman-Sodhi/Clone-IT" target="_blank" class="icon" id="icon3"
               ><i class="fa fa-github"></i
             ></a>
           </div>
@@ -1058,37 +1023,32 @@
     </footer>
     <!-- footer section ends -->
     
+
     <button onclick="topFunction()" id="scrollBtn" title="Go to top">
       <i class='bx bx-up-arrow-alt scroll-icon'></i> ↑ <br>Top
     </button>
+   
 
-<script>
-  //Get the button
-  var mybutton = document.getElementById("scrollBtn");
-  
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-  const toggleButton = document.getElementsByClassName("toggle-button")[0];
-    const navbarLinks = document.getElementsByClassName("navbar-links")[0];
-
-    toggleButton.addEventListener("click", () => {
-      navbarLinks.classList.toggle("active");
-    });
-</script>
-
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("scrollBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
