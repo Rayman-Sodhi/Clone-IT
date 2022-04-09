@@ -3,7 +3,7 @@ name: Add label to Merged PR
 # The events for whcih this workflow wii be triggered
 on:
   pull_request_target:
-    types: [closed]
+    types: [opened]
 
 # The machine will run each job when workflow will be triggered
 jobs:
@@ -14,4 +14,4 @@ jobs:
       - name: initial labeling
         uses: andymckay/labeler@master
         with:
-          add-labels: 'GSSoC 22'
+          add-labels: 'GSSoC22'
