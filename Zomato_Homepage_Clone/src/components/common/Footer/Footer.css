@@ -1,0 +1,97 @@
+.main-footer{
+    color: black;
+    background-color: white;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.sec-7{
+    padding: 40px 120px;
+    background-color: rgba(234, 234, 240, 0.94);
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first-1{
+    display: flex;
+justify-content: end;
+
+}
+
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+
+}
+
+.second div{
+    width: 200px;
+
+}
+
+.second h4{
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8rem;
+font-style: normal;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 2px;
+
+}
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-4 i{
+    margin-left: 0px;
+   margin-top: 5px;
+
+}
+
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.9rem;
+   
+
+}
+
+.first h1{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
