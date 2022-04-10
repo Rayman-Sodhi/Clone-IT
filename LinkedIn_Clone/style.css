@@ -71,7 +71,8 @@ body{
     display: flex;
     margin-top: 35px;
     min-width: 1200px;
-    margin: 0px 20px;
+    margin-left: 20;
+    margin-right: 20;
 }
 .sidebar{
     position: sticky;
@@ -223,5 +224,5 @@ body{
 }
 .inputOption h4{
     margin-left: 5px;
-    
+
 }
