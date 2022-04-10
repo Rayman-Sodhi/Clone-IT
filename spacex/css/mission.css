@@ -1,0 +1,109 @@
+.mission__container {
+	height: 100vh;
+	position: relative;
+}
+
+.mission__container .background {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.mission__container .background:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mission__container .background.one {
+	background-image: url(../media/1.webp);
+}
+
+.mission__container .background.two {
+	background-image: url(../media/2.webp);
+}
+
+.mission__container .background.three {
+	background-image: url(../media/3.webp);
+}
+
+.mission__container .background.four {
+	background-image: url(../media/4.webp);
+}
+
+.mission__container .background.five {
+	background-image: url(../media/5.webp);
+	background-position: 65% center;
+}
+
+.mission__container .bottom__content {
+	position: absolute;
+	bottom: 10%;
+	left: 1.5rem;
+	width: 90%;
+	max-width: 500px;
+	overflow: hidden;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: opacity 1s, transform 1s;
+}
+
+.mission__container .bottom__content .bottom__content__header {
+	font-size: 2rem;
+	text-align: left;
+	margin: 0 0 1rem auto;
+	font-weight: 600;
+}
+
+.mission__container .bottom__content .bottom__content__subheader {
+	font-size: 1rem;
+}
+
+.mission__container .bottom__content .content__button {
+	border: 2px solid white;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	margin-top: 1rem;
+}
+
+.mission__container .bottom__content .content__button .text {
+	font-weight: bold;
+	font-size: 0.8rem;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 1.2rem 2.5rem;
+	transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.mission__container .bottom__content .content__button .hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	transform: scale3d(1, 0, 1);
+	transform-origin: top center;
+	transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.mission__container .bottom__content .content__button:hover .hover {
+	transform: scale3d(1, 1, 1);
+	transform-origin: bottom center;
+}
+
+.mission__container .bottom__content .content__button:hover .text {
+	color: black;
+}
+
+.mission__container.on__screen .bottom__content {
+	opacity: 1;
+	transform: translateY(0);
+}

@@ -1,0 +1,114 @@
+.header {
+	height: 5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transform: translateY(-100%);
+	transition: transform 0s 0s;
+}
+
+header#hiding .header__inner {
+	transition-delay: 0s;
+}
+
+header#hiding .background {
+	transition-delay: 0.3s;
+}
+
+header#hiding {
+	transition-delay: 0.9s;
+}
+
+.header.show {
+	transform: translateY(0);
+}
+
+.header.show .header__inner {
+	opacity: 1;
+}
+
+.header .background {
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transform: translateY(-100%);
+	transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+}
+
+.header.show.with__background .background {
+	transform: translateY(0);
+}
+
+.header .header__inner {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	opacity: 0;
+	transition: opacity 0.2s 0.6s;
+}
+
+.header__logo {
+	flex-grow: 1;
+	overflow: hidden;
+	margin: auto 0;
+}
+
+.header__logo a {
+	display: block;
+	width: 10rem;
+	margin: 0 auto;
+}
+
+.header__logo a img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.header__navigation {
+	flex-grow: 2;
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__navigation ul li {
+	margin: 0 0.7rem;
+	display: inline-block;
+}
+
+.header__navigation .nav__link {
+	font-weight: bold;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.header__navigation .shop__container {
+	flex-basis: 5rem;
+	text-align: center;
+}
+
+.header__navigation .nav__link:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: white;
+	transform: scaleX(0);
+	transform-origin: right center;
+	transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.header__navigation .nav__link:hover:after {
+	transform: scaleX(1);
+	transform-origin: left center;
+}
