@@ -1,0 +1,267 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  max-width: 93.5rem;
+  margin: 3rem auto 0;
+}
+
+#wrapper > .container {
+  display: flex;
+  padding: 0 8rem;
+}
+
+.phone-app-demo {
+  height: 61.8rem;
+  background: url("./login-assets/mobile-app.png") center no-repeat;
+  flex: 1;
+}
+
+.form-data {
+  width: 100%;
+  max-width: 35rem;
+  margin-top: 3rem;
+}
+
+.form-data form {
+  background-color: #fff;
+  border: 2px solid #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.logo img {
+  width: 17.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-data form input {
+  padding: .8rem;
+  margin-bottom: .5rem;
+  border: 2px solid #eee;
+  border-radius: .4rem;
+}
+
+.form-btn {
+  margin: 1rem 0 1.5rem;
+  height: 3rem;
+  background-color: #3897f0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.has-separator {
+  font-size: 1.3rem;
+  color: #999999;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.has-separator::before,
+.has-separator::after {
+  content: "";
+  position: absolute;
+  background-color: #eee;
+  width: 40%;
+  height: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.has-separator::before {
+  left: 0;
+}
+
+.has-separator::after {
+  right: 0;
+}
+
+.facebook-login {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #385185;
+  margin-bottom: 2.5rem;
+}
+
+.facebook-login i {
+  font-size: 2rem;
+  margin-right: .7rem;
+}
+
+.password-reset {
+  font-size: 1.2rem;
+  color: #003569;
+}
+
+.sign-up {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #262626;
+  padding: 2rem 0;
+  background-color: #fff;
+  border: 2px solid #eee;
+  margin: 1rem 0;
+}
+
+.sign-up a {
+  color: #3897f0;
+  font-weight: bold;
+}
+
+.get-the-app {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.get-the-app span {
+  display: block;
+  margin: 2rem 0;
+  color: #262626;
+}
+
+.badges {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.badges img {
+  max-width: 14rem;
+  cursor: pointer;
+}
+
+.badges img:first-child {
+  margin-right: 1rem;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+footer .container-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+}
+
+footer .container-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-top: -1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.footer-nav ul li {
+  margin-right: 1.5rem;
+}
+
+.footer-nav ul li a {
+  color: #999999;
+}
+
+.copyright-notice {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #999999;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  .phone-app-demo {
+    display: none;
+  }
+
+  .form-data {
+    margin: 0 auto;
+  }
+  
+  .wrapper > .container {
+    padding: 0;
+  }
+
+  footer .container {
+    padding: 0 2rem;
+    justify-content: center;
+  }
+
+  .footer-nav ul {
+    justify-content: center;
+  }
+
+  .footer-nav ul li {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    padding-top: 0;
+  }
+
+  .form-data form {
+    background-color: transparent;
+    border: none;
+    padding: 0 2rem;
+  }
+
+  .sign-up {
+    background-color: transparent;
+    border: none;
+    margin: 4rem 0;
+  }
+
+  footer {
+    padding-bottom: 2rem;
+  }
+}
