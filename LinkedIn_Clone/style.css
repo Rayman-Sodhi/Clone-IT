@@ -250,3 +250,49 @@ body{
     font-size: 15px;
 }
 /* Widgets */
+.widgets{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.widgetsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widgetsHeader h2{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.widgetsArticle{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widgetsArticle:hover{
+    background-color: lightgray;
+}
+.widgetLeft{
+    color: #666666;
+    margin-right: 5px;
+}
+.fa-circle-info{
+    font-size: 15px;
+}
+.widgetRight{
+    flex:1;
+}
+.widgetsArticle h4{
+    font-size: 14px;
+}
+.widgetRight p{
+    font-size: 12px;
+    color: gray;
+}
