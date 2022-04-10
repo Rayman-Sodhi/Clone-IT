@@ -12,11 +12,16 @@ HTML5,CSS3,JavaScript
 
 ## It Look's Like:
 
+![image](https://user-images.githubusercontent.com/77873383/162607179-5a4b2237-7005-432f-98b6-b6f94e9dce1a.png)
 
 ---
 
 
 ## Video Demo:
+
+
+https://user-images.githubusercontent.com/77873383/162607187-7d5e480c-2d2d-44e9-9833-1e847acc7936.mp4
+
 
 
 ---
