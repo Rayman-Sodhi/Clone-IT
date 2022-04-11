@@ -1,5 +1,5 @@
 .ui.menu .item{
-    color : rgb(180,180,185) !important;
+    color : rgb(180,180,185)  ;
 }
 
 .clickable:hover{
@@ -7,5 +7,5 @@
 }
 
 .ui.menu .item.active{
-    background : grey !important;
+    background : grey  ;
 }
