@@ -1,0 +1,36 @@
+.footer {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	font-weight: 400;
+	padding: 1.5rem 0;
+}
+
+.footer__text {
+	color: #979797;
+}
+
+.footer__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0 1rem;
+	padding-top: 1rem;
+	margin: 0 auto;
+}
+
+.footer__list li {
+	margin: 0 10px 10px 0;
+}
+
+.footer__list__link {
+	font-weight: 600;
+	transition: color 1s cubic-bezier(0.25, 1, 0.25, 1);
+}
+
+.footer__list__link:hover {
+	color: #8b939b;
+}
