@@ -157,12 +157,17 @@
     <h2>Projects</h2>
     <div class="projects center">
       <div class="searchbar-container">
-        <input type="text" id="searchbar" placeholder="Enter your favourite clone..." />
+        <input type="text" id="searchbar" placeholder="Enter your favourite clone..." onkeydown="enterKeyClicked()"/>
         <button id="searchbtn" onclick="func()">
           <i class="fa fa-search" aria-hidden="true"></i>
         </button>
       </div>
       <script>
+        function enterKeyClicked() {
+          if (event.keyCode == 13 || event.key === "Enter") {
+            func();
+          }
+        }
         function func() {
           var input, filter;
           input = document.getElementById("searchbar");
