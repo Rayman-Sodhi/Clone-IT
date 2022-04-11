@@ -9,9 +9,9 @@ body{
 /* navbar section */
 .navbar {
     height: 6rem;
-    justify-content: space-around !important;
+    justify-content: space-around  ;
     background-color: var(--dark-light);
-    position: sticky !important;
+    position: sticky  ;
     width: 100%;
     top: 0;
 
@@ -51,7 +51,7 @@ li {
 .nav-links a {
     transition: all .3s ease-in-out;
     padding:.7rem 1rem;
-    color: white !important;
+    color: white  ;
     border-radius: var(--bradius);
 }
 .nav-links a .symbol{
@@ -276,7 +276,7 @@ footer {
 }
 .icon {
     transition: .3s all ease-in-out;
-    border: 0px !important;
+    border: 0px  ;
     height: 40px;
     width: 40px;
     display: flex;
