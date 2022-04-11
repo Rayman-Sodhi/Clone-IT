@@ -55,7 +55,7 @@
 ## About the Clone IT
 
 <p align="center">
- The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design . New contributors can add more websites clone to the list and suggest new features in the existing ones. Also there is scope to introduce new features in websites and thus creating a upgraded version of their clones.
+The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. New contributors can add more websites clone to the list and suggest new features in the existing ones. Also, there is a scope to introduce new features in websites and thus creating an upgraded version of their clones.
     
 </p>
 
@@ -86,12 +86,17 @@
 | 19. | Quora   | [Quora Clone]() | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> | [Quora Official Web.](https://www.quora.com/)
 | 20. | Inshorts | [Inshorts Clone]() | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Inshorts Official Web.](https://inshorts.com/en/read)
 | 21. | Unsplash | [Unsplash Clone](https://sulagna-dutta-roy.github.io/Unsplash-Clone/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> | [Unsplash Official Web.](https://unsplash.com)
+| 22. | Twitter | [Twitter Clone](https://twitter-geek.netlify.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Twitter Official Web.](https://twitter.com/)
+| 23. | Tesla | [Tesla Clone](https://ayushsleeping-teslaclone.netlify.app/) | <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"  ></a> <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"  ></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  ></a> | [Tesla Official Web.](https://www.tesla.com/) |
+| 24. | Rockstar Games | [Rockstar Games Clone](https://rockstar-social-club-clone-6fmypfzp2-emmanuelokuchukwu.vercel.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Rockstar Games Official Web.](https://www.rockstargames.com/)
+| 25. | TripAdvisor | [TripAdvisor Clone](https://rahulthakur19.github.io/Tripadvisor/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> | [TripAdvisor Official Web.](https://www.TripAdvisor.com/)
 | 22. | Tesla | [Tesla Clone](https://ayushsleeping-teslaclone.netlify.app/) | <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white"  ></a> <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-DD4B25?style=for-the-badge&logo=html5&logoColor=white"  ></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  ></a> | [Tesla Official Web.](https://www.tesla.com/) |
 | 23. | Mac OS | [Mac OS Clone](https://mrjoy832.github.io/MAC-OS-/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-DD4B25?style=for-the-badge&logo=html5&logoColor=white"  ></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white"  ></a> | [Mac OS Official Web](https://www.apple.com/in/macos/monterey/) |
 | 24. | Microsoft Teams Page Clone | [Microsoft Teams Page Clone](https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-DD4B25?style=for-the-badge&logo=html5&logoColor=white"  ></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-264DE4?style=for-the-badge&logo=css3&logoColor=white"  ></a> | [Microsoft Teams Official Web](https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid) |
 | 25. | 2048 Clone | [2048 Clone](https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [2048 Official Web](https://play2048.co/) |
 | 26. | Zomato Clone | [Zomato Clone](https://zomatoclone-blush.vercel.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Zomato Official Web](https://www.zomato.com/) |
 | 27. | Windows 11 Clone | [Windows 11 Clone](#) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> | [Windows 11 Official Web](https://www.microsoft.com/software-download/windows11) |
+
 
 
 
@@ -136,7 +141,7 @@
 ## Contribution Guidelines
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
 
-### Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!
+### Never made an open source contribution before? Wondering how contributions work in our project? Here's a quick rundown!
 
 <img align="right" width="300" src="https://user-images.githubusercontent.com/75829770/158055651-fb9caff1-2b91-4711-8c54-6577b64f04f2.jpeg" alt="fork this repository" />
 
@@ -228,7 +233,7 @@ git push -u origin <your_branch_name>
 * To create a pull request, click on `compare and pull requests`.
 
 
-* Add appropriate title and description to your pull request explaining your changes and efforts done.
+* Add an appropriate title and description to your pull request explaining your changes and efforts done.
 
 
 * Click on `Create Pull Request`.
@@ -237,7 +242,7 @@ git push -u origin <your_branch_name>
 * Congrats :exclamation: You have made a PR to the Clone-IT :boom: . Wait for your submission to be accepted and your PR to be merged.
 
 
-* Wait for the pull request to be reviewed by a maintainer, Make changes to the pull request if the reviewing maintainer recommends them.
+* Wait for the pull request to be reviewed by a maintainer. Make changes to the pull request if the reviewing maintainer recommends them.
 
 
 * Celebrate  🥳  your success after your pull request is merged!

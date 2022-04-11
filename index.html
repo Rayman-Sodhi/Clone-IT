@@ -1,1021 +1,823 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="assets/alogo.png" type="image/x-icon" />
-    <script src="./chatwoot.js"></script>
-    <title>Clone-IT</title>
-  </head>
 
-  <body>
-    <main class="main">
-      <!-- navbar section start -->
-      <nav class="navbar d-flex">
-        <!-- <a href="/index-clone-it/" class="logo">Clone-<span>IT</span></a> -->
-        <a href="#" class="logo">
-          <img src="assets/alogo.png" alt="" />
-          <span>lone-IT</span>
-        </a>
-        <ul class="nav-links" id="top-nav">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="assets/alogo.png" type="image/x-icon" />
+  <script src="./chatwoot.js"></script>
+  <title>Clone-IT</title>
+</head>
+
+<body>
+  <main class="main">
+    <!-- navbar section start -->
+    <nav class="navbar d-flex">
+      <!-- <a href="/index-clone-it/" class="logo">Clone-<span>IT</span></a> -->
+      <a href="#" class="logo">
+        <img src="assets/alogo.png" alt="" />
+        <span>lone-IT</span>
+      </a>
+      <div class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar-links">
+        <ul>
           <li>
-            <a href="#"
-              ><i class="fa fa-home symbol"></i> <span class="text">Home</span>
+            <a href="#" class="menuLink">
+              <!--<i class="fa fa-home symbol"></i>--> <span class="text">Home</span>
             </a>
           </li>
           <li>
-            <a href="#about"
-              ><i class="fa fa-users symbol"></i>
+            <a href="#about" class="menuLink">
+              <!--<i class="fa fa-users symbol"></i>-->
               <span class="text">About</span>
             </a>
           </li>
           <li>
-            <a href="#projects"
-              ><i class="fa fa-laptop symbol"></i>
+            <a href="#projects" class="menuLink">
+              <!--<i class="fa fa-laptop symbol"></i>-->
               <span class="text">Projects</span>
             </a>
           </li>
           <li>
-            <a href="#connect"
-              ><i class="fa fa-address-card symbol"></i>
+            <a href="#connect" class="menuLink">
+              <!--<i class="fa fa-address-card symbol"></i>-->
               <span class="text">Connect</span>
             </a>
           </li>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </ul>
-      </nav>
-      <!-- navbar section ends -->
-
-      <!-- header section start -->
-      <header class="header">
-        <div class="header-background center d-flex">
-          <section class="left">
-            <h2>Clones of awesome websites</h2>
-            <p>
-              Great clones of some awesome websites which are used globally by
-              people are found here..
-            </p>
-            <div class="links">
-              <a href="#projects">Explore </a>
-              <a href="https://github.com/Rayman-Sodhi/Clone-IT" target="_blank"
-                ><i class="fa fa-github"></i> Github</a
-              >
-            </div>
-          </section>
-          <div class="right">
-            <img
-              src="assets/header-img.png"
-              alt="header image"
-              class="header-img"
-            />
-          </div>
-        </div>
-      </header>
-      <!-- header section ends -->
-
-      <!-- about section start -->
-      <section class="about" id="about">
-        <h2>About Us</h2>
-        <div class="info d-flex center">
-          <div class="info-left">
-            <p>
-              This platform is built by passionate and talented Open source
-              enthusiastic web developers to make Collabrative work fun and easy
-              for the newbies!
-            </p>
-            <br />
-            <p>
-              The idea behind this project is to learn how different websites
-              are made by directly cloning them using the same layout and design
-              . New contributors can ad more websites to the list and suggest
-              new features in the existing ones .Also there is scope to
-              introduce new features in websites and thus creating a upgraded
-              version of their clone.
-            </p>
-          </div>
-          <div class="info-right">
-            <img src="assets/group.png" alt="clone-it-info-repo " />
-          </div>
-        </div>
-        <div class="info d-flex center">
-          <div class="info-right">
-            <img src="assets/logo-2.png" alt="clone-it-info-repo " />
-          </div>
-          <div class="info-left">
-            <p>
-              Script Winter of Code is an open-source program envisioned by the
-              Script Foundation. It aims to bring students into the world of
-              open source development and see the power of unified
-              problem-solving in real-time.
-            </p>
-            <br />
-            <p>
-              The projects that we will host have been carefully hand-picked to
-              invigorate creative thinking and encourage collaboration among all
-              participants. The students will be guided by experienced mentors
-              throughout their journey. They will learn the skills essential in
-              the world of programming, all the while developing a deep
-              appreciation for the world of open-source.
-            </p>
-          </div>
-        </div>
-        <div class="info d-flex center">
-          <div class="info-left">
-            <p>
-              GirlScript Summer Of Code is a three-month-long Open-Source
-              Program conducted every summer by the Girlscript Foundation. With
-              constant efforts, participants contribute to numerous projects
-              under the extreme guidance of skilled mentors over these months.
-            </p>
-            <p>
-              The GirlScript Foundation aims to change lives by imparting tech
-              education and relevant skills while fostering diversity. Their
-              tremendous endeavors curb the gap to offer a technophilic
-              environment and revolutionize the tech domain by promoting,
-              sharing, and spreading knowledge equally to every individual.
-              GirlScript Summer Of Code has witnessed active participation over
-              the years, and the 2022 edition aims to carry the legacy with a
-              promising impact.
-            </p>
-          </div>
-          <div class="info-right">
-            <img src="assets/GSSOC.png" alt="clone-it-info-repo " />
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- about section ends -->
-
-    <!-- projects section start -->
-
-    <section class="projects-background" id="projects">
-      <h2>Projects</h2>
-      <div class="projects center">
-        <div class="searchbar-container">
-          <input
-            type="text"
-            id="searchbar"
-            placeholder="Enter your favourite clone..."
-          />
-          <button id="searchbtn" onclick="func()">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </button>
-        </div>
-        <script>
-          function func() {
-            var input, filter;
-            input = document.getElementById("searchbar");
-            filter = input.value.toUpperCase();
-            const filterMapping = {
-
-              "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
-              "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
-              "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
-              "DISCORD CLONE":
-                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
-              "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
-              "FLIPKART CLONE":
-                "https://rayman-sodhi.github.io/Flipkart-Clone/",
-              "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
-              "GMAIL CLONE": "#",
-              "GITHUB CLONE":
-                "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
-              "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
-              "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
-              "SLACK CLONE": "https://chatifyslack.netlify.app/",
-              "GOOGLE SEARCH ENGINE CLONE":
-                "https://quizzical-payne-d3e222.netlify.app/",
-              "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-              "GOOGLE KEEP CLONE":
-                "https://ajoe12.github.io/Google-Keep-Clone/",
-              "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
-              "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
-              "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
-              "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
-              "MICROSOFT CLONE":
-                "https://19arnab190201.github.io/Microsoft-Clone/",
-              "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
-              "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
-              "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
-              "STARBUCKS CLONE":
-                "https://girlwithasmile.github.io/Starbucks-clone/",
-              "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
-              "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
-            };
-            if (filterMapping[filter] != undefined) {
-              window.open(filterMapping[filter]);
-
-                "2048 CLONE": "https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/",
-                "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
-                "AMAZON CLONE": "#",
-                "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
-                "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
-                "DISCORD CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
-                "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
-                "FLIPKART CLONE": "https://rayman-sodhi.github.io/Flipkart-Clone/",
-                "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
-                "GMAIL CLONE": "#",
-                "GITHUB CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
-                "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
-                "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
-                "SLACK CLONE": "https://chatifyslack.netlify.app/",
-                "GOOGLE SEARCH ENGINE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-                "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
-                "GOOGLE KEEP CLONE": "https://ajoe12.github.io/Google-Keep-Clone/",
-                "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
-                "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
-                "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
-                "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
-                "MICROSOFT CLONE": "https://19arnab190201.github.io/Microsoft-Clone/",
-                "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
-                "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
-                "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
-                "STARBUCKS CLONE": "https://girlwithasmile.github.io/Starbucks-clone/",
-                "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
-                "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
-            }
-            if(filterMapping[filter]!=undefined)
-            {
-             window.open(filterMapping[filter]);
-
-            }
-          }
-        </script>
-
-        <ul class="projects-container">
-          <!-- 2048 Clone -->
-
-          <li>
-            <a
-              href="https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/"
-              class="card twozero_foureight"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>2048 Clone</h3>
-                  <p>
-                    2048 is a single-player sliding tile puzzle video game
-                    written by Italian web developer Gabriele Cirulli and
-                    published on GitHub.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Airbnb Clone -->
-
-          <li>
-            <a
-              href="https://mrjoy832.github.io/AIRBNB/"
-              class="card airbnb"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Airbnb Clone</h3>
-                  <p>
-                    Airbnb, Inc. is an American company that operates an online
-                    marketplace for lodging, primarily homestays for vacation
-                    rentals, and tourism activities
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Amazon Clone -->
-
-          <li>
-            <a
-              href="#"
-              class="card amazon"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Amazon Clone</h3>
-                  <p>
-                    Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, 
-                    cloud computing, digital streaming, and artificial intelligence.
-                </div>
-              </div>
-            </a>
-          </li>
-
-          
-
-          <!-- Apple Clone -->
-
-          <li>
-            <a
-              href="https://pranai2518.github.io/Apple-clone/"
-              class="card apple"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Apple Clone</h3>
-                  <p>
-                    Apple India website is a online official store which sells
-                    all the Apple products including the MacBooks, iPad series,
-                    Apple Watch and iPhones.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!--CANDY CRUSH CLONE-->
-
-          <li>
-            <a
-              href="https://adit0507.github.io/Candy-Crush/"
-              class="card candy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Candy Crush Clone</h3>
-                  <p>
-                    Candy Crush Saga is a free-to-play match-three puzzle video
-                    game released by King on April 12, 2012, originally for
-                    Facebook; other versions for iOS, Android, Windows Phone,
-                    and Windows 10 followed.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Discord Clone -->
-
-          <li>
-            <a
-              href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html"
-              class="card discord"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Discord Clone</h3>
-                  <p>
-                    Users communicate with voice calls, video calls, text
-                    messaging, media and files in private chats or as part of
-                    communities called "servers".
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Facebook Clone -->
-
-          <li>
-            <a
-              href="https://vaib215.github.io/Facebook-Clone/"
-              class="card facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Facebook Clone</h3>
-                  <p>
-                    Meta Platforms, Inc., doing business as Meta and formerly
-                    known as Facebook, Inc., multinational technology.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Flipkart Clone -->
-
-          <li>
-            <a
-              href="https://rayman-sodhi.github.io/Flipkart-Clone/"
-              class="card flipkart"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Flipkart Clone</h3>
-                  <p>
-                    Flipkart is a popular Indian company that deals with
-                    e-commerce.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Github Clone -->
-
-          <li>
-            <a
-              href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html"
-              class="card github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Github Clone</h3>
-                  <p>
-                    GitHub, Inc. is a provider of Internet hosting for software
-                    development and version control using Git.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Google Search Engine Clone -->
-
-          <li>
-            <a
-              href="https://quizzical-payne-d3e222.netlify.app/"
-              class="card google"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Google Search Engine Clone</h3>
-                  <p>
-                    Google LLC is a technology company that specializes in
-                    Internet-related services and products.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Google Keep Clone -->
-
-          <li>
-            <a
-              href="https://ajoe12.github.io/Google-Keep-Clone/"
-              class="card google_keep"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Google Keep Clone</h3>
-                  <p>
-                    Google Keep is a note-taking service included as part of the
-                    free, web-based Google Docs Editors suite offered by Google.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Gmail Clone -->
-
-          <li>
-            <a
-              href="#"
-              class="card gmail"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Gmail Clone</h3>
-                  <p>
-                    Gmail is a free email service provided by Google. As of
-                    2019, it had 1.5 billion active users worldwide. A user
-                    typically accesses Gmail in a web browser or the official
-                    mobile app. Google also supports the use of email clients
-                    via the POP and IMAP protocols.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Hulu Clone -->
-
-          <li>
-            <a
-              href="https://harshit995.github.io/hulu-clone/"
-              class="card hulu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Hulu Clone</h3>
-                  <p>
-                    Hulu is a streaming platform owned by The Walt Disney
-                    Company.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Inshort Clone  (working on;y on mozilla firefox) -->
-
-          <li>
-            <a
-              href="https://cloninginshorts.netlify.app/"
-              class="card inshorts"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Inshorts Clone</h3>
-                  <p>
-                    Inshorts is a Noida-based company that provides a content
-                    discovery app for Android and iOS. It aggregates news and
-                    other content such as videos, infographics, and blogs
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- KFC Clone -->
-
-          <li>
-            <a
-              href="https://rayman-sodhi.github.io/KFC-Clone/"
-              class="card kfc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>KFC Clone</h3>
-                  <p>
-                    KFC is an American fast food restaurant that specializes in
-                    fried chicken.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Linkedin Clone -->
-
-          <li>
-            <a
-              href="https://rayman-sodhi.github.io/Connected-In/"
-              class="card linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>LinkedIn Clone</h3>
-                  <p>
-                    LinkedIn is a platform that is primarily used for
-                    professional networking and career.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Linktree Clone -->
-
-          <li>
-            <a
-              href="https://clonelinktree.netlify.app/"
-              class="card linktree"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Linktree Clone</h3>
-                  <p>
-                    Linktree is the launchpad to your latest video, article,
-                    recipe, tour, store, website, social post.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Mac OS Clone -->
-
-          <li>
-            <a
-              href="https://mrjoy832.github.io/MAC-OS-/"
-              class="card mac_os"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Mac OS Clone</h3>
-                  <p>
-                    Mac OS is a proprietary graphical operating system developed
-                    and marketed by Apple Inc. since 2001. It is the primary
-                    operating system for Apple's Mac computers. Within the
-                    market of desktop and laptop computers
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Microsoft clone -->
-
-          <li>
-            <a
-              href="https://19arnab190201.github.io/Microsoft-Clone/"
-              class="card microsoft"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Microsoft Clone</h3>
-                  <p>
-                    Microsoft Corporation is a technology company which produces
-                    computer software related services
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Microsoft Teams Clone -->
-
-          <li>
-            <a
-              href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html"
-              class="card microsoft_teams"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Microsoft Teams Clone</h3>
-                  <p>
-                    Microsoft Teams is a proprietary business communication
-                    platform developed by Microsoft, as part of the Microsoft
-                    365 family of products
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Netflix Clone -->
-
-          <li>
-            <a
-              href="https://netflix-clone-tau-livid.vercel.app/"
-              class="card netflix"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Netflix Clone</h3>
-                  <p>
-                    Netflix is a streaming service that offers a variety of TV
-                    shows, movies, anime and more
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Pluralsight Clone -->
-
-          <li>
-            <a
-              href="https://mrjoy832.github.io/PluralSight_clone/"
-              class="card pluralsight"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Pluralsight Clone</h3>
-                  <p>
-                    Pluralsight, Inc. is an American privately held online
-                    education company that offers a variety of video training
-                    courses for software developers, IT administrators, and
-                    creative professionals through its website.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Quora Clone -->
-
-          <li>
-            <a
-              href="https://rhydham2809.github.io/Qoura-Clone/"
-              class="card quora"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Quora Clone</h3>
-                  <p>
-                    Quora is an American social question-and-answer website
-                    based in Mountain View, California. Users can collaborate by
-                    editing questions and commenting on answers that have been
-                    submitted by other users
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Slack Clone -->
-
-          <li>
-            <a
-              href="https://chatifyslack.netlify.app/"
-              class="card slack"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Slack Clone</h3>
-                  <p>Slack is a proprietary business communication platform</p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Starbucks Clone -->
-
-          <li>
-            <a
-              href="https://girlwithasmile.github.io/Starbucks-clone/"
-              class="card starbucks"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Starbucks Clone</h3>
-                  <p>
-                    Starbucks is the world's largest coffeehouse chain which
-                    offers variety of coffee beverages, smoothies, baked
-                    items,etc.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Spotify Clone -->
-
-          <li>
-            <a
-              href="https://spotify-clone-khaki-six.vercel.app/"
-              class="card spotify"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Spotify Clone</h3>
-                  <p>
-                    Spotify is a digital music, podcast, and video streaming
-                    service with millions of songs and other content.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Tesla Clone -->
-
-          <li>
-            <a
-              href="https://ayushsleeping-teslaclone.netlify.app/"
-              class="card tesla"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Tesla Clone</h3>
-                  <p>
-                    Tesla, Inc. is an American electric vehicle and clean energy
-                    company based in Austin, Texas. Tesla designs and
-                    manufactures electric cars, battery energy storage from home
-                    to grid-scale, solar panels and solar roof tiles, and
-                    related products and services.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Unsplash Clone -->
-
-          <li>
-            <a
-              href="https://sulagna-dutta-roy.github.io/Unsplash-Clone/"
-              class="card unsplash"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Unsplash Clone</h3>
-                  <p>
-                    Unsplash is a website dedicated to sharing stock photography
-                    under the Unsplash license. Since 2021, it has been owned by
-                    Getty Images.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Windows 11 Clone -->
-
-          <li>
-            <a
-              href="#"
-              class="card windows11"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Windows 11 Clone</h3>
-                  <p>
-                    Windows 11 is the latest major release of Microsoft's
-                    Windows NT operating system, released in October 2021. It is
-                    a free upgrade to its predecessor, Windows 10, on some
-                    Windows 10 devices
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Youtube Clone -->
-
-          <li>
-            <a
-              href="https://anveshajain19.github.io/YOUTUBE-CLONE/"
-              class="card youtube"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Youtube Clone</h3>
-                  <p>
-                    YouTube is an American online video sharing and social media
-                    platform owned by Google.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Zomato Clone -->
-
-          <li>
-            <a
-              href="https://zomatoclone-blush.vercel.app/"
-              class="card zomato"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Zomato Clone</h3>
-                  <p>
-                    Zomato is an Indian multinational restaurant aggregator and
-                    food delivery company founded by Deepinder Goyal and Pankaj
-                    Chaddah in 2008. Zomato provides information, menus and
-                    user-reviews of restaurants.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <!-- Zoom Clone -->
-
-          <li>
-            <a
-              href="https://rayman-video-app.herokuapp.com/"
-              class="card zoom"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="card-info">
-                <div class="card-details">
-                  <h3>Zoom Clone</h3>
-                  <p>
-                    Zoom is an American communications technology company used
-                    for video chats or meeting.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </li>
         </ul>
       </div>
-    </section>
+    </nav>
+    <!-- navbar section ends -->
 
-    <!-- projects section ends -->
-
-    <!-- connect section start -->
-
-    <section class="connect center" id="connect">
-      <h2>Connect with us</h2>
-      <p>Let's connect together by filling this form...</p>
-      <div class="connect-form center">
-        <div class="form-div">
-          <form
-            action="mailto:emailid@example.com"
-            method="post"
-            enctype="text/plain"
-          >
-            <label for="name">Hello energetic</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Type your beautiful name here.."
-              required
-              title="Put your name"
-            />
-            <label for="email">Connect with email id</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="Let's connect with your email id.."
-              required
-              title="Put your email id"
-            />
-            <label for="message">Have something for us, let's type</label>
-            <textarea
-              name="textarea"
-              id="message"
-              cols="30"
-              rows="10"
-            ></textarea>
-            <input type="submit" value="Send Message" />
-          </form>
-        </div>
-        <div class="img-div">
-          <img src="assets/person.png" alt="form-image" class="contact-img" />
-        </div>
-      </div>
-    </section>
-    <!-- connect section ends -->
-
-    <!-- footer section start -->
-    <footer>
-      <div class="footer">
-        <section class="menu site">
-          <h3 class="fot-logo">
-            <img src="assets/alogo.png" alt="" /><span>lone-IT</span>
-          </h3>
-          <p class="text-color">
-            The idea behind this project is to learn how different websites are
-            made by directly cloning them using the same layout and design . New
-            contributors can ad more websites to the list and suggest new
-            features in the existing ones .Also there is scope to introduce new
-            features in websites and thus creating a upgraded version of their
-            clone.
+    <!-- header section start -->
+    <header class="header">
+      <div class="header-background center d-flex">
+        <section class="left">
+          <h2>Clones of awesome websites</h2>
+          <p>
+            Great clones of some awesome websites which are used globally by
+            people are found here..
           </p>
+          <div class="links">
+            <a href="#projects">Explore </a>
+            <a href="https://github.com/Rayman-Sodhi/Clone-IT" target="_blank"><i class="fa fa-github"></i> Github</a>
+          </div>
         </section>
-        <!-- <div class="menu">
+        <div class="right">
+          <img src="assets/header-img.png" alt="header image" class="header-img" />
+        </div>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <div class="info d-flex center">
+        <div class="info-left">
+          <p>
+            This platform is built by passionate and talented Open source
+            enthusiastic web developers to make Collabrative work fun and easy
+            for the newbies!
+          </p>
+          <br />
+          <p>
+            The idea behind this project is to learn how different websites
+            are made by directly cloning them using the same layout and design
+            . New contributors can ad more websites to the list and suggest
+            new features in the existing ones .Also there is scope to
+            introduce new features in websites and thus creating a upgraded
+            version of their clone.
+          </p>
+        </div>
+        <div class="info-right">
+          <img src="assets/group.png" alt="clone-it-info-repo " />
+        </div>
+      </div>
+      <div class="info d-flex center">
+        <div class="info-right">
+          <img src="assets/logo-2.png" alt="clone-it-info-repo " />
+        </div>
+        <div class="info-left">
+          <p>
+            Script Winter of Code is an open-source program envisioned by the
+            Script Foundation. It aims to bring students into the world of
+            open source development and see the power of unified
+            problem-solving in real-time.
+          </p>
+          <br />
+          <p>
+            The projects that we will host have been carefully hand-picked to
+            invigorate creative thinking and encourage collaboration among all
+            participants. The students will be guided by experienced mentors
+            throughout their journey. They will learn the skills essential in
+            the world of programming, all the while developing a deep
+            appreciation for the world of open-source.
+          </p>
+        </div>
+      </div>
+      <div class="info d-flex center">
+        <div class="info-left">
+          <p>
+            GirlScript Summer Of Code is a three-month-long Open-Source
+            Program conducted every summer by the Girlscript Foundation. With
+            constant efforts, participants contribute to numerous projects
+            under the extreme guidance of skilled mentors over these months.
+          </p>
+          <p>
+            The GirlScript Foundation aims to change lives by imparting tech
+            education and relevant skills while fostering diversity. Their
+            tremendous endeavors curb the gap to offer a technophilic
+            environment and revolutionize the tech domain by promoting,
+            sharing, and spreading knowledge equally to every individual.
+            GirlScript Summer Of Code has witnessed active participation over
+            the years, and the 2022 edition aims to carry the legacy with a
+            promising impact.
+          </p>
+        </div>
+        <div class="info-right">
+          <img src="assets/GSSOC.png" alt="clone-it-info-repo " />
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- about section ends -->
+
+  <!-- projects section start -->
+
+  <section class="projects-background" id="projects">
+    <h2>Projects</h2>
+    <div class="projects center">
+      <div class="searchbar-container">
+        <input type="text" id="searchbar" placeholder="Enter your favourite clone..." />
+        <button id="searchbtn" onclick="func()">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <script>
+        function func() {
+          var input, filter;
+          input = document.getElementById("searchbar");
+          filter = input.value.toUpperCase();
+          const filterMapping = {
+
+            "2048 CLONE": "https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/",
+            "AIRBNB CLONE": "https://mrjoy832.github.io/AIRBNB/",
+            "AMAZON CLONE": "#",
+            "APPLE CLONE": "https://pranai2518.github.io/Apple-clone/",
+            "CANDY CRUSH CLONE": "https://adit0507.github.io/Candy-Crush/",
+            "DISCORD CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html",
+            "FACEBOOK CLONE": "https://vaib215.github.io/Facebook-Clone/",
+            "FLIPKART CLONE": "https://rayman-sodhi.github.io/Flipkart-Clone/",
+            "KFC CLONE": "https://rayman-sodhi.github.io/KFC-Clone/",
+            "GMAIL CLONE": "#",
+            "GITHUB CLONE": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html",
+            "INSHORTS CLONE": "https://cloninginshorts.netlify.app",
+            "NETFLIX CLONE": "https://netflix-clone-tau-livid.vercel.app/",
+            "SLACK CLONE": "https://chatifyslack.netlify.app/",
+            "GOOGLE SEARCH ENGINE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
+            "GOOGLE CLONE": "https://quizzical-payne-d3e222.netlify.app/",
+            "GOOGLE KEEP CLONE": "https://ajoe12.github.io/Google-Keep-Clone/",
+            "HULU CLONE": "https://harshit995.github.io/hulu-clone/",
+            "LINKTREE CLONE": "https://clonelinktree.netlify.app/",
+            "LINKEDIN CLONE": "https://rayman-sodhi.github.io/Connected-In/",
+            "MAC OS CLONE": "https://mrjoy832.github.io/MAC-OS-/",
+            "MICROSOFT CLONE": "https://19arnab190201.github.io/Microsoft-Clone/",
+            "QUORA CLONE": "https://rhydham2809.github.io/Qoura-Clone/",
+            "TESLA CLONE": "https://ayushsleeping-teslaclone.netlify.app",
+            "SPOTIFY CLONE": "https://spotify-clone-khaki-six.vercel.app/",
+            "STARBUCKS CLONE": "https://girlwithasmile.github.io/Starbucks-clone/",
+            "YOUTUBE CLONE": "https://anveshajain19.github.io/YOUTUBE-CLONE/",
+            "ZOOM CLONE": "https://rayman-video-app.herokuapp.com/",
+          }
+
+          if (filterMapping[filter] != undefined) {
+            window.open(filterMapping[filter]);
+
+
+          };
+          if (filterMapping[filter] != undefined) {
+            window.open(filterMapping[filter]);
+
+          }
+        }
+      </script>
+
+      <ul class="projects-container">
+        <!-- 2048 Clone -->
+
+        <li>
+          <a href="https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/"
+            class="card twozero_foureight" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>2048 Clone</h3>
+                <p>
+                  2048 is a single-player sliding tile puzzle video game
+                  written by Italian web developer Gabriele Cirulli and
+                  published on GitHub.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Airbnb Clone -->
+
+        <li>
+          <a href="https://mrjoy832.github.io/AIRBNB/" class="card airbnb" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Airbnb Clone</h3>
+                <p>
+                  Airbnb, Inc. is an American company that operates an online
+                  marketplace for lodging, primarily homestays for vacation
+                  rentals, and tourism activities
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Amazon Clone -->
+
+        <li>
+          <a href="#" class="card amazon" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Amazon Clone</h3>
+                <p>
+                  Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce,
+                  cloud computing, digital streaming, and artificial intelligence.
+              </div>
+            </div>
+          </a>
+        </li>
+
+
+
+        <!-- Apple Clone -->
+
+        <li>
+          <a href="https://pranai2518.github.io/Apple-clone/" class="card apple" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Apple Clone</h3>
+                <p>
+                  Apple India website is a online official store which sells
+                  all the Apple products including the MacBooks, iPad series,
+                  Apple Watch and iPhones.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!--CANDY CRUSH CLONE-->
+
+        <li>
+          <a href="https://adit0507.github.io/Candy-Crush/" class="card candy" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Candy Crush Clone</h3>
+                <p>
+                  Candy Crush Saga is a free-to-play match-three puzzle video
+                  game released by King on April 12, 2012, originally for
+                  Facebook; other versions for iOS, Android, Windows Phone,
+                  and Windows 10 followed.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Discord Clone -->
+
+        <li>
+          <a href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Discord_Clone/Discord_App_Clone/home.html"
+            class="card discord" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Discord Clone</h3>
+                <p>
+                  Users communicate with voice calls, video calls, text
+                  messaging, media and files in private chats or as part of
+                  communities called "servers".
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Facebook Clone -->
+
+        <li>
+          <a href="https://vaib215.github.io/Facebook-Clone/" class="card facebook" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Facebook Clone</h3>
+                <p>
+                  Meta Platforms, Inc., doing business as Meta and formerly
+                  known as Facebook, Inc., multinational technology.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Flipkart Clone -->
+
+        <li>
+          <a href="https://rayman-sodhi.github.io/Flipkart-Clone/" class="card flipkart" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Flipkart Clone</h3>
+                <p>
+                  Flipkart is a popular Indian company that deals with
+                  e-commerce.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Github Clone -->
+
+        <li>
+          <a href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Github_Clone/Github_Homepage_Clone/index.html"
+            class="card github" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Github Clone</h3>
+                <p>
+                  GitHub, Inc. is a provider of Internet hosting for software
+                  development and version control using Git.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Google Search Engine Clone -->
+
+        <li>
+          <a href="https://quizzical-payne-d3e222.netlify.app/" class="card google" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Google Search Engine Clone</h3>
+                <p>
+                  Google LLC is a technology company that specializes in
+                  Internet-related services and products.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Google Keep Clone -->
+
+        <li>
+          <a href="https://ajoe12.github.io/Google-Keep-Clone/" class="card google_keep" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Google Keep Clone</h3>
+                <p>
+                  Google Keep is a note-taking service included as part of the
+                  free, web-based Google Docs Editors suite offered by Google.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Gmail Clone -->
+
+        <li>
+          <a href="#" class="card gmail" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Gmail Clone</h3>
+                <p>
+                  Gmail is a free email service provided by Google. As of
+                  2019, it had 1.5 billion active users worldwide. A user
+                  typically accesses Gmail in a web browser or the official
+                  mobile app. Google also supports the use of email clients
+                  via the POP and IMAP protocols.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Hulu Clone -->
+
+        <li>
+          <a href="https://harshit995.github.io/hulu-clone/" class="card hulu" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Hulu Clone</h3>
+                <p>
+                  Hulu is a streaming platform owned by The Walt Disney
+                  Company.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Inshort Clone  (working on;y on mozilla firefox) -->
+
+        <li>
+          <a href="https://cloninginshorts.netlify.app/" class="card inshorts" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Inshorts Clone</h3>
+                <p>
+                  Inshorts is a Noida-based company that provides a content
+                  discovery app for Android and iOS. It aggregates news and
+                  other content such as videos, infographics, and blogs
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- KFC Clone -->
+
+        <li>
+          <a href="https://rayman-sodhi.github.io/KFC-Clone/" class="card kfc" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>KFC Clone</h3>
+                <p>
+                  KFC is an American fast food restaurant that specializes in
+                  fried chicken.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Linkedin Clone -->
+
+        <li>
+          <a href="https://rayman-sodhi.github.io/Connected-In/" class="card linkedin" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>LinkedIn Clone</h3>
+                <p>
+                  LinkedIn is a platform that is primarily used for
+                  professional networking and career.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Linktree Clone -->
+
+        <li>
+          <a href="https://clonelinktree.netlify.app/" class="card linktree" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Linktree Clone</h3>
+                <p>
+                  Linktree is the launchpad to your latest video, article,
+                  recipe, tour, store, website, social post.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Mac OS Clone -->
+
+        <li>
+          <a href="https://mrjoy832.github.io/MAC-OS-/" class="card mac_os" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Mac OS Clone</h3>
+                <p>
+                  Mac OS is a proprietary graphical operating system developed
+                  and marketed by Apple Inc. since 2001. It is the primary
+                  operating system for Apple's Mac computers. Within the
+                  market of desktop and laptop computers
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Microsoft clone -->
+
+        <li>
+          <a href="https://19arnab190201.github.io/Microsoft-Clone/" class="card microsoft" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Microsoft Clone</h3>
+                <p>
+                  Microsoft Corporation is a technology company which produces
+                  computer software related services
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Microsoft Teams Clone -->
+
+        <li>
+          <a href="https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html"
+            class="card microsoft_teams" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Microsoft Teams Clone</h3>
+                <p>
+                  Microsoft Teams is a proprietary business communication
+                  platform developed by Microsoft, as part of the Microsoft
+                  365 family of products
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Netflix Clone -->
+
+        <li>
+          <a href="https://netflix-clone-tau-livid.vercel.app/" class="card netflix" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Netflix Clone</h3>
+                <p>
+                  Netflix is a streaming service that offers a variety of TV
+                  shows, movies, anime and more
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Pluralsight Clone -->
+
+        <li>
+          <a href="https://mrjoy832.github.io/PluralSight_clone/" class="card pluralsight" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Pluralsight Clone</h3>
+                <p>
+                  Pluralsight, Inc. is an American privately held online
+                  education company that offers a variety of video training
+                  courses for software developers, IT administrators, and
+                  creative professionals through its website.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Quora Clone -->
+
+        <li>
+          <a href="https://rhydham2809.github.io/Qoura-Clone/" class="card quora" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Quora Clone</h3>
+                <p>
+                  Quora is an American social question-and-answer website
+                  based in Mountain View, California. Users can collaborate by
+                  editing questions and commenting on answers that have been
+                  submitted by other users
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Slack Clone -->
+
+        <li>
+          <a href="https://chatifyslack.netlify.app/" class="card slack" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Slack Clone</h3>
+                <p>Slack is a proprietary business communication platform</p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Starbucks Clone -->
+
+        <li>
+          <a href="https://girlwithasmile.github.io/Starbucks-clone/" class="card starbucks" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Starbucks Clone</h3>
+                <p>
+                  Starbucks is the world's largest coffeehouse chain which
+                  offers variety of coffee beverages, smoothies, baked
+                  items,etc.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Spotify Clone -->
+
+        <li>
+          <a href="https://spotify-clone-khaki-six.vercel.app/" class="card spotify" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Spotify Clone</h3>
+                <p>
+                  Spotify is a digital music, podcast, and video streaming
+                  service with millions of songs and other content.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tesla Clone -->
+
+        <li>
+          <a href="https://ayushsleeping-teslaclone.netlify.app/" class="card tesla" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Tesla Clone</h3>
+                <p>
+                  Tesla, Inc. is an American electric vehicle and clean energy
+                  company based in Austin, Texas. Tesla designs and
+                  manufactures electric cars, battery energy storage from home
+                  to grid-scale, solar panels and solar roof tiles, and
+                  related products and services.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Unsplash Clone -->
+
+        <li>
+          <a href="https://sulagna-dutta-roy.github.io/Unsplash-Clone/" class="card unsplash" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Unsplash Clone</h3>
+                <p>
+                  Unsplash is a website dedicated to sharing stock photography
+                  under the Unsplash license. Since 2021, it has been owned by
+                  Getty Images.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Windows 11 Clone -->
+
+        <li>
+          <a href="#" class="card windows11" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Windows 11 Clone</h3>
+                <p>
+                  Windows 11 is the latest major release of Microsoft's
+                  Windows NT operating system, released in October 2021. It is
+                  a free upgrade to its predecessor, Windows 10, on some
+                  Windows 10 devices
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Youtube Clone -->
+
+        <li>
+          <a href="https://anveshajain19.github.io/YOUTUBE-CLONE/" class="card youtube" target="_blank"
+            rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Youtube Clone</h3>
+                <p>
+                  YouTube is an American online video sharing and social media
+                  platform owned by Google.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Zomato Clone -->
+
+        <li>
+          <a href="https://zomatoclone-blush.vercel.app/" class="card zomato" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Zomato Clone</h3>
+                <p>
+                  Zomato is an Indian multinational restaurant aggregator and
+                  food delivery company founded by Deepinder Goyal and Pankaj
+                  Chaddah in 2008. Zomato provides information, menus and
+                  user-reviews of restaurants.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <!-- Zoom Clone -->
+
+        <li>
+          <a href="https://rayman-video-app.herokuapp.com/" class="card zoom" target="_blank" rel="noopener noreferrer">
+            <div class="card-info">
+              <div class="card-details">
+                <h3>Zoom Clone</h3>
+                <p>
+                  Zoom is an American communications technology company used
+                  for video chats or meeting.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- projects section ends -->
+
+  <!-- connect section start -->
+
+  <section class="connect center" id="connect">
+    <h2>Connect with us</h2>
+    <p>Let's connect together by filling this form...</p>
+    <div class="connect-form center">
+      <div class="form-div">
+        <form action="mailto:emailid@example.com" method="post" enctype="text/plain">
+          <label for="name">Hello energetic</label>
+          <input type="text" id="name" placeholder="Type your beautiful name here.." required title="Put your name" />
+          <label for="email">Connect with email id</label>
+          <input type="email" id="email" placeholder="Let's connect with your email id.." required
+            title="Put your email id" />
+          <label for="message">Have something for us, let's type</label>
+          <textarea name="textarea" id="message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" />
+        </form>
+      </div>
+      <div class="img-div">
+        <img src="assets/person.png" alt="form-image" class="contact-img" />
+      </div>
+    </div>
+  </section>
+  <!-- connect section ends -->
+
+  <!-- footer section start -->
+  <footer>
+    <div class="footer">
+      <section class="menu site">
+        <h3 class="fot-logo">
+          <img src="assets/alogo.png" alt="" /><span>lone-IT</span>
+        </h3>
+        <p class="text-color">
+          The idea behind this project is to learn how different websites are
+          made by directly cloning them using the same layout and design . New
+          contributors can ad more websites to the list and suggest new
+          features in the existing ones .Also there is scope to introduce new
+          features in websites and thus creating a upgraded version of their
+          clone.
+        </p>
+      </section>
+      <!-- <div class="menu">
                     <h3>Menu</h3>
                     <ul>
                         <li><a href="#about">About Us</a></li>
@@ -1024,61 +826,63 @@
                     </ul>
                 </div> -->
 
-        <section class="menu">
-          <h3>Support</h3>
-          <ul>
-            <li><a href="./FAQ-PAGE/faq.html">Help & FAQ</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#connect">Contact</a></li>
-          </ul>
-        </section>
-        <section class="follow d-flex">
-          <h3>Follow us</h3>
-          <div class="icon-div">
-            <a href="https://www.facebook.com" target="_blank" class="icon"
-              ><i class="fa fa-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com" target="_blank" class="icon"
-              ><i class="fa fa-instagram"></i
-            ></a>
-            <a
-              href="https://github.com/Rayman-Sodhi/Clone-IT"
-              target="_blank"
-              class="icon"
-              ><i class="fa fa-github"></i
-            ></a>
-          </div>
-        </section>
-      </div>
-    </footer>
-    <!-- footer section ends -->
-    
-    <button onclick="topFunction()" id="scrollBtn" title="Go to top">
-      <i class='bx bx-up-arrow-alt scroll-icon'></i> ↑ <br>Top
-    </button>
+      <section class="menu">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="./FAQ-PAGE/faq.html">Help & FAQ</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#connect">Contact</a></li>
+        </ul>
+      </section>
+      <section class="follow d-flex">
+        <h3>Follow us</h3>
+        <div class="icon-div">
+          <a href="https://www.facebook.com" target="_blank" class="icon" id="icon1"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="icon" id="icon2"><i
+              class="fa fa-instagram"></i></a>
+          <a href="https://github.com/Rayman-Sodhi/Clone-IT" target="_blank" class="icon" id="icon3"><i
+              class="fa fa-github"></i></a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <!-- footer section ends -->
 
-<script>
-  //Get the button
-  var mybutton = document.getElementById("scrollBtn");
-  
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
 
-  </body>
+  <button onclick="topFunction()" id="scrollBtn" title="Go to top">
+    <i class='bx bx-up-arrow-alt scroll-icon'></i> ↑ <br>Top
+  </button>
+
+
+  <script>
+      //Get the button
+      var mybutton = document.getElementById("scrollBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+
+  </script>
+</body>
+
 </html>

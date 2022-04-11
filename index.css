@@ -87,11 +87,28 @@ a {
   font-size: 3rem;
   font-family: "Dongle", sans-serif;
 }
+.toggle-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  margin-right: 3rem;
+  border-radius: 5px;
+  background-color: var(--lighter);
+}
 li {
   transition: all 0.3s ease-in-out;
   list-style: none;
 }
-.nav-links {
+.navbar-links ul{
   display: flex;
   height: 70%;
   justify-content: space-evenly;
@@ -102,31 +119,81 @@ li {
   font-weight: 600;
   border-radius: var(--bradius);
 }
-.nav-links a {
+.navbar-links a {
   transition: all 0.3s ease-in-out;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.9rem;
   color: white;
+  margin-right: 0.7rem;
   border-radius: var(--bradius);
-  float: left;
+  /* float: left; */
 }
-.nav-links a .symbol {
+
+.navbar-links a .symbol {
   display: none;
 }
-.nav-links a:hover {
+
+
+.navbar-links a:hover{
+    transition: all .3s ease 0s;
+    background: #0ba9da; 
+    box-shadow: 0px 0px 30px -10px rgba(255,255,255,1);
+}
+@media (max-width: 480px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}
+
+/* .nav-links a:hover {
   transition: all 0.3s ease-in-out;
   box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
+
+} */
+/* .nav-links li:hover {
+
+.nav-links a:hover {
+  transition: all .3s ease 0s;
+  background: #0ba9da; 
+  box-shadow: 0px 0px 48px -10px rgba(255,255,255,1);
 }
 .nav-links li:hover {
+
   transition: all 0.3s ease-in-out;
   margin-top: 0.3rem;
-}
+} */
 .nav-links li span {
   font-size: 2rem;
   font-family: "Dongle", sans-serif;
 }
-.nav-links .icon {
+/* .nav-links .icon {
   display: none;
-}
+} */
 /* navbar ends */
 
 /* header start */
@@ -892,6 +959,7 @@ footer {
     height: fit-content;
   }
 }
+
 @media (max-width: 638px) {
   h2 {
     font-size: 2rem;
