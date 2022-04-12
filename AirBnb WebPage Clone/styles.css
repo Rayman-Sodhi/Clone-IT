@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 :root{
-  --light: #f8f9fa!important;
+  --light: #f8f9fa ;
   --white: white;
-  --pink: #FF385C !important;
+  --pink: #FF385C  ;
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -125,7 +125,7 @@ footer .container .row .col li{
   color: var(--pink);
 }
 .bg-danger{
-  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%)  ;
 }
 .max-h-screen{
   max-height: 100vh;

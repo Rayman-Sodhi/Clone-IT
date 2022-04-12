@@ -437,11 +437,11 @@ a {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: 100% !important;
+    width: 100%  ;
   }
 
   .navbar .container {
-    padding: 15px 10px !important;
+    padding: 15px 10px  ;
   }
 
   .col-9 {
