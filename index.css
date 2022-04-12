@@ -585,7 +585,7 @@ li {
 
 .card {
   transition: all 0.2s ease;
-  border: none !important;
+  border: none  ;
   height: 190px;
   width: 190px;
   border-radius: 13px;
@@ -600,7 +600,7 @@ li {
     0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
     0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
     transition: all .3s ease-in;
-    border:none !important;
+    border:none  ;
     height: 200px;
     width: 200px;
     border-radius: 13px;
