@@ -269,8 +269,6 @@ git push -u origin <your_branch_name>
 <table align="center">
 <tr>
 <td align="center"><a href="https://github.com/whiteHatpro"><img src="https://avatars.githubusercontent.com/u/77486870?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">Mohak Srivastav</h4></td>
- <td align="center"><a href="https://github.com/gurjeetsinghvirdee"><img src="https://avatars.githubusercontent.com/u/73753957?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">Gurjeet Singh Virdee</h4></td>
-</tr>
 </table>
 <br>
 
