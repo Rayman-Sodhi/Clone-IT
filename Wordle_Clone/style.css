@@ -90,15 +90,15 @@ body{
 
 .word-green{
     background-color: #52be80;
-    color: white !important;
+    color: white  ;
 }
 
 .word-yellow{
     background-color: #f8c471;
-    color: white !important;
+    color: white  ;
 }
 
 .word-grey{
     background-color: #839192;
-    color: white !important;
+    color: white  ;
 }

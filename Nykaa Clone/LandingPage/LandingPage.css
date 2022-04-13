@@ -1,0 +1,67 @@
+.sidebar main{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 370px;
+    overflow-y: scroll;
+}
+.sidebar main::-webkit-scrollbar {
+    display: none;
+}
+main .productDiv{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.productDiv .productDivImg{
+    height: 100%;
+    width: 50%;
+}
+.productDiv .productDivText{
+    height: 90%;
+    width: 50%;
+    padding: 2% 4%;
+}
+.productDiv .productDivText p{
+    margin: 0%;
+    padding: 0;
+}
+.productDiv .productDivText p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+.productDiv .productDivText p:nth-child(2){
+  color: gray;
+  margin-bottom: 10px;
+}
+.productDiv .productDivText p:nth-child(3){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sidebar footer{
+    box-sizing: border-box;
+    padding: 25px 0px;
+    width: 100%;
+    height: 80px;
+    margin:auto;
+    background-color: white;
+}
+.sidebar footer >p{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 5%;
+
+}
+.sidebar footer >button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 29px;
+    cursor: pointer;
+}
+.sidebar footer >button:hover{
+    background-color: #424242;
+}

@@ -16,12 +16,13 @@
     <div class="container">
       <div class="phone-app-demo"></div>
       <div class="form-data">
-        <form action="">
+        <form action="index.html" method="post" name="form1">
           <div class="logo">
             <img src="./login-assets/logo.png" alt="logo">
           </div>
-          <input type="text" placeholder="Phone number, username, or email">
-          <input type="password" placeholder="Password">
+          <input type="text" placeholder="Phone number, username, or email" required
+              pattern = "^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$" />
+          <input type="password" placeholder="Password" required>
           <button class="form-btn" type="submit">Log in</button>
           <span class="has-separator">Or</span>
           <a class="facebook-login" href="#">
