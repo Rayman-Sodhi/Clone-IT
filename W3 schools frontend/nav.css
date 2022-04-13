@@ -1,0 +1,78 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+overflow-x: hidden;
+}
+.nav-container{
+    position: relative;
+    bottom: 1.3px;
+    right: 1px;
+    background-color: aliceblue;
+}
+.nav-right{
+    position: relative;
+    left: 530px;
+}
+.nav-bar{
+    position: relative;
+    bottom: 12.6px;
+    right: 1px;
+}
+.nav-ico{
+    display: inline-block;
+    position: relative;
+    top: 9.5px;
+    left: 15px;
+}
+
+.nav-logo{
+    height: 42.35px;
+    width: 44.4px;
+    cursor: pointer;
+    padding: 10px 20px 10px;
+}
+.nav-text{
+display: inline-block;
+text-decoration: none;
+font-size: 18px;
+font-weight: 900;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 24px;
+cursor: pointer;
+position: relative;
+bottom: 87px;
+left: 45px;
+}
+.nav-text-arrow{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    bottom: 83px;
+    left: 28px;
+    }
+
+    .nav-ribbon{
+        font-size: 11px;
+        font-weight: bold;
+        padding: 3px 10px;
+        margin-left: -11px;
+        
+        text-align: center;
+        color: black;
+        border-radius: 25px;
+        position: relative;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+
+@media only screen and (max-width:416px) {
+    .nav-text{
+    display:none;
+    }
+    .nav-text-arrow{
+        display: none;
+    }
+}
