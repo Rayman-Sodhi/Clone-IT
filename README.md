@@ -269,6 +269,15 @@ git push -u origin <your_branch_name>
 <table align="center">
 <tr>
 <td align="center"><a href="https://github.com/whiteHatpro"><img src="https://avatars.githubusercontent.com/u/77486870?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">Mohak Srivastav</h4></td>
+</tr>
+</table>
+<br>
+<h1 align="center">Thanks to our Project Collaborator </h1>
+
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/gurjeetsinghvirdee"><img src="https://avatars.githubusercontent.com/u/73753957?v=4" width=150px height=150px /></a></br> <h4 style="color:green;">Gurjeet Singh Virdee</h4><br/><a href="https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
+</tr>
 </table>
 <br>
 
