@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', "Helvetica", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #000;
+    max-width: 1400px;
+    width: 92.5vw;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------ HEADER ------*/
+header {
+    color: #fff;
+    width: 100vw;
+    max-width: 1400px;
+    background-image: url("assets/bg-stars.jpg");
+    display: grid;
+    grid-template-columns: 100px 50px auto;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #333;
+    position: fixed;
+    z-index: 1;
+}
+
+.mobile-nav {
+    grid-column: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+/* ------ HEADER ------*/
+header img[src="assets/nasa-logo.svg"] {
+    width: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6em;
+}
+
+.card {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+
+.image-title {
+    color: #000; 
+    background-color: rgba(255,255,255, 0.8);
+    padding: 0.25em 0.5em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.25em;
+}
+
+.image-info {
+    color: #fff;
+    background-color: rgba(93, 127, 185, 0.9);
+    align-self: flex-start;
+    padding: 0.25em 0.75em;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+/* ------ FOOTER ------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    padding: 0 0.5em;
+    margin-bottom: 4em;
+    max-width: 1400px;
+    
+    margin-top: 2em;
+}
+
+
+body > h3 {
+    width: 100vw;
+    max-width: 1400px;
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+    background-color: #15418c;
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+/* ------ FOOTER ------*/
+footer > img {
+    width: 80px;
+    margin-top: 1em;
+}
+
+footer > p {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.1em;
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+}
+
+footer a {
+    color: #5d7fb9;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+form, .menu-1, .menu-2 {
+    display: none;
+}
+
+
+/* ------------------- Using "Media Query" --------------------------*/
+/* ------     --------     --------    --------   --------     ------*/
+@media screen and (min-width: 550px) {
+    form {
+        display: inline;
+        position: relative;
+    }
+
+    input[type="text"] {
+        padding: 0.75em 0.5em;
+        background-color: #333;
+        border: 0;
+    }
+
+    button[type="submit"] {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        background-color: #333;
+        border: 0;
+        font-size: 1.1rem;
+    }
+
+    #search-icon {
+        display: none;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .card[style="background-image: url('assets/bg-stars.jpg')"] {
+        grid-column: 1 / -1;
+    }
+
+    .card {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    main {
+        grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    }
+
+    .card[style="background-image: url('assets/1.webp')"] {
+        grid-row: 1 / 3;
+        grid-column: 1 / 3;
+    }
+
+    .card[style="background-image: url('assets/3.jpg')"] {
+        grid-row: 2 / 3;
+        grid-column: 3 / 5;
+    }
+
+    .card[style="background-image: url('assets/5.jpg')"] { 
+        grid-row: 3 / 4;
+        grid-column: 2 / 4;
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+
+/* ------ HEADER ------*/    
+    header {
+        grid-template-columns: 115px 50px auto 250px;
+        grid-template-rows: 50px 50px;
+        grid-template-areas: 
+            "logo . menuone search"
+            "logo menutwo menutwo menutwo";
+        padding: 1em;
+    }
+
+    .menu-1, .menu-2 {
+        display: flex;
+    }
+
+    .menu-1 {
+        grid-area: menuone;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.85rem;
+        justify-self: end;
+        margin-bottom: 1em;
+    }
+
+    .menu-1 hr {
+        border: 0;
+        border-right: 2px solid #555;
+        align-self: stretch;
+    }
+
+    .menu-2 hr {
+        border: 0;
+        border-right: 1px solid #999;
+        align-self: stretch;
+    }
+
+    .menu-2 {
+        grid-area: menutwo;
+        gap: 1.5em;
+        justify-self: center;
+        align-items: center;
+        background-color: #555;
+        padding: 0 1em;
+        font-size: 0.75rem;
+        margin-top: 1em;
+    }
+
+    .mobile-nav {
+        grid-area: search;
+    }
+
+    .mobile-nav > h2, #menu {
+        display: none;
+    }
+
+/* ------ HEADER ------*/    
+    header > img[src="assets/nasa-logo.svg"] { 
+        grid-area: logo;
+        width: 115px;
+    }
+
+/* ------ FOOTER ------*/    
+    footer {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0.5em;
+    }
+
+    footer a {
+        align-self: flex-end;
+        margin-right: 2em;
+    }
+
+    footer :last-child {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+/* ------ HEADER ------*/    
+    header {
+        grid-template-columns: 3fr 1fr 5fr;
+    }
+
+    body, header, main, footer {
+        min-width: 250px;
+    }
+    
+}
