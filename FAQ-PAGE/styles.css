@@ -8,115 +8,139 @@ body{
 
 /* navbar section */
 .navbar {
-    height: 6rem;
-    justify-content: space-around  ;
+    padding: 1.1rem 0 !important;
     background-color: var(--dark-light);
-    position: sticky  ;
+    position: fixed;
     width: 100%;
     top: 0;
-
-}
-
-.navbar a{
-    text-decoration: none;
-}
-.logo {
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--dark-light);
+  }
+  
+  .logo {
     font-weight: bold;
     color: white;
     display: flex;
-}
-.logo img{
+    text-decoration: none;
+  }
+  .logo img {
     width: 60px;
     height: 60px;
-}
-.logo span{
+  }
+  .logo span {
     font-size: 3rem;
-    font-family: 'Dongle', sans-serif;
-}
-li {
-    transition: all .3s ease-in-out;
+    font-family: "Dongle", sans-serif;
+  }
+  .toggle-button {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    margin-right: 3rem;
+    border-radius: 5px;
+    background-color: var(--lighter);
+  }
+  li {
+    transition: all 0.3s ease-in-out;
     list-style: none;
-}
-.nav-links {
+  }
+  .navbar-links ul{
     display: flex;
-    height: 100%;
     justify-content: space-evenly;
     align-items: center;
-    width: 40%;
     max-width: 100%;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: var(--bradius);
-}
-.nav-links a {
-    transition: all .3s ease-in-out;
-    padding:.7rem 1rem;
-    color: white  ;
-    border-radius: var(--bradius);
-}
-.nav-links a .symbol{
-    display: none;
-}
-.nav-links a:hover{
-    transition: all .3s ease-in-out;
-    box-shadow: 4px 4px 4px var(--lighter), 4px 5px 4px var(--lighter);
-}
-.nav-links li:hover {
-    transition: all .3s ease-in-out;
-    margin-top: .3rem ;
-}
-.nav-links li span {
-    font-size: 2rem;
-    font-family: 'Dongle', sans-serif;
-}
-
-/*CODE*/
-/* .header{
-    border-bottom: 1px solid #E2E8F0;
-} */
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-}
-
-.hamburger {
-    display: none;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
+    margin-bottom: unset;
+  }
+  .navbar-links a {
     transition: all 0.3s ease-in-out;
-    background-color: #ffffff;
-}
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    color: white;
+    margin-right: 0.7rem;
+    border-radius: var(--bradius);
+    /* float: left; */
+    text-decoration: none;
+  }
+  
+  .navbar-links a .symbol {
+    display: none;
+  }
+  
+  a:focus, a:visited{
+      outline: none;
+  }
+  
+  .navbar-links a:hover{
+      transition: all .3s ease 0s;
+      background: #0ba9da; 
+      box-shadow: 0px 0px 30px -10px rgba(255,255,255,1);
+      color: white;
+  }
+  @media (max-width: 882px) {
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      align-items: flex-start;
+      position: absolute;
+      top: 5.5rem;
+      left: 0;
+      right: 0;
+      background-color: inherit;
+      animation: loading 0.6s linear;
+    }
+  
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .navbar-links li {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-links a {
+      padding: 0.7rem 0.9rem;
+    }
+  
+    .navbar {
+      /* flex-direction: column; */
+      width: 100%;
+      justify-content: center;
+      justify-content: space-between;
+      font-size: 1.2rem;
+    }
+  }
 
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* .nav-item {
-    margin-left: 5rem;
-} */
-
-#text{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
-}
-
-
-
-/*CODE*/
-
-/* navbar ends */
+  .nav-links li span {
+    font-size: 2rem;
+    font-family: "Dongle", sans-serif;
+  }
+  /* navbar ends */
 
 
 .faq_area {
