@@ -491,6 +491,12 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.pinterest {
+  background-image: url(assets/pinterest.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .quora {
   background-image: url(assets/quora.png);
@@ -581,6 +587,18 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.wikipedia {
+  background-image: url(assets/wikipedia.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.zara {
+  background-image: url(assets/zara.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card {
