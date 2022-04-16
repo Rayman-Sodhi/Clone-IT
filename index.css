@@ -804,7 +804,7 @@ footer {
   transition: 0.3s all ease-in-out;
   transform: scale(1.2);
   background-color: var(--light);
-  border: 1px solid var(--light);
+  /* border: 1px solid var(--light); */
 }
 
 #icon1 {
