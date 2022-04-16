@@ -581,7 +581,17 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.whatsapp {
+  background-image: url(assets/whatsapp.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}.w3school {
+  background-image: url(assets/w3school.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .amazon {
     background-image: url(assets/amazon.jpg);
     background-position: center;
