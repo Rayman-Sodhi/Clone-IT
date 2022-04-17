@@ -5,7 +5,40 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
-/*--------------------------------------- Navbar -----------------------------------*/
+/*--------------------------------------- Navbar1  -----------------------------------*/
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+/* Styles  */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    background-color: #000000  ;
+}
+.navs{
+    float: left;
+    justify-content: space-between;
+    margin-top: 1%;
+    color: white;
+
+}
+.topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* Right section - top navbar */
+.topnav-right {
+    float: right;
+    overflow: hidden;
+ // background-color: #FFFFFF;
+}
+/*--------------------------------------- Navbar  -----------------------------------*/
 .nav{
     display: flex;
     justify-content: space-between;
