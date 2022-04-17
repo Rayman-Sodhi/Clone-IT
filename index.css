@@ -66,15 +66,23 @@ a {
 /* navbar section */
 .navbar {
   padding: 1.1rem 0;
-  justify-content: space-between;
   background-color: var(--dark-light);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 999;
 }
+
+.navbar-container {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-light);
+}
+
 .logo {
-  margin-left: 130px;
   font-weight: bold;
   color: white;
   display: flex;
@@ -88,14 +96,12 @@ a {
   font-family: "Dongle", sans-serif;
 }
 .toggle-button {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 25px;
   height: 20px;
+  cursor: pointer;
+  display: none;
 }
 .toggle-button .bar {
   height: 3px;
@@ -110,10 +116,8 @@ li {
 }
 .navbar-links ul{
   display: flex;
-  height: 70%;
   justify-content: space-evenly;
   align-items: center;
-  width: 40%;
   max-width: 100%;
   font-size: 1.2rem;
   font-weight: 600;
@@ -121,7 +125,8 @@ li {
 }
 .navbar-links a {
   transition: all 0.3s ease-in-out;
-  padding: 0.7rem 0.9rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
   color: white;
   margin-right: 0.7rem;
   border-radius: var(--bradius);
@@ -138,7 +143,7 @@ li {
     background: #0ba9da; 
     box-shadow: 0px 0px 30px -10px rgba(255,255,255,1);
 }
-@media (max-width: 480px) {
+@media (max-width: 882px) {
   .toggle-button {
     display: flex;
   }
@@ -146,6 +151,12 @@ li {
   .navbar-links {
     display: none;
     align-items: flex-start;
+    position: absolute;
+    top: 5.5rem;
+    left: 0;
+    right: 0;
+    background-color: inherit;
+    animation: loading 0.6s linear;
   }
 
   .navbar-links ul {
@@ -162,10 +173,15 @@ li {
     display: flex;
   }
 
+  .navbar-links a {
+    padding: 0.7rem 0.9rem;
+  }
+
   .navbar {
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
     justify-content: center;
+    justify-content: space-between;
     font-size: 1.2rem;
   }
 }
@@ -475,6 +491,12 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.pinterest {
+  background-image: url(assets/pinterest.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .quora {
   background-image: url(assets/quora.png);
@@ -559,12 +581,34 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.whatsapp {
+  background-image: url(assets/whatsapp.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}.w3school {
+  background-image: url(assets/w3school.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .amazon {
     background-image: url(assets/amazon.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.wikipedia {
+  background-image: url(assets/wikipedia.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.zara {
+  background-image: url(assets/zara.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card {
@@ -788,7 +832,7 @@ footer {
   transition: 0.3s all ease-in-out;
   transform: scale(1.2);
   background-color: var(--light);
-  border: 1px solid var(--light);
+  /* border: 1px solid var(--light); */
 }
 
 #icon1 {
@@ -965,8 +1009,8 @@ footer {
     font-size: 2rem;
   }
   .logo {
-    margin-left: 15px;
-    width: 70%;
+    /* margin-left: 15px; */
+    /* width: 70%; */
   }
   .logo img {
     width: 40px;

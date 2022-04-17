@@ -254,29 +254,42 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
     
-## Project Admin
+<h1 align="center">Project Admin</h1>
 
-<table>
+<table align="center">
 <tr>
-<td align="center"><a href="https://github.com/Rayman-Sodhi"><img src="https://avatars.githubusercontent.com/u/65675692?v=4" width=150px height=150px /></a></br> <h4>Rayman Sodhi</h4>
+<td align="center"><a href="https://github.com/Rayman-Sodhi"><img src="https://avatars.githubusercontent.com/u/65675692?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Rayman Sodhi</h4><br>
 <a href="https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
-
 </tr>
 </table>
 
+<h1 align="center">Project Mentors</h1>
 
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/whiteHatpro"><img src="https://avatars.githubusercontent.com/u/77486870?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">Mohak Srivastav</h4></td>
+</tr>
+</table>
+<br>
+<h1 align="center">Thanks to our Project Collaborator </h1>
 
-<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/gurjeetsinghvirdee"><img src="https://avatars.githubusercontent.com/u/73753957?v=4" width=150px height=150px /></a></br> <h4 style="color:green;">Gurjeet Singh Virdee</h4><br/><a href="https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
+</tr>
+</table>
+<br>
 
-## Contributors
+<h1 align="center">Our Valuable Contributors</h1>
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="207" ></a> 
 <a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="123" ></a> 
+<br>
 
 ### Thanks to all the **people who contribute**
-
-![Contributors](https://contributors-img.web.app/image?repo=Rayman-Sodhi/Clone-IT)
-
-
+<br>
+<a href="https://github.com/Rayman-Sodhi/Clone-IT/graphs/contributors" alt="Contributors">
+  <img src="https://contributors-img.web.app/image?repo=Rayman-Sodhi/Clone-IT" />
+</a>
 
 <br>
 
@@ -284,9 +297,6 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 <div align="center">
 

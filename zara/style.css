@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#body {
+    background-color: rgb(255, 255, 255);
+    margin:0px auto 0px auto;
+}
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+}
+
+.navbar-brand {
+    font-family: serif;
+    font-size: 34px !important;
+    color: rgb(0, 0, 0) !important;
+
+}
+
+.navbar-nav > li{
+    font-family: serif;
+    font-size: 16px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+
+.navbar-collapse {
+    text-align: right;
+    
+
+}
+#home {
+    
+    background: linear-gradient(rgba(228, 226, 226, 0.124),rgba(228, 226, 226, 0.0)),url(http://hotellalaguna.com/wp-content/uploads/2018/03/zara.jpg) no-repeat center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+#home-button {
+    color: rgb(0, 0, 0);
+    font-size: 160%;
+    font-weight: 220;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: 2px 2px black;
+}
+#home-button:hover {
+    color: rgb(255, 254, 254);
+    font-size: 160%;
+    font-weight: 220;
+    background: rgb(0, 0, 0);
+    border-radius: 0px;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1 {
+    font-size: 400%;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .landing-text h1 {
+        font-size: 260%;
+        font-weight: 350;
+    }
+
+    #home-button {
+        font-size: 120%;
+    }
+
+    #home-button:hover {
+        font-size: 120%;
+
+    }
+    
+}
+
+#row {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#who-are-we {
+    background: url(https://i.pinimg.com/originals/6f/e0/6c/6fe06ca627037b71b5c9793778b11fa6.jpg);
+    background-size: cover;
+}
+
+#waw-content {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#waw-img {
+    width: 100%;
+}
+
+
+
+#waw-txt-1, #waw-txt-2, #waw-txt-3 {
+    font-size: 24px;
+    margin: 7% auto 0px auto;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+#waw-txt-2 {
+    margin-top: 10%;
+}
+#waw-txt-3 {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    #waw-txt-1, #waw-txt-2, #waw-txt-3 {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+}
+
+#summer-22 {
+    background: url(http://static.zara.net/photos///2018/V/0/1/p/2878/159/712/2/w/1920/2878159712_1_1_1.jpg?ts=1519237102436) center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#summer-22-title {
+    font-size: 46px;
+    margin:25% auto 0px auto;
+}
+#summer-22-des {
+    font-size: 26px;
+    margin:12% auto 0px auto;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+#summer-img-1 {
+    width: 120%;
+    margin-top: 5%;
+    margin-left: -25%;
+}
+#summer-img-2 {
+    width: 120%;
+    margin-top: -39%;
+    margin-left: -3%;
+}
+#summer-img-3 {
+    width: 120%;
+    margin-top: 13%;
+    margin-left: -25%;
+}
+
+@media screen and (max-width: 800px) {
+    #summer-22-title {
+        font-size: 42px;
+        margin:25% auto 0px auto;
+        text-align: center;
+    }
+    #summer-22-des {
+        font-size: 22px;
+        margin:12% auto 0px auto;
+        font-family: 'Roboto', 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    #summer-img-3 {
+        width: 120%;
+
+    }
+    
+}
+
+/* Campaign */
+#campaign {
+    background: url(https://i.pinimg.com/originals/9e/70/44/9e7044af53c1829be11bca29381fb8e6.jpg) center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#campaign-content {
+    padding: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#campaign-title {
+    font-size: 77px;
+    text-align: center;
+}
+#campaign-des {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
