@@ -1,0 +1,56 @@
+.logo{height: 90px;
+width:250px}
+.nav-link{margin-left: 5px;
+    margin-right: 5px;
+    font-weight:bold ;
+    font-size: 0.8rem;
+    color: white !important; 
+}
+
+.shop{position: relative;
+left:150px;}
+
+header,.sec1{background-image: url(./images/1.jpg);}
+
+.navbar-toggler-icon{
+    margin-right: 40px;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+        top: 0; 
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+
+  .sidenav a{text-align: right;
+    padding: 8px 8px 8px 32px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  .sidenav a:not(:first-child){
+    border-bottom:solid rgba(128, 128, 128, 0.438) 0.8px;
+  }
+
+  .sidenav a:hover {
+    color: #707070;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
