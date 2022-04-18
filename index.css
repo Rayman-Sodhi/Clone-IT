@@ -582,7 +582,7 @@ li {
   background-repeat: no-repeat;
 }
 .whatsapp {
-  background-image: url(assets/whatsapp.jpeg);
+  background-image: url(assets/whatsapp.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -599,15 +599,15 @@ li {
     background-repeat: no-repeat;
 }
 .wikipedia {
-  background-image: url(assets/wikipedia.jpeg);
+  background-image: url(assets/wikipedia.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .zara {
-  background-image: url(assets/zara.png);
+  background-image: url(assets/Zara_Logo.svg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -1008,10 +1008,7 @@ footer {
   h2 {
     font-size: 2rem;
   }
-  .logo {
-    /* margin-left: 15px; */
-    /* width: 70%; */
-  }
+
   .logo img {
     width: 40px;
     height: 40px;
