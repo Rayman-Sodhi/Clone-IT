@@ -10,10 +10,10 @@ width:250px}
 .shop{position: relative;
 left:150px;}
 
-header,.sec1{background-image: url(./images/1.jpg);}
 
-.navbar-toggler-icon{
-    margin-right: 40px;
+
+.navbar-toggler-icon{cursor:pointer;
+    margin-right: 28px;
 }
 .sidenav {
     height: 100%; 
@@ -30,12 +30,13 @@ header,.sec1{background-image: url(./images/1.jpg);}
 
   .sidenav a{text-align: right;
     padding: 8px 8px 8px 32px;
-    margin-right: 50px;
+    margin-right: 40px;
     text-decoration: none;
     font-size: 1rem;
     color: #ffffff;
     display: block;
     transition: 0.3s;
+  
     
   }
   .sidenav a:not(:first-child){
@@ -48,9 +49,58 @@ header,.sec1{background-image: url(./images/1.jpg);}
   
   .sidenav .closebtn {
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 5px;
     font-size: 36px;
     margin-left: 50px;
   }
+  .sec0{
+    background-image: url(./images/3.jpg) ;
+    width: 100%;
+    height:700px;
+  }
+  .sec2{
+    background-image: url(./images/1.jpg) ;
+    width: 100%;
+    height:670px;
+  }
+  .sec3{
+    background-image: url(./images/2.jpg) ;
+    width: 100%;
+    height:660px;
+  }
+  .sec4{
+    background-image: url(./images/4.jpg) ;
+    width: 100%;
+    height:660px;
+  }
+  .sec5{
+    background-image: url(./images/5.jpg) ;
+    width: 100%;
+    height:660px;
+  }
+  h5,h6{position: relative;
+  top:320px;
+  color: white;
+  font-weight: lighter;
+left: 50px;}
+
+h1{position: relative;
+  top:320px;
+  color: white;
+  font-size: 3rem !important;
+left: 50px;}
+
+.button {
+    margin-top: 25px !important; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    color: #ffffff; 
+    border: 2px solid #f7efee;
   
+}
