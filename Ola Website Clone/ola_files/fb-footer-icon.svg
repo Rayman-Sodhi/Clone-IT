@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Have-a-Car" transform="translate(-411.000000, -5269.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Footer" transform="translate(0.000000, 5221.000000)">
+                <g id="Social-Media" transform="translate(151.000000, 48.000000)">
+                    <g id="Logos" transform="translate(260.000000, 0.000000)">
+                        <g id="ic_facebook">
+                            <path d="M24.8148148,0 L5.18518519,0 C2.32592593,0 0,2.32592593 0,5.18518519 L0,24.8148148 C0,27.6740741 2.32592593,30 5.18518519,30 L15.7333333,30 L15.7333333,19.2888889 L12.7703704,19.2888889 L12.7703704,14.8444444 L15.7333333,14.8444444 L15.7333333,11.9555556 C15.7333333,8.85925926 18.2518519,6.34074074 21.3481481,6.34074074 L24.962963,6.34074074 L24.962963,10.7851852 L21.3481481,10.7851852 C20.6962963,10.7851852 20.1777778,11.3185185 20.1777778,11.9555556 L20.1777778,14.8444444 L23.9851852,14.8444444 L23.9851852,19.2888889 L20.1777778,19.2888889 L20.1777778,29.9851852 L22.2518519,29.9851852 L24.8148148,29.9851852 C27.6740741,29.9851852 30,27.6592593 30,24.8 L30,5.18518519 C30,2.32592593 27.6740741,0 24.8148148,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
