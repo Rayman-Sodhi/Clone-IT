@@ -1,6 +1,6 @@
 ## HackerRank Clone
 
-This is full landing page of Hackerrank.
+This is clone of HackerRank website.
 
 
 <h3>Tech Stack:</h3>
@@ -10,3 +10,5 @@ This is full landing page of Hackerrank.
 </ul>
 
 <h3>Deployment URL:</h3>
+
+https://sulagna-dutta-roy.github.io/Hackerrank-clone
