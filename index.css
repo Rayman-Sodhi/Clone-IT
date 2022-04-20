@@ -287,7 +287,7 @@ li {
   font-size: 2.5rem;
 }
 .info {
-  margin: 3rem auto;
+  margin: 6rem auto;
   /* padding: 1.2rem; */
   text-align: left;
   /* border: 1px solid; */
@@ -297,7 +297,7 @@ li {
 .info-right {
   border-radius: 20px;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding: 5rem;
   background-color: #dadfff;
   display: flex;
   justify-content: center;
