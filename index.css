@@ -388,6 +388,13 @@ li {
   background-repeat: no-repeat;
 }
 
+.disney {
+  background-image: url("assets/Disney+_logo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .kfc {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701820-6c486c2a-0c0f-4baa-b4e9-8a072985c306.png);
   background-position: center;
@@ -438,7 +445,7 @@ li {
   background-repeat: no-repeat;
 }
 .microsoft {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701841-c9a68191-c2e6-4d71-a25a-ef2a6ca2ff77.png);
+  background-image: url('assets/microsoft.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -591,7 +598,7 @@ li {
 }
 
 .microsoft_teams {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701827-f56c2558-90ac-4391-8f8a-30aef48067d2.svg);
+  background-image: url('');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -628,8 +635,16 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .zara {
   background-image: url(assets/Zara_Logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dino {
+  background-image: url("assets/dinogame.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
