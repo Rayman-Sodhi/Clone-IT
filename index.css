@@ -416,7 +416,7 @@ li {
   background-repeat: no-repeat;
 }
 .microsoft {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701841-c9a68191-c2e6-4d71-a25a-ef2a6ca2ff77.png);
+  background-image: url(https://user-images.githubusercontent.com/82600388/164369234-43a7ffc8-6d56-4fdf-b2b3-24a7d00ba28a.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -555,7 +555,7 @@ li {
 }
 
 .zomato {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701857-c1e617db-2f25-4aad-bf9f-9eb19650be0d.svg);
+  background-image: url(https://user-images.githubusercontent.com/82600388/164368370-17f1b5b2-2c3a-4c73-bb10-6b77d16899bf.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -582,9 +582,7 @@ li {
   background-repeat: no-repeat;
 }
 .whatsapp {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701849-2f25a350-7218-4225-a0d4-0d135dcf89d5.jpeg);
-
-  background-image: url(assets/whatsapp.svg);
+  background-image: url(https://user-images.githubusercontent.com/82600388/164367479-96e31d8b-a244-438c-8002-2cbf108a4e1c.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -601,8 +599,7 @@ li {
     background-repeat: no-repeat;
 }
 .wikipedia {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701851-023280da-ef76-4877-bdb6-4e1aa46aadba.jpeg);
-  background-image: url(assets/wikipedia.svg);
+  background-image: url(https://user-images.githubusercontent.com/82600388/164368978-04326f9b-7daa-421d-96d4-89d35045bfa7.jpg);
 
   background-position: center;
   background-size: cover;
@@ -610,8 +607,7 @@ li {
 }
 .zara {
 
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701856-be59bc4c-0e79-4d5e-9a96-3264e27a9418.png);
-  background-image: url(assets/Zara_Logo.svg);
+  background-image: url(https://user-images.githubusercontent.com/82600388/164367914-c42e473e-6bb7-457f-be50-45ada8d9d502.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
