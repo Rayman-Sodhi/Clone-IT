@@ -1,0 +1,67 @@
+/* stop some themes from messing up Google Maps' styling (e.g. twentyeleven, twentytwelve, twentythirteen...) */
+/* https://flexible-map.webaware.net.au/ */
+
+.flxmap-container * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.flxmap-container img {
+	max-width: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+	border-radius: 0px !important;
+}
+
+.site-content .flxmap-directions img.adp-marker,
+.entry-content .flxmap-directions img.adp-marker {
+	max-width: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.flxmap-directions table.adp-placemark,
+.flxmap-directions table.adp-directions {
+	table-layout: inherit;
+}
+
+.flxmap-directions td.adp-text {
+	vertical-align: middle;
+}
+
+/* some basic styling for info window */
+
+.gm-style .gm-style-iw .flxmap-infowin {
+	color: #2c2c2c;
+}
+
+.gm-style .gm-style-iw .flxmap-marker-title {
+	font-weight: bold;
+}
+
+/* fix info window width on some Webkit browsers */
+.gm-style-iw {
+	min-width: intrinsic;
+	min-width: -webkit-fit-content;
+	min-width: -moz-fit-content;
+	min-width: fit-content;
+}
+
+/* fix info window title width on IE10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+	.gm-style .gm-style-iw .flxmap-marker-title {
+		white-space: nowrap;
+		word-wrap: normal;
+	}
+
+}
+
+/* fix vertical copyright message on IE8 in some themes */
+.flxmap-container .gm-style-cc > div {
+	word-wrap: normal;
+}
