@@ -445,9 +445,9 @@ li {
   background-repeat: no-repeat;
 }
 .microsoft {
-  background-image: url('assets/microsoft.png');
+  background-image: url('assets/teams.png');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -598,9 +598,9 @@ li {
 }
 
 .microsoft_teams {
-  background-image: url('');
+  background-image: url('assets/microsoft-teams.svg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -647,6 +647,41 @@ li {
   background-image: url("assets/dinogame.png");
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fresh {
+  background-image: url("assets/freshworks.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.google_shopping {
+  background-image: url("assets/google-shopping.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grammarly {
+  background-image: url("assets/grammarly.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hackerRank {
+  background-image: url("assets/hackerrank.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.instagram {
+  background-image: url("assets/instagram.svg");
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
