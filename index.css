@@ -600,7 +600,7 @@ li {
 .microsoft_teams {
   background-image: url('assets/microsoft-teams.svg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -682,6 +682,34 @@ li {
   background-image: url("assets/instagram.svg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kali_os {
+  background-image: url("assets/kali linux.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.myntra {
+  background-image: url(assets/myntra.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.news {
+  background-image: url(assets/news.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nykaa {
+  background-image: url(assets/nykaa.svg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
