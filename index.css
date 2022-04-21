@@ -360,12 +360,34 @@ li {
   cursor: pointer;
   width: 50px;
 }
+.avengers {
+  background-image: url("assets/avengers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .candy {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701765-b55a0de3-df44-45e6-b7b9-d6cef3750def.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.codepen {
+  background-image: url("assets/codepen.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.coin {
+  background-image: url("assets/coin toss.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .kfc {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701820-6c486c2a-0c0f-4baa-b4e9-8a072985c306.png);
   background-position: center;
@@ -582,18 +604,18 @@ li {
   background-repeat: no-repeat;
 }
 .whatsapp {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701849-2f25a350-7218-4225-a0d4-0d135dcf89d5.jpeg);
-
   background-image: url(assets/whatsapp.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }.w3school {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701848-a4da4069-dc5b-4e49-9839-7c01333e3091.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .amazon {
     background-image: url(https://user-images.githubusercontent.com/85568177/163701761-3530176a-7abd-420c-9091-d33e4fa63089.jpg);
     background-position: center;
@@ -601,16 +623,12 @@ li {
     background-repeat: no-repeat;
 }
 .wikipedia {
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701851-023280da-ef76-4877-bdb6-4e1aa46aadba.jpeg);
   background-image: url(assets/wikipedia.svg);
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .zara {
-
-  background-image: url(https://user-images.githubusercontent.com/85568177/163701856-be59bc4c-0e79-4d5e-9a96-3264e27a9418.png);
   background-image: url(assets/Zara_Logo.svg);
   background-position: center;
   background-size: contain;
