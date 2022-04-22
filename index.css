@@ -360,6 +360,7 @@ li {
   cursor: pointer;
   width: 50px;
 }
+
 .avengers {
   background-image: url("assets/avengers.jpg");
   background-position: center;
@@ -393,6 +394,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .kfc {
@@ -401,18 +403,21 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .zoom {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701859-ad23f947-d12f-4fcf-9a85-185bfa02643d.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .hulu {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701817-eec68af9-8c3a-4ea3-8242-b943734bf491.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .flipkart {
   background-image: url(https://user-images.githubusercontent.com/85568177/163702961-47af9724-1289-4e8c-92a3-f9044a552401.png);
   background-position: top;
@@ -420,30 +425,35 @@ li {
   background-repeat: no-repeat;
   box-shadow: 0 0 20px 10px rgba(49, 100, 240, 0.3);
 }
+
 .linkedin {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701822-636918fd-9ef2-4c8a-b5a6-93d75cf300c7.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .spotify {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701840-43b8353c-0eee-43ae-9952-4ba534b367fd.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .netflix {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701830-540ad5f6-36fb-4e40-86df-9973da7ffa7b.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .linktree {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701824-d7d643d7-e136-48cc-a159-1c3cdd4b8a74.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .microsoft {
   background-image: url('assets/teams.png');
   background-position: center;
@@ -456,6 +466,7 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .google {
@@ -532,6 +543,7 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .discord {
@@ -546,6 +558,7 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .tesla {
@@ -553,6 +566,7 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .airbnb {
@@ -588,6 +602,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .pluralsight {
@@ -595,6 +610,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: rgb(44, 44, 81);
 }
 
 .microsoft_teams {
@@ -602,6 +618,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .windows11 {
@@ -629,11 +646,13 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .wikipedia {
   background-image: url(assets/wikipedia.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .zara {
@@ -641,6 +660,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .dino {
@@ -648,6 +668,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .fresh {
@@ -697,6 +718,7 @@ li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .news {
@@ -710,6 +732,69 @@ li {
   background-image: url(assets/nykaa.svg);
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.petroleum {
+  background-image: url(assets/Hindustan_Petroleum_Logo.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reebok {
+  background-image: url(assets/Reebok_2019_logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.space_x {
+  background-image: url(assets/SpaceX_logo_black.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.swiggy {
+  background-image: url(assets/Swiggy_logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.tinder {
+  background-image: url(assets/TinderLogo-2017.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.tripadvisor {
+  background-image: url(assets/TripAdvisor_Logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.uber_eats {
+  background-image: url(assets/Uber_Eats_2020_logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.wordle {
+  background-image: url(assets/Wordle_196_example.svg);
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
