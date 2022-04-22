@@ -1067,7 +1067,7 @@ footer {
   }
   
 #scrollBtn:hover {
-    background-color: rgb(32, 70, 240); /* Add a dark-grey background on hover */
+    background-color: #0E8CFF; /* Add a dark-grey background on hover */
 }
 .scroll-icon{
     padding: 0; 
