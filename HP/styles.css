@@ -1,0 +1,434 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 20px;
+}
+
+.container1 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.updates-item {
+  background-color: #fff;
+  height: 100%;
+}
+.updates-item h4 {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #001344;
+}
+.updates-item ul {
+  max-height: 70px;
+  overflow-y: auto;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.updates-item ul li {
+  font-size: 0.8rem;
+  position: relative;
+  padding-left: 12px;
+  color: #001344;
+  font-weight: 600;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.updates-item ul li:before {
+  content: "";
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.4em solid transparent;
+  border-bottom: 0.4em solid transparent;
+  border-left: 0.4em solid #df1a14;
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.updates-item ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.alert-update-item {
+  background: #df1a14;
+
+  background: linear-gradient(to bottom, #df1a14 0%, #9e0f0a 100%);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.item1 {
+  background-image: url(https://hpcladmin.hindustanpetroleum.com/img/UploadedFiles/HomeBanner/EnglishBanners/398851c16a5b460793322276cbad1b6f.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.item1-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 380px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.item1 h1 {
+  color: #fdfdfd;
+  font-size: 66px;
+  font-weight: 800;
+  line-height: 55px;
+  margin-top: 24px;
+}
+
+.item1 p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 23px auto auto;
+  width: 57%;
+}
+.item1 button {
+  margin-top: 20px;
+  font-size: 20px !important;
+}
+
+.item2 {
+  background-image: url(https://www.manufacturingtodayindia.com/public/images/2019/08/19/HPCL-petrol-pump.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.item2-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 380px;
+  text-align: center;
+}
+
+.item2 h4 {
+  color: #fdfdfd;
+  font-size: 30px !important;
+  font-weight: 800;
+  line-height: 55px;
+  margin-top: 24px;
+}
+
+.item2 button {
+  margin-top: 20px;
+  font-size: 20px !important;
+}
+
+.item3 {
+  background-image: url(http://4.bp.blogspot.com/-PFCMzpka5QU/Tt2T53isU9I/AAAAAAAADlE/4VWC2yB8S7E/s1600/ppfinal.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.item3-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.item3 h4 {
+  color: #fdfdfd;
+  font-size: 30px !important;
+  font-weight: 800;
+  line-height: 55px;
+  margin-top: 24px;
+}
+
+.item3 button {
+  margin-top: 20px;
+  font-size: 20px !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #004e8f !important;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+  background-color: #df1a14;
+  padding: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.dropdown-toggle::after {
+  color: red !important;
+}
+.two {
+  padding: 20px;
+}
+
+.two-container {
+  display: block;
+  text-align: center;
+}
+
+.two-container h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-left: 15% !important;
+  margin-right: 35% !important;
+  width: 90%;
+  text-align: left;
+}
+.third-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.third-container img {
+  padding: 25px;
+  width: 95%;
+}
+
+.inner3 {
+  padding: 40px;
+
+  place-content: top !important;
+}
+
+.inner3 h1 {
+  text-align: center;
+}
+
+.inner3 p {
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.7;
+}
+
+.fourth {
+  text-align: center;
+}
+
+.fourth ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px !important;
+}
+
+.fourth ul li {
+  display: inline;
+}
+
+i {
+  margin-right: 10px;
+  color: #4054b2;
+  border-radius: 50%;
+  border: 0.2px solid black;
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #003f85;
+  color: white;
+}
+
+.footer-container {
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px !important;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+.gallery-container h2 {
+  padding-left: 20px;
+  color: #003f85;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.gallery-img {
+  padding: 20px;
+}
+
+.gallery-img img {
+  border: 0.5px solid black;
+  padding: 4px;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.gallery-images img {
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  border: 0.5px solid black;
+  padding: 4px;
+}
+
+.retail img {
+  height: 170px;
+}
+
+iframe {
+  width: 420px;
+  height: 615px;
+}
+
+.counter {
+  font-size: 50px;
+}
+
+.counting-container p {
+  font-size: 25px;
+}
+
+.counting {
+  background-color: yellow;
+}
+
+.counting-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.yellowbtn {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.inner3 button {
+  font-size: 20px !important;
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .mx-auto {
+    margin-bottom: 5px !important;
+  }
+  .counter {
+    font-size: 40px;
+  }
+  .counting-container p {
+    font-size: 20px;
+  }
+  .item1-container {
+    padding-top: 200px;
+  }
+  .item1 h1 {
+    font-size: 25px;
+  }
+  .item1 p {
+    width: 100%;
+  }
+  .item2-container {
+    padding-top: 200px;
+  }
+  .item2 h4 {
+    font-size: 20px !important;
+  }
+
+  .item3 {
+    background-image: url(http://4.bp.blogspot.com/-PFCMzpka5QU/Tt2T53isU9I/AAAAAAAADlE/4VWC2yB8S7E/s1600/ppfinal.jpg);
+    width: 100% !important;
+    background-size: cover !important;
+    height: auto !important;
+  }
+
+  .item3-container {
+    padding-top: 0px;
+  }
+
+  form {
+    margin: auto !important;
+    width: 100%;
+  }
+
+  .third-container {
+    padding: 0px;
+    display: block;
+  }
+  .inner3 {
+    padding: 15px;
+  }
+  .fourth ul {
+    font-size: 15px !important;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+  footer ul {
+    font-size: 16px !important;
+  }
+  .footer-container p {
+    font-size: 14px !important;
+  }
+  header {
+    padding: 0;
+  }
+  .group2 {
+    display: none;
+  }
+  .image1 img {
+    width: 100%;
+  }
+  iframe {
+    width: 420px;
+    height: 215px;
+  }
+}

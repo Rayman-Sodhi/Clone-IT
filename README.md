@@ -100,7 +100,6 @@ The idea behind this project is to learn how different websites are made by dire
 
 
 
-
 <br>
 
 <br>
