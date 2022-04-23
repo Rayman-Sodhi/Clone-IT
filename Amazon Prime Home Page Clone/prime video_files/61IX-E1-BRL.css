@@ -1,0 +1,1727 @@
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item {
+  margin-bottom: 24px; }
+  .DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item .DVPAWebWidgetsCustomComponents_Accordion__toggle {
+    padding-right: 36px;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold; }
+    .DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item .DVPAWebWidgetsCustomComponents_Accordion__toggle:focus {
+      outline: none; }
+    .DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item .DVPAWebWidgetsCustomComponents_Accordion__toggle:after {
+      display: inline-block;
+      content: '';
+      height: 10px;
+      width: 10px;
+      margin-right: 12px;
+      border-bottom: 2px solid currentColor;
+      border-right: 2px solid currentColor;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 10%;
+      right: 0; }
+    .DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item .DVPAWebWidgetsCustomComponents_Accordion__toggle[aria-expanded='true']::after, .DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__item .DVPAWebWidgetsCustomComponents_Accordion__toggle[aria-selected='true']::after {
+      transform: rotate(-135deg);
+      top: 20%; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__gray {
+  color: #ddd; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__white {
+  color: white; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__black {
+  color: black; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__xsmall {
+  font-size: 0.9rem;
+  line-height: 1.2rem; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__small {
+  font-size: 1.1rem;
+  line-height: 1.4rem; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__medium {
+  font-size: 1.3rem;
+  line-height: 1.6rem; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__large {
+  font-size: 1.5rem;
+  line-height: 1.8rem; }
+
+.DVPAWebWidgetsCustomComponents_Accordion__wrapper .DVPAWebWidgetsCustomComponents_Accordion__styled.DVPAWebWidgetsCustomComponents_Accordion__xlarge {
+  font-size: 1.875rem;
+  line-height: 2rem; }
+
+.DVPAWebWidgetsCustomComponents_BlockedButton__blockedButton {
+  max-width: 250px;
+  font-size: 15px; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_BlockedButton__blockedButton {
+    margin-left: auto !important;
+    margin-right: auto !important; } }
+
+.DVPAWebWidgetsCustomComponents_Image__anchor {
+  display: block; }
+
+.DVPAWebWidgetsCustomComponents_Image__image {
+  max-width: 100%; }
+
+.DVPAWebWidgetsCustomComponents_Button__wrapper .DVPAWebWidgetsCustomComponents_Button__header {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0 0 12px; }
+
+.DVPAWebWidgetsCustomComponents_Button__wrapper .DVPAWebWidgetsCustomComponents_Button__footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 12px 0 0; }
+
+.DVPAWebWidgetsCustomComponents_Button__wrapper .DVPAWebWidgetsCustomComponents_Button__button {
+  width: 100%; }
+
+.DVPAWebWidgetsCustomComponents_Button__wrapper.DVPAWebWidgetsCustomComponents_Button__centered {
+  display: block;
+  margin: 0 auto; }
+
+.DVPAWebWidgetsCustomComponents_Button__buttonContainer {
+  display: flex; }
+
+.DVPAWebWidgetsCustomComponents_Button__buttonContent {
+  display: flex;
+  align-items: center;
+  padding-left: 16px; }
+
+.DVPAWebWidgetsCustomComponents_Button__dynamic {
+  display: inline-block; }
+
+.DVPAWebWidgetsCustomComponents_Button__wide {
+  width: 100%;
+  display: inline-block; }
+
+.DVPAWebWidgetsCustomComponents_Button__slim {
+  width: 280px; }
+
+.DVPAWebWidgetsCustomComponents_Button__full {
+  width: 100%; }
+
+.DVPAWebWidgetsCustomComponents_Button__button {
+  font-weight: bold; }
+  .DVPAWebWidgetsCustomComponents_Button__button.DVPAWebWidgetsCustomComponents_Button__left {
+    text-align: left; }
+  .DVPAWebWidgetsCustomComponents_Button__button.DVPAWebWidgetsCustomComponents_Button__right {
+    text-align: right; }
+  .DVPAWebWidgetsCustomComponents_Button__button.DVPAWebWidgetsCustomComponents_Button__center {
+    text-align: center; }
+  .DVPAWebWidgetsCustomComponents_Button__button.DVPAWebWidgetsCustomComponents_Button__centered {
+    display: block;
+    margin: 0 auto; }
+  .DVPAWebWidgetsCustomComponents_Button__button .DVPAWebWidgetsCustomComponents_Button__subText {
+    display: block;
+    font-weight: 100;
+    font-size: 0.9375rem; }
+
+.DVPAWebWidgetsCustomComponents_Button__smallText {
+  font-size: 13px;
+  line-height: 12px; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_Button__wrapper {
+    margin: 0 auto !important; }
+  .DVPAWebWidgetsCustomComponents_Button__slim {
+    width: auto; }
+  .DVPAWebWidgetsCustomComponents_Button__header,
+  .DVPAWebWidgetsCustomComponents_Button__footer {
+    font-size: 1.1rem; } }
+
+@media only screen and (min-width: 480px) {
+  .DVPAWebWidgetsCustomComponents_Button__button.DVPAWebWidgetsCustomComponents_Button__wide {
+    min-width: 440px;
+    width: auto; } }
+
+.DVPAWebWidgetsCustomComponents_ButtonHolder__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  .DVPAWebWidgetsCustomComponents_ButtonHolder__holder .DVPAWebWidgetsCustomComponents_ButtonHolder__button {
+    flex: 0 1;
+    margin: 0 4px 4px 0;
+    flex-basis: 280px; }
+    .DVPAWebWidgetsCustomComponents_ButtonHolder__holder .DVPAWebWidgetsCustomComponents_ButtonHolder__button:last-child {
+      margin: 0 0 4px 0; }
+    .DVPAWebWidgetsCustomComponents_ButtonHolder__holder .DVPAWebWidgetsCustomComponents_ButtonHolder__button .DVPAWebWidgetsCustomComponents_ButtonHolder__fullHeight {
+      height: 100%;
+      max-height: 68px; }
+  .DVPAWebWidgetsCustomComponents_ButtonHolder__holder.DVPAWebWidgetsCustomComponents_ButtonHolder__centered {
+    justify-content: center; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_ButtonHolder__holder {
+    margin: 0 auto;
+    width: 280px; }
+    .DVPAWebWidgetsCustomComponents_ButtonHolder__holder.DVPAWebWidgetsCustomComponents_ButtonHolder__centered {
+      width: initial; }
+    .DVPAWebWidgetsCustomComponents_ButtonHolder__holder .DVPAWebWidgetsCustomComponents_ButtonHolder__button {
+      margin: 0 0 4px 0; } }
+
+.DVPAWebWidgetsCustomComponents_ButtonToggle__container {
+  display: block;
+  font-size: 17px;
+  position: relative; }
+  .DVPAWebWidgetsCustomComponents_ButtonToggle__container label {
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    font-weight: normal;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label .DVPAWebWidgetsCustomComponents_ButtonToggle__text {
+      display: block; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label .DVPAWebWidgetsCustomComponents_ButtonToggle__selectedText {
+      display: none; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label:focus {
+      outline: 0; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__primary {
+      color: #000;
+      background-color: #c4cacf; }
+      .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__primary:hover, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__primary:focus, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__primary:active {
+        background-color: #e0e3e6; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__secondary {
+      color: #fff;
+      background-color: #425265; }
+      .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__secondary:hover, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__secondary:focus, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__secondary:active {
+        background-color: #6a7d94; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__tertiary {
+      color: #fff;
+      background-color: #425265; }
+      .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__tertiary:hover, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__tertiary:focus, .DVPAWebWidgetsCustomComponents_ButtonToggle__container label.DVPAWebWidgetsCustomComponents_ButtonToggle__tertiary:active {
+        background-color: #F2F4F6;
+        color: #000; }
+  .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=radio],
+  .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=checkbox] {
+    display: none; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=radio]:checked + label .DVPAWebWidgetsCustomComponents_ButtonToggle__text,
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=checkbox]:checked + label .DVPAWebWidgetsCustomComponents_ButtonToggle__text {
+      display: none; }
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=radio]:checked + label .DVPAWebWidgetsCustomComponents_ButtonToggle__selectedText,
+    .DVPAWebWidgetsCustomComponents_ButtonToggle__container input[type=checkbox]:checked + label .DVPAWebWidgetsCustomComponents_ButtonToggle__selectedText {
+      display: block; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Lt.woff") format("woff");
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  outline: none;
+  padding: 20px;
+  font-family: "Amazon Ember";
+  color: white;
+  background-color: #252e39;
+  width: 1010px;
+  max-width: 90vw; }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__modalOverlay {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px) grayscale(100%); }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__modalClose {
+  z-index: 10;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.2em;
+  padding: 0.6em;
+  box-sizing: border-box;
+  width: 40px;
+  outline: none;
+  border: none;
+  background: none;
+  color: #ffffff; }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__dynamic {
+  min-width: 400px; }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__wide {
+  min-width: 900px; }
+
+.DVPAWebWidgetsCustomComponents_ButtonWithModal__slim {
+  width: 400px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-none {
+  margin: 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xsmall {
+  margin: 4px 0 0 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-small {
+  margin: 8px 0 0 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-medium {
+  margin: 16px 0 0 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-large {
+  margin: 24px 0 0 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xlarge {
+  margin: 48px 0 0 0; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-row.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xsmall {
+  margin: 0 0 0 4px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-row.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-small {
+  margin: 0 0 0 8px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-row.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-medium {
+  margin: 0 0 0 16px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-row.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-large {
+  margin: 0 0 0 24px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-row.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xlarge {
+  margin: 0 0 0 48px; }
+
+.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive {
+  flex: 1 1 0; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xsmall {
+    margin: 0 0 0 4px; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-small {
+    margin: 0 0 0 8px; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-medium {
+    margin: 0 0 0 16px; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-large {
+    margin: 0 0 0 24px; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xlarge {
+    margin: 0 0 0 48px; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xsmall {
+    margin: 4px 0 0 0; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-small {
+    margin: 8px 0 0 0; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-medium {
+    margin: 16px 0 0 0; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-large {
+    margin: 24px 0 0 0; }
+  .DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacer.DVPAWebWidgetsCustomComponents_SubComponentSpacer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubComponentSpacer__spacing-xlarge {
+    margin: 48px 0 0 0; } }
+
+.DVPAWebWidgetsCustomComponents_Logo__logo {
+  max-width: 100%; }
+  .DVPAWebWidgetsCustomComponents_Logo__logo.DVPAWebWidgetsCustomComponents_Logo__small {
+    max-height: 64px; }
+  .DVPAWebWidgetsCustomComponents_Logo__logo.DVPAWebWidgetsCustomComponents_Logo__medium {
+    max-height: 84px; }
+  .DVPAWebWidgetsCustomComponents_Logo__logo.DVPAWebWidgetsCustomComponents_Logo__large {
+    max-height: 100px; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__xxsmall {
+  font-size: 0.7rem;
+  line-height: 1rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__xsmall {
+  font-size: 0.9rem;
+  line-height: 1.2rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__small {
+  font-size: 1.1rem;
+  line-height: 1.4rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__medium {
+  font-size: 1.3rem;
+  line-height: 1.6rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__large {
+  font-size: 1.5rem;
+  line-height: 1.8rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__xlarge {
+  font-size: 1.875rem;
+  line-height: 2rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__title.DVPAWebWidgetsCustomComponents_Text__xsmall {
+  font-size: 1.3rem;
+  line-height: 1.6rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__title.DVPAWebWidgetsCustomComponents_Text__small {
+  font-size: 1.8rem;
+  line-height: 2rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__title.DVPAWebWidgetsCustomComponents_Text__medium {
+  font-size: 2.1rem;
+  line-height: 2.4rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__title.DVPAWebWidgetsCustomComponents_Text__large {
+  font-size: 2.5rem;
+  line-height: 2.8rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__title.DVPAWebWidgetsCustomComponents_Text__xlarge {
+  font-size: 2.8rem;
+  line-height: 3.1rem; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__bold {
+  font-weight: bold; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__gray {
+  color: #A1A7AC; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__white {
+  color: white; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__black {
+  color: black; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__inherit {
+  color: inherit; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__alignLeft {
+  text-align: left; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__alignCenter {
+  text-align: center; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__alignRight {
+  text-align: right; }
+
+.DVPAWebWidgetsCustomComponents_Text__text p {
+  margin-top: 16px; }
+  .DVPAWebWidgetsCustomComponents_Text__text p:first-of-type {
+    margin-top: 0; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__hasHeight {
+  overflow-y: scroll; }
+
+.DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__hasFontWeight strong {
+  font-weight: inherit; }
+
+@media only screen and (max-width: 680px) {
+  .DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__xsmall {
+    font-size: 0.7rem;
+    line-height: 1.1rem; }
+  .DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__small {
+    font-size: 0.9rem;
+    line-height: 1.2rem; }
+  .DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__medium {
+    font-size: 1.1rem;
+    line-height: 1.4rem; }
+  .DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__large {
+    font-size: 1.3rem;
+    line-height: 1.6rem; }
+  .DVPAWebWidgetsCustomComponents_Text__text.DVPAWebWidgetsCustomComponents_Text__paragraph.DVPAWebWidgetsCustomComponents_Text__xlarge {
+    font-size: 1.675rem;
+    line-height: 1.975rem; } }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxButtons__buttonContainer {
+  display: flex; }
+  .DVPAWebWidgetsCustomComponents_BuyBoxButtons__buttonContainer > div {
+    margin-left: 16px !important; }
+    .DVPAWebWidgetsCustomComponents_BuyBoxButtons__buttonContainer > div:first-child {
+      margin-left: 0 !important; }
+  .DVPAWebWidgetsCustomComponents_BuyBoxButtons__buttonContainer .DVPAWebWidgetsCustomComponents_BuyBoxButtons__button {
+    min-width: 180px; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxButtons__rentalInformation {
+  display: flex; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxButtons__buttonInner {
+  margin: 0; }
+
+.DVPAWebWidgetsCustomComponents_SVODHeaderList__svodHeader {
+  display: flex;
+  align-items: center; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxModal__container * {
+  margin: 0; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__rentalInformation {
+  display: flex;
+  align-items: center; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__buttonContainer {
+  display: flex; }
+  .DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__buttonContainer > div {
+    margin-left: 16px !important; }
+    .DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__buttonContainer > div:first-child {
+      margin-left: 0 !important; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__group:last-of-type {
+  margin-top: 16px; }
+
+.DVPAWebWidgetsCustomComponents_BuyBoxModal__container .DVPAWebWidgetsCustomComponents_BuyBoxModal__grpLabel p {
+  margin: 0; }
+
+.DVPAWebWidgetsCustomComponents_CardCustom__card {
+  box-shadow: 0px 0px 10px 0px #00000080;
+  border-radius: 3px;
+  padding: 32px 24px 24px;
+  line-height: 20px;
+  width: 100%;
+  min-width: 270px;
+  max-width: 300px;
+  min-height: 400px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* styleTypes */ }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card * {
+    margin: 0; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__fullWidth {
+    width: 100%;
+    height: auto; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__selected, .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__focused {
+    z-index: 2; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card .DVPAWebWidgetsCustomComponents_CardCustom__row {
+    width: 100%;
+    float: left; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card .DVPAWebWidgetsCustomComponents_CardCustom__content {
+    flex: 1; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card .DVPAWebWidgetsCustomComponents_CardCustom__footer {
+    flex: none; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card:before, .DVPAWebWidgetsCustomComponents_CardCustom__card:after {
+    content: '';
+    display: table; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card:after {
+    clear: both; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card .DVPAWebWidgetsCustomComponents_CardCustom__banner {
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00A8E1;
+    text-align: center;
+    padding: 6px 0;
+    font-weight: 800;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 3px 3px 0 0; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card .DVPAWebWidgetsCustomComponents_CardCustom__bannerBottom {
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    text-align: center;
+    padding: 6px 0;
+    font-weight: 800;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 3px 3px 0 0; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__webDark {
+    background-color: #222A35;
+    border: none; }
+    .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__webDark.DVPAWebWidgetsCustomComponents_CardCustom__selected {
+      outline: 3px solid #fff; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__webTransparent {
+    background-color: transparent;
+    border: none;
+    box-shadow: none; }
+    .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__webTransparent.DVPAWebWidgetsCustomComponents_CardCustom__selected {
+      outline: 3px solid #fff; }
+  .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__firetvDark {
+    min-height: 280px;
+    background: #0f171e;
+    background: radial-gradient(ellipse at left top, rgba(29, 79, 115, 0.2) 10%, #0F171E 80%), radial-gradient(ellipse at left bottom, rgba(29, 79, 115, 0.1) 20%, #0F171E 80%);
+    border: 1px solid #384A57;
+    border-radius: 5px;
+    margin-top: 8px; }
+    .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__firetvDark.DVPAWebWidgetsCustomComponents_CardCustom__selected {
+      border: 1px solid #a7a7a7;
+      background: black;
+      background: linear-gradient(180deg, transparent, #1B2530), linear-gradient(90deg, #0d648c, #2d274f); }
+    .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__firetvDark.DVPAWebWidgetsCustomComponents_CardCustom__focused, .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__firetvDark.DVPAWebWidgetsCustomComponents_CardCustom__selected.DVPAWebWidgetsCustomComponents_CardCustom__focused {
+      border: 2px solid #fff;
+      zoom: 105%;
+      margin-top: 0; }
+    .DVPAWebWidgetsCustomComponents_CardCustom__card.DVPAWebWidgetsCustomComponents_CardCustom__firetvDark .DVPAWebWidgetsCustomComponents_CardCustom__banner {
+      font-size: 0.75rem;
+      padding: 2px 0;
+      border-radius: 4px 4px 0 0; }
+
+.DVPAWebWidgetsCustomComponents_CardHolder__cardHolder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-left .DVPAWebWidgetsCustomComponents_CardHolder__card, .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-right .DVPAWebWidgetsCustomComponents_CardHolder__card, .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-center .DVPAWebWidgetsCustomComponents_CardHolder__card {
+    margin-right: 8px !important; }
+    .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-left .DVPAWebWidgetsCustomComponents_CardHolder__card:last-child, .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-right .DVPAWebWidgetsCustomComponents_CardHolder__card:last-child, .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder.DVPAWebWidgetsCustomComponents_CardHolder__justify-center .DVPAWebWidgetsCustomComponents_CardHolder__card:last-child {
+      margin-right: 0; }
+
+@media only screen and (max-width: 915px) {
+  .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder {
+    justify-content: space-evenly; }
+    .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder .DVPAWebWidgetsCustomComponents_CardHolder__card {
+      margin-bottom: 8px !important; }
+      .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder .DVPAWebWidgetsCustomComponents_CardHolder__card:last-child {
+        margin-bottom: 0; } }
+
+@media only screen and (max-width: 680px) {
+  .DVPAWebWidgetsCustomComponents_CardHolder__cardHolder {
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: auto !important;
+    margin-right: auto !important; } }
+
+.DVPAWebWidgetsCustomComponents_Carousel__title {
+  font-weight: bold;
+  margin: 0; }
+
+hr.DVPAWebWidgetsCustomComponents_Divider__divider {
+  height: 2px;
+  margin: 0;
+  background-color: currentColor;
+  border: none; }
+
+.DVPAWebWidgetsCustomComponents_Divider__divider {
+  color: currentColor; }
+  .DVPAWebWidgetsCustomComponents_Divider__divider.DVPAWebWidgetsCustomComponents_Divider__slim {
+    width: 280px; }
+  .DVPAWebWidgetsCustomComponents_Divider__divider.DVPAWebWidgetsCustomComponents_Divider__wide {
+    width: 440px; }
+  .DVPAWebWidgetsCustomComponents_Divider__divider.DVPAWebWidgetsCustomComponents_Divider__full {
+    width: 100%; }
+  .DVPAWebWidgetsCustomComponents_Divider__divider span {
+    margin: 11px auto;
+    width: 42%;
+    border-bottom: 1px solid currentColor;
+    float: left; }
+    .DVPAWebWidgetsCustomComponents_Divider__divider span.DVPAWebWidgetsCustomComponents_Divider__dividerRight {
+      float: right; }
+  .DVPAWebWidgetsCustomComponents_Divider__divider p {
+    float: left;
+    width: 16%;
+    margin: 0;
+    text-align: center; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_Divider__divider {
+    margin: 0 auto !important; } }
+
+.DVPAWebWidgetsCustomComponents_DividerVertical__wrapper {
+  position: relative; }
+  .DVPAWebWidgetsCustomComponents_DividerVertical__wrapper:before {
+    width: 30px;
+    height: 100%;
+    border-right: 3px solid #425265;
+    content: "";
+    display: block;
+    position: fixed;
+    max-height: 80vh; }
+  .DVPAWebWidgetsCustomComponents_DividerVertical__wrapper .DVPAWebWidgetsCustomComponents_DividerVertical__wordwrapper {
+    text-align: center;
+    position: fixed;
+    top: 45vh;
+    color: #EDF0F3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Amazon Ember;
+    text-transform: uppercase;
+    font-size: 28px;
+    background: #070b0f;
+    min-width: 60px; }
+
+.DVPAWebWidgetsCustomComponents_Grid__grid {
+  clear: both;
+  min-width: 300px; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__safeContent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid.DVPAWebWidgetsCustomComponents_Grid__gridFull .DVPAWebWidgetsCustomComponents_Grid__safeContent {
+    padding: 10px 5%;
+    min-height: 70vh; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid.DVPAWebWidgetsCustomComponents_Grid__gridExpanded {
+    padding: 0; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridWrapper {
+    width: 100%; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridHeader {
+    margin-top: 24px;
+    padding: 0 5% 0 0;
+    width: 50%;
+    float: left; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridHeaderCopyTitle {
+    padding: 0; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridHeaderCopy {
+    margin-top: 24px; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridHeaderCopyFooter {
+    margin-top: 24px; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridContent {
+    max-width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridContent:after {
+      content: "";
+      flex: 1 32%;
+      max-width: 256px; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridItem {
+    display: flex;
+    flex: 1 32%;
+    max-width: 256px;
+    padding: 0;
+    margin: 3px;
+    transition: box-shadow 0.2s ease-in-out;
+    z-index: 1; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridItem:hover {
+      box-shadow: 0px 1px 6px 4px #333;
+      z-index: 10; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridItem a {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: nowrap; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid.DVPAWebWidgetsCustomComponents_Grid__gridExpanded .DVPAWebWidgetsCustomComponents_Grid__gridContent {
+    max-width: 100%; }
+  .DVPAWebWidgetsCustomComponents_Grid__grid.DVPAWebWidgetsCustomComponents_Grid__gridExpanded .DVPAWebWidgetsCustomComponents_Grid__gridItem {
+    max-width: initial; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_Grid__grid {
+    text-align: center; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridSection {
+      width: auto; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridHeader {
+      margin: 0 0 12px 0;
+      float: none; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridContent {
+      max-width: inherit;
+      justify-content: space-around;
+      row-gap: 1ch; }
+    .DVPAWebWidgetsCustomComponents_Grid__grid .DVPAWebWidgetsCustomComponents_Grid__gridItem {
+      flex: 0 48%; } }
+
+.DVPAWebWidgetsCustomComponents_ImageEnhanced__image {
+  max-width: 100%; }
+
+.DVPAWebWidgetsCustomComponents_ImageEnhanced__container {
+  position: relative;
+  color: white; }
+  .DVPAWebWidgetsCustomComponents_ImageEnhanced__container .DVPAWebWidgetsCustomComponents_ImageEnhanced__text {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold; }
+
+.DVPAWebWidgetsCustomComponents_Information__container {
+  background-color: #d7ebeb;
+  color: #00464f;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px; }
+  .DVPAWebWidgetsCustomComponents_Information__container.DVPAWebWidgetsCustomComponents_Information__warn {
+    background-color: #fcebad;
+    color: #655622; }
+  .DVPAWebWidgetsCustomComponents_Information__container.DVPAWebWidgetsCustomComponents_Information__info {
+    background-color: #d7ebeb;
+    color: #00464f; }
+  .DVPAWebWidgetsCustomComponents_Information__container.DVPAWebWidgetsCustomComponents_Information__error {
+    background-color: #de333e;
+    color: #fff; }
+  .DVPAWebWidgetsCustomComponents_Information__container.DVPAWebWidgetsCustomComponents_Information__light {
+    background-color: transparent !important;
+    color: #000; }
+  .DVPAWebWidgetsCustomComponents_Information__container.DVPAWebWidgetsCustomComponents_Information__dark {
+    background-color: transparent !important;
+    color: #fff; }
+  .DVPAWebWidgetsCustomComponents_Information__container .DVPAWebWidgetsCustomComponents_Information__icon {
+    flex: 0 0 24px; }
+  .DVPAWebWidgetsCustomComponents_Information__container p {
+    margin: 2px 8px; }
+
+.DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row; }
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem {
+    width: 45%;
+    text-align: center;
+    box-sizing: border-box; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image {
+      max-width: 250px;
+      min-height: 65px;
+      margin: 0 auto;
+      margin-bottom: 22px; }
+      .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image img {
+        margin: auto;
+        width: auto;
+        display: block;
+        max-width: 170px;
+        max-height: 65px; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p {
+      margin: 0;
+      font-size: 20px;
+      line-height: 26px;
+      color: #fff;
+      padding: 0 10px; }
+      .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p.DVPAWebWidgetsCustomComponents_LegacyOfferItem__subText {
+        color: #9b9b9b; }
+      .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p.DVPAWebWidgetsCustomComponents_LegacyOfferItem__highlight {
+        font-weight: 700;
+        color: #fff; }
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__plus {
+    width: 10%;
+    padding-bottom: 10%;
+    height: 0;
+    display: inline-block;
+    margin-top: 4%;
+    background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), rgba(0, 0, 0, 0);
+    background-position: center;
+    /*thickness = 2px, length = 50% */
+    background-size: 100% 2px,2px 100%;
+    background-repeat: no-repeat; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__plus:last-child {
+      display: none;
+      width: 0; }
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper.DVPAWebWidgetsCustomComponents_LegacyOfferItem__fullpage .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p {
+    font-size: 15px;
+    line-height: 20px; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper.DVPAWebWidgetsCustomComponents_LegacyOfferItem__fullpage .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p.DVPAWebWidgetsCustomComponents_LegacyOfferItem__subText {
+      font-size: 13px; }
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper.DVPAWebWidgetsCustomComponents_LegacyOfferItem__fullpage .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image {
+    min-height: 50px;
+    margin-bottom: 8px; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper.DVPAWebWidgetsCustomComponents_LegacyOfferItem__fullpage .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image img {
+      max-width: 120px;
+      max-height: 50px; }
+
+@media only screen and (max-width: 480px) {
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image {
+    min-height: 55px;
+    margin-bottom: 16px;
+    padding: 0 16px; }
+    .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem .DVPAWebWidgetsCustomComponents_LegacyOfferItem__image img {
+      max-height: 55px;
+      max-width: 125px; }
+  .DVPAWebWidgetsCustomComponents_LegacyOfferItem__wrapper .DVPAWebWidgetsCustomComponents_LegacyOfferItem__offerItem p {
+    font-size: 14px;
+    line-height: 18px; } }
+
+.DVPAWebWidgetsCustomComponents_Link__link {
+  color: #00a0d6;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  /* default button style overrides */
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  cursor: pointer; }
+  .DVPAWebWidgetsCustomComponents_Link__link.DVPAWebWidgetsCustomComponents_Link__alignLeft {
+    text-align: left; }
+  .DVPAWebWidgetsCustomComponents_Link__link.DVPAWebWidgetsCustomComponents_Link__alignCenter {
+    text-align: center; }
+  .DVPAWebWidgetsCustomComponents_Link__link.DVPAWebWidgetsCustomComponents_Link__alignRight {
+    text-align: right; }
+  .DVPAWebWidgetsCustomComponents_Link__link:hover, .DVPAWebWidgetsCustomComponents_Link__link:focus {
+    text-decoration: underline; }
+
+.DVPAWebWidgetsCustomComponents_Link__wrapperForm {
+  display: block; }
+
+.DVPAWebWidgetsCustomComponents_List__list {
+  margin: 0;
+  padding: 0 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #A1A7AC;
+  padding: 0;
+  list-style-type: none;
+  text-align: left; }
+  .DVPAWebWidgetsCustomComponents_List__list .DVPAWebWidgetsCustomComponents_List__item {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    display: flex; }
+    .DVPAWebWidgetsCustomComponents_List__list .DVPAWebWidgetsCustomComponents_List__item .DVPAWebWidgetsCustomComponents_List__image {
+      margin-right: 8px;
+      height: 18px; }
+    .DVPAWebWidgetsCustomComponents_List__list .DVPAWebWidgetsCustomComponents_List__item .DVPAWebWidgetsCustomComponents_List__text {
+      display: inline-block;
+      vertical-align: top; }
+
+.DVPAWebWidgetsCustomComponents_List__noImage {
+  list-style-type: circle; }
+
+.DVPAWebWidgetsCustomComponents_List__customImage {
+  list-style-type: none; }
+
+html[dir="rtl"] .DVPAWebWidgetsCustomComponents_List__list .DVPAWebWidgetsCustomComponents_List__item .DVPAWebWidgetsCustomComponents_List__image {
+  margin-right: 0;
+  margin-left: 8px; }
+
+.DVPAWebWidgetsCustomComponents_List__orderedList {
+  padding-left: 1em;
+  width: 350px;
+  font-size: large;
+  font-weight: bold;
+  color: inherit; }
+  .DVPAWebWidgetsCustomComponents_List__orderedList .DVPAWebWidgetsCustomComponents_List__item {
+    padding-left: 1em; }
+  .DVPAWebWidgetsCustomComponents_List__orderedList li:not(:last-child) {
+    margin-bottom: 10px; }
+  .DVPAWebWidgetsCustomComponents_List__orderedList .DVPAWebWidgetsCustomComponents_List__text {
+    font-weight: normal;
+    color: inherit; }
+
+.DVPAWebWidgetsCustomComponents_PaymentCTA__paymentCTA fieldset {
+  border: none; }
+
+.DVPAWebWidgetsCustomComponents_PaymentPreferenceFTV__paymentPreference {
+  width: auto;
+  max-width: 40vw;
+  min-width: 400px; }
+
+ {
+  /* 
+    CTAs
+  */
+  /* Align our CTA with payment widget */
+  /* buttons */
+  /* Address suggestions small button fixes allow for smaller */
+  /* Hide International address link */
+  /* Add margin to cancel button */
+  /* Select address radio button positioning */
+  /* Reorder Add Address/Back buttons */
+  /* Hide un-required elements */ }
+  .pmts-portal-component {
+    /* Hide default elements*/
+    /* Address suggestion is GREEN ensure accessible on dark background */
+    /* Remove left margin from APX widget */
+    /* Override colours for dark mode text */
+    /* Styling for all text fields and CC input field ('tel' type) */
+    /* Style radio inputs*/
+    /* Style address selection */
+    /* Style page title */
+    /* Style native dropdowns */
+    /* Error messaging in forms */ }
+    .pmts-portal-component .a-icon-radio, .pmts-portal-component .a-dropdown-container > .pmts-portal-component, .pmts-portal-component .a-icon-supplemental, .pmts-portal-component .pmts-mobile-add-credit-card-header, .pmts-portal-component .pmts-mobile-add-cc-header-divider, .pmts-portal-component .pmts-mobile-add-cc-footer-divider, .pmts-portal-component .pmts-add-credit-card-form label, .pmts-portal-component .pmts-add-credit-card-form div[data-a-input-name="ppw-getNameOnAccount"] {
+      display: none; }
+    .pmts-portal-component .a-color-success {
+      font-weight: 600;
+      color: #00B300 !important; }
+    .pmts-portal-component .a-native-dropdown {
+      margin-bottom: 8px !important; }
+    .pmts-portal-component .a-section {
+      margin-bottom: 0 !important; }
+    .pmts-portal-component .a-row.a-spacing-top-base {
+      margin: 0 !important; }
+    .pmts-portal-component .a-spacing-top-small {
+      margin-top: 0 !important; }
+    .pmts-portal-component .a-expander-inner, .pmts-portal-component .a-fixed-left-grid-inner {
+      padding-left: 0 !important; }
+    .pmts-portal-component .a-color-base {
+      color: #fff !important; }
+    .pmts-portal-component .a-color-secondary, .pmts-portal-component .a-color-tertiary {
+      color: #808080ff !important; }
+    .pmts-portal-component .a-box {
+      border: none;
+      background: none; }
+    .pmts-portal-component input[type="text"], .pmts-portal-component input[type="tel"] {
+      font-family: "Amazon Ember", Arial, sans-serif;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: normal;
+      width: 100%;
+      height: 30px;
+      vertical-align: middle;
+      padding: 4px 6px 5px 6px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      background: transparent;
+      margin-bottom: 4px;
+      box-shadow: none; }
+      .pmts-portal-component input[type="text"]::placeholder, .pmts-portal-component input[type="tel"]::placeholder {
+        color: #808080ff; }
+      .pmts-portal-component input[type="text"]:focus, .pmts-portal-component input[type="tel"]:focus {
+        background: rgba(242, 244, 246, 0.2); }
+    .pmts-portal-component input[type="radio"] {
+      opacity: 1 !important;
+      width: 20px;
+      z-index: 1 !important;
+      top: 30%; }
+      .pmts-portal-component input[type="radio"]:focus {
+        box-shadow: 0 0 8px 4px #f2f4f6 !important;
+        background: #f2f4f6 !important; }
+    .pmts-portal-component .pmts-selected {
+      border: none;
+      background-color: transparent; }
+    .pmts-portal-component .pmts-mobile-enter-credit-card-information {
+      font-family: "Amazon Ember", Arial, sans-serif;
+      font-weight: 400;
+      line-height: 36px;
+      font-size: 1.5em; }
+    .pmts-portal-component .a-radio-label {
+      color: #fff;
+      padding-left: 3rem !important; }
+      .pmts-portal-component .a-radio-label:after {
+        display: block;
+        content: "";
+        margin-bottom: 1rem; }
+      .pmts-portal-component .a-radio-label .a-section {
+        margin-bottom: 0; }
+    .pmts-portal-component .a-native-dropdown {
+      width: 196px;
+      height: 30px;
+      font-size: 15px;
+      color: #fff;
+      background: #334052;
+      border: none;
+      border-radius: 2px;
+      padding-left: 10px;
+      position: unset;
+      opacity: 1.0;
+      /* Width of country select dropdown to match width of input fields */ }
+      .pmts-portal-component .a-native-dropdown[name="ppw-countryCode"] {
+        width: 100%; }
+    .pmts-portal-component .a-button-dropdown, .pmts-portal-component .address-ui-widgets-checkbox-view {
+      display: none; }
+    .pmts-portal-component .pmts-select-address-row .a-box .a-box-inner {
+      padding: 14px 0 !important; }
+    .pmts-portal-component .a-alert-error .a-alert-container {
+      background: none;
+      border: 2px #c40000 solid; }
+      .pmts-portal-component .a-alert-error .a-alert-container .a-alert-heading {
+        color: #fff; }
+      .pmts-portal-component .a-alert-error .a-alert-container .a-unordered-list, .pmts-portal-component .a-alert-error .a-alert-container ul, .pmts-portal-component .a-alert-error .a-alert-container .a-list-item {
+        color: #fff !important; }
+  .aiv-submit {
+    margin-left: 11px; }
+  .aiv-submit, .a-button, .a-touch-link {
+    background: #334052 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+    width: 196px;
+    min-height: 48px;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    margin: 0 0 10px 0 !important; }
+    .aiv-submit .a-button-inner, .aiv-submit .a-box-inner, .a-button .a-button-inner, .a-button .a-box-inner, .a-touch-link .a-button-inner, .a-touch-link .a-box-inner {
+      text-align: center;
+      background: transparent !important;
+      border-radius: 2px !important;
+      height: 100%; }
+      .aiv-submit .a-button-inner .a-text-bold, .aiv-submit .a-box-inner .a-text-bold, .a-button .a-button-inner .a-text-bold, .a-button .a-box-inner .a-text-bold, .a-touch-link .a-button-inner .a-text-bold, .a-touch-link .a-box-inner .a-text-bold {
+        font-weight: normal !important; }
+    .aiv-submit .a-box-inner, .a-button .a-box-inner, .a-touch-link .a-box-inner {
+      padding: 14px 0 !important; }
+    .aiv-submit .a-button-inner, .a-button .a-button-inner, .a-touch-link .a-button-inner {
+      padding: 10px 0 !important; }
+      .aiv-submit .a-button-inner .a-button-text, .a-button .a-button-inner .a-button-text, .a-touch-link .a-button-inner .a-button-text {
+        color: #fff !important;
+        background-color: transparent !important;
+        font-size: 16px !important;
+        text-align: center !important;
+        font-weight: normal !important;
+        border-radius: 2px !important; }
+    .aiv-submit:focus-within, .aiv-submit .pmts-button-input.a-button-focus, .a-button:focus-within, .a-button .pmts-button-input.a-button-focus, .a-touch-link:focus-within, .a-touch-link .pmts-button-input.a-button-focus {
+      background: #eef1f4 !important;
+      color: #000 !important;
+      border: none !important; }
+      .aiv-submit:focus-within .a-button-inner, .aiv-submit .pmts-button-input.a-button-focus .a-button-inner, .a-button:focus-within .a-button-inner, .a-button .pmts-button-input.a-button-focus .a-button-inner, .a-touch-link:focus-within .a-button-inner, .a-touch-link .pmts-button-input.a-button-focus .a-button-inner {
+        background: transparent !important; }
+        .aiv-submit:focus-within .a-button-inner .a-button-text, .aiv-submit .pmts-button-input.a-button-focus .a-button-inner .a-button-text, .a-button:focus-within .a-button-inner .a-button-text, .a-button .pmts-button-input.a-button-focus .a-button-inner .a-button-text, .a-touch-link:focus-within .a-button-inner .a-button-text, .a-touch-link .pmts-button-input.a-button-focus .a-button-inner .a-button-text {
+          background: #eef1f4 !important;
+          border-color: transparent !important;
+          color: #000 !important;
+          text-decoration: none !important; }
+  .a-button.a-button-small {
+    width: auto !important;
+    height: auto !important; }
+    .a-button.a-button-small .a-button-inner {
+      display: block;
+      padding: 14px !important;
+      line-height: 20px !important;
+      height: 20px !important; }
+      .a-button.a-button-small .a-button-inner .a-button-text {
+        font-size: 13px !important; }
+  .pmts-address-suggestion {
+    /* Address suggestion has buttons with varying string lengths */ }
+    .pmts-address-suggestion .a-button {
+      width: auto !important; }
+    .pmts-address-suggestion .pmts-aui-address-suggestion .pmts-use-this-address {
+      margin-top: 8px !important; }
+  .pmts-transform-address-display-link {
+    display: none; }
+  .pmts-cancel {
+    margin-left: 8px !important; }
+  .pmts-select-this-address {
+    margin: 10px 0 0 -6px !important; }
+  .a-column .a-button-primary.pmts-button-input, .pmts-save-address {
+    float: left; }
+  #address-ui-widgets-enterAddressFormContainer > div.a-section:last-of-type {
+    display: none !important; }
+  #address-ui-widgets-addr-details-gate-code, select[name="address-ui-widgets-addr-details-business-hours"] {
+    display: none; }
+  .pmts-add-payment-instruments-wrapper .pmts-add-payment-link {
+    margin-bottom: 24px !important; }
+  div[data-testid="pmts-address-phone-number"] {
+    margin-bottom: 8px !important; }
+  select[name="address-ui-widgets-enterAddressStateOrRegion"] {
+    margin-top: 2px !important; }
+  select[name="ppw-stateOrRegion"] {
+    margin-top: 8px !important; }
+
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeContainer.DVPAWebWidgetsCustomComponents_QRCode__center {
+  margin: 0 20%; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeContainer.DVPAWebWidgetsCustomComponents_QRCode__right {
+  float: right; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeContainer .DVPAWebWidgetsCustomComponents_QRCode__qrCode {
+  background-color: white;
+  padding: 5px;
+  float: right; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeContainer .DVPAWebWidgetsCustomComponents_QRCode__qrCodeText {
+  margin-right: 5px;
+  width: 60%;
+  float: left; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeContainerLegacy {
+  width: 40%;
+  display: flex; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeLegacy {
+  width: auto;
+  background-color: white;
+  padding: 5px; }
+
+.DVPAWebWidgetsCustomComponents_QRCode__qrCodeTextLegacy {
+  padding-right: 10px;
+  flex: 1; }
+
+.DVPAWebWidgetsCustomComponents_RadioSimple__radioSimple {
+  display: block;
+  height: 44px;
+  font-size: 17px;
+  position: relative; }
+  .DVPAWebWidgetsCustomComponents_RadioSimple__radioSimple label {
+    cursor: pointer;
+    display: flex; }
+    .DVPAWebWidgetsCustomComponents_RadioSimple__radioSimple label .DVPAWebWidgetsCustomComponents_RadioSimple__labelText {
+      float: left;
+      margin: 8px; }
+    .DVPAWebWidgetsCustomComponents_RadioSimple__radioSimple label .DVPAWebWidgetsCustomComponents_RadioSimple__labelImage {
+      float: left;
+      max-height: 40px;
+      margin-left: 35px; }
+  .DVPAWebWidgetsCustomComponents_RadioSimple__radioSimple input[type="radio"] {
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 15px; }
+
+.DVPAWebWidgetsCustomComponents_RadioGrid__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1%; }
+  .DVPAWebWidgetsCustomComponents_RadioGrid__grid .DVPAWebWidgetsCustomComponents_RadioGrid__item {
+    width: 30%;
+    padding: 0 1%; }
+
+@media only screen and (max-width: 880px) {
+  .DVPAWebWidgetsCustomComponents_RadioGrid__grid .DVPAWebWidgetsCustomComponents_RadioGrid__item {
+    width: 47%; } }
+
+@media only screen and (max-width: 580px) {
+  .DVPAWebWidgetsCustomComponents_RadioGrid__grid .DVPAWebWidgetsCustomComponents_RadioGrid__item {
+    width: 100%;
+    margin-right: 0; } }
+
+.DVPAWebWidgetsCustomComponents_RadioPanel__panel {
+  display: block;
+  font-size: 1rem;
+  position: relative; }
+  .DVPAWebWidgetsCustomComponents_RadioPanel__panel label {
+    border: 2px solid #b2b9c0;
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    font-weight: normal;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .DVPAWebWidgetsCustomComponents_RadioPanel__panel label .DVPAWebWidgetsCustomComponents_RadioPanel__text {
+      padding: 11px 0 0 40px;
+      position: inherit; }
+    .DVPAWebWidgetsCustomComponents_RadioPanel__panel label .DVPAWebWidgetsCustomComponents_RadioPanel__subText {
+      position: absolute;
+      right: 8px;
+      top: 6px;
+      line-height: 1rem;
+      font-size: 0.8rem;
+      text-align: center; }
+  .DVPAWebWidgetsCustomComponents_RadioPanel__panel input[type="radio"] {
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 16px; }
+    .DVPAWebWidgetsCustomComponents_RadioPanel__panel input[type="radio"]:checked + label.DVPAWebWidgetsCustomComponents_RadioPanel__purchase {
+      color: #000;
+      border-color: #ffa724; }
+    .DVPAWebWidgetsCustomComponents_RadioPanel__panel input[type="radio"]:checked + label.DVPAWebWidgetsCustomComponents_RadioPanel__prime {
+      color: #fff;
+      background-color: #00a0d6; }
+
+html[dir="rtl"] .DVPAWebWidgetsCustomComponents_RadioPanel__panel label .DVPAWebWidgetsCustomComponents_RadioPanel__text {
+  padding: 10px 40px 0 0; }
+
+html[dir="rtl"] .DVPAWebWidgetsCustomComponents_RadioPanel__panel label .DVPAWebWidgetsCustomComponents_RadioPanel__subText {
+  right: auto;
+  left: 8px; }
+
+html[dir="rtl"] .DVPAWebWidgetsCustomComponents_RadioPanel__panel input[type="radio"] {
+  left: 0;
+  right: 15px; }
+
+.DVPAWebWidgetsCustomComponents_RadioPanelHolder__holder .DVPAWebWidgetsCustomComponents_RadioPanelHolder__panel {
+  margin-bottom: 8px; }
+  .DVPAWebWidgetsCustomComponents_RadioPanelHolder__holder .DVPAWebWidgetsCustomComponents_RadioPanelHolder__panel:last-child {
+    margin-bottom: 0; }
+
+.DVPAWebWidgetsCustomComponents_SubContainer__subContainer {
+  display: flex; }
+  .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-row {
+    flex-direction: row; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-row.DVPAWebWidgetsCustomComponents_SubContainer__align-left {
+      justify-content: flex-start; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-row.DVPAWebWidgetsCustomComponents_SubContainer__align-center {
+      justify-content: center; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-row.DVPAWebWidgetsCustomComponents_SubContainer__align-right {
+      justify-content: flex-end; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-row.DVPAWebWidgetsCustomComponents_SubContainer__align-space-between {
+      justify-content: space-between; }
+  .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-column {
+    flex-direction: column; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-column.DVPAWebWidgetsCustomComponents_SubContainer__align-left {
+      align-items: flex-start; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-column.DVPAWebWidgetsCustomComponents_SubContainer__align-center {
+      align-items: center; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-column.DVPAWebWidgetsCustomComponents_SubContainer__align-right {
+      align-items: flex-end; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-column.DVPAWebWidgetsCustomComponents_SubContainer__align-space-between {
+      align-items: space-between; }
+  .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive {
+    flex-direction: row; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-left {
+      justify-content: flex-start; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-center {
+      justify-content: center; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-right {
+      justify-content: flex-end; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-space-between {
+      justify-content: space-between; }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive {
+    flex-direction: column; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-left {
+      align-items: flex-start; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-center {
+      align-items: center; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-right {
+      align-items: flex-end; }
+    .DVPAWebWidgetsCustomComponents_SubContainer__subContainer.DVPAWebWidgetsCustomComponents_SubContainer__direction-adaptive.DVPAWebWidgetsCustomComponents_SubContainer__align-space-between {
+      align-items: space-between; } }
+
+.DVPAWebWidgetsCustomComponents_Table__table {
+  border-collapse: collapse;
+  position: relative; }
+  .DVPAWebWidgetsCustomComponents_Table__table tr {
+    border-bottom: solid 1px #232F3E;
+    min-height: 44px; }
+    .DVPAWebWidgetsCustomComponents_Table__table tr td {
+      padding: 4px 0; }
+      .DVPAWebWidgetsCustomComponents_Table__table tr td:first-of-type {
+        padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table thead tr {
+    border-bottom: solid 1px #232F3E;
+    min-height: 0; }
+    .DVPAWebWidgetsCustomComponents_Table__table thead tr th {
+      padding: 4px 0; }
+      .DVPAWebWidgetsCustomComponents_Table__table thead tr th:first-of-type {
+        padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table tfoot tr, .DVPAWebWidgetsCustomComponents_Table__table tbody tr:last-of-type {
+    border: none; }
+  .DVPAWebWidgetsCustomComponents_Table__table tfoot tr:last-of-type {
+    border-top: solid 1px #232F3E; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-small tr td {
+    padding-left: 24px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-small tr td:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-small thead tr th {
+    padding-left: 24px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-small thead tr th:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-medium tr td {
+    padding-left: 40px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-medium tr td:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-medium thead tr th {
+    padding-left: 40px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-medium thead tr th:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-large tr td {
+    padding-left: 56px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-large tr td:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-large thead tr th {
+    padding-left: 56px; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__columnSpacing-large thead tr th:first-of-type {
+      padding-left: 0; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__textAlign-left {
+    text-align: left; }
+  .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight {
+    display: block; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight thead, .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tbody, .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tfoot {
+      display: block; }
+      .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight thead tr, .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tbody tr, .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tfoot tr {
+        display: flex;
+        align-items: center; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tbody {
+      /* max-height defined in React by maxBodyHeight prop */
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      /* IE */
+      scrollbar-width: none;
+      /* FF */ }
+      .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tbody::-webkit-scrollbar {
+        display: none; }
+    .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tfoot {
+      position: relative; }
+      .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tfoot::before {
+        content: '';
+        opacity: 1;
+        display: block;
+        pointer-events: none;
+        height: 120px;
+        width: 100%;
+        position: absolute;
+        top: -120px;
+        left: 0;
+        background: -moz-linear-gradient(top, rgba(7, 11, 15, 0) 0%, #070b0f 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(7, 11, 15, 0) 0%, #070b0f 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(7, 11, 15, 0) 0%, #070b0f 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        -webkit-transition: all 0.2s 0s ease;
+        -moz-transition: all 0.2s 0s ease;
+        -o-transition: all 0.2s 0s ease;
+        transition: all 0.2s 0s ease; }
+      .DVPAWebWidgetsCustomComponents_Table__table.DVPAWebWidgetsCustomComponents_Table__hasMaxBodyHeight tfoot.DVPAWebWidgetsCustomComponents_Table__scrolledToBottom::before {
+        opacity: 0; }
+
+input[type=text] {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  color: #fff;
+  height: auto;
+  background-color: #0f171e;
+  padding: 11px;
+  border: 1px solid #425265;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: none;
+  /* Overriding AUI styles */ }
+  input[type=text]:focus, input[type=text]:hover {
+    border-color: #8197a4;
+    outline: none;
+    box-shadow: none; }
+  input[type=text]:not([type=hidden]) + input {
+    margin-left: 0; }
+
+.DVPAWebWidgetsCustomComponents_StepList__wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row; }
+  .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper {
+    list-style: none;
+    counter-reset: step-counter;
+    padding: 0;
+    margin: 0; }
+    .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      line-height: 20px;
+      color: #b1b1b1;
+      min-height: 30px;
+      margin-bottom: 16px;
+      counter-increment: step-counter;
+      position: relative;
+      padding-left: 0; }
+
+@media only screen and (max-width: 64.99em) {
+  .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem {
+    font-size: 13px;
+    line-height: 16px; } }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem:not(.DVPAWebWidgetsCustomComponents_StepList__complete):before {
+        font-size: 14px;
+        content: counter(step-counter);
+        position: absolute;
+        left: 0;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 1px solid #b1b1b1;
+        border-radius: 50%;
+        text-align: center; }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem.DVPAWebWidgetsCustomComponents_StepList__complete .DVPAWebWidgetsCustomComponents_StepList__tick {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #b1b1b1; }
+        .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem.DVPAWebWidgetsCustomComponents_StepList__complete .DVPAWebWidgetsCustomComponents_StepList__tick:before {
+          content: "";
+          position: absolute;
+          font-size: 14px;
+          top: 50%;
+          left: 50%;
+          display: inline-block;
+          transform: translate(-50%, -50%) rotate(-50deg) scaleX(-1);
+          height: 5px;
+          width: 10px;
+          border-bottom: 2px solid #b1b1b1;
+          border-right: 2px solid #b1b1b1; }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem:after {
+        content: "";
+        background-color: #444;
+        width: 1px;
+        height: 16px;
+        position: absolute;
+        top: 100%;
+        left: 15px;
+        z-index: -1; }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem:last-child {
+        margin-bottom: 0; }
+        .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem:last-child:after {
+          display: none; }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem.DVPAWebWidgetsCustomComponents_StepList__highlight {
+        color: #fff;
+        font-weight: bold; }
+        .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem.DVPAWebWidgetsCustomComponents_StepList__highlight:before {
+          border: 1px solid #fff;
+          background: rgba(255, 255, 255, 0.2); }
+      .DVPAWebWidgetsCustomComponents_StepList__wrapper .DVPAWebWidgetsCustomComponents_StepList__stepper .DVPAWebWidgetsCustomComponents_StepList__stepItem .DVPAWebWidgetsCustomComponents_StepList__stepText {
+        padding-left: 45px;
+        margin: 0px;
+        text-align: left; }
+
+.DVPAWebWidgetsCustomComponents_WrapperForm__form {
+  margin: 0; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber-Heavy.woff") format("woff");
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Bd.woff") format("woff");
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Rg.woff") format("woff");
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Lt.woff") format("woff");
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.DVPAWebWidgetsCustomComponents_CustomContainer__container {
+  font-family: "Amazon Ember";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-size: cover; }
+  .DVPAWebWidgetsCustomComponents_CustomContainer__container * {
+    margin: 0; }
+  .DVPAWebWidgetsCustomComponents_CustomContainer__container:before, .DVPAWebWidgetsCustomComponents_CustomContainer__container:after {
+    content: '';
+    display: table; }
+  .DVPAWebWidgetsCustomComponents_CustomContainer__container:after {
+    clear: both; }
+  .DVPAWebWidgetsCustomComponents_CustomContainer__container.DVPAWebWidgetsCustomComponents_CustomContainer__isFullPage {
+    min-height: 100vh; }
+  .DVPAWebWidgetsCustomComponents_CustomContainer__container .DVPAWebWidgetsCustomComponents_CustomContainer__inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1; }
+    .DVPAWebWidgetsCustomComponents_CustomContainer__container .DVPAWebWidgetsCustomComponents_CustomContainer__inner .DVPAWebWidgetsCustomComponents_CustomContainer__content {
+      flex: 1; }
+      .DVPAWebWidgetsCustomComponents_CustomContainer__container .DVPAWebWidgetsCustomComponents_CustomContainer__inner .DVPAWebWidgetsCustomComponents_CustomContainer__content.DVPAWebWidgetsCustomComponents_CustomContainer__hasBackgroundGradient {
+        background: radial-gradient(115.56% 100% at 50% 0%, rgba(18, 34, 47, 0.9) 0%, rgba(18, 34, 47, 0.92) 23%, #12222F 100%); }
+    .DVPAWebWidgetsCustomComponents_CustomContainer__container .DVPAWebWidgetsCustomComponents_CustomContainer__inner .DVPAWebWidgetsCustomComponents_CustomContainer__footer {
+      flex: none; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber-Heavy.woff") format("woff");
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Bd.woff") format("woff");
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Rg.woff") format("woff");
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Lt.woff") format("woff");
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper {
+  font-family: "Amazon Ember";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 70vh;
+  min-width: 320px; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper * {
+    margin: 0; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__fullpage {
+    min-height: 100vh; }
+    .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__fullpage .DVPAWebWidgetsCustomComponents_CustomMagnet__inner {
+      padding: 0 5%; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding: 64px 5%;
+    color: #fff; }
+    .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner:after {
+      content: "";
+      clear: both;
+      display: table; }
+    .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section {
+      flex: initial;
+      background-size: cover;
+      max-width: 50%; }
+      .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__image {
+        background-image: none;
+        width: 100%; }
+      .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+        line-height: 1.3;
+        width: 50%; }
+        .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable .DVPAWebWidgetsCustomComponents_CustomMagnet__row {
+          width: 100%; }
+        .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable .DVPAWebWidgetsCustomComponents_CustomMagnet__row:empty {
+          display: none; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__left .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+    margin-right: 50%; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__right .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+    margin-left: 50%; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner:before {
+    content: "";
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    padding-top: 42vh; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+    max-width: 704px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__baselineText {
+    position: absolute;
+    bottom: 10px;
+    left: 2%;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    width: 96%;
+    color: #fff; }
+    .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__baselineText a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner:before {
+    padding-top: 28vh; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__fullpage.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner:before {
+    padding-top: 0vh; } }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner {
+    padding: 0 0 15% 0; }
+    .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section {
+      flex: 1 100%;
+      max-width: 100%; }
+      .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__image {
+        background-position: center top;
+        min-height: 30vh; }
+      .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+        position: relative;
+        width: auto;
+        padding: 0 5% !important;
+        text-align: center; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__left .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable, .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__right .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+    margin-right: 0;
+    margin-left: 0; }
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner:before {
+    content: none;
+    padding-top: 28vh; } }
+
+@media only screen and (max-width: 680px) and (orientation: portrait) {
+  .DVPAWebWidgetsCustomComponents_CustomMagnet__wrapper.DVPAWebWidgetsCustomComponents_CustomMagnet__center .DVPAWebWidgetsCustomComponents_CustomMagnet__inner .DVPAWebWidgetsCustomComponents_CustomMagnet__section.DVPAWebWidgetsCustomComponents_CustomMagnet__configurable {
+    max-width: 100%; } }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber-Heavy.woff") format("woff");
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Bd.woff") format("woff");
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Rg.woff") format("woff");
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("https://m.media-amazon.com/images/G/01/digital/video/global/AmazonEmber_Lt.woff") format("woff");
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.DVPAWebWidgetsCustomComponents_CustomUCFModal__container {
+  font-family: "Amazon Ember", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 300px;
+  width: 800px;
+  max-width: 80vw;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  background-color: #252e39;
+  color: #fff;
+  z-index: 1203;
+  /* Overlay modal */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__topbar {
+    display: flex;
+    flex-wrap: nowrap; }
+    .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__topbar .DVPAWebWidgetsCustomComponents_CustomUCFModal__title {
+      flex: 1;
+      flex-grow: 4;
+      padding: 16px;
+      font-weight: bold;
+      font-size: 17px; }
+    .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__topbar .DVPAWebWidgetsCustomComponents_CustomUCFModal__close {
+      height: 21px;
+      background-color: #252e39;
+      margin: 16px 16px 0 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+  .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 16px 16px 16px; }
+    .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__inner .DVPAWebWidgetsCustomComponents_CustomUCFModal__content {
+      flex: 1; }
+      .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__inner .DVPAWebWidgetsCustomComponents_CustomUCFModal__content a {
+        color: #ffa724; }
+      .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__inner .DVPAWebWidgetsCustomComponents_CustomUCFModal__content div {
+        flex: 1; }
+  .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0 16px 16px 16px; }
+    .DVPAWebWidgetsCustomComponents_CustomUCFModal__container .DVPAWebWidgetsCustomComponents_CustomUCFModal__footer .DVPAWebWidgetsCustomComponents_CustomUCFModal__button {
+      margin-right: 8px;
+      font-weight: bold; }
+
