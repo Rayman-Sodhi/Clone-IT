@@ -1,0 +1,306 @@
+body {
+	margin: 0;
+	padding: 0px;
+	font-family: Verdana,Helvetica,Arial,sans-serif !important;
+	background-color: transparent;
+	overflow-x: hidden;
+}
+
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+a, a:hover, a:focus {
+	color: inherit;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana,Helvetica,Arial,sans-serif !important;
+}
+
+.h1-head {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0e1216;
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+}
+
+.h1-head2 {
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    padding: 0;
+    display: block;
+    line-height: 35px;
+    font-family: roboto;
+
+}
+.h3-head {
+	font-size: 16px;
+    font-weight: 600;
+    color: #333c44;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 24px;
+
+}
+
+
+
+.input-text {
+	margin: 0px;
+	padding: 5px;
+	font-size: 13px;
+	color: #333333;
+	font-weight: 400;
+	background-color: #FFFFFF;
+	box-shadow: none;
+	height: 30px;
+	transition: ease 0.5s;
+	-webkit-transition: ease 0.5s;
+	width: 100%;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+	litter-spacing: 0.5s;
+}
+.input-select {
+	margin: 0px;
+	padding: 5px;
+	font-size: 13px;
+	color: #333333;
+	font-weight: 400;
+	background-color: #FFFFFF;
+	box-shadow: none;
+	height: 30px;
+	transition: ease 0.5s;
+	-webkit-transition: ease 0.5s;
+	width: 100%;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+	litter-spacing: 0.5s;
+}
+.input-textarea {
+	margin: 0px;
+	padding: 5px;
+	font-size: 13px;
+	color: #333333;
+	font-weight: 400;
+	background-color: #FFFFFF;
+	box-shadow: none;
+	height: 70px;
+	transition: ease 0.5s;
+	-webkit-transition: ease 0.5s;
+	width: 100%;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+	litter-spacing: 0.5s;
+}
+.input-text:hover, .input-text:focus, .input-select:hover, .input-select:focus, .input-textarea:hover, .input-textarea:focus {
+	border: 1px solid #2485FC;
+}
+.input-btn {
+	background-color: #407ab1;
+	font-size: 15px;
+	font-weight: 300;
+	text-transform: uppercase;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 15px;
+	width: 100%;
+	height: 35px;
+	color: #FFFFFF;
+	border-radius: 3px;
+	transition: ease 0.2s;
+	-webkit-transition: ease 0.2s;
+}
+
+.input-btn:hover {
+	background-color: #275882;
+}
+
+.error-msg {
+	font-size: 12px;
+    font-weight: 300;
+    color: #FF000B;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+
+}
+.note-msg {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8e5200;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+.chat-from { background-color: transparent; margin: 0px; padding: 15px 30px; }
+.chat-form-container { margin: 0px; padding: 0px; }
+
+.form-container { margin: 0px; padding: 0px; }
+.form-container > li { margin: 0px; padding: 0px 0px 10px 0px;list-style: none; }
+.form-container > li:last-child {}
+.form-container > li > .form-label { 
+	margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+.form-container > li > .form-label > label { 
+	margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+   
+    color: #252525;
+    font-weight: 600;
+    line-height: 13px;
+}
+.form-container > li > .form-field { margin: 0px; padding: 0px; position: relative;}
+
+.button-container {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.officehours {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	padding: 100px 30px 30px 30px;
+	/* background-color: #306aa1; */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a74ab+0,205a91+100 */
+background: #3a74ab; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #3a74ab 0%, #205a91 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #3a74ab 0%,#205a91 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #3a74ab 0%,#205a91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a74ab', endColorstr='#205a91',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.officehours .hoursclock {
+	position: relative;
+    height: 182px;
+    width: 133px;
+    margin: 0px auto;
+    padding: 0px 0px 50px 0px;
+
+}
+.officehours .hoursclock i {
+	font-size: 150px;
+	margin: 0px;
+	padding: 0;
+	color: #FFF;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	line-height: 130px;
+	
+	border-radius: 100%;
+	-webkit-animation: offficehours 2s linear infinite; /* Safari */
+	animation: offficehours 2s linear infinite margin: 0px auto;	
+}
+.officehours p {
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 400;
+	line-height: 24px;
+}
+/* Safari */
+@-webkit-keyframes offficehours { 
+	
+	0% 
+	{
+		top: -0px;
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+	25%
+	{
+		top:-15px;
+		box-shadow: 0px 15px 10px -20px #000;
+	}
+	50%
+	{
+		top:-0px;
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+	75%
+	{
+		top:-15px;
+		box-shadow: 0px 15px 10px -20px #000;
+	}
+	100%
+	{
+		top:-0px;   
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+}
+@keyframes offficehours { 
+	0% 
+	{
+		top: -0px;
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+	25%
+	{
+		top:-15px;
+		box-shadow: 0px 15px 10px -20px #000;
+	}
+	50%
+	{
+		top:-0px;
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+	75%
+	{
+		top:-15px;
+		box-shadow: 0px 15px 10px -20px #000;
+	}
+	100%
+	{
+		top:-0px;   
+		box-shadow: 0px 15px 10px -10px #000;
+	}
+}
+
+.input-btn:disabled {
+	background-color: #acacac;
+    color: #f2f2f2;
+
+}
+
+
+/* 06Sep19 */
+		.groupd-dropdown {
+		}
+		.groupd-dropdown .group-select-dropdown {
+			display: none;
+		}
+		.select2-results__option .select2-results__options {
+			display: none;
+			left: 100%;
+			background-color: #F2F2F2;
+			top: 0px;
+			width: 100%;
+		}
+		.select2-results__option:hover .select2-results__options {
+			display: block;
+		}
+		.select2-container--default .select2-results > .select2-results__options {
+			max-height: 100%;
+		}
+		.select2-results__option:hover > strong {
+		    background-color: #407ab1;
+		    color: #FFF;	
+		}
+/* 06Sep19 */		
