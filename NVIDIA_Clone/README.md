@@ -28,3 +28,6 @@ This is a NVIDIA Clone made using Javascript,CSS,HTML5
 
 https://user-images.githubusercontent.com/93239528/165156924-bed7f678-ff8a-4e97-ad58-67c341576062.mp4
 
+
+
+##Deployed Website: https://nvidia-clone.vercel.app/
