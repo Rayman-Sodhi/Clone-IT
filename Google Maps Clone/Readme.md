@@ -13,3 +13,4 @@ This is a Google Maps Clone using MapBox API. User can search the places and dis
 
 <h1>Deployment URL:</h1>
 
+https://sulagna-dutta-roy.github.io/GoogleMaps-Clone
