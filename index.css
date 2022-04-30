@@ -20,6 +20,9 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   background: none; /* color of the tracking area */
 }
+html, body{
+  overflow-x: hidden;
+}
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--light); /* color of the scroll thumb */
@@ -139,8 +142,9 @@ li {
 
 
 .navbar-links a:hover{
-    transition: all .3s ease 0s;
+    /* transition: all .3s ease 0s; */
     background: #0ba9da; 
+    padding: 1rem;
     box-shadow: 0px 0px 30px -10px rgba(255,255,255,1);
 }
 @media (max-width: 882px) {
@@ -156,7 +160,6 @@ li {
     left: 0;
     right: 0;
     background-color: inherit;
-    animation: loading 0.6s linear;
   }
 
   .navbar-links ul {
@@ -214,41 +217,60 @@ li {
 
 /* header start */
 .header {
-  /* height: 38rem; */
-  padding: 8rem 0 6rem;
   background-color: var(--dark-light);
   color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.header-background {
-  height: 100%;
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.left,
-.right {
-  height: 75%;
+.row img {
+  width: 100%;
+  height: auto;
+  /* width: 25rem;
+  height: 20rem; */
 }
-/* .right {
-    flex-basis: 50%;
-} */
-.right img {
-  width: 25rem;
-  height: 20rem;
-}
-.header .left h2 {
-  font-size: 3.5rem;
+.header .row h2 {
+  font-size: 4rem;
   font-family: "Nunito", sans-serif;
 }
-.header .left p {
-  font-size: 1.2rem;
+.header .row p {
+  font-size: 1.5rem;
+  margin: 0.7rem 0;
+  line-height: 1.5;
 }
-.left {
+.row {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content:center;
   box-sizing: border-box;
   max-width: 40rem;
+  padding: 2rem;
+}
+@media (max-width: 600px){
+  .header{
+    position: relative;
+    top: 80px;
+    height: auto;
+  }
+  .grid-container{
+    display: block;
+  }
+  .header .row h2{
+    font-size: 2.2rem;
+  }
+  .header .row p{
+    font-size: 1.1rem;
+  }
 }
 .links {
-  height: 40%;
+  /* height: 40%; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -286,14 +308,29 @@ li {
 .connect h2 {
   font-size: 2.5rem;
 }
-.info {
-  margin: 6rem auto;
-  /* padding: 1.2rem; */
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem 1rem;
+}
+.info-left{
   text-align: left;
-  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.8;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+/* .info {
+  margin: 6rem auto;
+  text-align: left;
+  line-height: 1.8;
   border-radius: 20px;
   box-shadow: 0 0 17px 10px #f7f2f2;
-}
+} */
 .info-right {
   border-radius: 20px;
   box-sizing: border-box;
@@ -305,15 +342,31 @@ li {
 }
 .info-right img {
   width: 100%;
+  height: auto;
 }
-.info-left {
+/* .info-left {
   padding: 1.5rem;
-}
+  font-size: 0.9rem;
+} */
 .info-left,
 .info-right {
-  flex-basis: 50%;
   height: 20rem;
   font-size: 1.1rem;
+}
+@media (max-width: 600px) {
+  .card-container{
+    display: block;
+  }
+  .about{
+    position: relative;
+    top: 80px;
+    padding: 3rem 0;
+  }
+  .info-right{
+    padding: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
 }
 /* about section end */
 
@@ -1060,10 +1113,12 @@ footer {
     cursor: pointer; /*Add a mouse pointer on hover*/
     padding: 12px; /*Some padding*/
     margin: 2px;
-    border-radius: 10px; /*Rounded corners*/
-    font-size: 13px; /*Increase font size*/
-    line-height: 24px;
-    width: fit-content; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /*Rounded corners*/
+    font-size: 15px; /*Increase font size*/
+    /* line-height: 24px; */
+    /* width: fit-content;  */
   }
   
 #scrollBtn:hover {
@@ -1182,9 +1237,6 @@ footer {
   }
 }
 @media (max-width: 876px) {
-  .info-right {
-    display: none;
-  }
   .info-left {
     flex-basis: 100%;
     height: fit-content;
