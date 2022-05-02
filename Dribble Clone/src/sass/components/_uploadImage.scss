@@ -1,0 +1,174 @@
+.media__type {
+    .upload__image {
+        position: relative;
+        height: 100vh;
+        margin-bottom: 150px;
+
+        .upload__image-preview {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            transition: width 02s ease-in-out;
+            transition-delay: 2s;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                transition: width 0.3s ease-in-out;
+            }
+
+            .delete-image {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                font-size: 1rem;
+                cursor: pointer;
+                background-color: $color-grey-light;
+                outline: none;
+                border: none;
+                color: $color-primary;
+                padding: 10px 15px;
+                border-radius: 3px;
+                transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+                &:hover {
+                    background-color: $color-primary;
+                    color: $color-grey-light;
+                }
+            }
+        }
+    
+        &-area {
+            border: 2px dashed $color-grey;
+            border-radius: 10px;
+            padding: 20px;
+            transition: border 0.2s ease-in;
+            height: 500px;
+            width: 100%;
+    
+            &:hover {
+                border: 2px dashed $color-primary;
+            }
+    
+            .image__type {
+                width: auto;
+                display: inline-block;
+                
+    
+                &--left {
+                    float: left;
+                    font-size: 2rem;
+                    color: $color-grey;
+                }
+    
+                &--right {
+                    float: left;
+                    margin-left: 10px;
+                }
+    
+                &--heading {
+                    color: $color-black;
+                    font-size: 0.9rem;
+                }
+    
+                &--desc {
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    color: $color-grey;
+                }
+                
+            }
+
+            .row .col-1-of-3:not(:last-child){
+                border-right: 1px solid $color-grey-light;
+            }
+
+            @include respond(tab-land){
+                .media__hint {
+                    display: none;
+                }
+
+            }
+
+            @include respond(tab-port){
+                & {
+                    height: 70vh !important;
+                }
+            }
+        }
+    
+        &-hint {
+            font-size: 1.4rem;
+            color: $color-grey;
+            position: relative;
+            top: -40px;
+
+            & span {
+                color: $color-primary;
+            }
+        }
+    
+        &-input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        &-label {
+            text-align: center;
+            display: block;
+            width: 100%;
+            font-size: 10rem;
+            color: darken($color-grey-light,10);
+            cursor: pointer;
+            transition: color 0.2s ease-in;
+    
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        @include respond(tab-land){
+            .upload__image-desc {
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 100px !important;
+            }
+        }
+
+        @include respond(phone){
+            .upload__image-desc {
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 100px !important;
+            }
+        }
+    }
+
+    &-button-area {
+        padding: 20px 40px;
+        border-top: 1px solid $color-grey-light-2;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: #fff;
+        margin-left: -1em;
+
+        &--left {
+            float: left;
+        }
+        &--right {
+            float: right;
+            
+        }
+
+        .btn-primary {
+            margin-left: 20px;
+        }
+    }
+}

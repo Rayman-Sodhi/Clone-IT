@@ -1,0 +1,36 @@
+.comment {
+    margin-bottom: 0.7rem;
+    border: 1px solid $color-grey-light-2;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+    .comment__section {
+
+        @include clearfix;
+
+        &-right {
+            width: 100%;
+
+            h4 {
+                color: $color-black-2;
+            }
+
+            p {
+                font-weight: 400;
+                color:darken( $color-grey-dark,15);
+                position: relative;
+                top: -2px;
+                line-height: 1.3rem;
+                letter-spacing: -0.4px;
+                font-size: 0.92rem;
+            }
+
+            .date__section {
+                color: $color-grey-dark;
+                font-size: 0.9rem;
+                margin-top: 5px;
+                letter-spacing: -0.4px;
+            }
+        }
+    }
+}

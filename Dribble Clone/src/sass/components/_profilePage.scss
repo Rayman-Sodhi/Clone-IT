@@ -1,0 +1,158 @@
+.profile__area {
+    width: 100%;
+    background-image: url('https://products.ls.graphics/mesh-gradients/images/01.-Royal-Heath.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+
+    .profile__header {
+        width: 45%;
+        background-color: #fff;
+        height: 500px;
+
+        &-left {
+            line-height: 3.5rem;
+            padding: 50px 50px 0px 50px;
+            position: relative;
+            height: 100%;
+
+            .header__button-area {
+                position: absolute;
+                bottom: 0;
+            }
+
+            .display-name {
+                color: $color-black-2;
+                font-weight: 900;
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 300px;
+                object-fit: cover;
+            }
+
+            .designation {
+                color: $color-black-2;
+                font-weight: 900;
+                font-size: 3rem;
+
+                @include respond(big-phone){
+                    font-size: 2.5rem;
+                }
+
+                @include respond(phone){
+                    font-size: 2rem;
+                }
+                
+            }
+            .email-id {
+                color: $color-black-2;
+                font-weight: 900;
+                font-size: 3rem;
+
+                @include respond(big-phone){
+                   margin-bottom: 2.5rem;
+                }
+
+                @include respond(phone){
+                    font-size: 2rem;
+                }
+            }
+
+            @include respond(tab-land){
+                padding-top: 20px;
+            }
+
+            @include respond(big-phone){
+                text-align: center !important;
+
+                .display-name {
+                    font-size: 2rem;
+
+                    @include respond(phone){
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .header__button-area {
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                }
+            }
+
+            @include respond(phone){
+                line-height: 3rem;
+            }
+
+        }
+
+        @include respond(tab-land){
+            & {
+                width: 50% !important;
+                display: block !important;
+            }
+
+            height: 450px;
+        }
+
+        @include respond(tab-port){
+            width: 100% !important;
+        }
+
+        @include respond(big-phone){
+            height:400px;
+        }
+    }
+}
+
+.profile__nav {
+    width: 100%;
+    border-bottom: 1px solid $color-grey-light-2;
+    @include clearfix;
+    padding-bottom: 20px;
+    
+    &-items {
+        list-style: none;
+        width: 100%;
+        color: $color-grey-dark;
+        font-weight: bold;
+
+        .nav-item {
+            float: left;
+            cursor: pointer;
+
+            &:not(:last-child){
+                margin-right: 50px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-grey-dark;
+                font-size: 1.1rem;
+
+                &:hover{
+                    color: $color-black;
+                }
+            }
+
+            .count {
+                color: $color-grey;
+                font-weight: 400;
+                margin-left: 2px;
+            }
+
+            .ractiveLink {
+                color: $color-black-2;
+            }
+
+            @include respond(phone){
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+.search__container {
+    width: 100%;
+    height: 300px;
+
+    .search__header {
+        position: relative;
+
+        .background-bar {
+            background-color: $color-grey-light;
+            width: 100%;
+            height: 100px;
+        }
+
+        .search-results-details {
+            width: 100%;
+            position: absolute;
+            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            top: 70px;
+
+            .search__input {
+                width: 100%;
+
+                .search__input-field {
+                    width: 50%;
+                    padding: 15px;
+                    padding-left:50px ;
+                    outline: none;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 0 0 15px rgba($color-black,0.2);
+                    font-size: 1.5rem;
+                    color: $color-black;
+                    display: inline-block;
+
+                    &::placeholder {
+                        color: red;
+                    }
+
+                    @include respond(big-phone){
+                        width: 80% !important;
+                        margin: 0 auto;
+                        margin-bottom: 10px;
+                    }
+
+                    
+                }
+
+                i {
+                    display: inline-block;
+                    position: absolute;
+                    top: 4px;
+                    font-size: 1.3rem;
+                    color: $color-grey;
+                    padding: 15px;
+                }
+
+            }
+
+            .search__item-name {
+                color: $color-black-2;
+                font-weight: bold;
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 1.1rem;
+                color: $color-grey;
+            }
+
+            .related__keywords {
+                display: inline-block;
+
+                .keyword__list {
+                    list-style: none;
+                    margin: 0 auto;
+
+                    .keyword {
+                        float: left;
+                        color: $color-primary;
+                        font-weight: 400;
+
+                        &:first-child {
+                            font-weight: 700;
+                            color: $color-black;
+                        }
+                        
+                        &:not(:last-child) {
+                            margin-right: 20px;
+                        }
+
+                        &:hover:not(:first-child){
+                            cursor: pointer;
+                            color: lighten($color-primary,10);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

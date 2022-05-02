@@ -1,0 +1,169 @@
+.filter__subnav{
+
+    @include clearfix;
+
+    .filter__container {
+        display: flex;
+        justify-content: space-between;
+
+        @include respond(tab-port){
+            display: block;
+            position: relative;
+            margin-bottom: 3rem;
+
+            .filter__views {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .filter__settings {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+        }
+
+        
+    }
+
+    .filter__categories {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+
+        .swiper-lists{
+            display: none !important;
+        }
+
+        .fa-chevron-right, .fa-chevron-left{
+            display: none;
+        }
+
+        @include respond(big-phone){
+            .fa-chevron-right, .fa-chevron-left{
+                display: block;
+                position: absolute;
+                top: 12px;
+            }
+            
+            .fa-chevron-right{
+                right: 0;
+            }
+
+            .fa-chevron-left{
+                left: 0;
+            }
+
+            .swiper-lists{
+                display: block !important;
+            }
+
+            .normal-lists{
+                display: none !important;
+            }
+        }
+
+        .category-lists {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .category {
+                list-style: none;
+            }
+
+            .category a{
+                list-style: none;
+                float: left;
+                font-weight: 400;
+                color: $color-grey-dark;
+                cursor: pointer;
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 8px;
+
+                @include respond(big-phone){
+                    font-size: 0.96rem;
+                }
+
+            }
+
+            .activeFilter {
+                background-color: $color-grey-light;
+                color: $color-black !important;
+                font-weight: bold !important;
+            }
+
+            @include respond(big-phone){
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        
+        }
+
+        @include respond(tab-port){
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            top: 3.5rem;
+        }
+
+    }
+
+    .filter__settings {
+        float: right;
+    }
+}
+
+.filter__dropdown {
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+.filter-area {
+    // transition: all 0.3s ease-in;
+    // position: absolute;
+    // transition: all 0.3s ease-in;
+    // z-index: 200;
+    // width: 100%;
+    // background-color: #fff;
+}
+
+.sub-filter-enter-done {
+    top: 0px;
+    opacity: 1;
+}
+
+.sub-filter-enter-active {
+    top: -30px;
+    opacity: 0;
+}
+
+.sub-filter-exit {
+    top: -30px;
+}
+
+.sub-filter-exit-active {
+    top: 0px;
+}
+
+@include respond(big-phone){
+    .swiper-slide {
+        flex-shrink: 0 !important;
+    }
+
+    .swiper-wrapper {
+        height: 70px !important;
+    }
+
+    .swiper-pagination{
+        top: 42px !important;
+    }
+}
