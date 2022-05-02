@@ -798,6 +798,14 @@ li {
   background-repeat: no-repeat;
 }
 
+.behance {
+  background-image: url(assets/behance.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
 .card {
   transition: all 0.2s ease;
   border: none  ;
