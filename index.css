@@ -806,6 +806,14 @@ li {
   background-color: white;
 }
 
+.dribbble {
+  background-image: url(assets/dribble.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
 .card {
   transition: all 0.2s ease;
   border: none  ;
