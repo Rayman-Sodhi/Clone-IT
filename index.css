@@ -768,6 +768,15 @@ li {
 
 }
 
+.weather{
+  background-image: url(https://cdn.icon-icons.com/icons2/3191/PNG/512/sunny_sun_cloud_weather_cloudy_icon_194237.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
 .w3school {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701848-a4da4069-dc5b-4e49-9839-7c01333e3091.png);
   background-position: center;
