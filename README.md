@@ -265,13 +265,6 @@ git push -u origin <your_branch_name>
 </tr>
 </table>
 
-<h1 align="center">Project Mentors</h1>
-
-<table align="center">
-<tr>
-<td align="center"><a href="https://github.com/whiteHatpro"><img src="https://avatars.githubusercontent.com/u/77486870?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">Mohak Srivastav</h4></td>
-</tr>
-</table>
 <br>
 <h1 align="center">Thanks to our Project Collaborator </h1>
 
