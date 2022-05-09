@@ -1,0 +1,34 @@
+/* .app {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app__body {
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2ef;
+  }
+  
+  .app__body {
+    display: flex;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  .app__body {
+    display: flex;
+    margin: 35px 20px 0;
+    max-width: 1200px;
+  }
