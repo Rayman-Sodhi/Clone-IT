@@ -14,18 +14,19 @@ This is a NVIDIA Clone made using Javascript,CSS,HTML5
 
 ## Application Screenshots
 
-![nc](https://user-images.githubusercontent.com/93239528/165764271-7d93bab0-b44a-49d6-b91f-bd16bf4362b9.png)
+![nd](https://user-images.githubusercontent.com/93239528/167343784-cbc67de3-d812-4ca1-a4c9-615019d6b278.png)
 
-![nc1](https://user-images.githubusercontent.com/93239528/165764290-10e34c09-f03e-4328-809c-40e0e8e24081.png)
+![nd1](https://user-images.githubusercontent.com/93239528/167343787-4223b728-89e4-4325-9028-bd7bddf69adf.png)
 
-![nc2](https://user-images.githubusercontent.com/93239528/165764303-a5890238-9e00-47ba-bdef-cc073fc06c32.png)
+![nd2](https://user-images.githubusercontent.com/93239528/167343792-672885e7-1673-4796-adf7-d66016396f47.png)
 
 ## Application Video
 
 
 
+https://user-images.githubusercontent.com/93239528/167343817-14000c68-f10a-4c76-b928-67b35b8c532a.mp4
 
-https://user-images.githubusercontent.com/93239528/165764203-81878125-8851-45cc-a0b4-1a6a27cb8bf2.mp4
+
 
 
 ## Deployed Link: https://subtle-palmier-919a35.netlify.app/ 
