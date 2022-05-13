@@ -1,0 +1,12 @@
+body {
+  margin : 5%;
+}
+h1 {
+  color:red;
+}
+img {
+  border:5px solid #000
+ }
+p{
+  text-align:justify;
+}
