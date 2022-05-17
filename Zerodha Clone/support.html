@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha Clone</title>
+    <link rel="stylesheet" href="css/support.css">
+</head>
+
+<body>
+
+    <div class="content-container">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav--container">
+                    <div class="img-sec">
+                        <a href="index.html"><img class="logo-img" src="img/logo.svg" alt="zerodha-logo"></a>
+                    </div>
+                    <div class="nav-bar-link">
+                        <ul class="nav-link">
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="support.html">Support</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="faq-sections faq-head-section">
+            <div class="container">
+                <div class="row v-align between">
+                    <div class="two columns center-on-mobile support-logo-link">
+                        <h4 class="support-logo">
+                            <a href="/">Support Portal</a>
+                        </h4>
+                    </div>
+                    <div class="two columns text-right center-on-mobile login-link">
+                        <a class="kite-login" href="/login?next=https%3A%2F%2Fsupport.zerodha.com%2F">Login with
+                            Kite</a>
+                    </div>
+                    <div class="two columns lang-links">
+                        <span href="#" class="language" data-language="english"
+                            onclick="redirectToTranslation(event)">English</span>
+                        <span href="#" class="language" data-language="hindi"
+                            onclick="redirectToTranslation(event)">हिंदी</span>
+                    </div>
+                    <div class="four columns hide-on-mobile">&nbsp;</div>
+                </div>
+                <div class="row v-align between">
+                    <div class="seven columns">
+                        <h5 class="support-subheading">Search for an answer or browse help topics to create a ticket
+                        </h5>
+                        <div class="search-input-grp">
+                            <input id="search-text" type="text" class="form-control typeahead" autocomplete="off"
+                                placeholder="Eg: how do i activate F&amp;O, why is my order getting rejected ..."
+                                autofocus="">
+                            <span class="dot-spinner"><i></i><i></i><i></i><i></i></span>
+                            <span class="clear-search">✖</span>
+                            <span><img src="img/search.png"></span>
+                        </div>
+                        <div class="super-links">
+                            <p class="quick-links">
+                                <a href="https://zrd.sh/signup">Track account opening</a>
+                            </p>
+                            <p class="quick-links">
+                                <a href="https://zrd.sh/segment-activation">Track segment activation</a>
+                            </p>
+                            <p class="quick-links">
+                                <a href="https://zrd.sh/latest-leverage">Intraday margins</a>
+                            </p>
+                            <p class="quick-links">
+                                <a class="kite-manual-link" href="https://zrd.sh/kite-manual">Kite user manual</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="five columns">
+                        <div class="alert-banner" style="display: block;">
+                            <h4>Featured</h4>
+                            <div class="alert-back">
+                                <div class="banner-content">
+                                    <div class="ql-editor read-mode">
+                                        <ul>
+                                            <li>The buy average for LIC shares allotted through ASBA is updated at
+                                                Rs.904
+                                                per share on Kite. If you have applied through HNI/Policyholder
+                                                category,
+                                                please create a ticket <a
+                                                    href="https://support.zerodha.com/category/console/ipo/other-ipo-queries/articles/lic-shares-buy-average"
+                                                    class="banner-link">here</a> to modify the purchase details
+                                                accordingly.
+                                            </li>
+                                            <li>You can sell the shares normally if you wish to. This will not have any
+                                                effect on your trades or on your P&amp;L.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="listDom"></div>
+            </div>
+        </div>
+        <div class="faq-sections faq-content">
+
+
+
+            <div class="support-cards-container container">
+                <h2>To create a ticket, select a relevant topic</h2>
+
+                <div class="row between">
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/account-opening">
+                                <i class="category-icons icon-account-opening"></i>
+                                Account Opening
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a href="/category/account-opening/getting-started">Getting
+                                Started</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/account-opening/online-account-opening">Online</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/account-opening/offline-account-opening">Offline</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/account-opening/charges-at-zerodha">Charges</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/account-opening/company-partnership-and-huf-account-opening">Company,
+                                Partnership and HUF</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/account-opening/idfc-3in1">Zerodha IDFC FIRST Bank
+                                3-in-1 Account</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/account-opening/nri-account-opening">Non Resident
+                                Indian (NRI)</a></span>
+
+
+                    </div>
+
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/your-zerodha-account">
+                                <i class="category-icons icon-my-account"></i>
+                                Your Zerodha Account
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a href="/category/your-zerodha-account/login-credentials">Login
+                                Credentials</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/your-zerodha-account/your-profile">Your
+                                Profile</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/your-zerodha-account/account-modification-and-segment-addition">Account
+                                Modification and Segment Addition</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/your-zerodha-account/dp-id-and-bank-details">CMR
+                                &amp; DP ID</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/your-zerodha-account/nomination-process">Nomination</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/your-zerodha-account/transfer-of-shares-and-conversion-of-shares">Transfer
+                                and conversion of shares</a></span>
+
+
+                    </div>
+
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/trading-and-markets">
+                                <i class="category-icons icon-trading-and-platforms"></i>
+                                Trading and Markets
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/trading-faqs">Trading
+                                FAQs</a></span>
+
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/trading-and-markets/kite-web-and-mobile">Kite</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/margins">Margins</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/product-and-order-types">Product
+                                and Order types</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/corporate-actions">Corporate
+                                Actions</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/other-platforms">Other
+                                platforms</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/trading-and-markets/kite-features">Kite
+                                features</a></span>
+
+
+                    </div>
+
+
+                </div><!-- End card deck -->
+
+                <div class="row between">
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/funds">
+                                <i class="category-icons icon-funds"></i>
+                                Funds
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a href="/category/funds/fund-withdrawal">Fund Withdrawal</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/funds/adding-funds">Adding Funds</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/funds/adding-bank-accounts">Adding Bank
+                                Accounts</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/funds/mandate">eMandates</a></span>
+
+
+                    </div>
+
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/console">
+                                <i class="category-icons icon-q-backoffice"></i>
+                                Console
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a href="/category/console/ipo">IPO</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/console/portfolio">Portfolio</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/console/ledger">Funds Statement</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/console/profile">Profile</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/console/reports">Reports</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/console/referral-program">Referral Program</a></span>
+
+
+                    </div>
+
+
+                    <div class="four columns card-block">
+                        <h5 class="card-title text-muted">
+                            <a href="/category/mutual-funds">
+                                <i class="category-icons icon-mutual-funds"></i>
+                                Coin
+                            </a>
+                        </h5>
+
+
+
+                        <span class="text-grey"><a
+                                href="/category/mutual-funds/understanding-mutual-funds">Understanding Mutual Funds and
+                                Coin</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/mutual-funds/coin-app">Coin App</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/mutual-funds/coin-web">Coin Web</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/mutual-funds/transaction-and-reports">Transactions
+                                and reports</a></span>
+
+
+
+
+                        <span class="text-grey"><a href="/category/mutual-funds/government-securities">Government
+                                Securities</a></span>
+
+
+
+
+                    </div>
+
+
+                </div><!-- End card deck -->
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="top-footer row bet">
+                    <div class="inner-col fours">
+                        <div class="logo-img-1">
+                            <img src="img/logo.svg" alt="logo">
+                        </div>
+                        <h5 class="footer-contact">080 4719 2020</h5>
+                        <p class="footer-p-1">© 2010 - 2022 </p>
+                        <p class="footer-p-1">Zerodha Broking Ltd.</p>
+                        <p class="footer-p-1">All rights reserved.</p>
+                        <ul class="social-links">
+                            <li><img src="img/social-img/twitter-brands.svg" alt=""></li>
+                            <li><img src="img/social-img/facebook-square-brands.svg" alt=""></li>
+                            <li><img src="img/social-img/instagram-brands.svg" alt=""></li>
+                            <li><img src="img/social-img/linkedin-in-brands.svg" alt=""></li>
+                            <li><img src="img/social-img/telegram-brands.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="inner-col fours">
+                        <ul>
+                            <li class="foot-title">Company</li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Referral programme</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Zerodha.tech</a></li>
+                            <li><a href="">Press & media</a></li>
+                            <li><a href="">Zerodha Cares (CSR)</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner-col fours">
+                        <ul>
+                            <li class="foot-title">Support</li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Support portal</a></li>
+                            <li><a href="">Z-Connect blog</a></li>
+                            <li><a href="">List of charges</a></li>
+                            <li><a href="">Downloads & resources</a></li>
+                            <li><a href="">Videos</a></li>
+                            <li><a href="">Market overview</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner-col fours">
+                        <ul>
+                            <li class="foot-title">Account</li>
+                            <li><a href="">Open an account</a></li>
+                            <li><a href="">Fund transfar</a></li>
+                            <li><a href="">60 day challenge</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
