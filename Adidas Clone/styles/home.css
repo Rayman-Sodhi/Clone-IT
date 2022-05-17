@@ -1,0 +1,960 @@
+* {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/* #container {
+    width: 100%;
+    height: 100vh;
+} */
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    margin: 50px 0px;
+    
+}
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+    transform: translateY(-4px) rotate(45deg);
+}
+.change #bar2{
+    /* display: none; */
+    opacity: 0;
+}
+.hamnames{
+    list-style: none;
+    background-color: #fff;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    margin-left: -70px;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hamnames>li>a{
+    color: black;
+    text-decoration: none;
+}
+.bar{
+    height: 4px;
+    width: 30px;
+    display: block;
+    background-color: #000000;
+    transition: 0.4s ease;
+}
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3 {
+    transform: translateY(4px);
+}
+
+.uppernav {
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    background-color: #000000;
+    display: flex;
+}
+
+.uppernav>p>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.firstnav {
+    padding-left: 70%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32px;
+    width: 100%;
+    margin-right: 2%;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.firstnav>p>a {
+    text-decoration: none;
+    color: #524f4f;
+
+}
+
+.midnav {
+    height: 4em;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.adidaslogo {
+    height: 50px;
+    top: -10px;
+    width: 75px;
+    position: relative;
+}
+
+.logodiv {
+    display: flex;
+    margin-left: 2%;
+}
+
+.cat {
+    display: flex;
+    width: 50%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.cat>p>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.search {
+    height: 34px;
+    width: 200px;
+    background-color: #e9ecef;
+    border: none;
+    margin-right: 10px;
+}
+
+.footsignup {
+    display: flex;
+}
+
+
+
+.icons {
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+
+}
+#wishlistLen{
+position: absolute;
+top:-4px;
+right:11%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+   #wishlistLen{
+       display:none;
+   } 
+}
+.disicon {
+    margin: 15px;
+    margin-right: 10px;
+}
+#cartLen{
+    position: absolute;
+top:-4px;
+right:-2%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+
+.fas, .far {
+    color: #000000;
+}
+
+.searchicon {
+    display: none;
+}
+
+
+
+.lastfoot {
+    background-color: #363738;
+    height: 120px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.indialogo {
+    height: 8px;
+    width: 18px;
+    margin-left: 20%;
+    margin-top: 28px;
+}
+
+.copyright {
+    margin-top: 3%;
+}
+
+.copyright>a {
+    margin-left: 20%;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tnc {
+    display: flex;
+    margin-top: -6%;
+    margin-left: 65%;
+    margin-right: 15%;
+}
+
+.tnc>p>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .cat {
+        width: 50%;
+        font-size: 11px;
+    }
+
+    .search {
+        height: 30px;
+        width: 160px;
+    }
+
+    .firstnav {
+        padding-left: 60%;
+    }
+
+    .logodiv {
+        margin-left: 1%;
+    }
+
+    .tnc {
+        display: flex;
+        margin-top: -50px;
+        margin-left: 60%;
+        margin-right: 2%;
+    }
+
+    .tnc>p>a {
+        word-spacing: 5%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+
+    .logodiv {
+        margin-top: 12px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .displaynone, .heart, .uppernav :nth-child(2), .uppernav :nth-child(3) {
+        display: none;
+    }
+
+    .icons {
+        margin-top: 20px;
+        margin-right: 2%;
+    }
+
+    .searchicon {
+        display: initial;
+        margin-left: 5px;
+    }
+
+    .hamburger {
+        display: initial;
+        margin: 15px 2%;
+    }
+    
+    .tnc {
+        display: block;
+        line-height: 20px;
+    }
+
+    .indialogo {
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+
+    .copyright>a {
+        margin-left: 2%;
+    }
+
+}
+
+     /* poster css start */
+/* 
+        * {
+            margin: 0px;
+
+        } */
+
+        #poster {
+            width: 100%;
+
+            height: 100vh;
+            min-height: 30vh;
+            background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/ss22-ivp-5-launch-hp-v3-d_tcm209-819981.jpg");
+            background-size: cover;
+            display: flex;
+            align-items: center;
+        }
+  #popular_img{
+      height: 100vh;
+             align-items: flex-end;
+                margin-left: 0px;
+                width: 100%;
+                min-width: 100%;
+                background-size: cover;
+                  display: flex;
+            align-items: center;
+            background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-d_tcm209-824921.jpg");
+           
+        }
+       .poster_container {
+            width: auto;
+            margin-left: 20px;
+
+        }
+
+        .poster_container>h2 {
+            color: white;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+
+        #popular_img, .poster_container>button {
+            padding: 15px 25px;
+            background-color: white;
+            color: black;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 20px;
+
+
+        }
+
+        .poster_container>i {
+            font-size: 20px;
+            color: black;
+            margin-left: 10px;
+        }
+
+        .poster_container>h1 {
+            margin-top: 70px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+     
+
+
+        /* poster css end */
+
+        /* poster media queries start  */
+        @media only screen and (min-width:600px)and (max-width:960px) {
+             #popular_img{
+                 height:60vh;
+                 background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-m_tcm209-824922.jpg");
+             }
+
+            #poster {
+                align-items: flex-end;
+                height: 60vh;
+                background-size: cover;
+                width: 100%;
+            }
+
+            .poster_container {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media only screen and (min-width:0px)and (max-width:599px) {
+ #popular_img{
+                 height:40vh;
+                 background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-m_tcm209-824922.jpg");
+             }
+
+            #poster {
+                align-items: flex-end;
+
+                width: 100%;
+                min-width: 100%;
+                background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/ss22-ivp-5-launch-hp-v3-m_tcm209-819980.jpg");
+            }
+
+            .poster_container {
+                margin-bottom: 20px;
+            }
+        }
+
+
+        /* poster media queries end  */
+
+        
+        /* popular container css start */
+       
+        .popular_sub_container {
+            width: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+           
+
+
+        }
+        .popular_container>h1{
+            text-align: center;
+            margin-top:80px;
+            margin-bottom: 50px;
+            font-size:25px;
+            
+        }
+
+        .popular_sub_container>div {
+            border: 1px solid gray;
+            font-size: 15px;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .popular_container_h2 {
+            color: black;
+            margin-top: 100px;
+            font-style: italic;
+            margin-bottom: 15px;
+            margin-left: 10px;
+        }
+        .myanchor{
+            margin-left: 10px;
+            color: black;
+        }
+    
+
+        /* popular container css end */
+
+/* popular container media query start */
+           @media only screen and (min-width:600px)and (max-width:960px) {
+             
+              .popular_sub_container {
+                  min-width: fit-content;
+                  flex-wrap: wrap;
+           }
+            .popular_container>h1{
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+        }
+            @media only screen and (min-width:0px)and (max-width:599px) {
+                .popular_container>h1{
+                    text-align: left;
+
+                }
+                 .popular_sub_container {
+                     justify-content: flex-start;
+                      flex-wrap: wrap;
+                 }
+                  .popular_container>h1{
+                margin-top:10px;
+                margin-bottom:30px;
+                font-size:25px;
+            }
+
+            }
+/* popular container media query end */
+            /* men_women_kid_container css start */
+            .men_women_kid{
+                margin-top: 70px;
+                margin-bottom:70px;
+            }
+.men_women_kid_heading{
+    margin-top:30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size:30px;
+
+}
+.men_women_kid_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* grid-gap: 10px; */
+    height:300px;
+}
+.men_women_kid_container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width:32%;
+    height:100%;
+}
+.men_img{
+    
+   
+    
+    background-size: cover;
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/evergreen-homepage-gender-navigation-men-dt_tcm209-761437.jpg");
+}
+.women_img{
+   
+    background-size: cover;
+    background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/womens_1_tcm209-792193.png");
+}
+.kid_img{
+  
+    background-size: cover;
+    background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/kids_1_tcm209-792188.png");
+}
+
+                 /* men_women_kid_container css start */
+
+
+               /* men_women_kid_container mediam query start */  
+               
+               
+ @media only screen and (min-width:600px)and (max-width:960px) {
+    .men_women_kid_container{
+        /* flex-wrap: wrap; */
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+       height:700px;
+
+    }
+    .men_women_kid_container>div{
+        width: 100%;
+      
+    }
+
+ }
+  @media only screen and (min-width:0px)and (max-width:599px) {
+      .men_women_kid_container{
+         display:grid;
+        grid-template-columns: repeat(1,1fr);
+          height:700px;
+      }
+       .men_women_kid_container>div{
+        width: 100%;
+       /*   height:auto; */
+       
+      
+    }
+
+
+  }
+                /* men_women_kid_container mediam query end */   
+
+
+
+                /* what hots section */
+#productSection {
+    padding: 0px 12px;
+    margin: 80px 0px 50px 0px;
+}
+
+section>div>div:hover {
+    cursor: pointer;
+}
+
+#productSection>section>h1 {
+    margin: 20px 0px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+}
+
+#displayContents>div,
+
+#bestOfAdidas>div {
+    /* border: 1px solid black; */
+    min-width: 21%;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    position: relative;
+}
+
+#displayContents,
+
+#bestOfAdidas {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-right: 20px;
+}
+#displayContents>div{
+    height: 525px;
+}
+
+
+#bestOfAdidas>div{
+    height: 380px;
+}
+
+#bestOfAdidas>div:hover{
+    border: 1px solid black;
+    font-size: 18px;
+}
+.wishlistSymbol {
+    position: absolute;
+    top: 4%;
+    right: 16px;
+}
+.wishlistSymbol:hover{
+    font-size: 25px;
+}
+.cartSym {
+    position: absolute;
+    top: 58%;
+    right: 16px;
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+.cartSym:hover{
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+}
+#productSection a:hover{
+    background-color: black;
+    color: white;
+}
+
+.price1 {
+    background-color: white;
+    padding: 0px 5px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+}
+
+.price {
+    background-color: white;
+    padding: 0px 5px;
+    position: absolute;
+    top: 225px;
+    left: 0px;
+}
+
+#productSection img {
+    width: 100%;
+}
+
+#productSection h4 {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+#productSection p {
+    margin: 10px 0px;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+}
+
+#productSection a {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+#productSection h6 {
+    margin: 2px;
+    font-weight: 100;
+}
+
+#categoryShop>div {
+    /* border: 1px solid red; */
+    width: 300px;
+}
+
+#categoryShop>div>div {
+    border: 1px solid black;
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    width: 150px;
+    padding: 15px;
+}
+#categoryShop>div>div:hover{
+    color: grey;
+}
+
+#categoryShop {
+    display: flex;
+    grid-gap: 10px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+
+
+
+@media only screen and (min-width:600px)and (max-width:960px) {
+
+  #displayContents>div {
+        min-width: 40%;
+    }
+    
+    #bestOfAdidas>div {
+        min-width: 31%;
+    }
+    #categoryShop>div {
+        /* border: 1px solid red; */
+        min-width: 310px;
+    }
+    #categoryShop {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    #productSection>section>h1 {
+        margin: 20px 0px;
+    }
+    section {
+        margin: 50px 0px;
+    }
+    .price {
+        top: 190px;
+    }
+    .price1 {
+        bottom: 50px;
+    }
+   
+
+}
+@media only screen and (min-width:0px)and (max-width:599px) {
+      #displayContents>div {
+        min-width: 85%;
+    }
+   
+    #bestOfAdidas>div {
+        min-width: 42%;
+        height:240px;
+    }
+    #categoryShop {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    #categoryShop>div {
+        /* border: 1px solid red; */
+        min-width: 280px;
+    }
+   
+    #productSection>section>h1 {
+        margin: 20px 0px;
+    }
+    section {
+        margin: 50px 0px;
+    }
+    .price {
+        top: 105px;
+    }
+    .price1 {
+        bottom: 65px;
+    }
+}
+
+
+
+
+  /* yellow container css start */
+
+        .yellow_container {
+
+            background-color: #ede734;
+            padding: 30px 20px;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+            ;
+
+        }
+
+        .yellow_container_heading {
+            width: 60%;
+            font-size: 30px;
+            margin-left: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+       .poster_container>div, .yellow_container_heading>div {
+            position: relative;
+            width: auto;
+        }
+
+        .yellow_container_btn {
+            position: absolute;
+            bottom: 4px;
+            left: -5px;
+            display: flex;
+            padding: 15px 29px;
+            background-color: black;
+            color: white;
+            border: transparent;
+        }
+         .yellow_container_btn:hover{
+             cursor: pointer;
+             color:lightgray;
+         }
+
+        .btn-back {
+            width: 130px;
+            height: 43px;
+            border: 1px solid black;
+        }
+
+        @media only screen and (min-width:0px)and (max-width:960px) {
+            .yellow_container_heading {
+                width: 100%;
+                margin-left: 2%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .yellow_container_heading>div {
+                margin-top: 10px;
+            }
+
+        }
+
+        /* yellow container css end */
+
+        #login_cart_bar {
+            display: none;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+
+        }
+
+        #login_cart_bar>div {
+            padding: 20px;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+        }
+
+        #product_list {
+            display: flex;
+            padding: 10px;
+            width: 98%;
+            justify-content: center;
+        }
+
+        #product_list>div {
+            margin-top: 20px;
+            width: 15%;
+        }
+
+        #product_list>div>h5 {
+            font-size: 18px;
+            letter-spacing: -1px;
+            margin-bottom: 5px;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+
+        }
+
+        #small_screenProductList>div>ul,
+        #product_list>div>ul {
+            list-style: none;
+            padding-left: 0px;
+
+        }
+
+        #small_screenProductList>div>ul>li,
+        #product_list>div>ul>li {
+            padding: 6px;
+            padding-left: 0px;
+            font-size: 12px;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+        }
+
+        #small_screenProductList>div>ul>li:hover,
+        #product_list>div>ul>li:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        #small_screenProductList {
+            background-color: black;
+            display: none;
+            justify-content: space-around;
+            color: white;
+            height: 100px;
+            width: 100%;
+            padding-top: 20px;
+        }
+
+        @media only screen and (min-width:0px)and (max-width:960px) {
+            #login_cart_bar {
+                display: flex;
+            }
+
+            #product_list {
+                display: none;
+            }
+
+            #small_screenProductList {
+                display: flex;
+            }
+
+
+        }
+
+        .content_container {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 70px;
+            background-color: #e9ecef;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+        }
+
+        .content_container>div {
+            width: 40%;
+        }
+
+        .content_container>div>p {
+            line-height: 20px;
+            margin-top: 20px;
+            font-size: 13px;
+
+        }
+
+        @media only screen and (min-width:0px)and (max-width:960px) {
+
+            .content_container {
+                display: flex;
+                flex-direction: column;
+                padding: 50px 30px;
+
+
+            }
+
+            .content_container>div {
+                width: 90%;
+                margin-bottom: 30px;
+            }
+        }
