@@ -1,0 +1,311 @@
+.nav *,
+footer{
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    margin: 50px 0px;
+    
+}
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+    transform: translateY(-4px) rotate(45deg);
+}
+.change #bar2{
+    /* display: none; */
+    opacity: 0;
+}
+.hamnames{
+    list-style: none;
+    background-color: #fff;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    margin-left: -70px;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hamnames>li>a{
+    color: black;
+    text-decoration: none;
+}
+.bar{
+    height: 4px;
+    width: 30px;
+    display: block;
+    background-color: #000000;
+    transition: 0.4s ease;
+}
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3 {
+    transform: translateY(4px);
+}
+
+.uppernav {
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    background-color: #000000;
+    display: flex;
+}
+
+.uppernav>p>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.firstnav {
+    padding-left: 70%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32px;
+    width: 100%;
+    margin-right: 2%;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.firstnav>p>a {
+    text-decoration: none;
+    color: #524f4f;
+
+}
+
+.midnav {
+    height: 4em;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.adidaslogo {
+    height: 50px;
+    top: -10px;
+    width: 75px;
+    position: relative;
+}
+
+.logodiv {
+    display: flex;
+    margin-left: 2%;
+}
+
+.cat {
+    display: flex;
+    width: 50%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.cat>p>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.search {
+    height: 34px;
+    width: 200px;
+    background-color: #e9ecef;
+    border: none;
+    margin-right: 10px;
+}
+
+.footsignup {
+    display: flex;
+}
+
+/* .center {
+    height: 1400px;
+} */
+
+
+.icons {
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+
+}
+#wishlistLen{
+position: absolute;
+top:-4px;
+right:11%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+   #wishlistLen{
+       display:none;
+   } 
+}
+
+.disicon {
+    margin: 15px;
+    margin-right: 10px;
+}
+#cartLen{
+    position: absolute;
+top:-4px;
+right:-2%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+
+.fas,
+.far {
+    color: #000000;
+}
+
+.searchicon {
+    display: none;
+}
+
+.center {
+    background-color: #f0d7bb;
+}
+
+.lastfoot {
+    background-color: #363738;
+    height: 120px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.indialogo {
+    height: 8px;
+    width: 18px;
+    margin-left: 20%;
+    margin-top: 28px;
+}
+
+.copyright {
+    margin-top: 3%;
+}
+
+.copyright>a {
+    margin-left: 20%;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tnc {
+    display: flex;
+    margin-top: -6%;
+    margin-left: 65%;
+    margin-right: 15%;
+}
+
+.tnc>p>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .cat {
+        width: 50%;
+        font-size: 11px;
+    }
+
+    .search {
+        height: 30px;
+        width: 160px;
+    }
+
+    .firstnav {
+        padding-left: 60%;
+    }
+
+    .logodiv {
+        margin-left: 1%;
+    }
+
+    .tnc {
+        display: flex;
+        margin-top: -50px;
+        margin-left: 60%;
+        margin-right: 2%;
+    }
+
+    .tnc>p>a {
+        word-spacing: 5%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+
+    .logodiv {
+        margin-top: 12px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .displaynone, .heart, .uppernav :nth-child(2), .uppernav :nth-child(3) {
+        display: none;
+    }
+
+    .icons {
+        margin-top: 20px;
+        margin-right: 2%;
+    }
+
+    .searchicon {
+        display: initial;
+        margin-left: 5px;
+    }
+
+    .hamburger {
+        display: initial;
+        margin: 15px 2%;
+    }
+    
+    .tnc {
+        display: block;
+        line-height: 20px;
+    }
+
+    .indialogo {
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+
+    .copyright>a {
+        margin-left: 2%;
+    }
+
+}
