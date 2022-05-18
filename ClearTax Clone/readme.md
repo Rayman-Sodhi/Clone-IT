@@ -1,3 +1,3 @@
 # Cleartax
 
-![](./preview1.jpg)
+![](./preview.gif)
