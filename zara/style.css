@@ -1,22 +1,42 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
+
 
 #body {
     background-color: rgb(255, 255, 255);
     margin:0px auto 0px auto;
 }
 
+#logo{
+    font-family: 'Libre Bodoni', serif;
+    font-size:100px;
+}
+.landingimg{
+    width:90%;
+    float:right;
+    height:600px;
+    object-fit: none;
+}
+/* .contents{
+    list-style-type: none;
+    display:flex;
+    position:absolute;
+    bottom:5%;
+    justify-content: center;
+    width:100%;
+}
+.contents li{
+    padding:0 20px 0 20px;
+} */
+
 .navbar {
     background-color: transparent;
     border-color: transparent;
     display: flex;
+    justify-content: right;
 }
 
 .navbar-brand {
     font-family: serif;
-    font-size: 34px !important;
+    font-size: 34px ;
     color: rgb(0, 0, 0) !important;
 
 }
@@ -26,6 +46,7 @@ html, body {
     font-size: 16px;
     padding-left:40px;
     padding-right:40px;
+    
 }
 
 
