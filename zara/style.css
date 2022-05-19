@@ -38,15 +38,13 @@
     font-family: serif;
     font-size: 34px ;
     color: rgb(0, 0, 0) !important;
-
 }
 
 .navbar-nav > li{
     font-family: serif;
     font-size: 16px;
     padding-left:40px;
-    padding-right:40px;
-    
+    padding-right:40px;  
 }
 
 
@@ -56,8 +54,7 @@
     
 
 }
-#home {
-    
+#home { 
     background: linear-gradient(rgba(228, 226, 226, 0.124),rgba(228, 226, 226, 0.0)),url(http://hotellalaguna.com/wp-content/uploads/2018/03/zara.jpg) no-repeat center;
     background-size: cover;
     display: table;
@@ -103,7 +100,7 @@
     }
 
     #home-button:hover {
-        font-size: 120%;
+        font-size: 123%;
 
     }
     
@@ -155,7 +152,7 @@
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 4.5px;
 }
 
 #summer-22-title {
