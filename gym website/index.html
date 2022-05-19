@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img.jpg.jpg");
+        background-size: cover;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        color: white;
+
+        top: 18px;
+        left: 34px;
+    }
+
+    .left img {
+
+        width: 110px;
+    }
+
+    .center {
+        display: block;
+        color: white;
+
+        width: 39%;
+        margin: 19px auto;
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        color: white;
+        top: 18px;
+        right: 34px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 15px 19px;
+        font-size: 30px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rosybrown;
+    }
+
+    .right {
+        font-family: 'Bebas Neue', cursive;
+        margin: 0px, 10px;
+
+        color: white;
+        padding: 10px 10px;
+        font-size: 20px;
+        border: 3px solid rgb(126, 112, 119);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .bt:hover {
+        background-color: rgb(22, 21, 21);
+    }
+
+    .container {
+        text-align: center;
+        margin: 150px 475px;
+        padding: 40px;
+        width: 31%;
+        border-radius: 28px;
+        color: blanchedalmond;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid orange;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background-color: rgb(11, 15, 6);
+        color: whitesmoke;
+    }
+
+    .btn {
+        font-size: 25px;
+        width: 200px;
+        margin: 25px auto;
+        border-radius: 20px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /* Media Query for Mobile Devices */
+    @media (max-width: 480px) {
+        .navbar{
+               display: none;
+           }
+       .container{
+           display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+       .form-group{
+        display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+       body{
+            display:flex ;
+           align-items: center;
+           justify-content: center;
+           }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+           body{
+            display:flex ;
+           align-items: center;
+           justify-content: center;
+           }
+            .navbar{
+               display: none;
+           }
+           .container{
+           display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+       .form-group{
+        display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            .container{
+           display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+       .form-group{
+        display:flex ;
+           align-items: center;
+           justify-content: center;
+       }
+       body{
+            display:flex ;
+           align-items: center;
+           justify-content: center;
+           }
+        }
+          
+        
+        
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="huu.jpg" alt="we can't display the image">
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FACILITIES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button>email</button>
+            <button>contact</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>get started here</h1>
+        <form-group action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="CONTACT NO.">
+            </div>
+            </form>
+            <button class="btn">submit</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+.signup__form {
+    @include clearfix;
+    position: relative;
+    
+    &-left {
+        float: left;
+        padding: 80px;
+        width: 40%;
+        height: 100vh;
+        background-color: lighten($color-primary,25);
+        margin:0 auto;
+
+        .logo a{
+            font-family: 'Grand Hotel', cursive;
+            font-size: 2.5rem;
+            color: $color-primary;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: 1.8rem;
+            color: $color-black;
+            opacity: 0.6;
+        }
+
+        @include respond(tab-land){
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            & {
+                padding: 40px !important;
+            }
+        }
+
+        @include respond(tab-port){
+            & {
+                display: none;
+            }
+        }
+    }
+
+    &-right {
+        float: right;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #fff;
+        height: 100vh;
+        position: relative;
+
+        .form__content {
+            width: 60%;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+            .signup__link {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-weight: 400;
+                z-index: 10;
+
+                & a {
+                    text-decoration: none;
+                    color: $color-primary;
+                    font-weight: bold;
+                }
+            }
+
+            .heading {
+                color: $color-black-2;
+                font-weight: 900;
+                border-bottom: 1px solid $color-grey-light-2;
+                padding-bottom: 10px;
+            }
+
+        }
+
+        @include respond(desktop){
+            .signup__link {
+                bottom: 4em !important;
+            }
+        }
+
+        @include respond(tab-land){
+
+            .form__group {
+                margin-bottom: 1rem;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
+
+            .form__content {
+                width: 60%;
+            }
+
+            .btn {
+                margin-top: 1rem;
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+
+            .form__group {
+                margin-bottom: 1rem;
+            }
+
+            .signup__link {
+                position: unset;
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+
+        @include respond(phone){
+            .form__content {
+                width: 70%;
+            }
+        }
+
+        .form__logo{
+            display: none;
+    
+            @include respond(tab-port){
+                display: block;
+                text-align: center;
+                margin-top: 2rem;
+                font-family: 'Grand Hotel', cursive;
+                font-size: 2.5rem;
+                font-weight: 400;
+
+                a{
+                    text-decoration: none;
+                    color: $color-black-2;
+                }
+            }
+        }
+    }
+
+
+}

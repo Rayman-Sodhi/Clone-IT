@@ -1,0 +1,107 @@
+.footer__area {
+    width: 100%;
+    background-color: lighten($color-grey-light,2);
+    padding: 50px 0 10px 0;
+    font-weight: 400;
+
+    .footer__content {
+
+        .footer__top {
+            margin-bottom: 3rem;
+
+            @include respond(big-phone){
+
+                width: 100% !important;
+                height: auto !important;
+
+                .nav__area {
+                    width: 100% !important;
+                    &:not(:last-child){
+                        margin-right: 1rem !important;
+                    }
+                    
+                }
+                
+            }
+        }
+
+        .footer__logo {
+            @include respond(tab-port){
+                font-size: 0.8rem !important;
+            }
+            
+            @include respond(big-phone){
+                width: 100% !important;
+                display: block;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+        }
+
+        .logo__text {
+            font-weight: 500;
+            a:link,
+            a:visited,
+            a:active {
+                font-size: 2rem;
+                font-family: 'Grand Hotel', cursive;
+                color: $color-primary;
+                cursor: pointer;
+                text-decoration: none;
+                transition: color 0.1s ease-in;
+            }
+
+        }
+
+        .footer__nav {
+            list-style: none;
+            line-height: 2.5rem;
+
+            &-item {
+
+                &:first-child{
+                    font-weight: bold;
+                    color: $color-black-2;
+                }
+            }
+
+            @include respond(tab-port) {
+                font-size: 0.8rem !important;
+                line-height: 2rem;
+
+            }
+
+        }
+
+        .bottom__footer {
+            border-top: 1px solid $color-grey-light-2;
+            padding-top: 30px;
+            text-align: center;
+            color: $color-grey;
+
+            a {
+                text-decoration: none;
+                color: $color-black;
+            }
+
+            i {
+                margin-right: 5px;
+                font-size: 1.2rem;
+                position: relative;
+                top: 2px;
+            }
+
+            .shots {
+                font-weight: bold;
+                color: $color-black;
+                margin-right: 10px;
+            }
+
+            @include respond(tab-land){
+                div {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body> 
+    <header>
+        <div class="img">
+            <img src="./nykaa-logo.png" alt="">
+        </div>
+        <div id="steps">
+            <div class="steps-div">
+                <div class="steps-number">1</div>
+                <div id="bag-text">BAG</div>
+            </div>
+            <div class="steps-dash"></div>
+            <div class="steps-div">
+                <div class="steps-number">2</div>
+                <div id="address-text">ADDRESS</div>
+            </div>
+            <div class="steps-dash"></div>
+            <div class="steps-div">
+                <div class="steps-number">3</div>
+                <div id="payment-text">PAYMENT</div>
+            </div>
+        </div>
+    </header>
+     <main>
+         <div id="change-form-div">
+            <div id="savedAddress" class="change-form">
+                <h3>Saved Address</h3>
+            </div>
+         <div id="editAddress" class="change-form">
+             <h3 id="change-form-h3">Enter Your Address</h3>
+         </div>
+        </div>
+         <div id="edit" class="form">
+             <h2 id="form-head">Enter Your Address</h2>
+             <select name="" id="form-country">
+                 <option value="India">India</option>
+             </select>
+             <input placeholder="*PINCODE" id="form-pin" type="text">
+             <input placeholder="*ADDRESS LINE 1" id="from-address1" type="text">
+             <input placeholder="*ADDRESS LINE 2" id="from-address2" type="text">
+             <div class="form-city-div">
+                 <input placeholder="*CITY" id="form-city" type="text">
+                 <input placeholder="*STATE" id="form-state" type="text">
+             </div>
+             <p>Shipping Details will be Sent to:</p>
+             <input placeholder="*FULL NAME" id="form-name" type="text">
+             <div class="form-number-div">
+                 <input placeholder="*MOBILE NO." id="form-phone" type="text">
+                 <input placeholder="*EMAIL-ID" id="form-email" type="email">
+             </div>
+             <p>Note: you’ll receive the invoice details on this email ID.</p>
+             <div class="form-btns">
+                 <button id="form-btn1">Cancel</button>
+                 <button id="form-btn2">Save</button>
+             </div>
+         </div>
+         <div id="saved" class="form">
+         </div>
+         <div class="bag-data">
+             <h2>Price Summary</h2>
+             <p>Prices are inclusive of all taxes</p>
+             <div>
+                 <div>Bag Total</div><div id="bag-data-1"></div>
+             </div>
+             <div>
+                <div>Sub Total</div><div id="bag-data-2"></div>
+             </div>
+             <div>
+                <div>Shipping Charges</div><div id="bag-data-3"></div>
+             </div>
+             <div>
+                <div>You Pay</div><div id="bag-data-4"></div>
+             </div>
+             <button id="buy">Proceed To Buy</button>
+         </div>
+     </main>
+     <footer></footer>
+</body>
+<script src="./Payment.js"></script>
+</html>

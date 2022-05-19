@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+/*--------------------------------------- Navbar1  -----------------------------------*/
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+/* Styles  */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    background-color: #000000  ;
+}
+.navs{
+    float: left;
+    justify-content: space-between;
+    margin-top: 1%;
+    color: white;
+
+}
+.topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* Right section - top navbar */
+.topnav-right {
+    float: right;
+    overflow: hidden;
+ // background-color: #FFFFFF;
+}
+/*--------------------------------------- Navbar  -----------------------------------*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 1%;
+}
+.nav > li:hover{
+    color: red;
+}
+.nav > li{
+    list-style: none;
+    cursor: pointer;
+    padding: 1%;
+}
+.nav > li:nth-child(2){
+    font-weight: 600;  
+}
+.nav > li:nth-child(3){
+    font-weight: 600;       
+}
+.nav > li:nth-child(6){
+    font-size: 20px;
+    color: gray; 
+}
+.nav > li:nth-child(6):hover{
+    color: red;
+}
+/*---------------------Search Bar in Navbar------------------------*/
+
+.search{   
+    width: 70%;
+    position: relative;
+    padding: 1%;
+    
+}
+.search > input{
+    
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: -5px;
+    padding: 2%;
+    background-color: rgba(128, 128, 128, 0.212);  
+}
+.search > input:focus{
+    outline: none;
+}
+/*Notification Button*/
+.not i{
+    font-size: 20px;
+    
+    color: gray;
+    margin-top: 5px;
+}
+.not i:hover{
+    color: rgba(0, 17, 255, 0.733);
+}
+/*Profile Picture*/
+.profile img{
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+/*-------------------------------CONTAINER--------------------------*/
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 15px;
+}
+.container > div{
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: 20px;
+
+}
+.card > iframe{
+    border-radius:25px ;
+}
+/*Container Image CSS*/
+.container  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/*Container Cards Size*/
+.small{
+    grid-row-end: span 24;
+}
+.med{
+    grid-row-end: span 31;
+}
+.large{
+    grid-row-end: span 43;
+}
+@media all and(min-width: 421px) and (max-width: 768px){
+    .container{
+        grid-template-columns: repeat(auto-fill,200px);
+    }
+    .search{
+        display: none;
+    }
+    .nav > li:nth-child(2){
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+}
+@media all and (min-width:50px) and (max-width: 420px){
+    .container{
+        grid-template-columns: repeat(auto-fill,150px);
+    }
+    .container > div{
+        padding: 0;
+        margin: 8px 5px;
+        border-radius: 20px;  
+    }
+    .nav{
+        padding: 2%;
+    }
+    .search > input{
+        padding: 3%;
+    }
+    .nav > li>img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .nav > li {
+        font-size: 12px;
+        
+    }
+    .nav > li i{
+        display: none;
+        
+    }
+    .nav > li:nth-child(2){
+        display: none;
+    }
+    .nav > li:nth-child(3){
+        display: none;
+    }
+    .card > iframe{
+        border-radius:25px ;
+    }
+}

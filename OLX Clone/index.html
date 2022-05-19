@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uts-8">
+    <title>OLX Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device=width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<!--------navbar------------------->
+<div class="header">
+    <div class="navbar">
+        <img src="Images/logo.png">
+        <div class="country_select" id="country">
+            <div class="select">
+                <p id="text">Select your Country</p>
+                <i class="fa-solid fa-chevron-down" id="moving"></i>
+            </div>
+            <ul class="option_box" id="list">
+                <li class="option" onclick="myfunction('USA')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>USA</p>
+                </li>
+                <li class="option" onclick="myfunction('Canada')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Canada</p>
+                </li>
+                <li class="option" onclick="myfunction('India')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>India</p>
+                </li>
+                <li class="option" onclick="myfunction('Europe')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Europe</p>
+                </li>
+                <li class="option" onclick="myfunction('New York')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>New York</p>
+                </li>
+            </ul>
+        </div>
+    <div class="search_box">
+        <input type="text" class="searchClass" id="searchId" placeholder="Find Cars, Mobile Phone and more...">
+        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+    </div>
+    <div class="language">
+        <p id="eng_tag">English</p>
+        <ul class="hin_eng">
+            <li onclick="languages('English')">English</li>
+            <li onclick="languages('हिन्दी')">हिन्दी</li>
+        </ul>
+    </div>&nbsp;&nbsp;
+    <div class="message">
+        <i class="fa-regular fa-comment"></i>
+    </div>&nbsp;&nbsp;
+    <div class="message">
+        <i class="fa-regular fa-bell"></i>
+    </div>
+    <div class="your_logo">
+        <div class="myImage" id="myImage_Id">
+            <img src="Images/MyImage.png" >
+        </div>
+        <div class="gropdown" id="gropdownId">
+            <div class="nameImg">
+                <img src="Images/MyImage.png">
+                <p>Sulagna Dutta Roy</p>
+            </div>
+            <ul>
+                <li>
+                    <i class="fa-regular fa-user"></i>
+                    <p>My Account</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-box"></i>
+                    <p>My Orders</p>
+                </li><hr/>
+                <li>
+                    <i class="fa-regular fa-question-circle"></i>
+                    <p>Help</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-gear"></i>
+                    <p>Setting</p>
+                </li>
+                <hr/>
+                <li>
+                    <i class="fa-regular fa-arrow-right-to-bracket"></i>
+                    <p>Log Out</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+       <div class="selling_page">
+           <button><i class="fa-solid fa-plus"></i><p>SELL</p></button>
+
+       </div>
+    </div>
+</div>
+<!--------ads--------->
+<div class="ad_img">
+    <img src="Images/Ad.png" alt="">
+    <i class="fa-regular fa-rectangle-xmark" id="ad_icon"></i>
+</div>
+<!--------products-------------------->
+<div class="product">
+    <div class="first_row">
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/Tv.png" >
+            <h2>&#8377;3500</h2>
+            <p>Mi Tv Stick</p>
+            <div class="address_data">
+                <p>Bandra East, Mumbai</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/Tv1.png" >
+            <h2>&#8377;2500</h2>
+            <p>Mi Tv </p>
+            <div class="address_data">
+                <p>Bandra West, Mumbai</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/Fan.png" >
+            <h2>&#8377;500</h2>
+            <p>Fan</p>
+            <div class="address_data">
+                <p>Pune, Maharastra</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/keyboard.png" >
+            <h2>&#8377;3500</h2>
+            <p>Key Board</p>
+            <div class="address_data">
+                <p>Bandra East, Mumbai</p>
+                <p>Today</p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------->
+    <div class="first_row">
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/keyboard.png" >
+            <h2>&#8377;1500</h2>
+            <p>Study table</p>
+            <div class="address_data">
+                <p>Kolkata</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/Fan.png" >
+            <h2>&#8377;2000</h2>
+            <p>Fan</p>
+            <div class="address_data">
+                <p>Bandra East, Mumbai</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/mouse.png" >
+            <h2>&#8377;200</h2>
+            <p>Mouse</p>
+            <div class="address_data">
+                <p>Bandra West, Mumbai</p>
+                <p>Today</p>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#"></a>
+            <img src="Images/product1.png" >
+            <h2>&#8377;3500</h2>
+            <p>Mi Phone</p>
+            <div class="address_data">
+                <p>Siliguri</p>
+                <p>Today</p>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------->
+<div class="first_row">
+    <div class="box">
+        <a href="#"></a>
+        <img src="Images/Tv1.png" >
+        <h2>&#8377;200</h2>
+        <p>Mi Tv Stick</p>
+        <div class="address_data">
+            <p>Pune</p>
+            <p>Today</p>
+        </div>
+    </div>
+    <div class="box">
+        <a href="#"></a>
+        <img src="Images/printer.png" >
+        <h2>&#8377;1500</h2>
+        <p>Printer</p>
+        <div class="address_data">
+            <p>Bandra West, Mumbai</p>
+            <p>Today</p>
+        </div>
+    </div>
+    <div class="box">
+        <a href="#"></a>
+        <img src="Images/product2.png" >
+        <h2>&#8377;300</h2>
+        <p>Office Bag</p>
+        <div class="address_data">
+            <p>Thane, Mumbai</p>
+            <p>Today</p>
+        </div>
+    </div>
+    <div class="box">
+        <a href="#"></a>
+        <img src="Images/Tv.png" >
+        <h2>&#8377;400</h2>
+        <p>Tv Desk</p>
+        <div class="address_data">
+            <p>Siliguri</p>
+            <p>Today</p>
+        </div>
+    </div>
+</div>
+</div>
+<!---------------------------------------------->
+<div class="load_more">
+    <button id="load_more_id">Load More</button>
+    <div class="load_more_products" id="load_more_products_id">
+        <div class="first_row">
+            <div class="box">
+                <a href="#"></a>
+                <img src="Images/Tv1.png" >
+                <h2>&#8377;200</h2>
+                <p>Mi Tv Stick</p>
+                <div class="address_data">
+                    <p>Pune</p>
+                    <p>Today</p>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#"></a>
+                <img src="Images/printer.png" >
+                <h2>&#8377;1500</h2>
+                <p>Printer</p>
+                <div class="address_data">
+                    <p>Bandra West, Mumbai</p>
+                    <p>Today</p>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#"></a>
+                <img src="Images/mouse.png" >
+                <h2>&#8377;300</h2>
+                <p>Mouse</p>
+                <div class="address_data">
+                    <p>Thane, Mumbai</p>
+                    <p>Today</p>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#"></a>
+                <img src="Images/Tv.png" >
+                <h2>&#8377;400</h2>
+                <p>Tv Desk</p>
+                <div class="address_data">
+                    <p>Siliguri</p>
+                    <p>Today</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<div class="ads_img2">
+    <img src="Images/Ad.png">
+    <i class="fa-regular fa-rectangle-xmark" id="ad_icon2"></i>
+</div>
+<!--------------------------------------------->
+<div class="download_app">
+    <div class="download">
+        <img src="Images/Download.png" class="images">
+        <div class="text">
+            <h1>Try the OLX App</h1>
+            <p>Buy,sell and find just about anything using our app on your mobile.</p>
+        </div>
+        <div class="download_store">
+            <p>Get Your App Today</p>
+            <img src="Images/Playstore.png" alt="">
+        </div>
+    </div>
+</div>
+<!---------------------------------------------->
+<div class="main_footer">
+    <div class="footer">
+        <div class="footer_box">
+            <h2>POPULAR LOCATIONS</h2>
+            <a href="#">Kolkata</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Chennai</a>
+            <a href="#">Pune</a>
+        </div>
+        <div class="footer_box">
+            <h2>Trending LOCATIONS</h2>
+            <a href="#">Bhubaneswar</a>
+            <a href="#">Hyderabad</a>
+            <a href="#">Chandigarh</a>
+            <a href="#">Nashik</a>
+        </div>
+        <div class="footer_box">
+            <h2>ABOUT US</h2>
+            <a href="#">About OLX Group</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact Us</a>
+            <a href="#">OLXPeople</a>
+        </div>
+        <div class="footer_box">
+            <h2>OLX</h2>
+            <a href="#">Help</a>
+            <a href="#">SiteMap</a>
+            <a href="#">Legal and Privacy Information</a>
+            <a href="#">Blog</a>
+        </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

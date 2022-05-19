@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vespa Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-content">
+
+        <header class="header" id="header">
+            <div class="smallMenuContainer">
+                <div class="menuServ">
+                    <nav aria-label="Secondary navigation">
+                        <ul class="list-unstyled" aria-label="Secondary navigation">
+                            <li><a class="current">Vespa.com</a></li>
+                            <li><a>Global Website</a></li>
+                            <li><a>Customer service</a></li>
+                            <li><a>Shop Online</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="menuContainer row">
+                <h1 id="logo">
+                    <a>
+                        <img src="img/logo.svg"></a>
+                </h1>
+                <div class="menuMain">
+                    <button type="button" class="button-reset btn-menuMain" id="btn-menuMain">
+                        <img src="img/icon-menu.svg">
+                        <span>Menu</span>
+                    </button>
+                </div>
+
+                <div class="menuModelli" style="margin-left: 0px; margin-right: 0px; width: 796px; margin-top: 5px;">
+                    <nav style="display: inline-block; vertical-align: middle;">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Urban Club</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Notte</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Zx</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Vxl</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Sxl</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Elegante</a></h2>
+                            </li>
+                            <li>
+                                <h2><a class="h-menu-modelli-item">Racing Sixties</a></h2>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="float-right">
+                    <div class="search">
+                        <button type="button" class="button-reset" aria-label="Open search">
+                            <span class="iconSearch">
+                                <svg enable-background="new 0 0 139 139" height="139px" id="Find" version="1.1"
+                                    viewBox="0 0 139 139" width="139px" xml:space="preserve"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path
+                                        d="M127.558,111.961L100.249,84.65c4.64-7.387,7.333-16.118,7.333-25.488c0-26.509-21.49-47.996-47.998-47.996  c-26.508,0-47.996,21.487-47.996,47.996c0,26.51,21.487,47.995,47.996,47.995c10.197,0,19.642-3.188,27.414-8.605l26.984,26.986  c1.875,1.873,4.333,2.806,6.788,2.806c2.458,0,4.913-0.933,6.791-2.806C131.308,121.787,131.308,115.711,127.558,111.961z   M59.584,91.607c-17.917,0-32.443-14.525-32.443-32.443S41.667,26.72,59.584,26.72c17.918,0,32.443,14.526,32.443,32.444  S77.502,91.607,59.584,91.607z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="mapLink">
+                        <a class="iconSearch" aria-label="Find a dealer">
+                            <svg height="16px" id="Layer_1" style="enable-background:new 0 0 16 16;" version="1.1"
+                                viewBox="0 0 16 16" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path
+                                    d="M8,0C4.687,0,2,2.687,2,6c0,3.854,4.321,8.663,5,9.398C7.281,15.703,7.516,16,8,16s0.719-0.297,1-0.602  C9.679,14.663,14,9.854,14,6C14,2.687,11.313,0,8,0z M8,10c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S10.209,10,8,10z M8,4  C6.896,4,6,4.896,6,6s0.896,2,2,2s2-0.896,2-2S9.104,4,8,4z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="contactLink">
+                        <a class="iconContact" aria-label="Customer care">
+                            <svg version="1.1" width="16px" height="16px" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-188 66.3 464 464"
+                                style="enable-background:new -188 66.3 464 464;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #FFFFFF;
+                                    }
+                                </style>
+                                <g>
+                                    <path class="st0"
+                                        d="M8.7,333.9c45.9,45.6,99.1,89.1,119.9,68.1c29.9-30.1,48.3-56.3,114.6-3.4s15.7,88.5-13.3,117.7c-33.4,33.6-158.5,2.4-282.5-120.7S-208.8,147.7-175.4,114c28.9-29.2,64.2-80.1,117.5-14.1c53.4,65.9,27.3,84.5-2.5,114.6C-81.2,235.5-37.3,288.3,8.7,333.9z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bordoStorto" style="border-right: 1203px solid transparent;"></div>
+            </div>
+        </header>
+
+        <div class="wrapper" id="main-content">
+            <div class="row">
+                <div class="hero home col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="bx-wrapper" style="max-width: 100%;">
+                        <div class="bx-viewport"
+                            style="width: 100%; overflow: hidden; position: relative; height: 566px;">
+                            <div class="box-image">
+                                <a href="">
+                                    <img src="img/banner_shoponline.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="boxVespaCommunity col-xs-12 col-sm-6 col-md-6 col-lg-6 animated">
+                    <a href="">
+                        <div class="boxImg"><img src="img/vespa_heritage.webp" class="img-responsive"></div>
+                        <div class="blockData purple-bg-opacity">
+                            <div class="logoBox"></div>
+                            <div class="descr">
+                                <h3 class="h3">Vespa Heritage</h3>
+                                <span class="text">
+                                    <p>Seventy years of history since 1946.</p>
+                                </span>
+                            </div>
+                            <span class="linkButton"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="boxStandard small col-xs-12 col-sm-6 col-md-6 col-lg-6 animated">
+                    <a href="">
+                        <div class="boxImg">
+                            <img src="img/clothing & accessories.jpg" alt="" class="img-responsive">
+                        </div>
+                        <div class="blockData">
+                            <h3 class="h3">CLOTHING AND ACCESSORIES</h3>
+                            <span class="linkButton">WHERE TO BUY?</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="socialHome col-xs-12 col-sm-6 col-md-6 col-lg-6 animated">
+                    <div class="boxImg"><a class="linkButton">
+                            <img src="img/vespaindia.webp" alt="" class="img-responsive">
+                        </a></div>
+                    <div class="blockData" style="height: 152.458px;">
+                        <span class="user">@JOHNPSK su instagram</span>
+                        <span class="descr">
+                            <p>Live, Laugh, Love. #vsco #vscocam #vespa #vespasprint #istanbul</p>
+                        </span>
+                        <a class="linkButton">@vespaindia</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gammaHome col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3>DISCOVER THE RANGE</h3>
+                    <span class="subTitle">CHOOSE YOUR MODEL</span>
+                    <div class="bx-wrapper" style="max-width: 1028px; margin: 0px auto;">
+                        <div class="bx-viewport"
+                            style="width: 100%; overflow: hidden; position: relative; height: 287px;">
+                            <ul class="list-unstyled"
+                                style="width: 815%; position: relative; transition-duration: 0s; transform: translate3d(-2538px, 0px, 0px);">
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/ZX.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/ZX-frontale.webp" alt="ZX" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">ZX</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/VXL.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/VXL-frontale.webp" alt="VXL" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">VXL</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/SXL.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/SXL-frontale.webp" alt="SXL" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">SXL</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/elegante.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/elegante-frontale.webp" alt="ELEGANTE"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">ELEGANTE</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/urban-club.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/urban-club-frontale.webp" alt="Urban Club"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">Urban Club</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/vespa-notte.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/notte-frontale.webp" alt="Vespa Notte"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">Vespa Notte</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/ZX.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/ZX-frontale.webp" alt="ZX" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">ZX</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/VXL.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/VXL-frontale.webp" alt="VXL" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">VXL</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/SXL.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/SXL-frontale.webp" alt="SXL" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">SXL</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;">
+                                    <a href="/in_EN/vespa-models/elegante.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/elegante-frontale.webp" alt="ELEGANTE"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">ELEGANTE</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/urban-club.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/urban-club-frontale.webp" alt="Urban Club"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">Urban Club</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/vespa-notte.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/notte-frontale.webp" alt="Vespa Notte"
+                                                class="img-responsive" aria-hidden="true">
+                                        </div>
+                                        <span class="model">Vespa Notte</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/ZX.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/ZX-frontale.webp" alt="ZX" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">ZX</span>
+                                    </a>
+                                </li>
+                                <li style="float: left; list-style: none; position: relative; width: 182px;"
+                                    class="bx-clone">
+                                    <a href="/in_EN/vespa-models/VXL.html" target="_self">
+                                        <div class="boxImg">
+                                            <img src="img/bikes/VXL-frontale.webp" alt="VXL" class="img-responsive"
+                                                aria-hidden="true">
+                                        </div>
+                                        <span class="model">VXL</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bx-controls bx-has-controls-direction">
+                            <div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next"
+                                    href="">Next</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+        
+        <footer id="footer">
+            <div class="imgVespa"><img src="img/logo-footer.webp" alt="vespa"></div>
+            <div class="menuFooter">
+                <nav aria-label="Vespa Site Map">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h2><a>The range</a></h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h3><a>Urban Club</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>Notte</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>ZX</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>VXL</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>SXL</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>Elegante</a></h3>
+                                </li>
+                                <li>
+                                    <h3><a>Racing Sixties</a></h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2><a>ACCESSORIES & MERCHANDISE</a></h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h3><a>ACCESSORIES</a></h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2><a>VESPA HERITAGE</a></h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h3><a>BACK TO HISTORY</a></h3>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row logosFooter">
+                <div class="footerLogos">
+                    <div class="logoClass"><a><img src="img/wide-footer.webp" alt="wide" class="img-responsive"></a>
+                    </div>
+                    <div class="logoClass"><a><img src="img/vespa-for-children.webp" alt="vespa for children"
+                                class="img-responsive"></a></div>
+                    <div class="socialFooter">
+                        <span class="title">Follow Us</span>
+                        <ul class="list-unstyled">
+                            <li><a class="facebook"><img src="img/fb.svg" alt="facebook"></a></li>
+                            <li><a class="facebook"><img src="img/ig.svg" alt="facebook"></a></li>
+                            <li><a class="facebook"><img src="img/tw.svg" alt="facebook"></a></li>
+                            <li><a class="facebook"><img src="img/yt.svg" alt="facebook"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row dataFooter">
+                <div class="menuTerms">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h2>
+                                    <a>PRIVACY POLICY</a>
+                                </h2>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

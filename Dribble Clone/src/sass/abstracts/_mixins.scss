@@ -1,0 +1,47 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+};
+
+// Mediaquery manager
+//0-600px Phone 
+//600-1060px Tablet Portrait
+//1060px-1200px Tablet Landscape
+//1200-1800px where our normal styles applied
+//1800px Big desktop
+
+/* $breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+@mixin respond($breakpoint){
+    
+    @if $breakpoint == phone {
+        @media (max-width:600px) { @content }
+    };
+
+    @if $breakpoint == big-phone {
+        @media (max-width:800px) { @content }
+    };
+
+    @if $breakpoint == tab-port {
+        @media (max-width: 1060px){@content}
+    };
+
+    @if $breakpoint == tab-land {
+        @media (max-width: 1200px){@content}
+    };
+
+    @if $breakpoint == desktop {
+        @media (min-width: 1201px){@content}
+    };
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: 1600px){@content}
+    };
+}
