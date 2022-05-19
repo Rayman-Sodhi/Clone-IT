@@ -15,7 +15,7 @@
     height:600px;
     object-fit: none;
 }
-/* .contents{
+.contents{
     list-style-type: none;
     display:flex;
     position:absolute;
@@ -25,7 +25,7 @@
 }
 .contents li{
     padding:0 20px 0 20px;
-} */
+}
 
 .navbar {
     background-color: transparent;
