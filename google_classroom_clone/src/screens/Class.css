@@ -1,0 +1,47 @@
+.class {
+    width: 55%;
+    margin: auto;
+  }
+  
+  .class__nameBox {
+    width: 100%;
+    background-color: #0a9689;
+    color: white;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 43px;
+  }
+  
+  .class__announce {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 6px -2px black;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .class__announce > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 9999px;
+  }
+  
+  .class__announce > input {
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    outline: none;
+  }
