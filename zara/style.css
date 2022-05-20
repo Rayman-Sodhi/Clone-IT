@@ -1,31 +1,50 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
+
 
 #body {
     background-color: rgb(255, 255, 255);
     margin:0px auto 0px auto;
 }
 
+#logo{
+    font-family: 'Libre Bodoni', serif;
+    font-size:100px;
+}
+.landingimg{
+    width:90%;
+    float:right;
+    height:600px;
+    object-fit: none;
+}
+.contents{
+    list-style-type: none;
+    display:flex;
+    position:absolute;
+    bottom:5%;
+    justify-content: center;
+    width:100%;
+}
+.contents li{
+    padding:0 20px 0 20px;
+}
+
 .navbar {
     background-color: transparent;
     border-color: transparent;
     display: flex;
+    justify-content: right;
 }
 
 .navbar-brand {
     font-family: serif;
-    font-size: 34px !important;
+    font-size: 34px ;
     color: rgb(0, 0, 0) !important;
-
 }
 
 .navbar-nav > li{
     font-family: serif;
     font-size: 16px;
     padding-left:40px;
-    padding-right:40px;
+    padding-right:40px;  
 }
 
 
@@ -35,8 +54,7 @@ html, body {
     
 
 }
-#home {
-    
+#home { 
     background: linear-gradient(rgba(228, 226, 226, 0.124),rgba(228, 226, 226, 0.0)),url(http://hotellalaguna.com/wp-content/uploads/2018/03/zara.jpg) no-repeat center;
     background-size: cover;
     display: table;
@@ -82,7 +100,7 @@ html, body {
     }
 
     #home-button:hover {
-        font-size: 120%;
+        font-size: 123%;
 
     }
     
@@ -134,7 +152,7 @@ html, body {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 4.5px;
 }
 
 #summer-22-title {
