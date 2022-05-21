@@ -284,7 +284,7 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
     
-<h1 align="center">Project Admin</h1>
+<h1 align="center">Admin</h1>
 
 <table align="center">
 <tr>
@@ -294,7 +294,7 @@ git push -u origin <your_branch_name>
 </table>
 
 <br>
-<h1 align="center">Thanks to our Project Collaborator </h1>
+<h1 align="center">Collaborator </h1>
 
 <table align="center">
 <tr>
