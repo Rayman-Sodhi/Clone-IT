@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height:20px;
+}
+.bg-yellow{
+    background-color: rgb(252,192,21);
+}
+
+.border-bottom-dark{
+    border-bottom: 1px solid #414141;
+}
+
+.border-r-4{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.font-spectral{
+    font-family: 'Spectral', serif;
+    font-weight: 350;
+    font-size: 70px;
+    line-height: 70px;    
+}
+
+.hover-dark:hover{
+    background-color: rgba(0,0,0,0.0);
+    color : #343a40;
+}
