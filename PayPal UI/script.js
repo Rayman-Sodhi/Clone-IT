@@ -41,12 +41,7 @@ if (window.innerWidth < 1000) {
       item.querySelector("i").style.transform = "rotate(180deg)";
     });
 
-    item.addEventListener("mouseout", (e) => {
-      document.querySelector(`.nav-dropdown-${i + 1}`).style.cssText =
-        "opacity:0;visibility: hidden";
-      navbarWrapper.style.background = "none";
-      item.querySelector("i").style.transform = "rotate(0deg)";
-    });
+    
   });
 
   window.addEventListener("resize", () => {
