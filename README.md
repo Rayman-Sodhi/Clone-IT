@@ -129,6 +129,7 @@ The idea behind this project is to learn how different websites are made by dire
 | 62. | Zomato Clone | [Zomato Clone](https://zomatoclone-blush.vercel.app/) | <a href="#"><img src="https://img.shields.io/badge/html-DD4B25?style=for-the-badge&logo=html5&logoColor=fff" alt="html 5"> </a><a href="#"><img src="https://img.shields.io/badge/css-264DE4?style=for-the-badge&logo=css3&logoColor=fff" alt="css 3"><a href="#"><img src="https://img.shields.io/badge/javascript-EAD41C?style=for-the-badge&logo=javascript&logoColor=000" alt="javascript"></a> </a><a href="#"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"></a> | [Zomato Official Web](https://www.zomato.com/) |
 | 63. | Zoom | [Zoom Clone](https://rayman-video-app.herokuapp.com/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Zoom Official Web.](https://zoom.us/) | 
 | 64.| New Balance | [New Balance Clone](https://kumar-laxmi.github.io/New-Balance-UI-Clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [New Balance Official Web.](https://www.newbalance.com/)
+| 65.| Riot Games | [Riot games Clone](https://pranjalkatiyar.github.io/riotgamesUI_clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Riot Games Official Web.](https://www.riotgames.com/en)
 
 <br>
 
@@ -284,7 +285,7 @@ git push -u origin <your_branch_name>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
     
-<h1 align="center">Project Admin</h1>
+<h1 align="center">Admin</h1>
 
 <table align="center">
 <tr>
@@ -294,7 +295,7 @@ git push -u origin <your_branch_name>
 </table>
 
 <br>
-<h1 align="center">Thanks to our Project Collaborator </h1>
+<h1 align="center">Collaborator </h1>
 
 <table align="center">
 <tr>

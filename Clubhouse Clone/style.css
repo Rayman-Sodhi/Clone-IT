@@ -1,0 +1,615 @@
+body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    line-height: inherit;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Header */
+.header {
+    font-size: 1.125rem;
+    --tw-text-opacity: 1;
+    color: rgba(241, 239, 227, 1);
+    font-weight: 500;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgba(34, 31, 20, 1);
+    width: 100%;
+}
+
+.inner-header {
+    align-items: center;
+    flex-direction: column;
+    max-width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-header-1 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 100%;
+    display: flex;
+}
+
+.header-1 {
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 0%;
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 1.5rem;
+}
+
+.header-logo-1 {
+    margin-top: -0.5rem;
+    width: 12rem;
+}
+
+.logo-svg {
+    --tw-text-opacity: 1;
+    color: rgba(241, 239, 227, 1);
+    fill: currentColor;
+    width: 100%;
+}
+
+.header-icons {
+    display: flex;
+    font-size: 1.125rem;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-1,
+.icon-2 {
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.p-5 {
+    padding: 1.25rem;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1.5rem;
+    position: relative;
+}
+
+.inner-header-2 {
+    padding: 1.25rem;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    margin: -1.25rem;
+}
+
+.header-scanner {
+    object-fit: contain;
+    height: 2.5rem;
+}
+
+.header-right-text {
+    margin-left: 1.5rem;
+}
+
+/* Section -1 */
+.main-content {
+    overflow: hidden;
+}
+
+.section-1 {
+    font-size: 1.125rem;
+    margin-bottom: 4rem;
+    --tw-text-opacity: 1;
+    color: rgba(241, 239, 227, 1);
+    font-weight: 500;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgba(34, 31, 20, 1);
+    width: 100%;
+}
+
+.section--1 {
+    align-items: center;
+    flex-direction: column;
+    max-width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1-1 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.section-1-1-img {
+    display: block;
+    object-fit: contain;
+}
+
+.section-1-2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.section-1-2-head {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    --tw-border-opacity: 0.1;
+    width: 100%;
+    border-top: .1px solid rgb(248, 248, 248, 1);
+    border-bottom: .1px solid rgba(242, 242, 242, 1);
+}
+
+.section-1-2-btns {
+    justify-content: flex-start;
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.sec-1-1-btn {
+    height: 3rem;
+}
+
+.sec-1-2-btn {
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+/* Section-2 */
+.section-2 {
+    --tw-text-opacity: 1;
+    color: rgba(34, 31, 20, 1);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(241, 239, 227, 1);
+    width: 100%;
+    margin-top: -60px;
+}
+
+.section--2 {
+    flex-direction: row;
+    font-weight: 700;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    align-items: center;
+    max-width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-2-1 {
+    width: 66.666667%;
+    justify-content: center;
+    display: flex;
+}
+
+.section-2-2 {
+    font-size: 1.25rem;
+    width: 33.333333%;
+    flex-direction: column;
+    display: flex;
+}
+
+.sec-2-1 {
+    flex-direction: column;
+    display: flex;
+}
+
+.sec-2-1-img {
+    height: 3.5rem;
+}
+
+.sec-2-p {
+    opacity: 0.75;
+    letter-spacing: -0.025em;
+    font-weight: 400;
+    font-family: "Lars Clubhouse", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.sec-2-img {
+    height: 3.5rem;
+}
+
+.sec-2-2 {
+    flex-direction: column;
+    display: flex;
+    margin-top: 2rem;
+}
+
+/* Section-3 */
+.section-3 {
+    --tw-text-opacity: 1;
+    color: rgba(254, 226, 93, 1);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(191, 167, 140, 1);
+    overflow: hidden;
+    width: 100%;
+}
+
+.section--3 {
+    font-weight: 700;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    align-items: center;
+    max-width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-3 {
+    width: 100%;
+}
+
+.sec-3-1 {
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+}
+
+.sec-3-2 {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    margin-top: 1.25rem;
+    position: relative;
+}
+
+.sec-3-3 {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+
+.sec-3-1-p {
+    font-size: 2.25rem;
+    margin-left: 4rem;
+    font-weight: 300;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    text-align: left;
+    max-width: 32rem;
+}
+
+.sec-3-3-p {
+    font-size: 2.25rem;
+    margin-right: 4rem;
+    font-weight: 300;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    text-align: right;
+    max-width: 32rem;
+    margin-top: 1.5rem;
+}
+
+/* Section-4 */
+.section-4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(253, 154, 47, 1);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(254, 226, 93, 1);
+    width: 100%;
+}
+
+.section--4 {
+    flex-direction: row;
+    margin-bottom: 3rem;
+    align-items: center;
+    max-width: 1024px;
+    display: flex;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-4-1 {
+    font-size: 2.25rem;
+    text-align: left;
+    width: 50%;
+    font-weight: 300;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-4-2 {
+    width: 50%;
+    margin-top: -1.25rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.sec-4-1-p {
+    display: block;
+    font-weight: 400;
+}
+
+.sec-4-2-p {
+    display: block;
+    font-weight: 700;
+}
+
+.sec-4-1-h {
+    font-size: 1.125rem;
+    --tw-text-opacity: 1;
+    color: rgba(34, 31, 20, 1);
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.sec-4-2-img {
+    --tw-shadow: 0 8px 0 #BFA78C;
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    object-fit: contain;
+    --tw-border-opacity: 1;
+    border-color: rgba(34, 31, 20, 1);
+    border-width: 2px;
+    border-radius: 22.37%;
+    width: 9rem;
+    height: 9rem;
+}
+
+.sec-4--2{
+    margin-top: 3rem;
+}
+
+.sec-4--2-1{
+    display: block;
+}
+
+.sec--4-1-contain{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    display: block;
+}
+
+.sec--4-1-span{
+    --tw-shadow: 0 8px 0 #FD9A2F;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-text-opacity: 1;
+    color: rgba(34, 31, 20, 1);
+    font-weight: 700;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(241, 239, 227, 1);
+    --tw-border-opacity: 1;
+    border-color: rgba(34, 31, 20, 1);
+    border-width: 2px;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+    display: flex;
+}
+
+.sec--4-1-img{
+    object-fit: contain;
+    height: 2.5rem;
+    margin-right: 1.25rem;
+}
+
+.sec--4-1-p{
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+}
+
+/* Footer */
+.footer{
+    --tw-text-opacity: 1;
+    color: rgba(241, 239, 227, 1);
+    font-size: 1.125rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(34, 31, 20, 1);
+    width: 100%;
+}
+
+.inner-footer{
+    margin-bottom: 3rem;
+    font-family: "GT Maru", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 1024px;
+    display: flex;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-1{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.footer-2{
+    border-top-width: 1px;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Lars Clubhouse", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    --tw-border-opacity: 0.5;
+    border-color: rgba(160, 153, 129, 1);
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.foot-1-1{
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+}
+
+.foot-1-2{
+    margin-left: 5rem;
+    margin-top: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+}
+
+.foot-1-3{
+    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.foot-1-1-appicon{
+    object-fit: contain;
+    --tw-border-opacity: 1;
+    border-color: rgba(34, 31, 20, 1);
+    border-width: 2px;
+    border-radius: 22.37%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.foot-1-1-logo{
+    height: 2rem;
+    margin-top: 1.25rem;
+    object-fit: contain;
+}
+
+.foot-1-1-div{
+    justify-content: flex-start;
+    margin-top: 1.75rem;
+    width: 100%;
+    display: flex;
+}
+
+.foot-1-1-appstore{
+    height: 3rem;
+}
+
+.foot-1-1-googleplay{
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.foot-1-2-head{
+    font-weight: 700;
+}
+
+.foot-1-2-contain{
+    opacity: 0.75;
+    font-weight: 400;
+    font-family: "Lars Clubhouse", ui-sans-serif, Helvetica Neue, Arial, sans-serif;
+    margin-top: 1rem;
+}
+
+.foot-1--2{
+    margin-top: 0.75rem;
+}
+
+.foot-2-1{
+    display: flex;
+}
+
+.foot-2-2{
+    font-size: 1.06rem;
+    margin-top: 0;
+    opacity: 0.75;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.foot-icon-1{
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+.foot-icon-2{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+    object-fit: contain;
+}
+
+.foot-icon-3{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+    object-fit: contain;
+}
+
+.foot-2-2-p{
+    margin-left: 2.5rem;
+}
