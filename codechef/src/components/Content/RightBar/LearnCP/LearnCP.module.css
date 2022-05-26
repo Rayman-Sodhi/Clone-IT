@@ -1,0 +1,18 @@
+.Heading {
+    font-size: 13px;
+    font-weight: bold;
+    width: 95%;
+    text-align: left;
+    position: relative;
+    margin: 0 0;
+}
+
+.Sup {
+    position: absolute;
+    background-color: #FFE500;
+    font-size: 9px;
+    font-weight: normal;
+    padding: 1px 3px;
+    right: -6px;
+    top: -4px;
+}

@@ -1,0 +1,46 @@
+.BlogList {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.Blog {
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+
+.BlogList li {
+    margin: 0 0 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e6e6;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+    font-size: 11px;
+    align-items: flex-start;
+}
+
+.BlogList li:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Date {
+    color: #666666;
+    background-color: #eeeeee;
+    padding: 5px;
+    height: 45px !important;
+    margin-right: 10px;
+}
+
+.Date p {
+    padding: 0;
+    margin: 0;
+}
+
+.BlogTitle {
+    text-align: left;
+}
