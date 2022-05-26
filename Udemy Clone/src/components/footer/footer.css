@@ -1,0 +1,57 @@
+.footer {
+  border-top: 1px solid #1C1D1F;
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1C1D1F;
+  
+}
+
+.footer .upperDiv {
+  width: 94%;
+  position: relative;
+}
+
+.footer .upperDiv .linksContainer {
+  display: flex;
+  justify-content: space-between;
+  left: 0px;
+  width: 750px;
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+.footer .upperDiv .linksDiv {
+  width: 240px;
+}
+
+.footer .upperDiv p {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer .upperDiv p:hover {
+  color: #094c59;
+}
+
+.footer .lowerDiv {
+  width: 94%;
+  height: 160px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .udemyLogo {
+  height: 30px;
+}
+
+.footer .lowerDiv p {
+  color: #73726c;
+  font-size: 12px;
+}
