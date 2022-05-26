@@ -1,0 +1,15 @@
+.categoryCard {
+  height: 400px;
+  width: 300px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
+}
+
+.categoryCard .categoryTitle {
+  margin: 0px 10px;
+  font-size: 20px;
+  color: #3c3b37;
+}

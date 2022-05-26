@@ -1,0 +1,41 @@
+.fillerDiv {
+  position: relative;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
+    repeat-x #6e1a52;
+  height: 200px;
+  background-size: auto 120%;
+  padding: 30px 0px;
+}
+
+.fillerDiv .aboutFiller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 60%;
+  flex-direction: column;
+  color: white;
+}
+
+.fillerDiv h2 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.fillerDiv p {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.fillerDiv .getstartedButton {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 13px;
+  cursor: pointer;
+}
