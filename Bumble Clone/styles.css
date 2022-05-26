@@ -1,0 +1,446 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: small;
+  font-weight: 500;
+}
+
+/* Navigation Section */
+
+.navbar {
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(255, 204, 0);
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 0 1.5rem;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: rgb(255, 204, 0);
+}
+
+.navbar-light .navbar-brand:visited {
+  color: rgb(255, 204, 0);
+}
+
+.navbar-light .nav-item .nav-link:hover {
+  color: rgb(255, 204, 0);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: small;
+  padding: 0.25rem;
+}
+
+.dropdown-menu {
+  border: none;
+  text-align: center;
+}
+
+.dropdown-item {
+  font-weight: 500;
+}
+
+.dropdown-item.one {
+  color: rgb(255, 204, 0);
+}
+
+.dropdown-item.two {
+  color: rgb(37, 169, 221);
+}
+
+.dropdown-item.three {
+  color: red;
+}
+
+/* Hero Section */
+
+.hero-block-content {
+  color: rgb(43, 42, 42);
+  background-color: #fff;
+  bottom: 6rem;
+  padding: 1rem 0;
+  left: 28%;
+  right: 28%;
+}
+
+.hero-block-title {
+  font-weight: 600;
+}
+
+.hero-block-text {
+  font-weight: 450;
+  height: 3rem;
+  margin: auto 0;
+}
+
+.btn {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.btn-warning {
+  color: #fff;
+}
+
+.hero-body .btn {
+  width: 40%;
+}
+
+/* Features Section */
+
+#features {
+  margin: 0 2rem;
+}
+
+.features-title {
+  font-weight: 530;
+  font-size: 1.75rem;
+  line-height: 1.128;
+  padding: 3rem 0 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  border: 0;
+}
+
+.card-text {
+  height: 4rem;
+}
+
+.features-box .card-title {
+  width: fit-content;
+  line-height: 1.5;
+  font-size: medium;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 0;
+  transform: translateY(-250%) translateX(-12%);
+}
+
+#features .button-section {
+  margin-top: 2rem;
+}
+
+/* Promo Section */
+
+.promo-media {
+  height: auto;
+}
+
+.promo-content {
+  border: 0;
+  padding: 2rem;
+}
+
+.promo-content .card-title {
+  font-weight: 600;
+}
+
+.promo-content .card-text {
+  height: auto;
+}
+
+.promo-content .btn {
+  margin: 0;
+  padding: 0.5rem 2rem;
+}
+
+/* Carousel Section */
+
+.carousel-outer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.carousel-outer [data-bs-target] {
+  border: solid black;
+  background-color: rgb(255, 204, 0);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.carousel-item-content .card-body {
+  height: 13rem;
+  margin: 0 1.25rem;
+}
+
+.carousel-item-content .first-body .card-text {
+  height: 2rem;
+}
+
+.carousel-item-content .third-body .card-text {
+  height: 4rem;
+}
+
+.carousel-item-content .card-title {
+  font-weight: 600;
+}
+
+/* Footer Section */
+
+.follow-title {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.follow-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.award .app-store {
+  margin: 1rem auto 0.5rem;
+  font-weight: 600;
+}
+
+.award h5 {
+  margin: 0rem auto 1rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.award .year {
+  margin: 1rem auto;
+  font-weight: 600;
+}
+
+.social {
+  margin: 3rem auto 1rem;
+}
+
+.social .brand-section {
+  margin-bottom: 1rem;
+}
+
+.social .navbar-brand {
+  color: rgb(255, 204, 0);
+}
+
+.social .social-link {
+  color: inherit;
+}
+
+.social a:hover {
+  color: rgb(255, 204, 0);
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-menu-item {
+  list-style: none;
+}
+
+.footer-menu-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: small;
+  font-weight: 500;
+}
+
+.footer-menu-link:hover {
+  color: inherit;
+}
+
+.footer-caption-copyright {
+  margin: 1rem auto 2rem;
+  font-size: small;
+  font-weight: 500;
+  color: #bdbdbd;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+  #features {
+    margin: auto;
+  }
+
+  .features-box {
+    margin: 0;
+  }
+
+  .features-title {
+    font-size: 1.4rem;
+  }
+
+  .features-box .card-text {
+    height: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .hero-image {
+    content: url("../images/hero-image-mobile.jpg");
+  }
+
+  .features-box .col {
+    padding: 0;
+  }
+
+  .features-box .card-body {
+    padding-top: 0;
+  }
+
+  .features-box .card-text {
+    height: 3rem;
+  }
+
+  .promo-content {
+    padding: 1rem 1rem;
+  }
+
+  .footer-menu {
+    width: 90%;
+  }
+
+  .carousel-inner {
+    overflow: visible;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  #hero-block {
+    margin-top: 5rem;
+    height: 45rem;
+  }
+
+  .hero-block-content {
+    transform: translateY(-150%);
+    background: none;
+  }
+
+  .hero-body {
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .row.text-over-image {
+    width: 96%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  #promo-block {
+    margin-bottom: 4rem;
+  }
+
+  .promo-body {
+    width: auto !important;
+  }
+
+  .promo-content {
+    transform: translateX(-15%) !important;
+    margin: 4rem 0;
+    text-align: left;
+  }
+
+  #carousel-block {
+    margin: 2rem;
+  }
+
+  .carousel-item-content {
+    width: 60% !important;
+    transform: translateY(-300%) !important;
+  }
+
+  .carousel-item-content .card-body {
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+  }
+
+  .carousel-item-content .card-body p {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    position: fixed;
+  }
+
+  .card {
+    overflow: hidden;
+  }
+
+  .promo-body {
+    background-color: #fff;
+    padding: 2rem;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .promo-content {
+    transform: translateY(-750%);
+    height: 0;
+  }
+
+  .carousel-item-content {
+    width: 70%;
+    margin: 0 auto;
+    transform: translateY(-150%);
+  }
+
+  .carousel-item-content .card-body {
+    background-color: #fff;
+  }
+
+  .carousel-item {
+    height: 40rem;
+  }
+
+  .brand-section {
+    text-align: end;
+  }
+
+  .link-section {
+    text-align: left;
+    margin-top: 0.75rem;
+  }
+}
