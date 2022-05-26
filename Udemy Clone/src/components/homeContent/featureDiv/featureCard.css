@@ -1,0 +1,38 @@
+.featureCard {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.featureCard .iconDiv {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-color: #f2fbfc;
+  color: #7952DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.featureCard .icon {
+  transform: scale(0.8);
+}
+
+.featureCard .aboutDiv {
+  text-align: left;
+  color: #3c3b37;
+  line-height: 1.4;
+}
+
+.featureCard h4 {
+  margin-bottom: 5px;
+}
+
+.featureCard p {
+  color: #494843;
+}
