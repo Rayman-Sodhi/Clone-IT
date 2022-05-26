@@ -1,0 +1,28 @@
+.recommendationsDiv {
+  padding: 60px 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommendations {
+  width: 75%;
+  text-align: left;
+}
+
+.recommendations h3 {
+  font-size: 24px;
+  color: #3c3b37;
+  margin-bottom: 10px;
+}
+
+.recommendations h2 {
+  font-size: 26px;
+  color: #3c3b37;
+  margin-bottom: 20px;
+}
+
+.recommendations p {
+  color: #66655e;
+  font-family: Arial, Helvetica, sans-serif;
+}

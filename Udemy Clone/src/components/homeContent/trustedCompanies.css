@@ -1,0 +1,40 @@
+.trustedCompanies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px 100px;
+  margin: 30px 0px;
+  border-top: 1px solid #dcdacb;
+  border-bottom: 1px solid #dcdacb;
+  color: #3c3b37;
+}
+
+.trustedCompanies .heading {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.trustedCompanies .companiesLogos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px;
+  height: 70px;
+  width: 680px;
+}
+
+.trustedCompanies .companiesLogos .booking-com {
+  height: 28px;
+  width: 160px;
+}
+
+.trustedCompanies .companiesLogos .volkswagen {
+  height: 32px;
+  width: 32px;
+}
+
+.trustedCompanies .companiesLogos .mercedes-benz {
+  height: 30px;
+  width: 150px;
+}
