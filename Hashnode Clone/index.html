@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A very responsive clone of Hashnode's landing page built with HTML" />
+    <meta name="keywords" content="Hashnode, clone" />
+    <title>
+      Hashnode Clone
+    </title>
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./script.js" async></script>
+  </head>
+  <body>
+    <!-- Container -->
+    <div id="container">
+      <!-- Side bar -->
+      <header class="left-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+          <!-- Navbar icons Top -->
+          <div class="flex-start">
+            <!-- Hamburger -->
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <!-- logo -->
+            <h1 id="logo" class="invisible">
+              <a href="https://hashnode.com"
+                ><img
+                  class="white"
+                  src="./images/brand-icon.png"
+                  alt="Hashnode Brand Logo"
+                />hashnode</a
+              >
+            </h1>
+
+            <div class="nav-menu">
+              <!-- Write button -->
+              <a
+                href="https://hashnode.com/create/story"
+                class="btn btn-primary"
+                ><img src="./images/pencil.svg" alt="pencil icon" />WRITE</a
+              >
+              <!-- Header icons -->
+              <a href="https://hashnode.com/community" class="nav-link"
+                ><img src="./images/feed.svg" alt="Feed icon" />My Feed</a
+              >
+              <a href="https://hashnode.com/explore" class="nav-link"
+                ><img src="./images/explore.svg" alt="Explore icon" />Explore</a
+              >
+              <a href="https://hashnode.com/tags" class="nav-link"
+                ><img src="./images/tags.svg" alt="Tags icon" />Tags</a
+              >
+              <a href="https://hashnode.com/bookmarks" class="nav-link"
+                ><img
+                  src="./images/bookmarks.svg"
+                  alt="Bookmark icon"
+                />Bookmarks</a
+              >
+              <a href="https://hashnode.com/search" class="nav-link"
+                ><img src="./images/search.svg" alt="Search icon" />Search</a
+              >
+              <a href="" class="nav-link"
+                ><img
+                  src="./images/caret-down.svg"
+                  alt="Caret down icon"
+                />More</a
+              >
+            </div>
+          </div>
+
+          <!-- Navbar icons (bottom) -->
+          <div class="flex-end">
+            <a href="#" class="header-icons"
+              ><img src="./images/light-toggle.svg" alt="Theme switch"
+            /></a>
+            <a href="#" class="header-icons"
+              ><img src="./images/bell.svg" alt="Bell icon"
+            /></a>
+            <a href="#" class="header-icons"
+              ><img src="./images/user-profile.png" alt="User profile"
+            /></a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main container -->
+      <main class="main-container">
+        <div class="navbar-secondary">
+          <h2>Blogging as a developer, done right!</h2>
+          <div class="buttons">
+            <a href="https://hashnode.com/onboard" class="btn btn-light"
+              >Login</a
+            >
+            <a
+              href="https://hashnode.com/onboard?unlock-blog=true"
+              class="btn btn-primary"
+              >Create an account</a
+            >
+          </div>
+        </div>
+
+        <div class="container">
+          <section class="hero">
+            <div class="highlight-text">
+              <a
+                href="https://townhall.hashnode.com/dollar67m-in-series-a-funding-to-build-the-next-gen-developer-blogging-community"
+                class="btn btn-secondary"
+                >Announcement</a
+              >
+              <p>
+                🙌 $6.7M in fresh funding to build the next-gen developer
+                blogging community.
+                <a
+                  href="https://townhall.hashnode.com/dollar67m-in-series-a-funding-to-build-the-next-gen-developer-blogging-community"
+                  >Learn more</a
+                >
+              </p>
+            </div>
+
+            <div class="header-text">
+              <h1>Everything you need to start blogging as a developer!</h1>
+              <p>
+                Own your content, share ideas, and connect with the global dev
+                community!
+              </p>
+              <a
+                href="https://hashnode.com/onboard?unlock-blog=true"
+                class="btn btn-primary"
+                >Start your personal blog for FREE</a
+              >
+            </div>
+
+            <!-- Card One -->
+            <div class="card-container card-container-one">
+              <div class="card">
+                <img src="./images/feed-illustration.png" alt="Article Icon" />
+                <h2>Start a developer blog</h2>
+              </div>
+
+              <div class="card">
+                <img src="./images/web-illustration.png" alt="Web Icon" />
+                <h2>Map your custom domain</h2>
+              </div>
+
+              <div class="card">
+                <img src="./images/chat-illustration.png" alt="Chat Icon" />
+                <h2>Connect with community</h2>
+              </div>
+            </div>
+
+            <!-- User Spotlight one -->
+            <article>
+              <div class="bio-container">
+                <img
+                  src="./images/quincy-larson.jpeg"
+                  alt="Quincy Larson"
+                />
+                <div class="bio">
+                  <h3>
+                    "You can start a blog in just a few seconds using Hashnode
+                    and then you can move that to your own domain if you get one
+                    later. They will even help distribute your articles on their
+                    platform. By far the best place to create a blog, imho."
+                  </h3>
+                  <div>
+                    <p>Quincy Larson,</p>
+                    <p>Founder, freeCodeCamp</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card Two -->
+            <div class="card-container-two">
+              <div class="card">
+                <h2>What? 👀</h2>
+                <p>
+                  Hashnode is a free developer blogging platform that allows you
+                  to publish articles on your own domain and helps you stay
+                  connected with a global developer community.
+                </p>
+              </div>
+
+              <div class="card">
+                <h2>Why? 😍</h2>
+                <p>
+                  This gives you a huge advantage: Google and other search
+                  engines send traffic directly to your domain, and Hashnode
+                  community members discover your articles on their feed.
+                </p>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./images/illustration-one.png"
+                  alt="Illustration"
+                />
+              </div>
+            </div>
+          </section>
+          <!-- End of section one -->
+
+          <div class="underline"></div>
+
+          <!-- Section two -->
+          <section class="section-two">
+            <h2 class="heading-two">
+              Content Ownership. No Ads. No Paywall. No kidding.
+            </h2>
+
+            <!-- Card three -->
+            <div class="card-container card-container-three">
+              <div class="card">
+                <img src="./images/illustration-two.png" alt="" />
+                <div>
+                  <h3>Blog on your personal domain</h3>
+                  <p>
+                    Map your custom domain in just seconds via our free CNAME
+                    pointing feature. Serve your blog over HTTPS with no extra
+                    configuration.
+                  </p>
+                  <p>
+                    Get a high performance, secure, and fully-optimized blog
+                    that delights your readers.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./images/illustration-three.png"
+                  alt=""
+                />
+                <div>
+                  <h3>Instantly find your audience</h3>
+                  <p>
+                    Every time you write an article, Hashnode publishes it on
+                    your domain and shares it with the community members on the
+                    homepage. The readers are directed to your website to read
+                    and interact with your content.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./images/illustration-four.png"
+                  alt=""
+                />
+                <div>
+                  <h3>No annoying pop-ups/ads</h3>
+                  <p>
+                    Knowledge sharing on Hashnode is and will always be
+                    completely free.
+                  </p>
+                  <p>
+                    Because we value the relationship between you and your
+                    readers, we won’t show ads or pop-ups on your articles.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://hashnode.com/onboard?unlock-blog=true"
+              class="btn btn-primary"
+              >Get Started</a
+            >
+
+            <!-- User sporlight two -->
+            <article>
+              <div class="bio-container">
+                <img
+                  src="./images/guillermo-rauch.jpeg"
+                  alt="Guillermo Rauch"
+                />
+                <div class="bio">
+                  <h3>
+                    "It's amazing to see how fast devs go from 0 to Blog under a
+                    domain they own on Hashnode 🤯. It reminds me a lot of what
+                    Substack did for journalists"
+                  </h3>
+                  <div>
+                    <p>Guillermo Rauch,</p>
+                    <p>CEO at Vercel.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <div>
+          <section class="features">
+            <div>
+              <h2 class="heading-two">
+                Features that will make your blogging 10x better
+              </h2>
+            </div>
+
+            <div class="card-container">
+              <div class="card">
+                <img src="./images/github.svg" alt="" />
+                <div>
+                  <h3>Automatic GitHub Backup</h3>
+                  <p>
+                    Every time you publish an article on your blog, a markdown
+                    version of the post is pushed to your private GitHub repo as
+                    a backup.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/markdown.svg" alt="" />
+                <div>
+                  <h3>Write in Markdown</h3>
+                  <p>
+                    Write your content in a distraction-free Markdown editor
+                    with proper syntax highlighting and see live previews
+                    instantly. Embed images, code snippets, tweets, and much
+                    more.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/superfast.svg" alt="" />
+                <div>
+                  <h3>Superfast Next.js Powered Blogs</h3>
+                  <p>
+                    Hashnode blogs are powered by Next.js, and are served via
+                    Vercel's word class CDN.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/custom-domain.svg" alt="" />
+                <div>
+                  <h3>Blog on a Custom Domain</h3>
+                  <p>
+                    Bring your custom domain, and get up and running within
+                    minutes. We issue, and renew SSL cert for you automatically.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/data.svg" alt="" />
+                <div>
+                  <h3>Own your data</h3>
+                  <p>
+                    You retain all the rights to your content. Export and
+                    download all your posts from your dashboard with a single
+                    click.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/ssl.svg" alt="" />
+                <div>
+                  <h3>Edge Caching with SSL</h3>
+                  <p>
+                    We automatically cache your blog using Vercel, and serve it
+                    over HTTPS. This results in low time to first byte (TTFB)
+                    and allows your blog to be extremely responsive and fast.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/custom.svg" alt="" />
+                <div>
+                  <h3>Customise Design using CSS</h3>
+                  <p>
+                    Modify the appearance of your blog using our Custom CSS
+                    feature. Change the font family, font size, primary link
+                    colors, and more.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/newsletter.svg" alt="" />
+                <div>
+                  <h3>Free built-in newsletter service</h3>
+                  <p>
+                    Enable a newsletter service with the click of a button, and
+                    let your readers easily subscribe to your blog.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/analytics.svg" alt="" />
+                <div>
+                  <h3>Built-in Analytics</h3>
+                  <p>
+                    Powerful analytics to track the number of views, likes, and
+                    comments, and analyze the performance of your articles over
+                    a period of time.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/series.svg" alt="" />
+                <div>
+                  <h3>Article Series</h3>
+                  <p>
+                    Series is a great way to organize your content. It helps you
+                    easily group a series of articles related to a single topic.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/drafts.svg" alt="" />
+                <div>
+                  <h3>Drafts</h3>
+                  <p>
+                    Share your drafts with your friends to get some early
+                    feedback before you hit the publish button.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="./images/https_ssl.svg" alt="" />
+                <div>
+                  <h3>HTTPS by default</h3>
+                  <p>
+                    It doesn't matter if you are using our free subdomain or a
+                    custom one. We provide SSL certificates for free for all the
+                    blogs.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://hashnode.com/onboard?unlock-blog=true"
+              class="btn btn-primary"
+              >Get Started</a
+            >
+
+            <!-- User sporlight three -->
+            <article>
+              <div class="bio-container">
+                <img
+                  src="./images/james-q-quick.jpg"
+                  alt="James Q Quick"
+                />
+                <div class="bio">
+                  <h3>
+                    "Just started out on Hashnode about 1 month ago, and I'm
+                    already at 14,000 page views. Really impressed with how much
+                    visibility I've gotten there!"
+                  </h3>
+                  <div>
+                    <p>James Q Quick,</p>
+                    <p>Senior Developer Advocate at Auth0</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <!-- Trending bloggers -->
+        <section class="trending">
+          <div>
+            <h2 class="heading-two">Trending Bloggers This Week</h2>
+          </div>
+
+          <div class="card-container-three">
+            <!-- user one -->
+            <div class="card">
+              <a href="https://blog.mahmoud-salem.net/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1614002949411/fmkwRxtdN.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Mahmoud Salem"
+              /></a>
+              <div>
+                <a href="https://blog.mahmoud-salem.net/" target="_blank"
+                  >Mahmoud Salem</a
+                >
+                <a href="https://blog.mahmoud-salem.net/" target="_blank"
+                  >blog.mahmoud-salem.net</a
+                >
+                <p>
+                  I'm a Software Engineer who likes to play with data! I talk
+                  about programming languages, tech market, startups and system
+                  design! I also ...
+                </p>
+              </div>
+            </div>
+
+            <!-- User two -->
+            <div class="card">
+              <a href="https://blog.greenroots.info/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1630661606746/ws_fP3uXs.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Tapas Adhikary"
+              /></a>
+              <div>
+                <a href="https://blog.greenroots.info/" target="_blank"
+                  >Tapas Adhikary</a
+                >
+                <a href="https://blog.greenroots.info/" target="_blank"
+                  >blog.greenroots.info</a
+                >
+                <p>Writer . YouTuber . Creator . Mentor | Let's Connect</p>
+              </div>
+            </div>
+
+            <!-- User three -->
+            <div class="card">
+              <a href="https://miguendes.me/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1598688712924/HZ_m169wn.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Miguel Brito"
+              /></a>
+              <div>
+                <a href="https://miguendes.me/" target="_blank">Miguel Brito</a>
+                <a href="https://miguendes.me/" target="_blank">miguendes.me</a>
+                <p>
+                  Machine Learning Engineer - Technical Writer-ish - Interested
+                  in Software Testing, Best Practices, Scalability, and Python.
+                </p>
+              </div>
+            </div>
+
+            <!-- User four -->
+            <div class="card">
+              <a href="https://lo-victoria.com/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1592617052267/KUaHl6HMa.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Victoria Lo"
+              /></a>
+              <div>
+                <a href="https://lo-victoria.com/" target="_blank"
+                  >Victoria Lo</a
+                >
+                <a href="https://lo-victoria.com/" target="_blank"
+                  >lo-victoria.com</a
+                >
+                <p>
+                  I'm a web/software developer who loves to build projects and
+                  share valuable tips for new programmers on this blog. Feel
+                  free to reach me...
+                </p>
+              </div>
+            </div>
+
+            <!-- User five -->
+            <div class="card">
+              <a href="https://travishorn.com/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627404475851/24u-J4UH6.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Travis Horn"
+              /></a>
+              <div>
+                <a href="https://travishorn.com/" target="_blank"
+                  >Travis Horn</a
+                >
+                <a href="https://travishorn.com/" target="_blank"
+                  >travishorn.com</a
+                >
+                <p>
+                  Data Scientist &amp; Web Developer. I have a passion for
+                  discovering and working with cutting-edge technology. I am a
+                  constant and quick...
+                </p>
+              </div>
+            </div>
+
+            <!-- User six -->
+            <div class="card">
+              <a href="https://tlkh.dev/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1631951146290/wI0DP_Y0x.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Timothy Liu"
+              /></a>
+              <div>
+                <a href="https://tlkh.dev/" target="_blank">Timothy Liu</a>
+                <a href="https://tlkh.dev/" target="_blank">tlkh.dev</a>
+                <p>ML PhD student @ SUTD Singapore</p>
+              </div>
+            </div>
+
+            <!-- User seven -->
+            <div class="card">
+              <a href="https://catalins.tech/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1630318765655/cI-kHwk4o.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Catalin Pit"
+              /></a>
+              <div>
+                <a href="https://catalins.tech/" target="_blank">Catalin Pit</a>
+                <a href="https://catalins.tech/" target="_blank"
+                  >catalins.tech</a
+                >
+                <p>
+                  Writing about Vue, Node.Js, AWS, JavaScript, Cloud Computing
+                  and Software Development I am also active on these platforms
+                </p>
+              </div>
+            </div>
+
+            <!-- User eight -->
+            <div class="card">
+              <a href="https://pokecoder.hashnode.dev/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636423911258/z6GFl1Kwj.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Ale Thomas"
+              /></a>
+              <div>
+                <a href="https://pokecoder.hashnode.dev/" target="_blank"
+                  >Ale Thomas</a
+                >
+                <a href="https://pokecoder.hashnode.dev/" target="_blank"
+                  >pokecoder.hashnode.dev</a
+                >
+                <p>
+                  I'm a software engineer specialized in Java and currently
+                  working for the automotive industry, sharing my journey as I
+                  learn front-end...
+                </p>
+              </div>
+            </div>
+
+            <!-- User nine -->
+            <div class="card">
+              <a href="https://blog.oliverjumpertz.dev/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1606724735544/CjYmvn1SZ.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Oliver Jumpertz"
+              /></a>
+              <div>
+                <a href="https://blog.oliverjumpertz.dev/" target="_blank"
+                  >Oliver Jumpertz</a
+                >
+                <a href="https://blog.oliverjumpertz.dev/" target="_blank"
+                  >blog.oliverjumpertz.dev</a
+                >
+                <p>
+                  I simply love software engineering. ❤️ And what I really love
+                  is JavaScript / TypeScript, Rust, and the web! Come and
+                  explore the wonderful...
+                </p>
+              </div>
+            </div>
+
+            <!-- User ten -->
+            <div class="card">
+              <a href="https://blog.suhailkakar.com/" target="_blank">
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634885670020/jHKpLrUDL.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
+                  alt="Suhail Kakar"
+              /></a>
+              <div>
+                <a href="https://blog.suhailkakar.com/" target="_blank"
+                  >Suhail Kakar</a
+                >
+                <a href="https://blog.suhailkakar.com/" target="_blank"
+                  >blog.suhailkakar.com</a
+                >
+                <p>
+                  💻 A Developer who loves to code and share valuable tips for
+                  new programmers on this blog | Full Stack Software Developer |
+                  📚 Writes about ...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://hashnode.com/explore" class="btn btn-light"
+            >Browse more blogs &nbsp; <i class="fas fa-chevron-right"></i
+          ></a>
+        </section>
+
+        <div class="underline"></div>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+          <div>
+            <h2 class="heading-two">
+              Don't just take our word for it, trust the community!
+            </h2>
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+              <h3>
+                "I wanted to use my own domain with Hashnode and was prepared
+                for all the hassle…and then - literally just one click and it
+                was done! So easy, so convenient. Go Hashnode!"
+              </h3>
+
+              <div>
+                <img
+                  src="./images/simon-holdorf.jpeg"
+                  alt="Simon Holdorf"
+                />
+
+                <div>
+                  <h4>Simon Holdorf</h4>
+                  <p>
+                    Full-Stack Engineer at SAP, Cloud Advocate - AWS Certified
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>
+                "100 days ago, I published my first blog post on a new and
+                unfamiliar platform called Hashnode. Today, publishing articles
+                on Hashnode is a routine, a hobby, a great joy."
+              </h3>
+
+              <div>
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1592617052267/KUaHl6HMa.png?w=100&h=100&fit=crop&crop=faces&auto=compress"
+                  alt="Victoria Lo"
+                />
+
+                <div>
+                  <h4>Victoria Lo</h4>
+                  <p>Solutions Engineer at PayPal</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>
+                "Hashnode is super developer-friendly. I like it much better
+                than Medium. Being able to write blogs solely using markdown and
+                auto backup with GitHub is awesome! Goodbye, Medium."
+              </h3>
+
+              <div>
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1596286836603/euVGAMiVZ.jpeg?w=100&h=100&fit=crop&crop=faces&auto=compress"
+                  alt="Qiusheng Wu"
+                />
+
+                <div>
+                  <h4>Qiusheng Wu</h4>
+                  <p>Assistant Professor at the University of Tennessee</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>
+                "I am killing the blog off my personal site and going full on
+                Hashnode. Reasons: - Personal Domain - Free Analytics - Free
+                Newsletter - SEO built in - Constantly pushing new features -
+                Community is amazing!"
+              </h3>
+
+              <div>
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1601488264155/uTgxJ2Kgi.png?w=100&h=100&fit=crop&crop=faces&auto=compress"
+                  alt="Corey O'Donnell"
+                />
+
+                <div>
+                  <h4>Corey O'Donnell</h4>
+                  <p>Software Engineer at Better.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>
+                "I’ve decided to make a huge leap and migrate my blog to
+                Hashnode ! I’m really impressed with what they’ve accomplished
+                in this short amount of time! I’m happy to join this community
+                and I can’t wait to share more of my learnings on AWS with you!"
+              </h3>
+
+              <div>
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1625481244426/ihj4R-Qy-.png?w=100&h=100&fit=crop&crop=faces&auto=compress"
+                  alt="Danny Steenman"
+                />
+
+                <div>
+                  <h4>Danny Steenman</h4>
+                  <p>
+                    AWS Cloud Consultant & AWS APN Ambassador at CloudNation
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>
+                "After using Gastby, Ghost, Jekyll and Wordpress I'm going to
+                use Hashnode, I wished to have known this amazing project months
+                ago."
+              </h3>
+
+              <div>
+                <img
+                  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1618972297914/YHFdbdMR9.png?w=100&h=100&fit=crop&crop=faces&auto=compress"
+                  alt="Danny Steenman"
+                />
+
+                <div>
+                  <h4>Rafael Corrêa Gomes</h4>
+                  <p>Tecnology Director at Le Site</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://hashnode.com/testimonials" class="btn btn-light"
+            >See All Testimonials &nbsp; <i class="fas fa-chevron-right"></i
+          ></a>
+        </section>
+
+        <div class="underline"></div>
+
+        <div class="header-text header-text-2">
+          <h2 class="heading-two">Start blogging with Hashnode, it's Free!</h2>
+          <p>Join the fastest growing dev community 🚀</p>
+          <a
+            href="https://hashnode.com/onboard?unlock-blog=true"
+            class="btn btn-primary"
+            >Start your personal blog for FREE</a
+          >
+        </div>
+
+        <div class="underline"></div>
+
+        <footer id="footer">
+          <!-- Footer start -->
+          <div class="footer-start">
+            <div>
+              <!-- logo -->
+              <h1 id="logo">
+                <a href="https://hashnode.com"
+                  ><img
+                    class="white"
+                    src="./images/brand-icon.png"
+                    alt="Hashnode Brand Logo"
+                  />hashnode</a
+                >
+              </h1>
+
+              <p>
+                A blogging platform built for developers by developers. Blog on
+                personal domain, share ideas, and connect with the global dev
+                community!
+              </p>
+            </div>
+
+            <img
+              class="footer-img"
+              src="./images/illustration-five.png"
+              alt="Illustration"
+            />
+          </div>
+
+          <!-- Footer center -->
+          <div class="footer-center">
+            <ul>
+              <h4>Explore</h4>
+              <li>
+                <a href="https://hashnode.com/community?source=hashnode-footer"
+                  >Feed</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/explore?source=hashnode-footer"
+                  >Trending Blogs</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/tags?source=hashnode-footer"
+                  >Tags</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/search?source=hashnode-footer"
+                  >Search</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/bookmarks?source=hashnode-footer"
+                  >Bookmarks</a
+                >
+              </li>
+              <li>
+                <a href="https://api.hashnode.com/?source=hashnode-footer"
+                  >Hashnode APIs</a
+                >
+              </li>
+            </ul>
+
+            <ul>
+              <h4>Company</h4>
+              <li>
+                <a href="https://hashnode.com/about?source=hashnode-footer"
+                  >About Hashnode</a
+                >
+              </li>
+              <li>
+                <a href="https://careers.hashnode.com/?source=hashnode-footer"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a href="https://townhall.hashnode.com/?source=hashnode-footer"
+                  >Official Blog</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/media?source=hashnode-footer"
+                  >Logos and Media</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/changelog?source=hashnode-footer"
+                  >Changelog</a
+                >
+              </li>
+            </ul>
+
+            <ul>
+              <h4>Comparisons</h4>
+              <li>
+                <a href="https://hashnode.com/vs/medium?source=hashnode-footer"
+                  >Hashnode vs Medium</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/vs/ghost?source=hashnode-footer"
+                  >Hashnode vs Ghost</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://hashnode.com/vs/wordpress?source=hashnode-footer"
+                  >Hashnode vs WordPress</a
+                >
+              </li>
+              <li>
+                <a href="https://hashnode.com/vs/devto?source=hashnode-footer"
+                  >Hashnode vs Dev.to</a
+                >
+              </li>
+            </ul>
+
+            <ul>
+              <h4>Support</h4>
+              <li>
+                <a href="https://support.hashnode.com/?source=hashnode-footer"
+                  >Support Docs</a
+                >
+              </li>
+              <li><a href="mailto:hello@hashnode.com">Contact</a></li>
+              <li><a href="https://discord.gg/qsAQfxX">Join Discord</a></li>
+              <li>
+                <a
+                  href="https://hashnode.com/feature-requests?source=hashnode-footer"
+                  >Feature Requests</a
+                >
+              </li>
+            </ul>
+
+            <div class="footer-button">
+              <div>
+                <a
+                  href="https://hashnode.com/onboard?unlock-blog=true&source=hashnode-footer"
+                  class="btn btn-primary"
+                  >Start A Blog</a
+                >
+                <a
+                  href="https://hashnode.com/onboard?source=hashnode-footer"
+                  class="btn btn-light"
+                  >Sign In</a
+                >
+              </div>
+
+              <p>Join the community of over a million active developers.</p>
+            </div>
+          </div>
+
+          <!-- Footer end -->
+          <div class="footer-end">
+            <a href="https://twitter.com/hashnode"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/hashnode/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://instagram.com/hashnode"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/hashnode"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://facebook.com/hashnode"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UC8mNp5jUzd2e6qvbdQtUsQw/"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </footer>
+
+        <div class="underline"></div>
+
+        <div class="masthead">
+          <p>© 2021 LinearBytes Inc.</p>
+          <div>
+            <a href="https://hashnode.com/privacy">Privacy Policy</a> &nbsp;
+            <a href="https://hashnode.com/terms">Terms</a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
