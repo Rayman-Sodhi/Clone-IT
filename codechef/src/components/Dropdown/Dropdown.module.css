@@ -1,0 +1,39 @@
+.Divider {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.Menu {
+    margin-top: 15px;
+    border-radius: 2px;
+    width: 180px;
+    font-size: 14px;
+    color: inherit;
+}
+
+.Toggle {
+    all: unset !important;
+    cursor: pointer !important;
+}
+
+.Toggle:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.Toggle:active {
+    outline: none !important;
+    border: none !important;
+}
+
+.Menu a{
+    padding: 0.35rem 1.5rem;
+}
+
+.Menu a:hover {
+    background-color: #4285F4;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.35rem calc(1.5rem - 5%);
+}

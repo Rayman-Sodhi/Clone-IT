@@ -1,0 +1,47 @@
+/* .Title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #6e6e6e;
+}
+
+.Divider {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 65%;
+    height: 0.5px;
+} */
+/* 
+.ContestName {
+    font-size: 14px;
+    color: #3B5995;
+    text-decoration: underline;
+    margin: 20px 0px 10px 0px;
+}
+
+.ContestName:hover {
+    text-decoration: none;
+    color: #3B5995;
+} */
+
+.Timer {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.Val {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextContainer {
+    font-size: 12px;
+}
+
+.NumBox {
+    background-color: #fAD75A;
+    width: 32px;
+    height: 32px;
+    padding: 2px;   
+    border-radius: 2px;
+}
