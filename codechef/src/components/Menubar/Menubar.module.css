@@ -1,0 +1,193 @@
+.Menubar {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
+    padding: 0 9px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #656565;
+}
+
+.LogoDiv {
+    position: absolute;
+    top: -70px ;
+    left: -60px;
+}
+
+@media (max-width: 1100px) {
+    .LogoDiv {
+        top: -50px;
+        left: 0px;
+    }
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+}
+
+
+
+
+.ListItem {
+    position: relative;
+}
+
+
+/* MAIN MENU */
+.MainMenu {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 70%;
+    font-size: 14px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-right: 14px ; 
+    margin: 0 10px 0 0;  
+}
+
+.MainMenu li{
+    padding-left: 22px;
+    padding-right: 4px;
+    height: 70%;
+    padding-top: 2px;
+    margin-left: 6px;
+}
+
+.MainMenu .CaretRight {
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.MainMenu .CaretDown {
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.MainMenu .ListItem:hover .CaretDown{
+    display: block;
+}
+
+.MainMenu .ListItem:hover .CaretRight{
+    display: none;
+}
+
+.MainMenu .ListItem:hover {
+    background-color: #4c433c;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+/* SIDE MENU */
+
+.SideMenu li {
+    padding-left: 18px;
+    padding-right: 4px;
+    margin-right: 10px;
+    height: 60%;
+    padding-top: 3px;
+}
+
+.SideMenu .CaretRight {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 14px;
+    
+}
+
+
+.SideMenu {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 70%;
+    padding: 0;
+    margin: 0 10px 0 0; 
+    font-size: 11px;  
+}
+
+
+.SideMenu .CaretDown {
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.SideMenu .ListItem:hover {
+    background-color: #4c433c;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.SideMenu .ListItem:hover .CaretDown {
+    display: block;
+}
+
+.SideMenu .ListItem:hover .CaretRight {
+    display: none;
+}
+
+/* Dropdown Items */
+.DropdownItems {
+    display: none !important;
+    padding: 10px 0;
+    position: absolute;
+    left: 0px;
+    width: 180px;
+    list-style: none;
+    background-color: #4c433c;
+    flex-direction: column;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+.DropdownItems li {
+    margin: 0;
+    padding: 6px 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    border-bottom: 1px dashed black;
+    
+}
+
+.DropdownItems li:hover {
+    background-color: black;
+}
+
+.MainMenu .ListItem:hover .DropdownItems {
+    display: flex !important;
+    z-index: 5;
+}
+
+.SideMenu .ListItem:hover .DropdownItems {
+    display: flex !important;
+    z-index: 5;
+}
+
+.Disc {
+    font-size: 12px;
+    padding-right: 5px;
+}

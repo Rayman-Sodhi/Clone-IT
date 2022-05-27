@@ -1,0 +1,58 @@
+.adImageDiv {
+  position: relative;
+}
+
+.adImageDiv .offerDiv {
+  color: #3c3b37;
+  position: absolute;
+  width: 420px;
+  height: 240px;
+  background-color: white;
+  top: 80px;
+  left: 15%;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px rgb(168, 166, 166);
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.adImageDiv .offerDiv h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.adImageDiv .offerDiv p {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adImageDiv .searchBarDiv {
+  margin: 15px 0px;
+  height: 50px;
+  position: relative;
+}
+
+.adImageDiv .searchBar {
+  width: 90%;
+  height: 100%;
+  padding-left: 15px;
+  font-size: 16px;
+  border: 1px #807f7d solid;
+  border-radius: 5px;
+}
+
+.adImageDiv .searchIconDiv {
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  cursor: pointer;
+  right: 20px;
+}
+
+.adImageDiv .searchIcon {
+  color: #73726c;
+}

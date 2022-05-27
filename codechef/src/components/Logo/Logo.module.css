@@ -1,0 +1,15 @@
+.Logo {
+    height: 100%;
+    width: 100%;
+}
+
+.LogoContainer {
+    display: inline-block;
+    width: 260px;
+}
+
+@media (max-width: 1100px) {
+    .LogoContainer {
+        width: 160px;
+    }
+}

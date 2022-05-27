@@ -1,0 +1,9 @@
+.RightBar {
+    width: 26.8%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px;
+    /* border: 2px solid black; */
+}

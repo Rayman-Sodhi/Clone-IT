@@ -1,0 +1,108 @@
+.StartSection {
+    background-color: #F9F6EF;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.StartHereSection {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 15px 24px;
+    margin: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.FollowUsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 15px 24px;
+    margin: 0;
+}
+
+.SocialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SocialIcons a {
+    background-image: url(../../assets/icons/social-sprite.svg);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.Youtube {
+    background-position: -27px -67px;
+}
+
+.Youtube:hover {
+    background-position: -27px -20px;
+}
+
+.Telegram {
+    background-position: -63px -67px;
+}
+
+.Telegram:hover {
+    background-position: -63px -20px;
+}
+
+.Facebook {
+    background-position: -99px -67px;
+}
+
+.Facebook:hover {
+    background-position: -99px -20px;
+}
+
+.Instagram {
+    background-position: -171px -67px;
+}
+
+.Instagram:hover {
+    background-position: -171px -20px;
+}
+
+.Twitter {
+    background-position: -135px -67px;
+}
+
+.Twitter:hover {
+    background-position: -135px -20px;
+}
+
+.Medium {
+    background-position: -207px -67px;
+}
+
+.Medium:hover {
+    background-position: -207px -20px;
+}
+
+.Quora {
+    background-position: -243px -67px;
+}
+
+.Quora:hover {
+    background-position: -243px -20px;
+}
+
+.LinkedIn {
+    background-position: -279px -67px;
+}
+
+.LinkedIn:hover {
+    background-position: -279px -20px;
+}
+
