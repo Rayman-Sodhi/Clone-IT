@@ -1,0 +1,643 @@
+body{
+	background: #12151c;
+	margin: 0;
+	height: 100%;
+  -moz-transform: scale(0.75, 0.75);
+    zoom: 0.75; 
+    zoom: 75%;
+}
+.container{
+	width: 1200px;
+  margin: auto;
+	margin-top: 90px;
+}
+.mail{
+	width: 245px;
+	height: 120px;
+	background: #0079C9;
+	position: relative;
+}
+.mail:hover{
+	outline: 2px solid #5c5f6a;
+}
+.mailIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: #FFF;
+}
+.mailmail{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 15px;
+	font-family: Segoe UI, helvetica-neue;
+	font-weight: 100;
+	letter-spacing: 0.8px;
+	font-size: 14px;
+	cursor: default;
+}
+
+.skype{
+	width: 120px;
+	height: 120px;
+	background: #00BEF2;
+	position: relative;
+	top: 5px;
+	
+}
+.skype:hover{
+	outline: 2px solid #5c5f6a;
+}
+.skypeIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: #FFF;
+}
+.skypeskype{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+
+.map{
+	width: 120px;
+	height: 120px;
+	background: #A400AB;
+	position: relative;
+	left: 126px;
+	top: -115px;
+}
+.map:hover{
+	outline: 2px solid #5c5f6a;
+}
+.mapIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: #FFF;
+}
+.mapmap{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+.read{
+	width: 120px;
+	height: 120px;
+	background: #BC1E49;
+	position: relative;
+	top: -110px;
+}
+.read:hover{
+	outline: 2px solid #5c5f6a;
+}
+.readIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: #FFF;
+}
+.readread{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+.desktop{
+	width: 245px;
+	height: 120px;
+	background: #0079C9;
+	position: relative;
+	top: -105px;
+}
+.desktop:hover{
+	outline: 2px solid #5c5f6a;
+}
+.desktopIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 35px;
+	color: #FFF;
+}
+.desktopdesktop{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 15px;
+	font-family: Segoe UI, helvetica-neue;
+	font-weight: 100;
+	letter-spacing: 0.9px;
+	font-size: 13px;
+	cursor: default;
+}
+.calendar{
+	width: 245px;
+	height: 120px;
+	background: #5C3AB7;
+	position: relative;
+	top: -600px;
+	left: 250px;
+}
+.calendar:hover{
+	outline: 2px solid #5c5f6a;
+}
+.calendarIcon{
+	color: #FFF;
+	position: relative;
+	top: 70px;
+	left: 10px;
+}
+.calendarDate{
+	color: #FFF;
+	font-size: 40px;
+	left: 165px;
+	top: 10px;
+	position: relative;	
+	font-family: Segoe UI, helvetica-neue;
+	display: inline-block;
+	transform: scale(1.3, 1.5);
+	-webkit-transform: scale(1.3, 1.5);
+	-moz-transform: scale(1.3, 1.5);
+	-ms-transform: scale(1.3, 1.5);
+	-o-transform: scale(1.3, 1.5);
+	cursor: default;
+}
+.calendarDay{
+	color: #FFF;
+	font-size: 12.5px;
+	left: 180px;
+	top: 10px;
+	position: relative;
+	font-family: Segoe UI, helvetica-neue;
+	letter-spacing: .9px;
+	cursor: default;
+}
+.sports{
+	width: 245px;
+	height: 120px;
+	background: #5C3AB7;
+	position: relative;
+	top: -595px;
+	left: 250px;
+}
+.sports:hover{
+	outline: 2px solid #5c5f6a;
+}
+.sportsIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 65px;
+	color: #FFF;
+}
+.sportssports{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+
+.weather{
+	width: 245px;
+	height: 245px;
+	background: #2C86EE;
+	position: relative;
+	top: -590px;
+	left: 250px;
+}
+.weather:hover{
+	outline: 2px solid #5c5f6a;
+}
+.weatherIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 65px;
+	color: #FFF;
+}
+.weatherweather{
+	color: #FFF;
+	position: relative;
+	top: 220px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+.photos{
+	width: 120px;
+	height: 120px;
+	background: #1f849f;
+	position: relative;
+	top: -1085px;
+	left: 500px;
+}
+.photos:hover{
+	outline: 2px solid #5c5f6a;
+}
+.photoIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: #FFF;
+}
+.photophoto{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	letter-spacing: 0.8px;
+	cursor: default;
+}
+.help{
+	width: 120px;
+	height: 120px;
+	background: #D9522C;
+	position: relative;
+	top: -1079px;
+	left: 500px;
+}
+.help:hover{
+	outline: 2px solid #5c5f6a;
+}
+.helpIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 55px;
+	color: #FFF;
+}
+
+.helphelp{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.news{
+	width: 245px;
+	height: 120px;
+	background: #B01A40;
+	position: relative;
+	top: -1074px;
+	left: 500px;
+}
+.news:hover{
+	outline: 2px solid #5c5f6a;
+}
+.newsIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+
+.newsnews{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.money{
+	width: 245px;
+	height: 120px;
+	background: #009F00;
+	position: relative;
+	top: -1069px;
+	left: 500px;
+}
+.money:hover{
+	outline: 2px solid #5c5f6a;
+}
+.moneyIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+
+.moneymoney{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.people{
+	width: 120px;
+	height: 120px;
+	background: #D9522C;
+	position: relative;
+	top: -1565px;
+	left: 625px;
+}
+.people:hover{
+	outline: 2px solid #5c5f6a;
+}
+.peopleIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+
+.peoplepeople{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.ie{
+	width: 120px;
+	height: 120px;
+	background: #2D87EF;
+	position: relative;
+	top: -1560px;
+	left: 625px;
+}
+.ie:hover{
+	outline: 2px solid #5c5f6a;
+}
+.ieIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+
+.ieie{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+
+.video{
+	width: 57px;
+	height: 57px;
+	background: #D9522C;
+	position: relative;
+	top: -1805px;
+	left: 750px;
+}
+.video:hover{
+	outline: 2px solid #5c5f6a;
+}
+.videoIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #FFF;
+}
+
+.camera{
+	width: 57px;
+	height: 57px;
+	background: #A5009E;
+	position: relative;
+	top: -1800px;
+	left: 750px;
+}
+.camera:hover{
+	outline: 2px solid #5c5f6a;
+}
+.cameraIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #FFF;
+}
+.game{
+	width: 57px;
+	height: 57px;
+	background: #00A400;
+	position: relative;
+	top: -1919px;
+	left: 810px;
+}
+.game:hover{
+	outline: 2px solid #5c5f6a;
+}
+.gameIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #FFF;
+}
+.headPhone{
+	width: 57px;
+	height: 57px;
+	background: #00A400;
+	position: relative;
+	top: -1915px;
+	left: 810px;
+}
+.headPhone:hover{
+	outline: 2px solid #5c5f6a;
+}
+.headPhoneIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #FFF;
+}
+
+.ws{
+	width: 245px;
+	height: 245px;
+	background: #1EB539;
+	position: relative;
+	top: -2033px;
+	left: 940px;
+}
+.ws:hover{
+  outline: 2px solid #5c5f6a;
+}
+
+.wsIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: #FFF;
+}
+.wsws{
+	color: #FFF;
+	position: relative;
+	top: 215px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 16px;
+	cursor: default;
+	letter-spacing: 0.9px;
+}
+
+.fd{
+	width: 245px;
+	height: 120px;
+	background: #009CAE;
+	position: relative;
+	top: -2027px;
+	left: 940px;
+}
+.fd:hover{
+  outline: 2px solid #5c5f6a;
+}
+.fdIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	color: #FFF;
+}
+.fdfd{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.skydrive{
+	width: 120px;
+	height: 120px;
+	background: #0A5AC3;
+	position: relative;
+	top: -2020px;
+	left: 940px;
+}
+.skydrive:hover{
+  outline: 2px solid #5c5f6a;
+}
+.skydriveIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+.skydriveskydrive{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+.health{
+	width: 120px;
+	height: 120px;
+	background: #DB552D;
+	position: relative;
+	top: -2140px;
+	left: 1065px;
+}
+.health:hover{
+  outline: 2px solid #5c5f6a;
+}
+.healthIcon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #FFF;
+}
+.healthhealth{
+	color: #FFF;
+	position: relative;
+	top: 95px;
+	left: 10px;
+	font-family: Segoe UI, helvetica-neue;
+	font-size: 13px;
+	cursor: default;
+}
+
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar{
+	width: 7px;
+  height: 6px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #3f4958;
+}
