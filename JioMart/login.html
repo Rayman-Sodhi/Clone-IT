@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="JioMart_logo.svg">
+    <title>Buy Grocery Online | Daily Needs Supermarket - JioMart</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    
+    <!-- Scrollbar Custom CSS -->
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" 
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+     integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+     <script src="./login/scriptlg.js"></script>
+     <link rel="stylesheet" href="./login/style.css">
+     <link rel="stylesheet" href="./login/loginstyle.css">
+    <style>
+        .f-hide{
+            display: none!important;
+        }
+    </style>
+</head>
+<header class="">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" style="height: 100vh; overflow: hidden;" >
+            <div id="dismiss">
+                <i class="fas fa-times fa-2x"></i>
+            </div>
+
+            <div class="sidebar-header"  >
+                <div class="row" style="margin-left: 2px;">
+                <ul style="list-style: none;" class="d-flex">
+                    <li><img src="./navimgs/user.png" height="22px" width="22px" class="mr-2"></li>
+                    <li><h6>Hello, Sign in</h6></li>   
+                </ul> 
+                </div>  
+                <div class="row" style="margin-left: 1px;">  
+                <ul style="list-style: none;" class="d-flex ">
+                    <button type="button" ><a href="login.html">Account</a></button>
+                    <button type="button"><a href="#">Orders</a></button>
+                </ul>     
+                </div>  
+            </div>
+
+            <ul class="list-unstyled components" style="overflow-y: scroll; height: 600px;">
+                <a href="index.html"><p>Home</p></a>
+                <a href="categories.html"><p>Shop by category</p></a>
+                <a href="#"><p>My List</p></a>
+                <a href="#"><p>My Subscription</p></a>
+                <a href="#"><p>JioMart Wallet</p></a>
+                <a href="#"><p>All Offers</p></a>
+                <hr style="border-top: 5px solid #D5DBDB">
+                <a href="#"><p>My Account</p></a>
+                <a href="#"><p>About Us</p></a>
+                <a href="#"><p>Need Help</p></a>
+                <a href="#"><p>Guide</p></a>
+                <hr style="border-top: 5px solid #D5DBDB">
+                    <div class="mb-5 pb-3">
+                        <b><p style="font-size: 14px; font-weight: bolder;">CONTACT US</p></b>
+                    <p style="font-size: 12px;">WhatsApp us : <a href="#"style="text-decoration: underline; color: #008ECC" >70003 70003</a></p>
+                    <p style="font-size: 12px;">Call Us : <a href="#" style="text-decoration: underline; color: #008ECC">1800 890 1222</a></p>
+                    <p style="font-size: 12px;">Please note that you are accessing the BETA Version of www.jiomart.com</p>
+                    <p style="font-size: 12px;">Should you encounter any bugs, glitches, lack of functionality, 
+                    delayed deliveries, billing errors or other problems on the beta website, please email us on
+                    <a href="#" style="text-decoration: underline; color: #008ECC">cs@jiomart.com</a></p>
+                    <p style="font-size: 14px; font-weight: bolder;">DOWNLOAD APP</p>
+                    <div class="ml-2 pl-2 mb-5">
+                        <span><a href="#"><img src="./navimgs/play_store.png" alt=""></a></span>
+                        <span><a href="#"><img src="./navimgs/ios_store.png" alt=""></a></span>
+                    </div>
+                    </div>
+            </ul class="contact-info">
+        </nav>
+        
+        <!-- Page Content  -->
+        <div id="content" class="mb-5 navbar-css "  >
+
+            <nav class="navbar navbar1 navbar-expand-lg navbar-dark bg-primary ">
+                <div class="container-fluid p-auto mx-auto">
+                    
+                    <button type="button" id="sidebarCollapse" class="btn btn-info mx-md-5 p-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="26" height="26"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                        stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                        text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff">
+                        <path d="M0,26.46154v13.23077h172v-13.23077zM0,79.38462v13.23077h172v-13.23077zM0,132.30769v13.23077h172v-13.23077z"></path></g></g></svg>
+                    </button>
+                    <a class="navbar-brand"  href="index.html"><img class="nav-logo" style="height: 35px;"  src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""></a> 
+                    <form class="form-inline my-2 my-lg-0 mx-4 " id="navBarSearchForm">
+                        <input class="form-control mx-3 " type="search" placeholder="Search essentials, groceries and more..." aria-label="Search">
+                      </form>
+            
+
+                    <div class="collapse hide navbar-collapse ml-5 home-nav" id="navbarSupportedContent" >
+                        <ul class="nav navbar-nav mx-4 ">
+                            <li class="nav-item me-3 me-lg-0 ">
+                                <a class="nav-link " href="login.html"><i class="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
+                            </li>
+                            <li class="nav-item me-3 me-lg-0 ">
+                                <a class="nav-link" href="cart.htm">
+                                  <i class="fas fa-shopping-cart"></i>
+                                  <span>   Cart</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           
+            <nav class="navbar navbar-custom navbar-expand-lg border-bottom " style="margin-top: -40px; background-color: #ECECED;" >
+                <div class="container-fluid ml-4 pl-4" >
+                    <a href="#"><img src="./navimgs/location.png" alt=""></a>
+                    <div class="delivery_content"> Deliver to                 
+                        <span id="delivery_details">
+                            <a><span><b> 400020</b></span></a>
+                        </span>
+                    </div>
+                <div class="collapse navbar-collapse mx-4" id="main_nav">
+                    <ul class="navbar-nav mx-4">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fruits & Vegetables  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruits.html"> Fresh Fruits</a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Fresh Vegetables </a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Herbs & Seasonings </a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Exoctic Fruits & Vegetables </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">  Dairy & Bakery  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Dairy</a></li>
+                            <li><a class="dropdown-item"> Toast & Khari </a></li>
+                            <li><a class="dropdown-item"> Breads and buns </a></li>
+                            <li><a class="dropdown-item"> Baked Cookies </a></li>
+                            <li><a class="dropdown-item"> Batter & Chutney</a></li>
+                            <li><a class="dropdown-item"> Cheese </a></li>
+                            <li><a class="dropdown-item"> Ghee </a></li>
+                            <li><a class="dropdown-item"> Panner & Tofu </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Staples  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="staples.html"> Atta, Flours & Sooji</a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Dals & Pulses </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Rice & Rice Products </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Edible oils </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Masalas & Spices</a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Salt, Sugar & Jaggery </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Soya Products, Wheat & Other </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Grains </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Dry Fruits & Nuts </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle"  data-bs-toggle="dropdown">  Snacks & Branded Foods  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Biscuits & Cookies</a></li>
+                            <li><a class="dropdown-item"> Noodle, Pasta, Vermicelli </a></li>
+                            <li><a class="dropdown-item"> Breakfast Cereals </a></li>
+                            <li><a class="dropdown-item"> Snacks & Namkeen </a></li>
+                            <li><a class="dropdown-item"> Chocolates & Candies</a></li>
+                            <li><a class="dropdown-item"> Ready To Cook & Eat </a></li>
+                            <li><a class="dropdown-item"> Spreads, Sauces, Ketchup </a></li>
+                            <li><a class="dropdown-item"> Indian Sweets </a></li>
+                            <li><a class="dropdown-item"> Pickles & Chutney </a></li>
+                            <li><a class="dropdown-item"> Extracts & Flavouring </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Beverages </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tea.html"> Tea</a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Coffee </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Fruit Juices </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Energy & Soft Drinks </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Health Drink & Supplement</a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Soda & Flavoured Water </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Personal Care  </a>
+                            <ul class="dropdown-menu"> 
+                            <li><a class="dropdown-item" href="personalcare.html"> Hair Care</a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Oral Care </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Skin Care </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Bath & Hand Wash </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Body Wash & Bathing Accessories</a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Feminine Hygiene </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Men's Grooming </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Deo & Fragrances </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Health & Wellness </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Makeup </a></li>
+                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">  Home Care </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Detergents</a></li>
+                            <li><a class="dropdown-item"> Dishwash </a></li>
+                            <li><a class="dropdown-item"> All Purpose Cleaners </a></li>
+                            <li><a class="dropdown-item"> Freshners & Repellents </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">  Baby Care </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Baby Grooming</a></li>
+                            <li><a class="dropdown-item"> Baby Bath & Hygiene </a></li>
+                            <li><a class="dropdown-item"> Diapers & Wipes </a></li>
+                            <li><a class="dropdown-item"> Baby Food & Formula </a></li>
+                            <li><a class="dropdown-item"> Health & Wellness </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- collapse .// -->
+                </div> <!-- container .// -->
+            </nav>
+  
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="login/scriptlg.js"></script>
+</header>
+<body>
+    <div class="container-fluid ">
+        <div class="lgncont">
+          <div class="mbl ">
+            <img src="login/login-banner.jpg" class="banner" alt="Banner">
+          </div>
+          <div class="form ">
+              <div class="formbd mt-4">
+                <h2>Sign in</h2>
+                <div>
+                  <p class="">Sign in to access your Orders, Offers and Wishlist.</p>
+                  <form action="#">
+                    <div class=" lgnform p-2">
+                      <span style="border-right:1px solid #000;" class="mr-2 pr-2">+91 </span>
+                      <input type="tel"  id="mobile" autofocus onkeypress="return isNumberKey(event)" maxlength="10" placeholder="Enter your mobile no.">
+                      
+                      <script>
+                        function isNumberKey(evt)
+                        {
+                          var charCode = (evt.which) ? evt.which : event.keyCode
+                          if (charCode < 48 || charCode > 57)
+                          return false;
+                        
+                          return true;
+                        }
+                        </script>
+                        
+                    </div>
+                    <span class="text-danger error" id="err"><i>Please enter a valid mobile number!</i><br></span>
+                    <br>
+                    <div class="btnalign">
+                    <button class="btn btn-primary btn1" onclick="validate()" ><i class="fa fa-chevron-right"></i></button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+          
+      </div>
+      
+  
+      </div>
+</body>
+<!--Footer Start-->
+<footer class="text-center footer  fixed-bottom" id="footerhide">
+  
+    <p class="m-0 cpyrt">By continuing you agree to our <a href="#" class="text-danger">Terms of service</a><br>
+      and <a href="#" class="text-danger">Privacy & Legal Policy.</a></p>
+  </footer>
+</html>
+<script src="login/validation.js"></script>
+<script src="login/scriptlg.js"></script>

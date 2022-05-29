@@ -1,0 +1,128 @@
+.content{
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer{
+    margin: 0px;
+    padding: 0%;
+    padding-top: 52px;
+    outline: none;
+    font-size: 12px!important;
+    position: absolute;
+    border-radius: 0%;
+}
+.footer ul{
+    list-style: none;
+    line-height: 1.5;
+
+}
+.footer h2{
+    font-size: 12px!important;
+}
+.footer p{
+    font-size: 12px!important;
+}
+.footer  a{
+    outline: none;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer_container{
+width: 100%;
+justify-content: space-between;
+line-height: 1.5;
+}
+.footer_container li a{
+    color: rgb(56, 56, 56);
+}
+.fborder{
+    
+    border-top: 1px solid rgba(195,195,195,.5);  
+
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width:1040px){
+    
+    .copyright{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.fs{
+    display: none;
+}
+
+@media screen and (max-width:1005px) {
+    
+    .mblr{
+        
+        margin: 0%;
+        
+
+    }
+    .mblr div{
+        padding: 0% !important;
+        padding-left: 10px!important;
+    }
+    .mblr ul{
+        padding:0%;
+    }
+    .fs{
+        display: none;
+    }
+
+    
+}
+@media screen and (max-width:850px) {
+    .mbl{
+        display: none;
+        
+    }
+    
+    .mblr{
+        justify-content: space-around;
+        padding: 15px 15px 15px 15px!important;
+        margin: 0%;
+        
+
+    }
+    .mblr div{
+        padding: 0% !important;
+        padding-left: 10px!important;
+    }
+    .mblr ul{
+        padding:0%;
+    }
+    .fs{
+        display: block;
+    }
+
+    
+}
+.contact{
+    border-left: 1px solid rgba(195,195,195,.5);
+    
+}
+
+.contact a{
+    color: rgb(87, 118, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact a:hover{
+    color: rgb(3, 40, 204);
+    text-decoration: none;
+}
+@media screen and (max-width:767px) {
+    .mycontent{
+        margin-bottom: 325vh!important;
+    }
+}

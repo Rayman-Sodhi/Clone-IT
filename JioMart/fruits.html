@@ -1,0 +1,787 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="JioMart_logo.svg">
+    <title>Buy Grocery Online | Daily Needs Supermarket - JioMart</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    
+    <!-- Scrollbar Custom CSS -->
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" 
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+     integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+     
+     
+     
+     <link rel="stylesheet" href="footer/footerstyle.css">
+     <link rel="stylesheet" href="personalcare/style.css">
+     <link rel="stylesheet" href="personalcare/personalcare.css">
+     <style>
+        .dummy-scroll{
+          overflow-y: hidden;
+        }
+      </style>
+</head>
+<header class="fixed-top">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" style="height: 100vh; overflow: hidden;" >
+            <div id="dismiss">
+                <i class="fas fa-times fa-2x"></i>
+            </div>
+
+            <div class="sidebar-header"  >
+                <div class="row">
+                <ul style="list-style: none;" class="d-flex">
+                    <li><img src="./navimgs/user.png" height="22px" width="22px" class="mr-2"></li>
+                    <li><h6>Hello, Sign in</h6></li>   
+                </ul> 
+                </div>  
+                <div class="row">  
+                <ul style="list-style: none;" class="d-flex ">
+                    <button type="button" ><a href="login.html">Account</a></button>
+                    <button type="button"><a href="#">Orders</a></button>
+                </ul>     
+                </div>  
+            </div>
+
+            <ul class="list-unstyled components" style="overflow-y: scroll; height: 600px;">
+                <a href="index.html"><p>Home</p></a>
+                <a href="categories.html"><p>Shop by category</p></a>
+                <a href="#"><p>My List</p></a>
+                <a href="#"><p>My Subscription</p></a>
+                <a href="#"><p>JioMart Wallet</p></a>
+                <a href="#"><p>All Offers</p></a>
+                <hr style="border-top: 5px solid #D5DBDB">
+                <a href="#"><p>My Account</p></a>
+                <a href="#"><p>About Us</p></a>
+                <a href="#"><p>Need Help</p></a>
+                <a href="#"><p>Guide</p></a>
+                <hr style="border-top: 5px solid #D5DBDB">
+                    <div class="mb-5 pb-3">
+                        <b><p style="font-size: 14px; font-weight: bolder;">CONTACT US</p></b>
+                    <p style="font-size: 12px;">WhatsApp us : <a href="#"style="text-decoration: underline; color: #008ECC" >70003 70003</a></p>
+                    <p style="font-size: 12px;">Call Us : <a href="#" style="text-decoration: underline; color: #008ECC">1800 890 1222</a></p>
+                    <p style="font-size: 12px;">Please note that you are accessing the BETA Version of www.jiomart.com</p>
+                    <p style="font-size: 12px;">Should you encounter any bugs, glitches, lack of functionality, 
+                    delayed deliveries, billing errors or other problems on the beta website, please email us on
+                    <a href="#" style="text-decoration: underline; color: #008ECC">cs@jiomart.com</a></p>
+                    <p style="font-size: 14px; font-weight: bolder;">DOWNLOAD APP</p>
+                    <div class="ml-2 pl-2 mb-5">
+                        <span><a href="#"><img src="./navimgs/play_store.png" alt=""></a></span>
+                        <span><a href="#"><img src="./navimgs/ios_store.png" alt=""></a></span>
+                    </div>
+                    </div>
+            </ul class="contact-info">
+        </nav>
+        
+        <!-- Page Content  -->
+        <div id="content" class="mb-5 navbar-css "  >
+
+            <nav class="navbar navbar1 navbar-expand-lg navbar-dark bg-primary ">
+                <div class="container-fluid p-auto mx-auto">
+                    
+                    <button type="button" id="sidebarCollapse" class="btn btn-info mx-md-5 p-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="26" height="26"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                        stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                        text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff">
+                        <path d="M0,26.46154v13.23077h172v-13.23077zM0,79.38462v13.23077h172v-13.23077zM0,132.30769v13.23077h172v-13.23077z"></path></g></g></svg>
+                    </button>
+                    <a class="navbar-brand"  href="index.html"><img class="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""></a> 
+                    <form class="form-inline my-2 my-lg-0 mx-4 " id="navBarSearchForm">
+                        <input class="form-control mx-3 " type="search" placeholder="Search essentials, groceries and more..." aria-label="Search">
+                      </form>
+            
+
+                    <div class="collapse hide navbar-collapse ml-5 home-nav" id="navbarSupportedContent" >
+                        <ul class="nav navbar-nav mx-4 ">
+                            <li class="nav-item me-3 me-lg-0 ">
+                                <a class="nav-link " href="login.html"><i class="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
+                            </li>
+                            <li class="nav-item me-3 me-lg-0 ">
+                                <a class="nav-link" href="cart.htm">
+                                  <i class="fas fa-shopping-cart"></i>
+                                  <span>   Cart</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           
+            <nav class="navbar navbar-custom navbar-expand-lg border-bottom " style="margin-top: -40px; background-color: #ECECED;" >
+                <div class="container-fluid ml-4 pl-4" >
+                    <a href="#"><img src="./navimgs/location.png" alt=""></a>
+                    <div class="delivery_content"> Deliver to                 
+                        <span id="delivery_details">
+                            <a><span><b> 400020</b></span></a>
+                        </span>
+                    </div>
+                <div class="collapse navbar-collapse mx-4" id="main_nav">
+                    <ul class="navbar-nav mx-4">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fruits & Vegetables  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruits.html"> Fresh Fruits</a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Fresh Vegetables </a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Herbs & Seasonings </a></li>
+                            <li><a class="dropdown-item" href="fruits.html"> Exoctic Fruits & Vegetables </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle"  data-bs-toggle="dropdown">  Dairy & Bakery  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" > Dairy</a></li>
+                            <li><a class="dropdown-item" > Toast & Khari </a></li>
+                            <li><a class="dropdown-item" > Breads and buns </a></li>
+                            <li><a class="dropdown-item" > Baked Cookies </a></li>
+                            <li><a class="dropdown-item" > Batter & Chutney</a></li>
+                            <li><a class="dropdown-item" > Cheese </a></li>
+                            <li><a class="dropdown-item" > Ghee </a></li>
+                            <li><a class="dropdown-item" > Panner & Tofu </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Staples  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="staples.html"> Atta, Flours & Sooji</a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Dals & Pulses </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Rice & Rice Products </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Edible oils </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Masalas & Spices</a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Salt, Sugar & Jaggery </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Soya Products, Wheat & Other </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Grains </a></li>
+                            <li><a class="dropdown-item" href="staples.html"> Dry Fruits & Nuts </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdow data-bs-toggle="dropdown">  Snacks & Branded Foods  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropd> Biscuits & Cookies</a></li>
+                            <li><a class="dropd> Noodle, Pasta, Vermicelli </a></li>
+                            <li><a class="dropd> Breakfast Cereals </a></li>
+                            <li><a class="dropd> Snacks & Namkeen </a></li>
+                            <li><a class="dropd> Chocolates & Candies</a></li>
+                            <li><a class="dropd> Ready To Cook & Eat </a></li>
+                            <li><a class="dropd> Spreads, Sauces, Ketchup </a></li>
+                            <li><a class="dropd> Indian Sweets </a></li>
+                            <li><a class="dropd> Pickles & Chutney </a></li>
+                            <li><a class="dropd> Extracts & Flavouring </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Beverages </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tea.html"> Tea</a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Coffee </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Fruit Juices </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Energy & Soft Drinks </a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Health Drink & Supplement</a></li>
+                            <li><a class="dropdown-item" href="tea.html"> Soda & Flavoured Water </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Personal Care  </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="personalcare.html"> Hair Care</a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Oral Care </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Skin Care </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Bath & Hand Wash </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Body Wash & Bathing Accessories</a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Feminine Hygiene </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Men's Grooming </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Deo & Fragrances </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Health & Wellness </a></li>
+                            <li><a class="dropdown-item" href="personalcare.html"> Makeup </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">  Home Care </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Detergents</a></li>
+                            <li><a class="dropdown-item"> Dishwash </a></li>
+                            <li><a class="dropdown-item"> All Purpose Cleaners </a></li>
+                            <li><a class="dropdown-item"> Freshners & Repellents </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Baby Care </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"> Baby Grooming</a></li>
+                            <li><a class="dropdown-item"> Baby Bath & Hygiene </a></li>
+                            <li><a class="dropdown-item"> Diapers & Wipes </a></li>
+                            <li><a class="dropdown-item"> Baby Food & Formula </a></li>
+                            <li><a class="dropdown-item"> Health & Wellness </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- collapse .// -->
+                </div> <!-- container .// -->
+            </nav>
+  
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    
+</header>
+<body id="dummy">
+    <!--Your Body Goes Here-->
+    <div class="main">
+        
+        <div class="jumbotron">
+                <div class="row my-content-haircare justify-content-left">
+                    <!--Accordian - Personal Care Start-->
+                    <div class="my-content-left">
+                        <div class="column justify-content-left">
+                            <div class="col-lg-3 m-lg-2 s-m-1">
+                                
+                                    <div class="card categories">
+                                        <h5>Categories</h5><hr>
+                                        <div class="accordion" id="accordion-cat">
+                                            <div class="category-header" id="c1">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseone">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Fruits & Vegetables
+                                                </button>
+                                            </div>
+                                            <div id="collapseOne" class="collapse" aria-labelledby="c1" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Fresh Fruits</li><li>Fresh Vegetables</li><li>Herbs & Seasonings</li><li>Exotic Fruits and Vegetables</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c2">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapsetwo">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Dairy and Bakery
+                                                </button>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="c2" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Dairy</li><li>Toast & Khari</li><li>Breads and Buns</li><li>Baked Cookies</li><li>Batter & Chutney</li><li>Cheese</li><li>Ghee</li><li>Paneer & Tofu</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c3">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapsethree">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Staples
+                                                </button>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="c3" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Atta, Flours & Sooji</li><li>Dals & Pulses</li><li>Rice & Rice Products</li><li>Edible Oils</li><li>Masalas & Spices</li><li>Salt, Sugar & Jaggery</li><li>Soya Products, <br>Wheat & Other Grains</li><li>Dry Fruits & Nuts</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c4">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Snacks & Branded Foods
+                                                </button>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" aria-labelledby="c4" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Biscuts & Cookies</li><li>Noodle, Pasta, Vermicelli</li><li>Breakfast Cereals</li><li>Snacks & Namkeen</li><li>Chocolates & Candies</li><li>Ready To Cook & Eat</li><li>Spreads, Sauces, Ketchup</li><li>Indian Sweets</li><li>Pickels & Chutney</li><li>Extracts & Flavouring</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c5">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapsefive">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Beverages
+                                                </button>
+                                            </div>
+                                            <div id="collapseFive" class="collapse" aria-labelledby="c5" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Tea</li><li>Coffee</li><li>Fruit juices</li><li>Energy & Soft Drinks</li><li>Health Drink & Supplement</li><li>Soda & Flavoured Water</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c6">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapsesix">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Personal Care
+                                                </button>
+                                            </div>
+                                            <div id="collapseSix" class="collapse" aria-labelledby="c6" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Hair Care</li><li>Oral Care</li><li>Skin Care</li><li>Bath & Hand Wash</li><li>Body Wash & <br>Bathing Accesories</li><li>Feminine Hygiene</li><li>Men's Grooming</li><li>Deo & Fragnances</li><li>Health & Wellness</li><li>Makeup</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c7">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseseven">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Home Care
+                                                </button>
+                                            </div>
+                                            <div id="collapseSeven" class="collapse" aria-labelledby="c7" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Detergents</li><li>Dishwash</li><li>All Purpose Cleaners</li><li>Fresheners and Repellents</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c8">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseeight">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Baby Care
+                                                </button>
+                                            </div>
+                                            <div id="collapseEight" class="collapse" aria-labelledby="c8" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Baby Grooming</li><li>Baby Bath & Hygiene</li><li>Diapers & Wipes</li><li>Baby Food & Formula</li><li>Health & Wellness</li></ul>
+                                                </div>
+                                            </div><hr>
+                                            <div class="category-header" id="c9">
+                                                <button class="btn collapsed" style="color: rgb(119, 117, 117);" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapsenine">
+                                                    <i class="fa fa-lg fa-angle-right"></i>  Home & Kitchen
+                                                </button>
+                                            </div>
+                                            <div id="collapseNine" class="collapse" aria-labelledby="c9" data-parent="#accordion-cat">
+                                                <div class="category-items">
+                                                    <ul><li>Pooja Needs</li><li>Disposals</li><li>Electrical</li><li>Mops, Brushes & Scrubs</li><li>Kitchenware</li></ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br><br>
+                                    <div class="card filters-brands">
+                                        <div>
+                                            <h5>Filters</h5><hr>
+                                            <div class="accordion" id="accordion-filt-fruits&veges">
+                                                <h6>Availability</h6>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-">
+                                                    <label class="form-check-label" for="fruits&veges-cat-">
+                                                        InStock Products
+                                                    </label>
+                                                </div></br><br>
+                                                <h6>Categories</h6>
+                                                <div class="input-group rounded" style="width:214px">
+                                                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                                                      aria-describedby="search-addon" />
+                                                    <span class="input-group-text border-0" id="search-addon">
+                                                      <i class="fa fa-search"></i>
+                                                    </span>
+                                                  </div>
+                                                <br><br>
+                                                    <div class="scroll"  style="overflow-y: auto;">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-1">
+                                                            <label class="form-check-label" for="fruits&veges-cat-1">
+                                                                Exotic Vegetables
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-2">
+                                                            <label class="form-check-label" for="fruits&veges-cat-2">
+                                                                Root Vegetables
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-3">
+                                                            <label class="form-check-label" for="fruits&veges-cat-3">
+                                                                Beans
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-4">
+                                                            <label class="form-check-label" for="fruits&veges-cat-4">
+                                                                Gourds
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-5">
+                                                            <label class="form-check-label" for="fruits&veges-cat-5">
+                                                                Leafy Vegetables
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-6">
+                                                            <label class="form-check-label" for="fruits&veges-cat-6">
+                                                                Mangoes
+                                                            </label>
+                                                        </div><hr> 
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-7">
+                                                            <label class="form-check-label" for="fruits&veges-cat-7">
+                                                                Apples
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-8">
+                                                            <label class="form-check-label" for="fruits&veges-cat-8">
+                                                                Brinjal
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-9">
+                                                            <label class="form-check-label" for="fruits&veges-cat-9">
+                                                                Citrus Fruits
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-10">
+                                                            <label class="form-check-label" for="fruits&veges-cat-10">
+                                                                Onion
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-11">
+                                                            <label class="form-check-label" for="fruits&veges-cat-11">
+                                                                Vegetable Others
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-12">
+                                                            <label class="form-check-label" for="fruits&veges-cat-12">
+                                                                Banana
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-13">
+                                                            <label class="form-check-label" for="fruits&veges-cat-13">
+                                                                Ginger
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-14">
+                                                            <label class="form-check-label" for="fruits&veges-cat-14">
+                                                                Melons
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-15">
+                                                            <label class="form-check-label" for="fruits&veges-cat-15">
+                                                                Others
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-16">
+                                                            <label class="form-check-label" for="fruits&veges-cat-16">
+                                                                Cabbage
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-17">
+                                                            <label class="form-check-label" for="fruits&veges-cat-17">
+                                                                Capsicum
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-18">
+                                                            <label class="form-check-label" for="fruits&veges-cat-18">
+                                                                Carrot
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-19">
+                                                            <label class="form-check-label" for="fruits&veges-cat-19">
+                                                                Cauliflower
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-20">
+                                                            <label class="form-check-label" for="fruits&veges-cat-20">
+                                                                Chiku (Sapota)
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-21">
+                                                            <label class="form-check-label" for="fruits&veges-cat-21">
+                                                                Cucumber
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-23">
+                                                            <label class="form-check-label" for="fruits&veges-cat-23">
+                                                                Drumstick
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-22">
+                                                            <label class="form-check-label" for="fruits&veges-cat-22">
+                                                                GExotic Fruits
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-24">
+                                                            <label class="form-check-label" for="fruits&veges-cat-24">
+                                                                Garlic
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-25">
+                                                            <label class="form-check-label" for="fruits&veges-cat-26">
+                                                                Grapes
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-27">
+                                                            <label class="form-check-label" for="fruits&veges-cat-27">
+                                                                Green Chillies
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-28">
+                                                            <label class="form-check-label" for="fruits&veges-cat-28">
+                                                                Lemon
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-29">
+                                                            <label class="form-check-label" for="fruits&veges-cat-29">
+                                                                Okra (Bhindi)
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-30">
+                                                            <label class="form-check-label" for="fruits&veges-cat-30">
+                                                                Papaya
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-31">
+                                                            <label class="form-check-label" for="fruits&veges-cat-31">
+                                                                Pears
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-32">
+                                                            <label class="form-check-label" for="fruits&veges-cat-32">
+                                                                Pomogranate
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-33">
+                                                            <label class="form-check-label" for="fruits&veges-cat-33">
+                                                                Potato
+                                                            </label>
+                                                        </div><hr>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-cat-34">
+                                                            <label class="form-check-label" for="fruits&veges-cat-34">
+                                                                Tomato
+                                                            </label>
+                                                        </div><hr>
+                                                    </div><br><br>
+                                                    <h6>Brands</h6>
+                                                    <div class="input-group rounded" style="width:214px">
+                                                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                                                          aria-describedby="search-addon" />
+                                                        <span class="input-group-text border-0" id="search-addon">
+                                                          <i class="fa fa-search"></i>
+                                                        </span>
+                                                      </div>
+                                                    <br><br>
+                                                <div class="scroll"  style="overflow-y: auto;">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="fruits&veges-brand-1">
+                                                            <label class="form-check-label" for="fruits&veges-brand-1">
+                                                                Loose
+                                                            </label>
+                                                        </div><hr>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div> 
+                    <!--Web Page - Hair Care - Personal Care-->
+                    <div class="my-content-right">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-10 m-lg-8 s-m-6">
+                                <div class="card image">
+                                    <img src="https://www.jiomart.com/images/category/220/fresh-fruits-20200704.jpg" alt="fruits"><img/>
+                                </div><br>
+                                <div class="row my-head justify-content-left">
+                                    <div class="my-head-item-left">
+                                        <h6>Showing <b>20</b> out of <b>65</b> items</h6>
+                                    </div>
+                                    <div class="my-head-item-right" >
+                                        <div class="my-head row justify-content-end">
+                                            <h6>Sort by: <button type="button" class="btn btn-light items">Popularity</button><button type="button" class="btn btn-light items">High to Low</button><button type="button" class="btn btn-light items">Low to High</button><button type="button" class="btn btn-light items">Discount</button><button type="button" class="btn btn-light items">All Products</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 m-lg-8 s-m-6">
+                                <div class="card products">
+                                    <h5 class="heading">ALL PRODUCTS</h5>
+                                    <div class="row justify-content">
+                                        <div class="card product" id="product1">
+                                            <span class="badge   badge-danger">20% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590116962/grapes-sonaka-seedless-per-kg-0-20201215.jpg" alt="fruits"><img/>
+                                            <h6>Grapes Sonaka Seedless per Kg</h6>
+                                            <h6><del>₹170.00</del> <b>₹109.00</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product2">
+                                            <span class="badge   badge-danger">8% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590002403/alphonso-mango-6-pcs-box-approx-1300-g-1500-g-0-20210304.jpg" alt="fruits"><img/>
+                                            <h6>Alphonso Mango 6 pcs (Box</h6>
+                                            <h6><del>₹449.00</del> <b>₹379.00</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product3">
+                                            <span class="badge   badge-danger">7% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590040932/pears-imported-green-3-pcs-pack-0-20201031.jpg" alt="fruits"><img/>
+                                            <h6>Pears Green Imported 3 pcs (Pack)</h6>
+                                            <h6><del>₹680.00</del> <b>₹610.40</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product4">
+                                            <span class="badge   badge-danger">16% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590001721/apple-red-delicious-4-pcs-pack-0-20200806.jpg" alt="fruits"><img/>
+                                            <h6>Apple Red Delicious 4 pcs (Approx 550 g - 700 g)</h6>
+                                            <h6><del>₹245.00</del> <b>₹189.00</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product5">
+                                            <span class="badge   badge-danger">50% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590001285/banana-robusta-6-pcs-box-0-20201126.jpg" alt="fruits"><img/>
+                                            <h6>Banana Robusta 6 Pcs (Box)</h6>
+                                            <h6><del>₹63.00</del> <b>₹44.00</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product6">
+                                            <span class="badge   badge-danger">7% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590000448/mosambi-1-kg-0-20201118.jpg" alt="fruits"><img/>
+                                            <h6>Mosambi 1 kg</h6>
+                                            <h6><del>₹205.00</del> <b>₹199.35</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product7">
+                                            <span class="badge   badge-danger">7% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590002744/dates-imported-400-g-pack-0-20201118.jpg" alt="fruits"><img/>
+                                            <h6>Dates Imported</h6>
+                                            <h6><del>₹255.00</del> <b>₹174.35</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="card product" id="product7">
+                                            <span class="badge   badge-danger">7% off</span>
+                                            <img src="https://www.jiomart.com/images/product/150x150/590177428/mango-badami-4-pcs-0-20210406.jpg" alt="fruits"><img/>
+                                            <h6>Mango Badami 4 pcs</h6>
+                                            <h6><del>₹190.00</del> <b>₹139.70</b></h6>
+                                            <button type="button" class="btn btn-primary product-buy">Add to Cart <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+    <footer class="jumbotron footer " >
+        <div class="footer_container pl-5 pr-5 m-0 row mblr">
+          <!--Footer Content Mostpopular list/ hidded on small screens-->
+            <ul class="col-md-3 pl-5 ml-1 mbl">
+                <li><h2>MOST POPULAR CATEGORIES</h2></li>
+                <li><a href="#">Staples</a></li>
+                <li><a href="#">Bevereges</a></li>
+                <li><a href="#">Personal Care</a></li>
+                <li><a href="#">Home Care</a></li>
+                <li><a href="#">Fruits and Vegetables</a></li>
+                <li><a href="#">Baby Care</a></li>
+                <li><a href="#">Snacks & Branded Foods</a></li>
+                <li><a href="#">Dairy & Bakery</a></li>
+            </ul>
+            <!--Customer Service list-->
+            <ul class="col-md-3 col-5">
+                <li><h2>CUSTOMER SERVICES</h2></li>
+                <li><a href="customerservices/aboutus.html">About Us</a></li>
+                <li><a href="customerservices/faqs.html">FAQ</a></li>
+                <li><a href="customerservices/terms.html">Terms and conditions</a></li>
+                <li><a href="customerservices/privacy.html">Privacy policy</a></li>
+                <li><a href="customerservices/ewaste.html">E-waste Policy</a></li>
+            </ul>
+            <!--Footer Content Contact Pannel-->
+            <div class="contact col-md-4 col-6 pr-5 mr-1" style="font-size: 12px!important;">
+                <h2>CONTACT US</h2>
+                WhatsApp us: <span><a href="tel:+91 99999 99999">+91 99999 99999</a></span>
+                <br>
+                <br>
+                Call Us: <span><a href="tel:1800 2222 3333">1800 2222 3333</a></span>
+                <p>6:00 AM to 8:00 PM, 365 days</p>
+                <p>Please note that you are accessing the BETA Version of 
+                    <a href="https://www.jiomart.com/">www.jiomart.com</a></p>
+                <p>Should you encounter any bugs, glitches, lack of functionality, 
+                        delayed deliveries, billing errors or other problems on the beta website, 
+                        please email us on 
+                        <a href="mailto:cs@jiomart.com">cs@jiomart.com</a></p>
+                <br class="mbl">
+                <h2 class="mbl">DOWNLOAD APP</h2>
+                <br class="mbl">
+                <a href="#" class="mr-3 mbl" data-toggle="modal" data-target="#download"><img src="footer/play_store.png" alt=""></a>
+                <a href="#" class="mbl" data-toggle="modal" data-target="#download1"><img src="footer/ios_store.png" alt=""></a>
+            </div>
+            
+        </div>
+        <!--Mobile Responive Modal Toogle-->
+        <div class="fs text-center"><a href="#" class="mr-3 " data-toggle="modal" 
+            data-target="#download"><img src="footer/play_store.png" alt=""></a>
+            <a href="#" data-toggle="modal" data-target="#download1"><img src="footer/ios_store.png" alt=""></a></div>
+        <div></div>
+        <!--Footer Copyright-->
+        <div class="fborder mt-3 p-3">
+            <div class="copyright container text-left ">
+            <p class="mbl m-0" style="font-size: 12px;">Best viewed on Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+, Google Chrome 80+</p>
+            <span>© 2021 All rights reserved. Reliance Retail Ltd.</span></div>
+        </div>
+        <!--Modals -->
+        <div class="modal" tabindex="-1" id="download" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Download Jio Mart</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <span><img src="footer/play_store.png" alt=""></span>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://play.google.com/store/apps/details?id=com.jpl.jiomart" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal" tabindex="-1" id="download1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Download Jio Mart</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <span ><img src="footer/ios_store.png" alt=""></span>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://apps.apple.com/in/app/jiomart/id1522085683" class="btn btn-primary">Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+</html>
+                
+        

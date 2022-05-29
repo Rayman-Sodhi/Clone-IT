@@ -1,0 +1,540 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="JioMart_logo.svg">
+    <title>E-Waste</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
+
+    <!-- Scrollbar Custom CSS -->
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+     integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="footerstyle.css">
+     <style>
+      .dummy-scroll{
+        overflow-y: hidden;
+      }
+    </style>
+</head>
+<header class="fixed-top">
+  <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar" style="height: 100vh; overflow: hidden;" >
+          <div id="dismiss">
+              <i class="fas fa-times fa-2x"></i>
+          </div>
+
+          <div class="sidebar-header"  >
+              <div class="row">
+              <ul style="list-style: none;" class="d-flex">
+                  <li><img src="./user.png" height="22px" width="22px" class="mr-2"></li>
+                  <li><h6>Hello, Sign in</h6></li>   
+              </ul> 
+              </div>  
+              <div class="row">  
+              <ul style="list-style: none;" class="d-flex ">
+                  <button type="button" ><a href="../login.html">Account</a></button>
+                  <button type="button"><a href="#">Orders</a></button>
+              </ul>     
+              </div>  
+          </div>
+
+          <ul class="list-unstyled components" style="overflow-y: scroll; height: 600px;">
+              <a href="index.html"><p>Home</p></a>
+              <a href="categories.html"><p>Shop by category</p></a>
+              <a href="#"><p>My List</p></a>
+              <a href="#"><p>My Subscription</p></a>
+              <a href="#"><p>JioMart Wallet</p></a>
+              <a href="#"><p>All Offers</p></a>
+              <hr style="border-top: 5px solid #D5DBDB">
+              <a href="#"><p>My Account</p></a>
+              <a href="#"><p>About Us</p></a>
+              <a href="#"><p>Need Help</p></a>
+              <a href="#"><p>Guide</p></a>
+              <hr style="border-top: 5px solid #D5DBDB">
+                  <div class="mb-5 pb-3">
+                      <b><p style="font-size: 14px; font-weight: bolder;">CONTACT US</p></b>
+                  <p style="font-size: 12px;">WhatsApp us : <a href="#"style="text-decoration: underline; color: #008ECC" >70003 70003</a></p>
+                  <p style="font-size: 12px;">Call Us : <a href="#" style="text-decoration: underline; color: #008ECC">1800 890 1222</a></p>
+                  <p style="font-size: 12px;">Please note that you are accessing the BETA Version of www.jiomart.com</p>
+                  <p style="font-size: 12px;">Should you encounter any bugs, glitches, lack of functionality, 
+                  delayed deliveries, billing errors or other problems on the beta website, please email us on
+                  <a href="#" style="text-decoration: underline; color: #008ECC">cs@jiomart.com</a></p>
+                  <p style="font-size: 14px; font-weight: bolder;">DOWNLOAD APP</p>
+                  <div class="ml-2 pl-2 mb-5">
+                      <span><a href="#"><img src="./play_store.png" alt=""></a></span>
+                      <span><a href="#"><img src="./ios_store.png" alt=""></a></span>
+                  </div>
+                  </div>
+          </ul class="contact-info">
+      </nav>
+      
+      <!-- Page Content  -->
+      <div id="content" class="mb-5 navbar-css "  >
+
+          <nav class="navbar navbar1 navbar-expand-lg navbar-dark bg-primary ">
+              <div class="container-fluid p-auto mx-auto">
+                  
+                  <button type="button" id="sidebarCollapse" class="btn btn-info mx-md-5 p-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                      width="26" height="26"
+                      viewBox="0 0 172 172"
+                      style=" fill:#000000;">
+                      <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" 
+                      stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                      text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff">
+                      <path d="M0,26.46154v13.23077h172v-13.23077zM0,79.38462v13.23077h172v-13.23077zM0,132.30769v13.23077h172v-13.23077z"></path></g></g></svg>
+                  </button>
+                  <a class="navbar-brand"  href="../index.html"><img class="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""></a> 
+                  <form class="form-inline my-2 my-lg-0 mx-4 " id="navBarSearchForm">
+                      <input class="form-control mx-3 " type="search" placeholder="Search essentials, groceries and more..." aria-label="Search">
+                    </form>
+          
+
+                  <div class="collapse hide navbar-collapse ml-5 home-nav" id="navbarSupportedContent" >
+                      <ul class="nav navbar-nav mx-4 ">
+                          <li class="nav-item me-3 me-lg-0 ">
+                              <a class="nav-link " href="../login.html"><i class="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
+                          </li>
+                          <li class="nav-item me-3 me-lg-0 ">
+                            <a class="nav-link" href="../cart.htm">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>   Cart</span>
+                              </a>
+                          </li>
+                          
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+         
+          <nav class="navbar navbar-custom navbar-expand-lg border-bottom " style="margin-top: -40px; background-color: #ECECED;" >
+              <div class="container-fluid ml-4 pl-4" >
+                  <a href="#"><img src="./navimgs/location.png" alt=""></a>
+                  <div class="delivery_content"> Deliver to                 
+                      <span id="delivery_details">
+                          <a><span><b> 400020</b></span></a>
+                      </span>
+                  </div>
+              <div class="collapse navbar-collapse mx-4" id="main_nav">
+                  <ul class="navbar-nav mx-4">
+                      <li class="nav-item dropdown ">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Fruits & Vegetables  </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../fruits.html"> Fresh Fruits</a></li>
+                            <li><a class="dropdown-item" href="../fruits.html"> Fresh Vegetables </a></li>
+                            <li><a class="dropdown-item" href="../fruits.html"> Herbs & Seasonings </a></li>
+                            <li><a class="dropdown-item" href="../fruits.html"> Exoctic Fruits & Vegetables </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Dairy & Bakery  </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" > Dairy</a></li>
+                          <li><a class="dropdown-item" > Toast & Khari </a></li>
+                          <li><a class="dropdown-item" > Breads and buns </a></li>
+                          <li><a class="dropdown-item" > Baked Cookies </a></li>
+                          <li><a class="dropdown-item" > Batter & Chutney</a></li>
+                          <li><a class="dropdown-item" > Cheese </a></li>
+                          <li><a class="dropdown-item" > Ghee </a></li>
+                          <li><a class="dropdown-item" > Panner & Tofu </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Staples  </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../staples.html"> Atta, Flours & Sooji</a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Dals & Pulses </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Rice & Rice Products </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Edible oils </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Masalas & Spices</a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Salt, Sugar & Jaggery </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Soya Products, Wheat & Other </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Grains </a></li>
+                          <li><a class="dropdown-item" href="../staples.html"> Dry Fruits & Nuts </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Snacks & Branded Foods  </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" > Biscuits & Cookies</a></li>
+                          <li><a class="dropdown-item" > Noodle, Pasta, Vermicelli </a></li>
+                          <li><a class="dropdown-item" > Breakfast Cereals </a></li>
+                          <li><a class="dropdown-item" > Snacks & Namkeen </a></li>
+                          <li><a class="dropdown-item" > Chocolates & Candies</a></li>
+                          <li><a class="dropdown-item" > Ready To Cook & Eat </a></li>
+                          <li><a class="dropdown-item" > Spreads, Sauces, Ketchup </a></li>
+                          <li><a class="dropdown-item" > Indian Sweets </a></li>
+                          <li><a class="dropdown-item" > Pickles & Chutney </a></li>
+                          <li><a class="dropdown-item" > Extracts & Flavouring </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Beverages </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../tea.html"> Tea</a></li>
+                          <li><a class="dropdown-item" href="../tea.html"> Coffee </a></li>
+                          <li><a class="dropdown-item" href="../tea.html"> Fruit Juices </a></li>
+                          <li><a class="dropdown-item" href="../tea.html"> Energy & Soft Drinks </a></li>
+                          <li><a class="dropdown-item" href="../tea.html"> Health Drink & Supplement</a></li>
+                          <li><a class="dropdown-item" href="../tea.html"> Soda & Flavoured Water </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Personal Care  </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../personalcare.html"> Hair Care</a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Oral Care </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Skin Care </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Bath & Hand Wash </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Body Wash & Bathing Accessories</a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Feminine Hygiene </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Men's Grooming </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Deo & Fragrances </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Health & Wellness </a></li>
+                          <li><a class="dropdown-item" href="../personalcare.html"> Makeup </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Home Care </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" > Detergents</a></li>
+                          <li><a class="dropdown-item" > Dishwash </a></li>
+                          <li><a class="dropdown-item" > All Purpose Cleaners </a></li>
+                          <li><a class="dropdown-item" > Freshners & Repellents </a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Baby Care </a>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" > Baby Grooming</a></li>
+                          <li><a class="dropdown-item" > Baby Bath & Hygiene </a></li>
+                          <li><a class="dropdown-item" > Diapers & Wipes </a></li>
+                          <li><a class="dropdown-item" > Baby Food & Formula </a></li>
+                          <li><a class="dropdown-item" > Health & Wellness </a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div> <!-- collapse .// -->
+              </div> <!-- container .// -->
+          </nav>
+
+      </div>
+  </div>
+
+  <div class="overlay"></div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</header>
+<body id="dummy">
+    <!--Your Body Goes Here-->
+    <div class="container px-3 py-3" style="font-family: 'Roboto', sans-serif;">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-0">
+            <hr />
+
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Reliance Retail E-Waste Recycling Policy</li>
+              </ol>
+            </nav>
+
+            <h4><b>RELIANCE RETAIL E-WASTE RECYCLING POLICY</b></h4>
+            <p>The Information and Communication revolution has brought enormous changes in the way we organize our lives, our economies, industries and institutions. These spectacular developments in modern times have undoubtedly enhanced the quality of
+              our lives, but at the same time, have led to manifold problems including the problem of massive amount of hazardous waste and other waste generated from electric products. Such waste poses a serious threat to human health and environment.
+              The issue of proper management of such hazardous E-Waste is therefore critical to the protection of livelihood, health and environment.</p>
+            <p>To deal with this ever-rising problem of E-Waste, the government of India, through its Ministry of Environment and forest, formulated the E-Waste (Management and Handling) Rules in 2011.</p>
+            <p>
+              <b>RELIANCE RETAIL STANDS COMMITTED TO IMPLEMENT THE E-WASTE RULES.
+
+              </b>
+            </p>
+            <p>
+              <b>The Basel Convention defines wastes as-
+
+              </b>
+            </p>
+            <p>
+              <i>Substances or objects, which are disposed off or are intended to be disposed off, or are required to be disposed off by the provisions of national laws.
+
+              </i>
+            </p>
+            <p>
+              <b>E waste has been defined as-
+
+              </b>
+            </p>
+            <p>
+              <i>Waste electrical and electronic equipment, whole or in part or rejects from their manufacturing and repair process, which are intended to be discarded.
+
+              </i><br /><br />Whereas, Electrical and electronic equipment has been defined as
+
+              <br /><br /><i>"Equipment which is dependent on electrical currents or electro-magnetic fields to fully functional".
+
+              </i><br /><br />Like hazardous waste, the problem of e-waste has become an immediate and long-term concern as its unregulated accumulation and recycling can lead to major environmental problems endangering human health. This calls for an
+              urgent need for E-Waste Management so as to preserve the ecological balance and reduce landfills. Recycling end-of-life products is vital if we are to save resources and minimize waste. In this regard, we at Reliance Retail have tied up
+              with Reteck Envirotech Pvt. Ltd, one of the world's largest authorized E-Waste recycler, for facilitating our Organization and our customers to enable them to dispose E-Waste products after its end-of-life.
+              <br /><br />AS AN ENVIRONMENTALLY CONSCIOUS ORGANISATION, RELIANCE RETAIL HAS INITIATED VARIOUS ACTIVITIES TO PROMOTE E-WASTE RECYCLING.
+              <br /><br />100% recycling and disposal through authorized recycler to avoid the adverse effects of E-Waste.
+
+
+            </p>
+
+            <h5><b>ADVERSE EFFECTS OF EWASTE</b></h5>
+            <ul>
+              <li>
+                Toxic material present in e-waste get mixed with earth, air, water, etc and causes health issues.
+
+              </li>
+              <li>
+                Oil & Gases which is present in e-waste like compressor and CRT causes environment pollution.
+
+              </li>
+              <li>
+                Batteries contains highly hazardous elements.
+
+              </li>
+              <li>
+                Burning of rubber & Plastic in open area causes air pollution.
+
+              </li>
+              <li>
+                Bad impact on human being, animal, and other animates.
+
+              </li>
+              <li>
+                Wastage of natural resources.
+
+              </li>
+            </ul>
+            <h5><b>HOW CAN YOU CONTRIBUTE TO A GREENER ENVIRONMENT?</b></h5>
+            <ul>
+              <li>
+                All electrical and electronic products are required to be handed over only to the AUTHORIZED RECYCLER for recycling.
+
+              </li>
+              <li>
+                The E-Waste product should be handed over only to an AUTHORIZED RECYCLER for disposal.
+
+              </li>
+              <li>
+                Keep the e-waste in isolated area, after it becomes non-functional/un-repairable so as to prevent its accidental breakage.
+
+              </li>
+              <li>
+                Please call on toll free number 18002006177for collection of E-Waste.
+
+              </li>
+            </ul><br />
+            <p>
+              <b><i>You can also deposit your E-Waste directly at the collection centers. For information of collection centers please Click here.
+
+                </i></b>
+            </p>
+
+            <h5><b>Why Recycle.</b></h5>
+            <h6><b>Conserve Resources
+
+              </b></h6>
+            <p>
+              Creation requires raw resources. But when we recycle, extant material is put to use. Recycling saves this extraction of the fresh raw resources, and revives the existing ones that are no longer of use. This way there is lesser exploitation
+              and more conservation of natural resources.
+
+
+            </p>
+            <h6><b>Save Energy
+
+              </b></h6>
+            <p>
+              Each time we recycle a product, it requires lesser energy than producing a new one from the scratch. The considerable difference in manufacturing time is a result of skipping the usual process of extraction of raw material, its
+              transportation, refining etc., which is way more than having a market ready product that to have a raw material ready for production.
+
+
+            </p>
+            <h6><b>Prevent Pollution</b></h6>
+            <p>
+              Production and disposal of products require a great deal of extraction, refining, processing and dumping of material, which have larger impact on the environment. By recycling, we cut down the pollution of air, water and land, thus reducing
+              the greenhouse gas emission and avoiding any contribution to global warming.
+            </p>
+
+            <h6><b>Don'ts for E- Waste</b></h6>
+            <ul>
+              <li>
+                The product should not be opened/dismantled by the User himself/herself, but only by authorized service personnel
+
+              </li>
+              <li>
+                The product is not meant for re-sale to any unauthorized agencies/scrap dealer
+
+              </li>
+              <li>
+                The product is not meant for mixing into household waste stream.
+
+              </li>
+              <li>
+                Do not keep any replaced spare part(s) from the product in exposed area
+
+              </li>
+            </ul>
+
+            <h6><b>Terms and Conditions</b></h6>
+            <ul>
+              <li>
+                This initiative is a step towards our commitment for a cleaner and greener earth.
+
+              </li>
+              <li>
+                This move is one of the ways to show that we are concerned and thus we request all our customers to join this movement to make it successful by way of contributing their end-of-life product.
+
+              </li>
+              <li>
+                For more information about e-waste please visit: <a href="https://www.reteck.co/">reteck.co</a>
+
+              </li>
+              <li>
+                For any assistance/guidance for disposal of e-waste please call on toll free number:<b>18002006177</b>
+
+              </li>
+              <li>
+                Products offered for recycling are not eligible for exchange offers.
+
+              </li>
+              <li>
+                The service is available as per conditions applicable in the respective area by recyclers.
+
+              </li>
+              <li>
+                Reliance reserves the right to change the terms of the recycling scheme at any time.
+
+              </li>
+            </ul>
+
+            <p>
+              This scheme is applicable only for Reliance Digital branded products.
+
+
+            </p>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+</body>
+<!--Footer Start-->
+<footer class="jumbotron footer " >
+  <div class="footer_container pl-5 pr-5 m-0 row mblr">
+    <!--Footer Content Mostpopular list/ hidded on small screens-->
+      <ul class="col-md-3 pl-5 ml-1 mbl">
+          <li><h2>MOST POPULAR CATEGORIES</h2></li>
+          <li><a href="#">Staples</a></li>
+          <li><a href="#">Bevereges</a></li>
+          <li><a href="#">Personal Care</a></li>
+          <li><a href="#">Home Care</a></li>
+          <li><a href="#">Fruits and Vegetables</a></li>
+          <li><a href="#">Baby Care</a></li>
+          <li><a href="#">Snacks & Branded Foods</a></li>
+          <li><a href="#">Dairy & Bakery</a></li>
+      </ul>
+      <!--Customer Service list-->
+      <ul class="col-md-3 col-5">
+          <li><h2>CUSTOMER SERVICES</h2></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="faqs.html">FAQ</a></li>
+          <li><a href="terms.html">Terms and conditions</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="ewaste.html">E-waste Policy</a></li>
+      </ul>
+      <!--Footer Content Contact Pannel-->
+      <div class="contact col-md-4 col-6 pr-5 mr-1" style="font-size: 12px!important;">
+          <h2>CONTACT US</h2>
+          WhatsApp us: <span><a href="tel:+91 99999 99999">+91 99999 99999</a></span>
+          <br>
+          <br>
+          Call Us: <span><a href="tel:1800 2222 3333">1800 2222 3333</a></span>
+          <p>6:00 AM to 8:00 PM, 365 days</p>
+          <p>Please note that you are accessing the BETA Version of 
+              <a href="https://www.jiomart.com/">www.jiomart.com</a></p>
+          <p>Should you encounter any bugs, glitches, lack of functionality, 
+                  delayed deliveries, billing errors or other problems on the beta website, 
+                  please email us on 
+                  <a href="mailto:cs@jiomart.com">cs@jiomart.com</a></p>
+          <br class="mbl">
+          <h2 class="mbl">DOWNLOAD APP</h2>
+          <br class="mbl">
+          <a href="#" class="mr-3 mbl" data-toggle="modal" data-target="#download"><img src="play_store.png" alt=""></a>
+          <a href="#" class="mbl" data-toggle="modal" data-target="#download1"><img src="ios_store.png" alt=""></a>
+      </div>
+      
+  </div>
+  <!--Mobile Responive Modal Toogle-->
+  <div class="fs text-center"><a href="#" class="mr-3 " data-toggle="modal" 
+      data-target="#download"><img src="play_store.png" alt=""></a>
+      <a href="#" data-toggle="modal" data-target="#download1"><img src="ios_store.png" alt=""></a></div>
+  <div></div>
+  <!--Footer Copyright-->
+  <div class="fborder mt-3 p-3">
+      <div class="copyright container text-left ">
+      <p class="mbl m-0" style="font-size: 12px;">Best viewed on Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+, Google Chrome 80+</p>
+      <span>© 2021 All rights reserved. Reliance Retail Ltd.</span></div>
+  </div>
+  <!--Modals -->
+  <div class="modal" tabindex="-1" id="download" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Download Jio Mart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span><img src="play_store.png" alt=""></span>
+          </div>
+          <div class="modal-footer">
+            <a href="https://play.google.com/store/apps/details?id=com.jpl.jiomart" class="btn btn-primary">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" tabindex="-1" id="download1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Download Jio Mart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span ><img src="ios_store.png" alt=""></span>
+          </div>
+          <div class="modal-footer">
+            <a href="https://apps.apple.com/in/app/jiomart/id1522085683" class="btn btn-primary">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+</html>
