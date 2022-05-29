@@ -1,0 +1,385 @@
+<html>
+<head>
+<link rel="icon" href="logo.png" type="image/x-icon"> 
+<style>
+body,html
+{
+    margin: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+div.container
+{
+    background-color: white;
+}
+div.navbar1
+{
+    background-color: rgba(43,168,121,1);
+    padding-left: 200px;
+    padding-right: 160px;
+    padding-top: 20px;
+    height: 90px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+div.bar2
+{
+    background-color: black;
+    padding-top: 20px;
+    height: 90px;
+}
+div.content
+{
+    background-color: white;
+    padding-left: 200px;
+    width: 100%;
+    float: left;
+}
+div.display_image
+{
+    width: 1100px;
+    height: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+}
+div.grid_display
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 20px;
+    grid-gap: 50px;
+}
+div.grid_item
+{
+    width: 366;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.contacts
+{
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 70%;
+}
+div.address1
+{
+    background-color: rgba(0,0,0,0);
+    margin-left: 200px;
+    width: 400px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+div.address2
+{
+    background-color: rgba(0,0,0,0);
+    margin-left: 800px;
+    width: 400px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    float: right;
+}
+img.img1
+{
+    box-shadow: 0px 0px 10px 0px;
+    transition: 0.3s;
+}
+img.img1:hover
+{
+    box-shadow: 0px 0px 25px 0px #6600ff;
+}
+H1.a
+{
+    font-size: 50px;
+    font-family: Calibri;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+H1.b
+{
+    font-size: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: black;
+    
+}
+H1.addr1
+{
+    font-family: Calibri;
+    font-size: 20px;
+    color: #2ba879;
+}
+H1.addr2
+{
+    font-family: Calibri;
+    font-size: 30px;
+    color: #2ba879;
+}
+H2.a
+{
+    font-family: Calibri;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px #b3b3b3;
+}
+p.para1
+{
+    font-size: 25px;
+    color: black;
+    font-family: Calibri;
+}
+p.para2
+{
+    width: 400px ;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16pt;
+    color: #0c0116;
+    border-bottom: 1px solid#000;
+}
+form.inp1 input[type=text] 
+{ 
+    width: 308.8px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-radius: 30px 0px 0px 30px; 
+    font-size: 15px;
+    line-height: 1.5;
+    float: left; 
+} 
+form.inp1 button
+{
+    background-color: #2ba879;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 0px 30px 30px 0px;
+    box-sizing: border-box;
+    color: white;
+    float: right;
+    border: none;
+    cursor: pointer;
+    float: right;
+    transition: 0.3s;
+}
+form.inp1 button:hover
+{
+    background-color: #85e0bd;
+}
+ul.ul1
+{
+    list-style-type: none;
+}
+li.left
+{
+    float: left;
+}
+li.right
+{
+    padding-top: 10px;
+    float: right;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.1);
+}
+a.up
+{
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 20px;
+}
+a.up:hover
+{
+    font-weight: bold;
+}
+a.addr
+{
+    font-family: Calibri;
+    font-size: 20px;
+    color: #2ba879;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.addr:hover
+{
+    color: rgba(0,255,0,1);
+}
+a.addr2
+{
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.addr2:hover
+{
+    color: rgba(0,255,0,1);
+}
+strong.str1
+{
+    color: #2ba879;
+}
+footer
+{
+    background-color: #2ba879;
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 30px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+function button_alert1(myform1)
+{
+     var txtEmail=myform1.email.value;
+     var illegalChar= /[\(\)\<\>\,\;\\\/\"\[\]]/;
+     var n1=txtEmail.indexOf("@");
+     var n2=txtEmail.lastIndexOf(".");
+     if(txtEmail=="")
+     {
+          alert("Please enter an Email");
+          myform1.email.focus();
+          return false;
+     }
+     else if(txtEmail.match(illegalChar))
+     {
+          alert("Please enter a valid Email ID");
+          myform1.email.focus();
+          return false;
+     }
+     else if(n1<1 || n2-n1<2)
+     {
+          alert("Please enter a valid Email ID");
+          myform1.email.focus();
+          return false;
+     }
+     else
+     {
+          alert("Thank You for Subscribing");
+          return true;
+     }
+}
+</script>
+<div class="container">
+     <div class="navbar1">
+           <ul class="ul1">
+                 <li class="left"><a href="index.html" target="_blank"><img src="icon2.png" alt="ERROR!" style="max-width:100%;"></a></li>
+                 <li class="right"><a class="up" href="#contacts" style="color:white;">CONTACT US</a></li> 
+                 <li class="right"><a class="up" href="about_us.html" target="_blank" style="color:white;">ABOUT US</a></li>
+                 <li class="right"><a class="up" href="support.html" target="_blank" style="color:white;">SUPPORT</a></li>
+                 <li class="right"><a class="up" href="index.html" target="_blank" style="color:white;">HOME</a></li>
+            </ul>
+     </div>
+     <div class="bar2">
+           <H1 class="a"> Television Collections </H1>
+     </div>
+     <div class="content">
+           <br><br>
+           <H1 class="b"> Branded TVs </H1><br>
+           <p class="para1"> Grab amazing offers at least price, shop now and avail best offers</p>
+           <div class="display_image">
+                 <div class="grid_display">
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv1.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">Sony Bravia 108 cm(₹44,900)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv2.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">LG 190.5 cms 75UM7600(₹1,35,900)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv3.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">Mi 125.7 cm 4X|L50M5-5AIN(₹34,998)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv4.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">OnePlus 80 cm 32Y1(₹19,999)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv5.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">Samsung 108 cm UA43TE50AAKXXL(₹31,999)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv6.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">Samsung 55KS9000 138 cm(₹2,84,900)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv7.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">realme 108 cm(₹28,999)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv8.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">Philips 126 cm 50PUT6604/94(₹1,05,900)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv9.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">LG 139 cm 55UM7290PTD(₹83,990)</H2>
+                       </div>
+                       <div class="grid_item">
+                                <a href="billing.html" target="_blank"><img src="tv_photo/tv10.jpg" class="img1" width="366" height="266" alt="ERROR"></a><br/>
+                                <H2 class="a">TCL 163.9 cm 65C715(₹1,89,990)</H2>
+                       </div>
+                 </div>
+           </div>    
+     </div>
+     <div>
+        <center>
+                <H1 style="color: black; background-color: white; font-family: Calibri; font-size: 48px;">
+                        <a id="contacts"><strong class="str1">CONTACT US</strong> FOR SUGGESTION</a>
+                </H1>
+        </center>
+     </div>
+     <div class="contacts">
+       <div class="address1">
+             <br>
+             <H1 class="addr1"><img src="email_icon.png" alt="EMAIL"><a class="addr" href="mailto:laxmkantk2002@gmail.com" target="_blank">&nbsp  laxmikantk2002@gmail.com</a></H1>
+             <H1 class="addr1"><img src="phone_icon.png" alt="PHONE NUMBER">&nbsp  +91 9315198206</H1>
+             <H1 class="addr1"><img src="map_icon.png" alt="LOCATION">&nbsp Parliament Street,New Delhi 110001,India</H1>
+             <H1 class="addr1">-------------------------------------------------------------</H1>
+             <H1 class="addr1">You can also follow us on</H1>
+             <H1 class="addr1">
+                         <center>
+                             <img src="fb.png" alt="Facebook" style="max-width:100%;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                             <img src="twitter.png" alt="Twitter" style="max-width:100%;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                             <img src="in.png" alt="Linkedin" style="max-width:100%;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                         </center>
+             </H1> 
+             <form class="inp1" name="myform1" method="Post">
+                    <H1 class="addr1">-------------------------------------------------------------</H1>
+                    <H1 class="addr1"><b>Enter Email-id below to receive daily updates</b></H1>
+                    <input type="text" name="email" id="email" placeholder="Enter here">
+                    <button type="submit" form="nameform" value="search" onclick="return button_alert1(myform1)">Subscribe</button>
+             </form>
+       </div>
+       <div class="address2">
+             <br>
+             <H1 class="addr2">Navigate(Useful links)</H1>
+             <ul>
+                 <li><a class="addr2" href="index.html" target="_blank">Home-page</a></li>
+                 <li><a class="addr2" href="about_us.html" target="_blank">About Us</a></li>
+                 <li><a class="addr2" href="support.html" target="_blank">Support</a></li>
+             </ul>
+       </div>
+   </div>
+</div>
+<footer>© 2021 All Rights Reserved.</footer>
+</body>
+</html>
