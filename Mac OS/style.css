@@ -1,0 +1,96 @@
+* {
+  box-sizing: content-box;
+}
+.topbar {
+  height: 25px;
+  width: 100%;
+  background-color: #d7d7d7;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+.topbar .apple-logo {
+  display: inline-block;
+}
+.topbar .apple-logo img {
+  width: 15px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.topbar .finder-tools {
+  font-size: 10px;
+  display: inline-block;
+}
+.topbar .right-part {
+  display: block;
+  position: absolute;
+  right: 0px;
+}
+.topbar .right-part .fa {
+  margin-left: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: url("http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-Wallpaper-Macbook-Wallpaper.jpg") center center no-repeat; */
+  background: url("./img/Wallpapers/wallpapers.jpg") center center no-repeat;
+  background-size: cover;
+}
+.dock {
+  width: 825px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #bebebe;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.dock .icons {
+  width: 800px;
+}
+.dock .icons .finder {
+  width: 40px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.dock .icons .finder:after {
+  content: " ";
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 4.5%;
+}
+.dock .icons .finder img {
+  width: 50px;
+  transition: 0.2s;
+}
+.dock .icons .finder img:hover {
+  transform: scale(1.2);
+}
+.dock .icons .icon {
+  width: 40px;
+  margin-left: 12px;
+  display: inline-block;
+}
+.dock .icons .icon img {
+  width: 50px;
+  transition: 0.2s;
+}
+.dock .icons .icon img:hover {
+  transform: scale(1.2);
+}
+.dock .icons .icon.settings {
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
