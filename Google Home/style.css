@@ -1,0 +1,213 @@
+* {
+  padding: 0px;
+  margin: 0px auto;
+  border: 0px;
+}
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,900" rel="stylesheet';
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+.nav-bar {
+  min-height: 70px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 3;
+}
+.navbar-header {
+  display: flex;
+  width: 100%;
+}
+.nav-left,
+.nav-right {
+  padding: 25px 60px;
+  width: 50%;
+}
+.nav-left {
+  text-align: left;
+}
+.nav-right {
+  text-align: right;
+}
+.nav-left .brand {
+  color: #cdcdcd;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  -webkit-transition: 0.3s;
+}
+.nav-left .brand:hover,
+.nav-left .brand:focus {
+  color: #0078ff;
+}
+.menu {
+  list-style-type: none;
+}
+.menu li {
+  display: inline;
+}
+.menu li > .nav-link {
+  color: #cdcdcd;
+  font-size: .9em;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+}
+.menu li > a:hover,
+.menu li > a:focus {
+  color: #0078ff;
+}
+.menu li:nth-child(1),
+.menu li:nth-child(2),
+.menu li:nth-child(3) {
+  margin-right: 25px;
+}
+.menu li > .button {
+  font-size: .9em;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  color: #fff!important;
+  background: #0078ff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1),39%, rgba(0, 0, 0, 0.6)59%, rgba(0, 0, 0, 0.8)100%), url('https://thegadgetflow.com/wp-content/uploads/2016/10/Google-Home-Smart-Assistant-01.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.bg-header .content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: #fff;
+  transform: translateY(-50%);
+}
+.content p {
+  width: 390px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 23px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.learn-more {
+  margin-top: 50px;
+  padding: 8px 15px;
+  /*border: 1px solid white;*/
+  border-radius: 3px;
+  color: white;
+  background: #0078ff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: .9em;
+}
+@media only screen and (max-width: 1000px) {
+  .menu li:nth-child(1),
+  .menu li:nth-child(2),
+  .menu li:nth-child(3) {
+    margin-right: 15px;
+  }
+}
+#features,
+#function,
+#purchase {
+  padding: 100px 0;
+}
+.title {
+  text-align: center;
+  color: #171717;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+.container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.features-list li {
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  display: block;
+  margin-bottom: 20px;
+  color: #adadae;
+  -webkit-transition: all 0.35s;
+}
+.features-list li:hover {
+  color: #0078ff;
+}
+#function {
+  background: #171717;
+}
+#function .title {
+  color: #fff;
+}
+.video-styles {
+  border-radius: 3px;
+  margin-left: 105px;
+  margin-top: 30px;
+  width: 600px;
+  height: 350px;
+  border: 2px solid #0087ff;
+}
+#purchase .title {
+  marign-bottom: 30px;
+}
+#purchase {
+  text-align: center;
+}
+.form-row {
+  margin-bottom: 12px;
+}
+.form-input {
+  padding: 10px 45px;
+  margin: 5px;
+  border: 1px solid #0087ff;
+  border-radius: 5px;
+  -webkit-transition: all 0.35s;
+  outline: 0;
+  width: 200px;
+}
+.form-input:focus,
+.form-input:hover {
+  outline: 0;
+}
+#select {
+  width: 291px;
+}
+.buyButton {
+  font-size: .9em;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  color: #fff!important;
+  background: #0078ff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}

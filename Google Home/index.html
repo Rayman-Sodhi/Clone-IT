@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Google Home</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<header id="header" class="bg-header">
+<nav class="nav-bar">
+  <div class="navbar-header">
+    <div class="nav-left">
+      <h4><a href="#" class="brand">Google Home</a></h4>
+    </div>
+    
+    <div class="nav-right">
+      <ul class="menu">
+        <li><a href="#header" class="nav-link">Welcome</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#function" class="nav-link">How it works</a></li>
+        <li><a href="#" class="button">Buy Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  <div class="content">
+    <main>
+      <h1>Always on call</h1>
+      <p>Google Home speakers enable users to speak voice commands to interact with services through Google's intelligent personal assistant called Google Assistant.</p>
+      
+      <a href="#features" class="learn-more">Click here to learn more</a>
+    </main>
+  </div>
+</header>
+<div id="features">
+  <h2 class="title">Features</h2>
+ 
+  <div class="container">
+    <div class="grid-container">
+      <div class="grid-item">
+        <ul class="features-list">
+          <li>Various forms of both in-house and third-party services are integrated into Google Home, allowing users to speak voice commands to control interaction with them.</li>
+<li>Examples of supported services include Google Play Music, Spotify and iHeartRadio for audio, Netflix, YouTube and Google Photos for videos and photos, Google Calendar and Google Keep for tasks, and CNN, CNBC and The Wall Street Journal for news updates. New services are integrated on an ongoing basis.</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <img src="http://cdn.shopify.com/s/files/1/0908/5452/products/Google_Home_1_Front_grande.png?v=1527477860" alt="Google Home" width="250px" height="auto" draggable="false">
+      </div>
+      <div class="grid-item">
+        <ul class="features-list">
+          <li>Google Assistant, an intelligent personal assistant, is included as the main and only assistant in Google Home. Unlike its cousin, Google Now, Assistant is able to engage in two-way conversations with users.</li>
+          <li>Users can connect and group together multiple Home speakers for synchronized playback of music in every room.</li>
+          
+          <li>Google Home includes home automation features, enabling owners to use it as a central hub to control smart devices.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="function">
+  <div class="container">
+    <h2 class="title">How it Works</h2>
+    <iframe src="https://www.youtube.com/embed/r0iLfAV0pIg" id="video" class="video-styles">
+</iframe>
+  </div>
+</div>
+<div id="purchase">
+  <div class="container">
+    <h2 class="title">Purchase Now</h2>
+    <form action="POST" method="https://www.freecodecamp.com/email-submit" id="form">
+      <div class="form-row">
+        <input type="text" id="name" class="form-input" placeholder="First and last" required>
+        <input type="email" id="email" class="form-input" placeholder="Email address" required>
+        </div>
+      
+      <div class="form-row">
+        <input type="number" id="number" class="form-input" placeholder="Telephone number" required>
+        <input type="text" id="address" class="form-input" placeholder="Shipping address" required>
+      </div>
+      <div class="form-row">
+        <select id="select" name="options" id="options" class="form-input">
+          <option value="0">Choose device</option>
+          <option value="1">Google Home Assisant</option>
+          <option value="2">Google Home Mini</option>
+          <option value="3">Google Home Max</option>
+        </select>
+        <select id="select" name="options" id="options" class="form-input">
+          <option value="0">Pick a color</option>
+          <option value="1">White</option>
+          <option value="2">Chalk</option>
+          <option value="3">Black</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <button type="submit" id="submit" class="buyButton">Buy Now</button>
+      </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
