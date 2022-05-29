@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+}
+.fixed-width {
+  max-width: 1200px;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.codefix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+/* Now google form design */
+.box {
+  margin-top: 100px;
+  height: 564px;
+  width: 500px;
+  border: 1px solid rgba(231, 215, 215, 0.986);
+  margin: auto;
+  margin-top: 85px;
+  border-radius: 10px;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.content {
+  margin-bottom: 40px;
+}
+.content h2 {
+  font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3333;
+}
+.content p {
+  color: #202124;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+}
+.form input {
+  width: 300px;
+  padding: 20px 100px 20px 20px;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid rgba(231, 215, 215, 0.986);
+  border-radius: 5px;
+}
+.text {
+  margin-bottom: 20px;
+}
+.text a {
+  text-decoration: none;
+  font-size: inherit;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: 40px;
+  color: #1a73e8;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.text p {
+  margin-left: 40px;
+  color: #5f6368;
+}
+.btn {
+}
+
+.btn-left a {
+  float: left;
+  text-decoration: none;
+  display: block;
+  margin-left: 40px;
+  color: #1a73e8;
+  margin-top: 10px;
+}
+.btn-right a {
+  float: right;
+  text-decoration: none;
+  display: block;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-right: 50px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* Now footer */
+.footer {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.footer-left a {
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 13px;
+}
+.footer-left i {
+  margin-left: 5px;
+  color: #5f6368;
+}
+.footer-right ul {
+  list-style: none;
+}
+.footer-right ul li {
+  display: inline-block;
+}
+.footer-right ul li a {
+  display: block;
+  text-decoration: none;
+  color: #5f6368;
+  padding: 0px 15px;
+  font-size: 13px;
+}
