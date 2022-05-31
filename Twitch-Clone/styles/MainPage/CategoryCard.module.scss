@@ -1,0 +1,53 @@
+@import "../colors";
+@import "../fonts";
+
+.CategoryContainer {
+    width: 15.1rem;
+    height: 28rem;
+
+
+    & .Game {
+        width: 100%;
+        height: 18rem;
+        margin-bottom: 1rem;
+
+        background-color: $purple-color;
+    }
+
+    & .GameInfo {
+        display: flex;
+        flex-direction: row;
+
+        & h1,
+        & h3 {
+            font-size: $font-size-5;
+            color: $text;
+            margin: 0;
+        }
+
+        & h3 {
+            font-size: calc($font-size-5 - 1px );
+            font-weight: 400;
+
+            color: $text-subcolor;
+
+            margin-bottom: 1rem;
+        }
+
+        & .optionsContainer {
+            margin-left: auto
+        }
+
+        & .tag {
+            font-size: calc($font-size-5 - 0.2rem);
+            font-weight: 700;
+            color: rgba($color: #fff, $alpha: 0.6);
+
+            padding: 0.2rem 1rem;
+            padding-bottom: 0.4rem;
+
+            border-radius: 20rem;
+            background-color: rgba($color: #fff, $alpha: 0.15);
+        }
+    }
+}

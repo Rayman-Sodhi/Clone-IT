@@ -1,0 +1,57 @@
+@import "../colors";
+@import "../fonts";
+
+.TopCategoriesContainer {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+
+    width: 100%;
+    margin-bottom: 10rem;
+
+    transform: translateY(14rem);
+    transition: transform 350ms ease;
+
+    .CategorySpan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+
+        width: 20%;
+        height: 4.5rem;
+
+        border-radius: 0.5rem;
+        background-color: #772ce8;
+
+        transition: background-color 250ms ease;
+
+        &:hover {
+            background-color: $purple-color;
+        }
+
+        & h1 {
+            font-size: $font-size-3;
+            color: $text;
+
+            margin: 0;
+            margin-left: 1.5rem;
+        }
+
+        & .Icon {
+            width: 7rem;
+            height: 7rem;
+
+            margin-left: auto;
+            margin-right: 1em;
+        }
+    }
+}
+
+
+.TopCategoriesContainer.expand {
+    width: 94vw;
+
+    transform: translateX(-9.5rem) translateY(14rem);
+}
