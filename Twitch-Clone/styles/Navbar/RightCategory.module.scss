@@ -1,0 +1,484 @@
+@import "../colors";
+@import "../fonts";
+
+@import "./Navbar.module.scss";
+
+.RightCategory {
+    display: flex;
+    flex-direction: row;
+        
+    align-items: center;
+    justify-content: flex-end;
+        
+    height: 100%;
+    width: 20%;
+
+    padding-right: 1rem;
+    gap: 1rem;
+    
+    & .IconContainer {
+        display: flex;
+        justify-content: center;
+
+        height: 3rem;
+        width: 3rem;
+
+        padding: .5rem;
+        border-radius: 0.3rem;
+
+        cursor: pointer;
+        
+        transition: background-color 100ms ease;
+
+        &:hover {
+            background-color: $terciary-color;
+        }
+
+        &::after {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: absolute;
+            content: attr(name);
+
+            font-size: $font-size-5;
+            font-weight: 600;
+            color: #000000;
+
+            height: 3rem;
+            width: auto;
+
+            padding-inline: 1rem;
+            background-color: #fff;
+            border-radius: 0.5rem;
+
+            transform: translateY(50%) scale(0, 0);
+
+            transition: transform 250ms ease;
+          }
+
+          &:hover::after {
+              transform: translateY(110%)  scale(1, 1);
+          }
+    }
+    
+    & .Icon {
+        height: 2rem;
+    }
+
+    & .GetBits {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+
+        background-color: $terciary-color;
+
+        height: 3rem;
+        width: 9.5rem;
+        border-radius: 0.5rem;
+
+        font-size: $font-size-5;
+        font-weight: 600;
+
+        &:hover {
+            background-color: $search-bar;
+        }
+
+        & .Icon {
+            padding: 0;
+            height: 3rem;
+
+            margin-left: 1rem;
+        }
+
+        & p {
+            width: 100%;
+            margin: 0;
+            margin-left: 0.5rem;
+        }
+    }
+
+    & .Avatar {
+        object-fit: contain;
+
+        height: 60%;
+        border-radius: 50%;
+    }
+
+    & .Dialog,
+    & .SmallerDialog {
+        position: absolute;
+        z-index: 100;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 40rem;
+        height: 0;
+        background-color: $primary-color;
+        border-radius: .5rem;
+
+        clip-path: inset(0);
+
+        transform: translate(-47%, 2.5rem);
+
+        transition: height 450ms;
+        transition-timing-function: ease;
+
+        &.open {
+            height: calc(100vh - 5rem);
+        }
+
+        & .head {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+
+            position: relative;
+            z-index: 200;
+
+            box-sizing: border-box;
+
+            width: 100%;
+            height: 5rem;
+
+            padding-inline: 1rem;
+            margin: 0;
+            box-shadow: 0 0 1rem black;
+
+            & h1 {
+                font-size: calc($font-size-5 + 0.1rem);
+                font-weight: 700;
+                color: $text;
+
+                text-align: center;
+                width: auto;
+
+                margin-inline: auto;
+            }
+
+            & .Icon,
+            & .IconInvisible {
+                width: 3rem;
+                height: 3rem;
+                border-radius: 0.3rem;
+
+                background-position: center;
+
+                padding: .5rem;
+                margin-inline: 0.25rem;
+
+                &:hover {
+                    background-color: $terciary-color;
+                }
+
+            }
+
+            & .IconInvisible {
+                visibility: hidden;
+            }
+        }
+
+        & .searchBar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            height: 4rem;
+
+            background-color: $secondary-color;
+            border-top: 0.1rem solid $terciary-color;
+            border-bottom: 0.1rem solid $terciary-color;
+
+            & .searchIcon {
+                position: absolute;
+                width: 2rem;
+                height: 2rem;
+
+                fill: $focus-color;
+                transform: translateX(-17rem);
+            }
+
+            & input {
+                width: 93%;
+                height: 3rem;
+
+                padding-left: 3.25rem;
+                border: none;
+                border-radius: .3rem;
+
+                background-color: rgb(255, 255, 255, 0.2);
+
+                color: $text;
+                font-weight: 500;
+
+                &:focus {
+                    background-color: #000000;
+                    outline: 0.2rem solid $text-purple;
+                }
+
+                &::placeholder {
+                    color: $focus-color;
+                }
+                &::-moz-placeholder {
+                    color: $focus-color;
+                }
+            }
+        }
+
+        & .primeLootContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            height: 92.2%;
+            width: 100%;
+            overflow-y: scroll;
+
+            & .lootContainer {
+                height: 38rem;
+                width: 95%;
+
+                box-sizing: border-box;
+
+                border-bottom: 0.1rem solid $search-bar;
+                padding-inline: 2.5rem;
+
+                & h1 {
+                    font-weight: 600;
+                    margin-top: 2rem;
+                }
+
+                & h5,
+                & h3 {
+                    color: $text-subcolor;
+                    font-size: $font-size-5;
+                    font-weight: 400;
+
+                    margin: 0;
+                }
+
+                & h3 {
+                    color: $text;
+                    font-size: calc( $font-size-5 + .05rem );
+                }
+
+                & h5 {
+                    margin-bottom: 2rem;
+                }
+                & .FreeTrial {
+                    width: 100%;
+                    height: 3rem;
+
+                    background-color: $purple-color;
+                    color: $text;
+                    font-size: $font-size-5;
+                    font-weight: 600;
+
+                    cursor: pointer;
+
+                    border: none;
+                    border-radius: 0.4rem;
+                    margin-bottom: 2rem;
+
+                    transition: background-color 150ms ease;
+
+                    &:hover {
+                        background-color: #772ce8;
+                    }
+                }
+            }
+        }
+
+
+
+
+        & .switchTab {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+            height: $nav-height;
+
+            margin-top: 1rem;
+
+            & .tabText {
+                display: flex;
+                flex-direction: row;
+                justify-content: stretch;
+                align-items: center;
+
+                width: 100%;
+
+                font-size: calc($font-size-5 + 0.1rem);
+
+                & .text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    width: 50%;
+                    height: 4rem;
+
+                    border-bottom: 0.1rem solid $terciary-color;
+
+                    margin: 0;
+
+                    &.Active {
+                        color: $text-purple;
+                    }
+                }
+
+            }
+
+            & .tabBorder {
+                display: flex;
+                
+                width: 45%;
+                height: 0.2rem;
+                background-color: $text-purple;
+
+                transform: translateY(-100%) translateX(-55%);
+
+                transition: transform 200ms ease;
+
+                &.tabBorderTwo {
+                    transform: translateY(-100%) translateX(55%);
+                }
+            }
+
+        }
+
+
+        & .mainMessagesContainer {
+            width: 100%;
+            max-height: 81%;
+
+            overflow-x: hidden;
+            overflow-y: scroll;
+
+            padding-inline: 1rem;
+
+            & .messagesContainer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                width: 100%;
+                height: 6rem;
+
+                padding: 1rem;
+                border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+                
+                box-sizing: border-box;
+                & img {
+                    width: 3rem;
+                    height: 3rem;
+
+                    margin-right: 0.5rem;
+                }
+
+                & .Description {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    gap: .2rem;
+                    
+                    & h5,
+                    & p {
+                        margin: 0;
+                    }
+    
+                    & h5 {
+                        font-size: $font-size-5;
+                    }
+    
+                    & p {
+                        font-size: $font-size-6;
+                    }
+                }
+
+            }
+        }
+        
+        & .mainNotificationsContainer {
+            width: 100%;
+            height: 78%;
+
+            padding-inline: 1rem;
+            padding-bottom: 0;
+
+            overflow-x: hidden;
+            overflow-y: scroll;
+
+            & .mostRecent {
+                width: 95%;
+
+                margin-left: auto;
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+
+                font-size: $font-size-5;
+                font-weight: 700;
+
+                color: $search-bar-focus;
+            }
+        }
+
+        & .notificationsContainer{
+            display: flex;
+            flex-direction: row;
+
+            width: 100%;
+            height: auto;
+
+            margin-bottom: 2rem;
+
+            & img {
+                width: 4.5rem;
+                height:  4.5rem;
+
+                margin-left: 1.5rem;
+                margin-right: 2rem;
+
+                border-radius: 100%;
+            }
+
+            & .Description {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 80%;
+
+                & h5 {
+                    margin: 0;
+
+                    font-size: $font-size-5;
+                    font-weight: 600;
+
+                    padding-right: 3rem;
+                }
+
+                & p {
+                    font-size: $font-size-6;
+
+                    color: $search-bar-focus;
+
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .SmallerDialog.open {
+        height: 50rem;
+    }
+}

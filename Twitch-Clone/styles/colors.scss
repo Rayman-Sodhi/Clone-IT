@@ -1,0 +1,30 @@
+$darkTheme: true;
+
+$primary-color: #fff;
+$secondary-color: #efeff1;
+$terciary-color: #f2f2f2;
+$purple-color: #9147ff;
+
+$text: #efeff1;
+$text-purple: #bf94ff;
+$text-subcolor: #adadb8;
+
+$focus-color: #adadb8;
+
+$search-bar: #464648;
+$search-bar-focus: #575758;
+
+$background-color: #f7f7f8;
+
+@if $darkTheme {
+  $primary-color: #18181b;
+  $secondary-color: #1f1f23;
+  $terciary-color: #3a3a3d;
+
+  $text: #efeff1;
+
+  $search-bar: #464648;
+  $search-bar-focus: #575758;
+
+  $background-color: #0e0e10;
+}

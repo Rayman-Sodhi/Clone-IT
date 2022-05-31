@@ -1,0 +1,167 @@
+@import "../colors";
+@import "../fonts";
+
+
+.LeftCategory {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: flex-start;
+    
+    height: 100%;
+    width: 38.4rem;
+
+    gap: 3.5rem;
+
+    & .Icon:first-child {
+        height: 4rem;
+        width: 4rem;
+
+        margin-left: 0.5rem;
+    }
+
+    & p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: $font-size-4;
+        font-weight: 700;
+        color: $text;
+
+        cursor: pointer;
+
+        height: 100%;
+
+        transition: color 150ms ease;
+        &:hover {
+            color: $text-purple;
+        }
+
+    }
+
+
+
+
+        & .IconContainer {
+            display: flex;
+            justify-content: center;
+            height: 3rem;
+
+            padding: .5rem;
+            border-radius: 0.3rem;
+            
+            transition: background-color 100ms ease;
+
+            & .IconMoreOptions {
+                height: 2rem;
+                width: 2rem;
+    
+                cursor: pointer;
+                
+                border-radius: 0.3rem;
+                margin-left: 0;
+    
+                transition: background-color 250ms ease;
+            }
+
+            &:hover {
+                background-color: $terciary-color;
+            }
+
+            &::after {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                position: absolute;
+                content: attr(name);
+
+                height: 3rem;
+                width: auto;
+
+                font-size: $font-size-5;
+                font-weight: 600;
+                color: #000000;
+
+                padding-inline: 1rem;
+                background-color: #fff;
+                border-radius: 0.5rem;
+
+                transform: translateY(50%) scale(0, 0);
+
+                transition: transform 250ms ease 150ms;
+              }
+
+            &:hover::after {
+                transform: translateY(110%) scale(1);
+              }
+        }
+
+
+    & .moreOptions {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+       align-items: center;
+
+        top: 0;
+
+        height: 0rem;
+        width: 0rem;
+
+        background-color: $primary-color;
+        box-shadow: 0 0 1rem black;
+        border-radius: 0.5rem;
+
+        clip-path: inset(0);
+
+        transform: translate(29.5rem, 4rem);
+        transition: height 350ms ease, width 350ms ease;
+
+        & ul,
+        & h3 {
+            opacity: 0;
+            display: none;
+
+            padding: 0;
+            margin-block: 0.6rem;
+
+            width: 80%;
+            font-size: $font-size-5;
+
+            transition: opacity 350ms ease, display 350ms ease 10ms;
+        }
+        
+
+        & h3 {
+            margin-top: 2rem;
+
+            font-weight: 500;
+
+            color: $terciary-color;
+        }
+
+        & ul {
+            font-size: $font-size-5;
+        }
+
+        & ul:last-child {
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 0.1rem solid $search-bar;
+        }
+    }
+
+    & .moreOptions.active {
+        height: 47rem;
+        width: 20rem;
+
+        & ul,
+        & h3 {
+            opacity: 1;
+            display: inline;
+        }
+    }
+}
