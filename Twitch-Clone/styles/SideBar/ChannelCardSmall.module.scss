@@ -1,0 +1,110 @@
+@import "../colors";
+@import "../fonts";
+
+.ChannelCardSmall {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: $text;
+
+    width: 100%;
+    height: 0px;
+
+    animation-name: show;
+    animation-duration: 250ms;
+    animation-fill-mode: both;
+
+    transition-property: background-color, height, transform, opacity;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+
+    & img {
+        width: 3rem;
+
+        margin-left: 1rem;
+        border-radius: 100%;
+    }
+
+    & h3,
+    & p {
+        margin: 0;
+    }
+
+    & .ChanneInfo {
+        width: 13rem;
+        margin-left: 1rem;
+
+        & h3 {
+            font-size: $font-size-5;
+        }
+
+        & p {
+            font-size: $font-size-5;
+
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+
+
+    & .ViewCount {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width: 4rem;
+        height: 100%;
+
+        margin-top: 1rem;
+        // margin-inline: auto;
+
+        & .LiveStats {
+            display: inline-block;
+
+            width: 0.8rem;
+            height: 0.8rem;
+
+            border-radius: 100%;
+            margin-right: 0.5rem;
+
+            background-color: red;
+
+            transform: translateY(0.6rem);
+        }
+
+        & p {
+            font-size: $font-size-5;
+            font-weight: 400;
+        }
+    }
+
+
+
+    &.offline {
+        & img {
+            filter: grayscale(100%);
+        }
+    }
+
+
+
+    &:hover {
+        cursor: pointer;
+
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+
+@keyframes show {
+    from { 
+        height: 0px;
+        transform: translateX(-100%);
+        opacity: 0;
+     }
+    to { 
+        height: 4.2rem;
+        transform: translateX(0%);
+        opacity: 1;
+     }
+}
