@@ -8,15 +8,16 @@
 
 
     
-![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?color=blue)
-![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?color=brightgreen)
-    ![GitHub PR Open](https://img.shields.io/github/issues-pr/Rayman-Sodhi/Clone-IT?color=red)
-    ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Rayman-Sodhi/Clone-IT?color=red)
-    ![GitHub language count](https://img.shields.io/github/languages/count/Rayman-Sodhi/Clone-IT?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/Rayman-Sodhi/Clone-IT?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/Rayman-Sodhi/Clone-IT?color=red&style=plastic)
-    ![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103)
-    ![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=blue)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=brightgreen)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
+![GitHub language count](https://img.shields.io/github/languages/count/Rayman-Sodhi/Clone-IT?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/Rayman-Sodhi/Clone-IT?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
+![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
+![Github Repo Size](https://img.shields.io/github/repo-size/Rayman-Sodhi/Clone-IT?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge)
 
 </div>
 
@@ -140,26 +141,18 @@ The idea behind this project is to learn how different websites are made by dire
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Open Source programs this repo has been part of
-<a href="https://tusharjain365.github.io/index-clone-it/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge)
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/79747022/144800351-13fa1e9d-6417-4330-bc87-00d33404cc76.png" width="150px">
+    <img src="https://raw.githubusercontent.com/Script-Winter-of-Code/website/master/src/components/img/logo-1.png" height="200px" width="380px">
+</div>
     
-</div>
+    
 
 <div align="center">
-    <a href="https://swoc.scriptindia.org/#/">Script Winter of Code</a>
-
+    <img src="https://raw.githubusercontent.com/girlscript/gssoc-assets/main/Logos/GS_logo_White.png" height="100px" width="500px">
 </div>
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/65675692/155158944-4a603577-f051-46fa-a741-63913336e6d4.png" width="250px">
-</div>
-
-<div align="center">
-    <a href="https://gssoc.girlscript.tech/">Girl Script Summer of Code</a>
-
-</div>
 
 <br>
 
@@ -170,7 +163,7 @@ The idea behind this project is to learn how different websites are made by dire
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Contribution Guidelines
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=red"></a>
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue?style=for-the-badge)
 
 ### Never made an open source contribution before? Wondering how contributions work in our project? Here's a quick rundown!
 
