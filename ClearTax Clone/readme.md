@@ -1,3 +1,0 @@
-# Cleartax
-
-![](./preview.gif)
