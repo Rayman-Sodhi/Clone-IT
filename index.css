@@ -483,31 +483,6 @@ li {
 }
 
 .searchbar-container button {
-<<<<<<< HEAD
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 98%;
-    border: 0;
-    cursor: pointer;
-    width: 50px;
-}
-
-.candy{
-    background-image: url(assets/candy-crush.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-}
-
-.kfc{
-    background-image: url(assets/kfc.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-=======
   position: absolute;
   top: 0;
   right: 0;
@@ -560,7 +535,6 @@ li {
   background-repeat: no-repeat;
 }
 
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 .zoom {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701859-ad23f947-d12f-4fcf-9a85-185bfa02643d.jpg);
   background-position: center;
@@ -569,20 +543,6 @@ li {
 }
 
 .hulu {
-<<<<<<< HEAD
-    background-image: url(assets/hulu.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-}
-
-.flipkart {
-    background-image: url(assets/flipkart.png);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-=======
   background-image: url(https://user-images.githubusercontent.com/85568177/163701817-eec68af9-8c3a-4ea3-8242-b943734bf491.png);
   background-position: center;
   background-size: cover;
@@ -595,7 +555,6 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0 20px 10px rgba(49, 100, 240, 0.3);
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 }
 
 .linkedin {
@@ -619,22 +578,6 @@ li {
   background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
-.linktree    {
-    background-image: url(assets/linktree.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.microsoft    {
-    background-image: url(assets/microsoft.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-=======
 .linktree {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701824-d7d643d7-e136-48cc-a159-1c3cdd4b8a74.jpg);
   background-position: center;
@@ -657,7 +600,6 @@ li {
   background-color: white;
 }
 
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 .google {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701812-f35f5530-c6e8-430b-8338-3ceed55ab016.png);
   background-position: center;
@@ -701,18 +643,10 @@ li {
 }
 
 .starbucks {
-<<<<<<< HEAD
-    background-image: url(assets/starbucks.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-=======
   background-image: url(https://user-images.githubusercontent.com/85568177/163701841-c9a68191-c2e6-4d71-a25a-ef2a6ca2ff77.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 }
 
 .github {
@@ -729,20 +663,11 @@ li {
   background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
-.quora {
-    background-image: url(assets/quora.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-=======
 .pinterest {
   background-image: url(https://user-images.githubusercontent.com/85568177/163701832-ae66cae7-fb4d-4431-9a11-e3a501163317.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 }
 
 .quora {
@@ -761,29 +686,6 @@ li {
 }
 
 .gmail {
-<<<<<<< HEAD
-    background-image: url(assets/gmail.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-}
-
-.tesla {
-    background-image: url(assets/tesla.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-}
-
-.sketchers {
-    background-image: url(assets/Skechers.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: white;
-=======
   background-image: url(https://user-images.githubusercontent.com/85568177/163701805-121aae12-6fa6-4c20-ba0f-987913485f2e.png);
   background-position: center;
   background-size: cover;
@@ -1046,7 +948,6 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
->>>>>>> 5aba3007f5cb8cafc4847eb7df95fb6111b83456
 }
 
 .card {
