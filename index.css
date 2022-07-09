@@ -300,70 +300,73 @@ li {
     cursor: pointer;
     width: 50px;
 }
+
 .candy{
     background-image: url(assets/candy-crush.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;   
 }
+
 .kfc{
     background-image: url(assets/kfc.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .zoom {
     background-image: url(assets/zoom.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .hulu {
     background-image: url(assets/hulu.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
 }
+
 .flipkart {
     background-image: url(assets/flipkart.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 0 20px 10px rgba(49, 100, 240, 0.3);
 }
+
 .linkedin {
     background-image: url(assets/linkedin.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .spotify {
     background-image: url(assets/spotify.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .netflix {
     background-image: url(assets/netflix.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .linktree    {
     background-image: url(assets/linktree.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .microsoft    {
     background-image: url(assets/microsoft.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.starbucks{
-    background-image: url(assets/starbucks.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -416,6 +419,7 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .github {
@@ -437,6 +441,7 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .twitter {
@@ -458,6 +463,7 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .tesla {
@@ -465,6 +471,15 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: white;
+}
+
+.sketchers {
+    background-image: url(assets/Skechers.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
 .card {
