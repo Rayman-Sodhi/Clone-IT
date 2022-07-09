@@ -1,0 +1,344 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Rubik,ui-sans-serif; */
+    font-family: Fira Code,monospace;
+}
+body{
+    background-color: #303030;
+}
+.navbar-custom{
+    background-color: rgb(0, 0, 0);
+    min-height: 10px;
+    padding: 3px;
+    z-index: 100;
+}
+.navbar-custom .navbar-nav{
+    margin-left: 270px;
+    /* background-color: antiquewhite; */
+}
+
+.navbar-custom .nav-item .nav-link {
+    color: white;
+    height: 40px;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    transition: all .2s;
+}
+.navbar-custom .nav-item .nav-link:hover {
+    border-bottom: 4px solid #FF7A19;
+}
+.sec1{
+    /* background-color: #212121; */
+    background-color: #303030;
+    /* height: 90vh; */
+}
+.sec1 img{
+position: relative;
+
+}
+.words{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 5%;
+    z-index: 2;
+    /* position: relative; */
+}
+.wordings{
+    /* background-color: blue; */
+    position: absolute;
+    top: 10%;
+    left: 29%;
+    width: 25rem;
+    color: whitesmoke;
+}
+.wordings h1{
+    font-size: 4rem;  
+}
+.wordings p{
+    font-size: 1.5rem;  
+}
+.wordings span {
+    color: #FF7A19;
+}
+
+.register {
+  margin: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 20px;
+  display: block;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-top: 8rem;
+}
+
+.register:hover {
+  background-position: right center;
+}
+
+.register:active {
+  transform: scale(0.95);
+}
+
+.wordings a{
+    text-decoration: none;
+    color: #FF7A19;
+    font-size: 30px;
+   position: absolute;
+   left: 55%;
+   bottom: 3%;
+}
+.wordings a:hover{
+    color: #FF7A19;
+}
+
+#doodle{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 3;
+}
+.sideSocials{
+    position: fixed;
+    right: -6%;
+    top: 40%;
+    /* background-color: bisque; */
+    transform: rotate(90deg);
+    font-size: 40px;
+    width: fit-content;
+    z-index: 4;
+}
+.sideSocials i{
+    transform: rotate(-90deg);
+    color: #FF7A19;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: rgb(0, 149, 255);
+    transition: .5s;
+}
+.fa-twitter:hover{
+    color: rgb(0, 149, 255);
+    transition: .5s;
+}
+.fa-linkedin:hover{
+    color: rgb(0, 149, 255);
+    transition: .5s;
+}
+.fa-instagram:hover{
+    color: deeppink;
+    transition: .5s;
+}
+.fa-youtube:hover{
+    color: red;
+    transition: .5s;
+}
+.sec2{
+    position: absolute;
+    /* background-color: #F09819; */
+    background-color: #303030;
+
+    display: flex;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+    /* left: 20%; */
+    /* margin-left: 30%; */
+}
+.words2{
+    /* background-color: pink; */
+    width: 31%;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.words2 span{
+    color: #FF7A19;
+}
+.words2 img{
+    width: 10rem;
+}
+
+/* ################################################### */
+.sec3{
+    background-color: #303030;
+    height: 170vh;
+    margin-top: 63vh;
+    position: relative;
+}
+.sec3 img{
+    width: 100%;
+margin-top: 20rem;
+    position: relative;
+    /* z-index: 1; */
+}
+.board{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 60vw;
+    top: 20%;
+    left: 20%;
+    color: whitesmoke;
+    padding: 0 3rem;
+    opacity: .5;
+}
+.board h1{
+    width: 22rem;
+    opacity: 1;
+}
+.board p{
+    width: 35%;
+    opacity: 1;
+
+}
+.board img{
+    /* position: absolute; */
+    opacity: 1;
+
+    width: 30%;
+}
+.board2{
+    /* background-color: #f09819; */
+    margin-top: 0;
+    display: block;
+    opacity: 1;
+
+}
+.sec4{
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picHolder{
+    background-color: #FFEDD5;
+    padding: 2rem 2rem;
+}
+
+.sec5{
+    padding: 10rem 10rem;
+    background-color: #303030;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.sec6{
+background-color: #303030;
+/* height: 30vh; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+    margin: 20px ;
+  }
+  .card{
+      margin: 20px 40px;
+      /* background-color: black; */
+    }
+    .c1{
+      background-color: black;
+  }
+  
+  .card-body{
+background-color: black;
+border-radius: 10px;
+}
+.card-title{
+      color: whitesmoke;
+  }
+.card-text{
+      color: whitesmoke;
+  }
+
+  #but{
+   background-color: #FF7A19;
+   border: none;
+  }
+  /* ##################################### */
+  .sec7{
+      background-color: #303030;
+      display: flex;
+      justify-content: center;
+      margin: 10rem;
+  }
+  body{
+      background-color: #303030;
+  }
+
+  /* ###################### */
+  footer{
+      background-color: #FF7A19;
+      display: flex;
+      position: relative;
+      
+  }
+  .he{
+      width: 15rem;
+      margin-top: 30px;
+  }
+  .hee{
+      width: 30rem;
+      margin-right: 4rem;
+      margin-top: 30px;
+
+  }
+  footer ul li {
+      list-style:none;
+  }
+  footer button{
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+.fooo{
+    background-color: #FF7A19;
+    position:absolute;
+    width: 100%;
+    /* bottom: 1rem; */
+    top: 100%;
+    text-align: center;
+}

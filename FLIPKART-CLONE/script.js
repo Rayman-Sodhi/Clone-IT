@@ -7,7 +7,7 @@ function fixNav(){
         nav.style.paddingTop = header.offsetHeight + 2 + 'px';
     }
     else{
-        nav.style.paddingTop = 0;
+        nav.style.paddingTop = 1;
     }
 }
 // for fixing the navbar at top

@@ -70,7 +70,7 @@ html, body {
 	font-size: 2rem;	
 }
 .bg-light {
-    background-color: #ffffff !important;
+    background-color: #ffffff  ;
 }
 #signin{
 	border-style: none groove none none;
@@ -649,7 +649,7 @@ a{
 }
 
 .view-all-text {
-  margin-right:0px!important;
+  margin-right:0px ;
 }
 
 }
@@ -688,7 +688,7 @@ a{
   .slick-next:before{
 	font-family: unset;
   font-size: 36px;
-  content: "\203A"!important;
+  content: "\203A" ;
   color: #202124;
   background-color: #fff;
   border-radius: 50%;
@@ -702,7 +702,7 @@ a{
   .slick-prev:before {
 	font-family: unset;
   font-size: 36px;
-  content: "\2039"!important;
+  content: "\2039" ;
   color: #202124;
   background-color: #fff;
   border-radius: 50%;
@@ -820,7 +820,7 @@ footer .links {
 		display: none;
 	}
 	.footer-mob {
-		display: block !important;
+		display: block  ;
 	}
 }
 
@@ -868,7 +868,7 @@ footer .links {
 	font-size: 12px;
 }
 .footer-accordion-open {
-	background-color: #303133 !important;
+	background-color: #303133  ;
 }
 .footer-mob .accordion .card-body {
 	display: flex;

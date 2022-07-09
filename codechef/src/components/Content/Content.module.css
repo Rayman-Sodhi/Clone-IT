@@ -1,0 +1,18 @@
+.Content {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+
+
+.RightBar {
+    width: 26.8%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    /* border: 2px solid black; */
+}
+

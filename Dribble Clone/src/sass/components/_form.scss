@@ -1,0 +1,192 @@
+.upload__image-desc {
+    padding: 1rem;
+}
+
+.form {
+    position: relative;
+
+    &__group {
+
+        position: relative;
+
+        .tag-suggestions {
+            color: $color-grey-dark;
+            font-weight: 700;
+            font-size: 0.79rem;
+        }
+
+        .form-title-info {
+            color: $color-grey-light-2;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .tag-lists {
+                @include clearfix;
+            .tag {
+                list-style: none;
+                float: left;
+                 margin-right: 10px;
+                 color: $color-primary;
+                 font-weight: 500;
+                 font-size: 1rem;
+                 cursor: pointer;
+                 line-height: 1.4rem;
+
+                 &:hover {
+                     text-decoration: underline;
+                     color: lighten($color-primary,10);
+                 }
+            }
+        }
+
+        
+        
+        
+    }
+
+    .tage__area {
+        width: 100%;
+        padding: 0.3rem;
+        border-radius: 5px;
+        border: none;
+        font-family: inherit;
+        font-weight: 700;
+        color: inherit;
+        background-color: darken($color-grey-light,1.5);
+        transition: background-color 0.2s ease-in;
+        outline:none;
+        position: relative;
+        border: 1px solid transparent;
+
+        &::-webkit-input-placeholder {
+            color: $color-grey-dark;
+            font-weight: 400;
+        }
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid $color-primary;
+        }
+        .tag__style {
+            font-weight: 400;
+            color: #fff;
+            font-size: 0.9rem;
+            margin: 2px;
+            background-color: $tag-color;
+            padding: 5px 5px 6px 5px;
+            border-radius: 5px; 
+            top: 0;
+            display: inline-block;
+
+            .tag-delete {
+                margin-left: 3px;
+                font-size: 0.5rem;
+                width: 13px;
+                height: 13px;
+                background: #fff;
+                color:$tag-color;
+                border-radius: 50px;
+                display: inline-block;
+                font-weight: bold;
+                position: relative;
+                bottom: 2px;
+                padding-bottom: 5px;
+                text-align: center;
+                cursor: pointer;
+               
+            }
+        }
+
+        .tag__input-area {
+            outline: none;
+            border: none;
+            background-color: transparent;
+            margin-left: 10px;
+        }
+
+
+    }
+
+    &__label {
+        font-size: 1.1rem;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 0.5rem;
+        position: relative;
+
+        .form-title-info {
+            
+            .form__tooltip {
+                background-color: $color-black-2;
+                color: $color-grey-light;
+                padding: 10px;
+                border-radius: 5px;
+                line-height: 1.2;
+                font-size: 0.8rem;
+                text-align: center;
+                display: none;
+                position: absolute;
+                width: 80%;
+                z-index: 1000;
+                transform: translate(10%,0%);
+                transition: display 0.2s ease;
+
+                &-text {
+                    font-family: 'Lato';
+                }
+            }
+
+            &:hover .form__tooltip{
+                display: block;
+            }
+        }
+
+    }
+
+    &__input, &__input-desc {
+        width: 100%;
+        padding: 0.7rem;
+        border-radius: 5px;
+        border: none;
+        font-family: inherit;
+        font-weight: 700;
+        color: inherit;
+        background-color: darken($color-grey-light,1.5);
+        transition: background-color 0.2s ease-in;
+        outline:none;
+        position: relative;
+        border: 1px solid transparent;
+
+        &::-webkit-input-placeholder {
+            color: $color-grey-dark;
+            font-weight: 400;
+        }
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid $color-primary;
+        }
+
+        &:focus {
+            background-color: transparent;
+            border: 1px solid $color-primary;
+        }
+
+        &:focus:invalid {
+            background-color: #FFEEEE;
+        }
+
+    }
+
+    &__input-desc {
+        resize: vertical;
+        min-height: 80px;
+        transition: min-height 0.2s ease-in;
+
+        &:focus {
+            min-height: 150px;
+            
+        }
+    }
+}

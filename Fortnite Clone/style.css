@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #2A2A2A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+nav ul{
+    font-family: OpenSans, sans-serif, arial;
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    /* background-color: rgb(86, 137, 181); */
+}
+nav ul li{
+    font-family: OpenSans, sans-serif, arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    cursor: pointer;
+    border-bottom: 5px solid transparent;
+
+/* background-color: #8e4a4a; */
+}
+nav ul li:hover{
+    border-bottom: 5px solid yellow;
+    transition: .3s;
+}
+li a{
+    background-color: yellow;
+    text-decoration: none;
+    height: 50px;
+    padding:19px 29px ;
+    font-size:10px;
+    color: #2A2A2A;
+}
+li a:hover{
+opacity: 0.9;
+}
+
+nav img{
+    margin-left: 10px;
+}
+#logo{
+    width: 50px;
+}
+#fortLogo{
+    width: 170px;
+}
+
+/* ###################################        SWIPER JS      ###################### */
+.swiper {
+    width: 100%;
+    height: 100%;
+    height:90vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(194, 42, 42);
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* ######################################################### */
+ 
+  .d{
+      position: absolute;
+      width: 30rem;
+  }
+  
+  .sec2{
+      display: flex;
+      justify-content: space-around;
+      height: 80vh;
+      /* background-color: aquamarine; */
+  }
+  .imageLeft{
+      /* margin-left: 4rem; */
+      display: inline-block;
+      /* background-color: bisque; */
+      z-index: 3;
+  }
+  .imageLeft img{
+      width: 50rem;
+      height: 35rem;
+  }
+
+  .imageLeft:hover{
+    transform: translateY(-20px);
+    transition: .5s ease-in-out;
+}
+  .imageRight{
+      /* margin-left: 4rem; */
+      display: inline-block;
+      /* background-color: bisque; */
+      z-index: 3;
+  }
+  .imageRight:hover{
+    transform: translateY(-20px);
+    /* transform: scale(1.1); */
+    transition: .5s ease-in-out;
+
+  }
+  .imageRight img{
+      width: 40rem;
+      height: 35rem;
+  }
+/* ####################       SECTION 3  ################### */
+.sec3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+  .imm1{
+    display: inline-block;
+      /* background-color: green; */
+      margin-left: 70px;
+  }
+  .imm1 img:hover{
+   transform: scale(1.1);
+   transition: .5s ease-in-out;
+  }
+  .imm2 img:hover{
+   transform: scale(1.1);
+   transition: .5s ease-in-out;
+
+  }
+  .imm3 img:hover{
+   transform: scale(1.1);
+   transition: .5s ease-in-out;
+
+  }
+  .imm1 img{
+    width: 20rem;
+    height: 18rem;
+  }
+  .imm2{
+    display: inline-block;
+      /* background-color: rgb(45, 0, 128); */
+      margin-left: 40px;
+        /* height: 20rem; */
+  }
+  .imm2 img{
+    width: 20rem;
+    height: 18rem;
+  }
+  .imm3{
+    display: inline-block;
+      /* background-color: rgb(255, 128, 0); */
+      margin-left: 40px;
+
+  }
+  .imm3 img{
+    width: 20rem;
+    height: 18rem;
+  }
+  h1{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  h4{
+   font-family: 'Bangers', cursive;
+    color: #1db8f3;
+  }
+  /* ########################## */
+
+  #load{
+      display: flex;
+      margin-left: 45%;
+      margin-top: 150px;
+      padding: 15px 40px;
+      font-family: 'Bangers', cursive;
+font-size: 30px;
+border: 4px solid black;
+  }
+  #load:hover{
+      background-color: black;
+      color: white;
+      transform: skew(-10deg, -1deg);
+      transition: .3s;
+  }
+
+  /* #################      Section 4    ############### */
+  .sec4{
+      position: relative;
+      display: inline-block;
+      height: 100vh;
+      /* background-color: #2A2A2A; */
+      margin-top: 60px;
+  }
+  .sec4 img{
+    position: relative;
+    /* height: 100vh; */
+width: 100%;
+  }
+  .pi{
+      position: absolute;
+      width: 20rem;
+      /* background-color: #1db8f3; */
+      top: 70%;
+      left: 40%;
+  }
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$            footer */
+
+footer{
+    height: 80vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.icons i{
+    margin: 30px 20px;
+    font-size: 30px;
+    color: grey;
+}
+.icons i:hover{
+    color: yellow;
+    transition: .3s;
+}
+.linkks{
+    display: flex;
+    margin:40px 100px;
+ color: white;
+}
+.linkks ul{
+list-style: none;
+margin-left: 40px;
+}
+.linkks ul li{
+    line-height: 50px;
+    font-family:fantasy;
+    color: grey;
+}
+.linkks ul li:hover{
+    color: yellow;
+    transition: .3s;
+    cursor: pointer;
+    font-family:fantasy;
+}
+p{
+    margin-top: 120px;
+    width: 60%;
+    margin-left: 100px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icons2{
+    position: absolute;
+    right: 10px;
+    /* bottom: 10px; */
+    font-size: 30px;
+}
+
+.icons2 img{
+    margin: 30px 20px;
+    /* font-size: 30px; */
+    width: 40px;
+    color: grey;
+}
+

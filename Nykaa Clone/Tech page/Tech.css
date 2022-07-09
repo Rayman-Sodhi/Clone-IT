@@ -1,0 +1,610 @@
+#navbar{
+    background-color: #001325;
+    width:100%;
+}
+#navbar1{   
+    display: grid;
+    grid-template-columns: 68% 15% 13%;
+    margin-left: 15%;
+    grid-gap: 4%;
+    font-size: 13px;
+    height: 32px;
+    color: #fff;
+    overflow: hidden;   
+   
+}
+
+
+#navbar1 > div{
+    overflow: hidden;
+}
+#animat{
+    padding-top: 1%;
+}
+#ani{
+    animation-timing-function: linear;
+    position: relative;
+    animation: mymove 16s infinite;
+    
+}
+@keyframes mymove {
+            from {right: -580px;}
+            to  {right: 550px;}
+}
+#icon,#app{
+   display: inline-block;
+   vertical-align: middle;
+   cursor: pointer;
+}
+
+#icon{
+    font-size: 22px;
+    margin-left: 28%;
+    margin-right: 2%;
+}
+ #icon2,#app2{
+   display: inline-block;
+   vertical-align: middle;
+   cursor: pointer;
+}
+#icon2{
+    font-size: 22px;
+    margin-right: 2%;
+}
+#navbar2{
+    width:100%;
+}
+#navbar21{
+    display:inline-block;
+    width:4.5%;
+    margin-left:3%;
+}
+#navbar22{
+    display:inline-block;
+    width:40%;
+    margin-left:2%;
+    vertical-align: top;
+    color: black;
+}
+#navbar22grid{
+    display: grid;
+    grid-template-columns: 14.8% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
+}
+#navbar22grid > div{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 25%;
+    cursor: pointer;
+    margin-top: 5%;
+} 
+#navbar22grid > div:nth-child(1):hover{
+    background-color: #E0E0E0;
+}
+#navbar22grid > div:nth-child(2):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar22grid > div:nth-child(3):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar22grid > div:nth-child(4):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar22grid > div:nth-child(5):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar22grid > div:nth-child(6):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar22grid > div:nth-child(7):hover{
+    border-bottom: 2px solid #E91E63;
+    color: #F06292;
+}
+#navbar23{
+    display: inline-block;
+    width:48%;
+    margin-left: 1.5%;
+    vertical-align: top;
+    margin-top: 0.8%;
+}
+#navbar23grid{
+    display:grid;
+    grid-template-columns: 48% 18% 18% 18%;
+}
+#searchbox >img{
+    width:20%;
+    display: inline-block;
+}
+#searchbox > input:hover{
+    border-bottom: 2px solid #E91E63;
+}
+#searchbox > input{
+    width:70%;
+    padding: 3.3%;
+    margin-left: -1.6%;
+    display: inline-block;
+    vertical-align: top;
+    border:#F5F5F5;
+    background-color: #F5F5F5;
+}
+input:focus{
+    outline: none;
+}
+.account{
+    text-align: center;
+}
+.account >img{
+    width:22%;
+    margin-top: 8%;
+    display: inline-block;
+}
+.accounttext{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+    color: #001325;
+    padding: 3%;
+}
+#container{
+    
+    height:250px;
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+    background-color: rgb(197, 192, 192);
+    display: grid;
+    grid-template-columns:30% 45% 30%;
+
+}
+#container>div >img{
+    width:45%;
+    height: 99%;
+}
+#container>div:nth-child(2){
+    margin-top: 100px;
+    text-align: center;
+    width:100%;
+}
+
+#container>div:nth-child(3){
+    width:100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    width: 90vw;
+    margin: auto;
+}
+#slide-heading{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 2%;
+}
+#slide-heading h2{
+    margin: 0px 30px;
+    font-weight: bolder;
+}
+#slide-heading-div1{
+    width: 5%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+#slide-heading-div2{
+    width: 70%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+#slide-heading h4{
+    margin: 0px 30px; 
+}
+#slide-heading p{
+    margin: 0px 30px;
+}
+#slide-heading-div3:hover{
+    background-color:rgb(236, 228, 228);
+    color:black;
+    box-shadow: 2px 2px 7px 7px rgb(218, 218, 218);
+    cursor: pointer;
+    
+}
+
+#slide-heading-div4{
+    width: 10%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+.filters{
+    width: 25%;
+    margin-right: 10px;
+}
+.filterbox{
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    height: 300px;
+    overflow-y: scroll;
+}
+.filterbox h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+#priceslider{
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    height: 200px;
+    
+    
+    
+
+}
+#priceslider input{
+    width: 90%;
+    margin: auto;
+}
+#priceslider h2{
+    font-weight: 400;
+}
+#priceslider h2 + div{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+
+}
+#priceslider button{
+    padding: 4px 16px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    font-size: 18px;
+}
+#priceslider button:hover{
+    color: white;
+    background-color: black;
+}
+#priceslider h2 + div div{
+    width: 40%;
+    margin: 0% 10px;
+}
+#priceslider h2 + div div input{
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.filterbox div{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: left;
+    display: flex;
+}
+.filterbox div div{
+    width: 50%;
+}
+.filterbox div div:nth-child(2) input{
+    position: relative;
+    left: 70%;
+}
+
+.filterbox div label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.filterbox div input{
+   width: 22px;
+   height: 22px;
+   border-radius: 50%;
+   margin-left: 10%;
+   border-radius: 50%;
+}
+.card{
+    height: 400px;
+}
+.card:hover{
+    box-shadow: 2px 2px 7px 7px rgb(218, 218, 218);
+    cursor: pointer;
+}
+.card-img{
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+}
+.card-text{
+    width: 100%;
+    margin: auto;
+    height: 30%;
+    padding: 4px;
+   
+    
+    
+}
+.card-text h4{
+    font-weight: 550;
+}
+.card-text-detail{
+  margin: 8px 0px;
+  font-size: 14px;
+  font-weight: lighter;
+
+}
+.card-text-price{
+    margin: 4px 0px;
+    font-weight: 600;
+}
+
+/* Footer Code Starts From Here*/
+
+
+#blackportion{
+    width:"100%";
+    background-color: #333;
+    color: whitesmoke;
+    font-family: inherit;
+    padding: 20px 0px;
+}
+#black1 > div{
+    display: inline-block;
+    width:30%;
+    margin-bottom: 4%;
+}
+#black1{
+    display: inline-block;
+    margin-left:7%;
+   
+}
+#black2,#black3{
+    display: inline-block;   
+}
+#black2{
+    vertical-align: top;
+}
+#black3{
+    vertical-align: top;
+    margin-left:9.5%;
+}
+#black3 >p{
+    font-size:12px;
+}
+#search-container button {
+float: right;
+color:gray;
+padding:8px;
+background-color: #333;
+font-size: 15px;
+border: 1px solid gray;
+cursor: pointer;
+}
+
+#search-container input{
+background-color: #333;
+color:gray;
+border: 1px solid gray;
+padding:8.9px;
+}
+#grayportion{
+background-color: #f3f2f2;
+padding: 30px 0 39px 0;
+}
+#insidegray{
+display: grid;
+grid-template-columns: 10% 15% 19% 8% 12%;
+grid-gap: 6.5%;
+margin-left:7%;
+font-family: Cera,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.inside1 > div{
+padding-bottom: 4.5%;
+cursor: pointer;
+}
+.title{
+font-weight: 600;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+#empty{
+height:35px;
+}
+#logo > img{
+margin-right: 2%;
+}
+#aftergray{
+padding: 26px 0 36px 0;
+}
+#insideaftergray{
+font-family: inherit;
+color: #666;
+display: grid;
+grid-template-columns: 14% 14% 14% 14% 14% 14%;
+gap:2%;
+margin-left:7%;
+}
+.women{
+font-weight: 580;
+margin-bottom: 8px;
+text-transform: uppercase;
+}
+#lastbox{
+height: 38px;
+background: #FD7685;
+text-align: center;
+color: #FFFFFF;
+padding-top: 1rem;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+}
+.para1 > p:nth-child(2) > a{
+color:#fd7685;
+}
+.para1 > p:nth-child(3) > a{
+color:#fd7685;
+}
+#navbar{
+background-color: #001325;
+width:100%;
+}
+#navbar1{   
+display: grid;
+grid-template-columns: 68% 15% 13%;
+margin-left: 15%;
+grid-gap: 4%;
+font-size: 13px;
+height: 32px;
+color: #fff;
+overflow: hidden;   
+
+}
+#navbar1 > div{
+overflow: hidden;
+}
+#animat{
+padding-top: 1%;
+}
+#ani{
+animation-timing-function: linear;
+position: relative;
+animation: mymove 16s infinite;
+
+}
+@keyframes mymove {
+        from {right: -580px;}
+        to  {right: 550px;}
+}
+#icon,#app{
+display: inline-block;
+vertical-align: middle;
+cursor: pointer;
+}
+
+#icon{
+font-size: 22px;
+margin-left: 28%;
+margin-right: 2%;
+}
+#icon2,#app2{
+display: inline-block;
+vertical-align: middle;
+cursor: pointer;
+}
+#icon2{
+font-size: 22px;
+margin-right: 2%;
+}
+#navbar2{
+width:100%;
+}
+#navbar21{
+display:inline-block;
+width:4.5%;
+margin-left:3%;
+}
+#navbar22{
+display:inline-block;
+width:40%;
+margin-left:2%;
+vertical-align: top;
+color: black;
+}
+#navbar22grid{
+display: grid;
+grid-template-columns: 14.8% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
+}
+#navbar22grid > div{
+text-align: center;
+padding-top: 20%;
+padding-bottom: 25%;
+cursor: pointer;
+margin-top: 5%;
+} 
+#navbar22grid > div:nth-child(1):hover{
+background-color: #E0E0E0;
+}
+#navbar22grid > div:nth-child(2):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar22grid > div:nth-child(3):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar22grid > div:nth-child(4):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar22grid > div:nth-child(5):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar22grid > div:nth-child(6):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar22grid > div:nth-child(7):hover{
+border-bottom: 2px solid #E91E63;
+color: #F06292;
+}
+#navbar23{
+display: inline-block;
+width:48%;
+margin-left: 1.5%;
+vertical-align: top;
+margin-top: 0.8%;
+}
+#navbar23grid{
+display:grid;
+grid-template-columns: 48% 18% 18% 18%;
+}
+#searchbox >img{
+width:20%;
+display: inline-block;
+}
+#searchbox > input:hover{
+border-bottom: 2px solid #E91E63;
+}
+#searchbox > input{
+width:70%;
+padding: 3.3%;
+margin-left: -1.6%;
+display: inline-block;
+vertical-align: top;
+border:#F5F5F5;
+background-color: #F5F5F5;
+}
+input:focus{
+outline: none;
+}
+.account{
+text-align: center;
+}
+.account >img{
+width:22%;
+margin-top: 8%;
+display: inline-block;
+}
+.accounttext{
+display: inline-block;
+vertical-align: top;
+margin-top: 8%;
+color: #001325;
+padding: 3%;
+}
+

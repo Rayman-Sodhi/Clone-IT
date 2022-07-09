@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./Product.css">
+</head>
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="firstline">
+            <div id="lefttop">
+                <div class="close">✕</div>
+                <h2>Login</h2>
+            </div>
+            <div id="righttop">
+                <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+            </div>
+            </div>
+            <div id="secondline">
+                <div id="leftbottom">
+                    <div>If you are new to Nykaa Fashion, kindly signup to proceed</div>
+                    <button id="insideButton">Signup using mobile number   →</button>
+                    <div>By signing in, I agree to <u>Terms & Conditions</u>, and <u>Privacy Policy</u></div>
+                </div>
+                <div id="midbottom">
+                    <div></div>
+                    <div>Or</div>
+                    <div></div>
+                </div>
+                <div id="rightbottom">
+                    <div>If you are already registered with us, then choose from below:</div>
+                    <button>Login using mobile number   →</button>
+                    <button>Login using email   →</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <div id="myModal2" class="modal">    
+        <div class="modal-content">
+            <div id="firstline2">
+                <div id="lefttop2">
+                    <div class="close2">✕</div>
+                    <h2>Signup using mobile</h2>
+                </div>
+                <div id="righttop2">
+                    <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+                </div>
+            </div>
+            <div id="enter">Please enter your mobile number</div>
+            <div id="inputnumber">
+                <div>+91</div>
+                <input type="number" placeholder="xxx-xxx-xxxx" id="num" />
+            </div>
+            <div id="redbox"></div>
+            <input type="submit" id="submitnumber" onclick="validation()"/>
+        </div>
+    </div>
+    
+    <!--Login box-->
+    <div id="myModal3" class="modal">    
+        <div class="modal-content">
+            <div class="close3">✕</div>
+            <div id="login">Login Succesful!!!</div>
+        </div>
+    </div>
+    
+    
+    <!--box to take to top from anywhere-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    
+      
+      <!--cart side bar-->
+        <div id="mySidebar" class="sidebar">
+            <div class="closebtn" onclick="closeNav()">←</div>
+            <div>Bag</div>
+            <img src="https://www.nykaafashion.com/v2/checkout/static/media/empty-cart.78c27941.png"/>
+            <div>Your shopping bag is empty!</div>
+            <div>Looks like you haven’t added anything to your bag. Let’s change that.</div>
+            <button onclick="closeNav()" class="sidebarbutton">Back to shopping</button>
+        </div>
+    <div id="cont">
+        <div id="main-product">
+            <div id="main-product-img">
+            </div>
+            <div id="main-product-data">
+                <h4>LATEST SEASON | NEW ON NYKAA</h4>
+                <h3 id="main-product-data-brand"></h3>
+                <h4 id="main-product-data-name"></h4>
+                <h2 id="main-product-data-price"></h2>
+                <div id="main-product-data-size">
+                    <h3>Select the Size</h3>
+                </div>
+                <button id="main-product-data-btn">ADD TO BAG</button>
+                <div class="offerbox">
+                    <h2>Offers for you</h2>
+                    <div>
+                        <h3>Use code NFFIRST10 to get flat 10%</h3>
+                        <p>Use code NFFIRST10 to get flat 10% off on minimum order of INR 1600. 
+                        Offer valid for first time users only</p>
+                    </div>
+                </div>
+                <div class="pin">
+                    <h2>Delivery Details</h2>
+                    <input id="delivery-input" placeholder="Enter PINCODE" type="text"><button id="delivery-btn">Check</button>
+                    <p id="delivery-date">Usually Delivery in 7 Days</p>
+                </div>
+                <div class="product-details">
+                    <h2>Product Information</h2>
+                    <h2>Description</h2>
+                    <p>VMC ARIA LS DRESS IN, Desert Rose, XS</p>
+                    <div>
+                        <div>
+                            <h2>Product Details</h2>
+                            <p>Occasion <span>Casual</span></p>
+                            <p>Type <span>Mini</span></p>
+                            <p>Pattern <span>Printed</span></p>
+                            <p>Material<span>Modal</span></p>
+                        </div>
+                        <div>
+                            <h2>Size & Fit</h2>
+                            <p>Closure Type<span>Pull On</span></p>
+                            <p>Neckline Type<span>V-Neck</span></p>
+                            <p>Pattern <span>Printed</span></p>
+                            <p>Sleeve Type<span>Full Sleeves</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>From The Same Brand</h2>
+        <div id="recomended">
+            
+        </div>
+    </div>
+    <div id="blackportion">
+        <div id="black1">
+            <h5>DOWNLOAD OUR APP</h5>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/googlePlay.png" width="100%"/></div>
+            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/appleStore.png" width="100%"/></div>
+        </div>
+        <div id="black2">
+            <h5>SUBSCRIBE TO NEWSLETTER</h5>
+            <div id="search-container">
+            <form>
+                <input type="text" placeholder="enter your email" name="search">
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+        <div id="black3">
+            <h5>FOR QUERIES</h5>
+            <p>18002663333 | support@nykaafashion.com<br>
+               (Monday to Saturday, 10AM - 7PM)</p>
+        </div>
+    </div>
+    <div id="grayportion">
+        <div id="insidegray">
+            <div class="inside1">
+                <div class="title">WHO ARE WE</div>
+                <div>About Us</div>
+                <div>Careers</div>
+                <div>Press</div>
+            </div>
+            <div class="inside1">
+                <div class="title">HELP</div>
+                <div>Shipping & Return Policy</div>
+                <div>Help Center</div>
+                <div>Terms & Conditions</div>
+            </div>
+            <div class="inside1">
+                <div id="empty"></div>
+                <div>Privacy Policy</div>
+                <div>Privacy Policy for EU Residents</div>
+                <div> Responsible Disclosure</div>
+            </div>
+            <div class="inside1">
+                <div class="title">QUICKLINKS</div>
+                <div>Offers </div>
+                <div>Sitemap</div>
+            </div>
+            <div class="inside1">
+                <div class="title">FOLLOW US</div>
+                <div id="logo">
+                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-instagram-footer.svg"/>
+                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-facebook-footer.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aftergray">
+        <div id="insideaftergray">
+            <div class="inside1">
+                <div class="women">WOMEN</div>
+                <div>Indianwear</div>
+                <div>Westernwear</div>
+                <div>Bags</div>
+                <div>Footwear</div>
+                <div>Lingerie</div>
+                <div>Jewellery</div>
+                <div>Accessories</div>
+                <div>Watches</div>
+                <div>Sportswear</div>
+            </div>
+            <div class="inside1">
+                <div class="women">MEN</div>
+                <div>Topwear</div>
+                <div>Bottomwear</div>
+                <div>Footwear</div>
+                <div>Personal Accessories</div>
+                <div>Ethnic Wear</div>
+                <div>Innerwear</div>
+                <div>Watches</div>
+                <div>Sportswear</div>
+                <div>Bags and Backpacks</div>
+            </div>
+            <div class="inside1">
+                <div class="women">KIDS</div>
+                <div>Westernwear</div>
+                <div>Indianwear</div>
+                <div>Footwear</div>
+                <div>Accessories</div>
+                <div>Toys and Games</div>
+                <div>Sportswear</div>
+                <div>Feeding</div>
+                <div>Home</div>
+                <div>Innerwear</div>
+            </div>
+            <div class="inside1">
+                <div class="women">LUXE</div>
+                <div>Separates</div>
+                <div>Sarees</div>
+                <div>Dresses</div>
+                <div>Kurta Sets</div>
+                <div>Lehengas</div>
+                <div>Jewellery</div>
+                <div>Bags</div>
+                <div>Masks</div>
+            </div>
+            <div class="inside1">
+                <div class="women">TOP BRANDS</div>
+                <div>Aachho</div>
+                <div>Forever New</div>
+                <div>Biba</div>
+                <div>Reebok</div>
+                <div>Adidas</div>
+                <div>Lavanya the Label</div>
+                <div>Forever 21</div>
+                <div>Gap</div>
+                <div>W</div>
+                <div>Puma</div>
+            </div>
+            <div class="inside1">
+                <div class="women">HOUSE OF NYKAA</div>
+                <div>20 Dresses by Nykaa Fashion</div>
+                <div>Mondano by Nykaa Fashion</div>
+                <div>RSVP by Nykaa Fashion</div>
+                <div>Likha by Nykaa Fashion</div>
+                <div>Nykd by Nykaa</div>
+                <div>Pipa Bella</div>
+            </div>
+        </div>
+    </div>
+    <div id="lastbox">
+        © 2019 - 2021 Nykaa Fashion Pvt. Ltd. All Rights Reserved
+    </div>
+</body>
+<script src="./Product.js"></script>
+<!-- <script src="../womanpage/woman2.js"></script> -->
+</html>

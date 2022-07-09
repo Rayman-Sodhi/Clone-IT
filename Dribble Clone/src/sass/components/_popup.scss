@@ -1,0 +1,262 @@
+.popup__area {
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index: 200;
+    width: 100%;
+    height: calc(100vh - 40px);
+    overflow-y:auto;
+    background-color: #fff;
+    left: 0;
+
+    .left__sidebar {
+        width: 70%;
+        display: inline-block;
+
+        @include respond(desktop){
+            width: 60%;
+        }
+
+        @include respond(tab-land){
+            width: 60%;
+        }
+
+        @include respond(tab-port){
+            width: 55%;
+        }
+
+        @include respond(big-phone){
+            width: 100%;
+        }
+        
+        
+    }
+
+    .popup__left { 
+        padding: 60px;
+        min-height: 100vh;
+        border-right: 1px solid $color-grey-light-2;
+
+        .image__info {
+            display: flex;
+            justify-content: space-between;
+
+            .user__area {
+                
+                @include respond(tab-port){
+                    display: block;
+                    width: 100%;
+                    
+                }
+
+                .display__photo {
+                    float: left;
+                    width: 50px;
+                    height: 50px;
+
+                    & img {
+                        width: 50px;
+                        border-radius: 100px;
+                        object-fit: cover;
+                        height: 50px;
+                    }
+                }
+
+                .user__details {
+                    float: right;
+                    margin-left: 10px;
+
+                    & p {
+                        font-weight: 400;
+                        color: $color-grey;
+                    }
+
+                    .hire {
+                        color: $color-primary;
+                    }
+
+                    @include respond(tab-port){
+                        float: left;
+                        margin-left: 1.5rem;
+                    }
+                }
+            }
+
+            .action__button {
+                float: right;
+                & button:last-child {
+                    margin-left: 10px;
+                }
+
+                @include respond(tab-port){
+                    display: inline-block;
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+
+                @include respond(big-phone){
+                    display: none;
+                }
+            }
+
+            @include respond(tab-port){
+               display: block;
+               width: 100%;
+
+               @include clearfix;
+            }
+        }
+
+        .image__content {
+
+            @include respond(big-phone){
+                margin-top: 6rem;
+            }
+
+            & img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            & p {
+                font-weight: 400;
+                font-size: 1.2rem;
+                line-height: 2rem;
+                margin-top: 50px;
+            }
+        }
+
+        .modify__button {
+            text-align: center;
+        }
+
+        @include respond(tab-land){
+            padding: 30px;
+        }
+
+        @include respond(tab-port){
+            
+        }
+    }
+
+    .popup__right {
+        width: 30%;
+        padding: 40px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        background-color: #fff;
+
+        @include respond(desktop){
+            width: 40%;
+        }
+
+        @include respond(tab-land){
+            width: 40%;
+            padding: 40px;
+            .comment__area {
+                display: block;
+            }
+        }
+
+        @include respond(tab-port){
+            width: 45%;
+            padding: 20px;
+        }
+
+        @include respond(big-phone){
+            width: 100%;
+            height: auto;
+            background-color:transparent;
+
+            .comment__area {
+                display: none;
+                background-color: #fff;
+                position: absolute;
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 9rem;
+                padding: 2rem;
+                box-shadow: 0 0 1rem rgba(14, 14, 14, 0.11);
+                border-radius: 10px;
+            }
+        }
+        
+        .shot__sidebar {
+
+            @include respond(big-phone){
+                position: relative;
+                
+            }
+
+            .sidebar__button-area {
+                display: flex;
+                justify-content: space-between;
+
+                .comment-button {
+                    display: none;
+                }
+
+                @include respond(big-phone){
+                    position: absolute;
+                    top: 77px;
+                    left: 0;
+
+                    .button__right {
+                        margin-left: 1rem;
+                    }
+
+                    .comment-button {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .auth__suggestion {
+            text-align: center;
+            
+            p {
+                text-align: center;
+                font-weight: 400;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .comment__shown {
+            display: block;
+        }
+
+        .comment__hide {
+
+        }
+
+    }
+
+    .user-details-section {
+        text-align: center;
+        border-top: 1px solid $color-grey-light-2;
+        position: relative;
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1.5rem solid #fff;
+            position: absolute;
+            top: -40%;
+            transform: translate(-50%,0);
+        }
+
+        p {
+            font-weight: 400;
+        }
+    }
+
+}

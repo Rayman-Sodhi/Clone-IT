@@ -1,0 +1,11 @@
+.Link {
+    font-size: 14px;
+    color: #3B5995;
+    text-decoration: underline;
+    margin: 20px 0px 10px 0px;
+}
+
+.Link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}

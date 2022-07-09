@@ -1,0 +1,25 @@
+.UpdateBox {
+    position: absolute;
+    background-color: #FFE500;
+    /* width: 40px;
+    height: 16px; */
+    right: 50px;
+    top: 8px;
+    font-size: 9px;
+    padding: 2px;
+}
+
+.Text {
+    font-size: 13px;
+    margin: 20px 0 10px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.AnnouncementsList {
+    width: 100%;
+    text-align: left;
+    padding: 0 14px;
+    font-size: 14px;
+
+}

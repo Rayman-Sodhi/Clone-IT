@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+}
+
+.headerPopup {
+  background-color: #ECEB98;
+  color: #003640;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerPopup .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.headerPopup .offer {
+  
+  font-size: 1.2rem;
+}
+
+.headerPopup .offer-day {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.headerPopup .cross {
+  position: absolute;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerPopup .cross:hover {
+  cursor: pointer;
+}
+
+.headerPopup .popupClearIcon {
+  transform: scale(0.8);
+}
+
+.hide {
+  display: none;
+}

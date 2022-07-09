@@ -1,0 +1,271 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 16px;
+}
+.logo{
+  
+  width: 200px;
+  height : 40px;
+}
+.space{
+  width: 800px;
+}
+.icons{
+  display: flex;
+  width: 10 0 0 10;
+  margin-left: 25pc;
+  align-items: flex-end;
+  margin: 10px;
+  gap: 4em;
+  height: 25px;
+}
+#navbar{
+  display: flex;
+  background-color: white;
+  padding: 1pc;
+  height: 4pc;
+  overflow :hidden;
+  top: 0pc;
+  position: fixed;
+  text-align: center;
+  z-index:1;
+  width : 100%;
+}
+main{
+  position: relative;
+}
+.intro{
+  margin: 10px;
+  color: black;
+  font-size: 65px;
+  padding: 1pc;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt@2x.webp");
+  margin: 60px;
+  /* Control the height of the image */
+  min-height: 430px;
+  padding: 2pc;
+  margin: 5pc;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.container {
+  position: center;
+  right: 0;
+  margin: 10px;
+  max-width: 300px;
+  padding: 1pc;
+  background-color: white;
+  border-radius: 8%;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=pass] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 6%;
+}
+
+input[type=text]:focus, input[type=pass]:focus {
+  background-color: #ddd;
+  outline: none;
+  border-radius: 6%;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.cap{
+  width: 79pc;
+  padding: 2pc;
+}
+.container2{
+  background-color: antiquewhite;
+  height: 30pc;
+  padding: 2pc;
+  display: flex;
+  gap: 3em;
+  
+}
+.jkl1:hover{
+  transform: scale(1.1);
+}
+.jkl2:hover{
+  transform: scale(1.1);
+}
+.jkl3:hover{
+  transform: scale(1.1);
+}
+.jkl4:hover{
+  transform: scale(1.1);
+}
+.kl1:hover{
+  transform: scale(1.1);
+}
+.kl2:hover{
+  transform: scale(1.1);
+}
+.kl3:hover{
+  transform: scale(1.1);
+}
+.kl4:hover{
+  transform: scale(1.1);
+}
+.box1{
+  background-color: white;
+  width:360px;
+  cursor: pointer;
+}
+.box2{
+  background-color: white;
+  width: 360px;
+  cursor: pointer;
+}
+.box3{
+  background-color: white;
+  width:360px;
+  cursor: pointer;
+}
+.pic1{
+  height: 240px;
+  width: 360px;
+}
+.pic2{
+  height: 240px;
+  width: 360px;
+}
+.pic3{
+  height: 240px;
+  width: 360px;
+}
+.klp{
+  padding: 1pc;
+  text-align: center;
+}
+.klps{
+  text-align: center;
+  margin: 1pc;
+  
+}
+.klp2{
+  padding: 1pc;
+  text-align: center;
+}
+.klps2{
+  text-align: center;
+  margin: 1pc;
+  
+}
+.klp3{
+  padding: 1pc;
+  text-align: center;
+}
+.klps3{
+  text-align: center;
+  margin: 1pc;
+  
+}
+.container3{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hgk{
+  font-size: 3rem;
+}
+.hgk2{
+  font-size: 2rem;
+}
+.fgh{
+  padding: 4pc;
+  width: 78pc;
+  position: relative;
+}
+.lio{
+  position: absolute;
+  bottom: 90px;
+  left: 15px;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.lio:hover{
+  text-decoration: underline;
+}
+.container4{
+  padding: 2pc;
+}
+.head6{
+   padding: 1pc;
+}
+.head7{
+  padding: 1pc;
+}
+.scroll1{
+  cursor: pointer;
+  padding: 1pc;
+  display: flex;
+  height: 19pc;
+  gap: 1rem;
+  margin: 15px;
+}
+
+.scroll2{
+  cursor: pointer;
+  padding: 1pc;
+  display: flex;
+  height: 19pc;
+  gap: 1rem;
+  margin: 15px;
+}
+.head8{
+  
+  padding: 1pc;
+}
+.head9{
+  padding: 1pc;
+}
+
+footer{
+  background-color: antiquewhite;
+  height: 60px;
+  text-align: center;
+  padding: 6pc;
+  font-size: 3em;
+}

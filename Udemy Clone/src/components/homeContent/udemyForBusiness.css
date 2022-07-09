@@ -1,0 +1,64 @@
+.udemyForBusiness {
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.udemyForBusiness .backgroundColorDiv {
+  background-color: #fff;
+  position: absolute;
+  height: 330px;
+  width: 100%;
+  z-index: -1;
+  top: 35px;
+  left: 0px;
+}
+
+.udemyForBusiness .contentDiv {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  color: #000;
+  line-height: 1.4;
+  margin-right: 80px;
+}
+
+.udemyForBusiness .contentDiv .heading {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.udemyForBusiness .contentDiv .about {
+  font-size: 19px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.udemyForBusiness .contentDiv .button {
+  width: 200px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  height: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.udemyForBusiness .contentDiv .button:hover {
+  background-color: #000;
+}
+
+.udemyForBusiness .Img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}

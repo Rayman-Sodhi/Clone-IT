@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 99vw;
+    height: 100px;
+    margin: auto;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    display: flex;
+}
+.img{
+    height: 100%;
+    width: 30%;
+}
+.img img{
+    height: 90%;
+}
+#steps{
+    height: 100%;
+    width: 69%;
+    display: flex;
+}
+#steps >div{
+    display: flex;
+}
+.steps-number{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+#steps > div:nth-child(3) .steps-number{
+    background-color: black;
+}
+.steps-dash{
+    height: 1px;
+    width: 100px;
+    border-bottom: 1px dashed black;
+    position: relative;
+    top: 59%;
+}
+.steps-div{
+    position: relative;
+    top: 50%;
+}
+main{
+    width: 94vw;
+    margin: 10px auto;
+    display: flex;
+}
+.form{
+    width: 60%;
+    margin-right:2%;
+    padding: 1%;
+    border: 1px solid rgb(121, 121, 121);
+    display: none;
+    margin-bottom: 5%;
+}
+#change-form-div{
+    border: 1px so red;
+    width: 15%;
+}
+.change-form{
+    width: 100%;
+    border: 1px solid rgb(121, 121, 121);
+    border-right: none;
+    height: 50px;
+    position: relative;
+    background-color: white;
+    left: 2px;
+    padding: 10px 0px;
+}
+.bag-data{
+    width: 23%;
+    border: 1px solid rgb(121, 121, 121);
+    padding: 1%;
+    height: 280px;
+}
+
+.form input,select{
+    display: block;
+
+}
+.form >input,.form > select{
+    width: 98%;
+    height: 50px;
+    font-size: 17px;
+    margin: 15px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(131, 130, 130);
+    background-color: rgb(238, 238, 238);
+    padding: 0% 5%;
+}
+.form >input:focus,.form >select:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+    transition: border-bottom 1s;
+}
+.form div{
+    display: flex;
+    width: 98%;
+    margin-bottom: 5px;
+}
+.form div input{
+    width: 48%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(131, 130, 130);
+    background-color: rgb(238, 238, 238);
+    padding: 0% 5%;
+    font-size: 17px;
+}
+.form div input:nth-child(1){
+    margin-right: 4%;
+}
+.form div input:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+    transition: border-bottom 1s;
+}
+.form-btns{
+    margin-top: 25px;
+}
+.form-btns button{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#form-btn2{
+    background-color: black;
+    color: white;
+}
+.form-btns button{
+    will-change: 45%;
+}
+#saved h2{
+    margin: 15px 10px;
+}
+#saved h3{
+    margin: 10px 10px;
+}
+#saved p{
+    margin: 5px 10px;
+}
+.bag-data >h2{
+    margin-bottom:3px ;
+}
+.bag-data >p{
+    margin-bottom: 17px;
+    color: rgb(170, 170, 170);
+}
+.bag-data >div{
+    margin-bottom: 10px;
+    display: flex;
+}
+.bag-data >div div{
+    width: 50%;
+    color: rgb(66, 66, 66);
+}
+.bag-data >div div:nth-child(2){
+    text-align: right;
+}
+.bag-data > div:nth-child(6) div{
+    font-weight: bold;
+    color: black;
+}
+.bag-data button{
+    width: 90%;
+    margin: auto;
+    display: block;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    display: none;
+}

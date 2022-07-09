@@ -1,0 +1,183 @@
+.shot__content {
+    height: 200px;
+    width: 100%;
+    position: relative;
+
+    @include respond(big-desktop){
+        height: 300px;
+    }
+
+    @include respond(tab-land){
+        height: 350px;
+    }
+
+    @include respond(tab-port){
+        height: 300px;
+    }
+
+    @include respond(big-phone){
+        height: 200px;
+        display: block !important;
+    }
+
+    @include respond(phone){
+        height: 300px;
+        display: block !important;
+    }
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: lightgrey;
+    
+
+    &::after {
+        background-image: linear-gradient(to bottom, transparent 50%,rgba(0, 0, 0, 0.233) 80%, rgba(0, 0, 0, 0.699) 100%);
+        //background-image: linear-gradient(to bottom, transparent 65%,red 70%, blue 100%);
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 5;
+        top: 0; 
+        left: 0;
+        border-radius: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.1s ease-in;
+    }
+
+    &:hover::after {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        position: relative;
+        object-fit: cover;
+        transform: scale(1.1);
+    }
+
+    .image__details {
+        position: absolute;
+        z-index: 2000;
+        bottom: 5px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+
+        .image__title {
+            color: $color-grey-light;
+            position: relative;
+            top: 6px;
+        }
+
+        .image__action-button {
+            .image-button {
+                padding: 8px 10px;
+                font-size: 1.1rem;
+                outline: none;
+                border-radius: 9px;
+                border: none;
+                margin-left: 10px;
+                color: $color-grey;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    &:hover .image__details {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    @include respond(phone){
+        display: block !important;
+    }
+}
+
+.shot__details {
+    display: block;
+    width: 100%;
+
+    @include clearfix;
+
+    .user__informations {
+        display: inline-block;
+        margin-top: 5px;
+
+        .avatar {
+            float: left;
+            margin-right: 5px;
+
+            &__image {
+                width: 25px;
+                height: 25px;
+                border-radius: 100px;
+                display: inline-block;
+                object-fit: cover;
+            }
+        }
+
+        .display__name {
+            display: inline-block;
+            font-weight: bold;
+            color: $color-black;
+            padding-left: 5px;
+        }
+
+        .user__badge {
+            display: inline-block;
+            font-weight: 900;
+            font-size: 0.7rem;
+            padding: 1px 2px;
+            background-color: $color-grey-light-2;
+            border-radius: 3px;
+            color:#fff;
+            letter-spacing: 1px;
+            margin-left: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $color-primary;
+            }
+        }
+
+    }
+
+    .shot__stats {
+        float: right;
+        margin-top: 5px;
+
+        .stat-icon {
+            color: $color-grey-dark;
+            font-size: 0.9rem;
+            margin-left: 8px;
+            cursor: pointer;
+            transition: color 0.18s ease-in;
+            
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        &-count {
+            color: $color-grey;
+            font-weight: 400;
+            font-size: 0.85rem;
+            margin-left: 3px;
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.edit__profile {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    .heading {
+        text-align: center;
+        border-bottom: 1px solid $color-grey-light-2;
+        padding: 30px;
+
+        span {
+            display: inline-block;
+            font-weight: 900;
+            font-size: 0.7rem;
+            padding: 1px 2px;
+            background-color: $color-grey-light-2;
+            border-radius: 3px;
+            color:#fff;
+            letter-spacing: 1px;
+            margin-left: 5px;
+            cursor: pointer;
+            position: relative;
+            bottom: 5px;
+
+            &:hover {
+                background-color: $color-primary;
+            }
+        }
+
+        h2 {
+            font-weight: 900;
+            color: $color-black-2;
+        }
+    }
+
+    .edit__details {
+        padding: 30px 80px 50px 80px;
+
+        @include clearfix;
+
+        .image__area {
+            float: left;
+            width: 30%;
+
+            img {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                border-radius: 200px;
+                object-fit: cover;
+                
+            }
+
+            @include respond(big-phone){
+                width: 100%;
+                display: block !important;
+                text-align: center;
+            }
+        }
+        .button__area {
+            float: left;
+            width: 70%;
+            height: 100%;
+            position: relative;
+            top: 25px;
+            display: flex;
+            justify-content: space-between;
+
+            .upload__image {
+                width: 0.1px;
+                height: 0.1px;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                z-index: -1;
+                display: none;
+            }
+
+            .btn-default {
+                margin-right: 0;
+            }
+
+            @include respond(big-phone){
+                width: 100%;
+                display: block !important;
+                text-align: center;
+                margin-bottom: 3rem;
+
+                .btn {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .upload {
+
+            @include respond(tab-land){
+                margin-bottom: 1.5rem !important;
+            }
+
+            @include respond(big-phone){
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        @include respond(phone){
+            padding: 30px;
+        }
+
+    }
+
+    @include respond(big-phone){
+        width: 80%;
+    }
+}

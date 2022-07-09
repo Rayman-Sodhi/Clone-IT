@@ -1,0 +1,51 @@
+.btn {
+    padding: 10px 18px;
+    border-radius: 7px;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    
+    @include clearfix;
+
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    &:disabled {
+        cursor: default;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &-default {
+        border: 1px solid $color-grey-light-2;
+        background-color: #fff;
+        color: $color-black;
+
+        &:hover {
+            background-color: darken(#fff, 3);
+        }
+    }
+
+    &-primary {
+        background-color: $color-primary;
+        color: white;
+        border-color: transparent;
+
+        &:hover {
+            background-color: darken($color-primary, 10);
+        }
+    }
+
+    &-grey {
+        background-color: $color-grey-light;
+        border: none;
+        font-weight: 700;
+        padding: 12px 18px;
+    }
+
+}

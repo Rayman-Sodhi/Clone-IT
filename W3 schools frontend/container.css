@@ -1,0 +1,122 @@
+.Container-1{
+    background-color: #D9EEE1;
+    height: 800px;
+     width: 1543px;
+    position: relative;
+    bottom: 90px;
+    right: 12px;
+}
+
+.container-1-texts-1{
+    position:relative;
+    top: 220px;
+    font-weight:bolder;
+    left: 310px;
+    font-size: 48px;
+}
+.container-1-texts-2{
+    position:relative;
+    top: 260px;
+    left: 230px;
+    font-size: 18px;
+}
+
+.htmlcode{
+    position: relative;
+    right: -700px;
+    top: 119px;
+}
+
+.btn-1{
+    display: inline-block;
+text-decoration: none;
+font-size: 18px;
+font-weight: 900;
+text-align: center;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 24px;
+width:70px;
+    position: relative;
+    right: 654px;
+    bottom: 210px;
+    cursor: pointer;
+}
+.btn-2{
+    display: inline-block;
+text-decoration: none;
+font-size: 18px;
+font-weight: 900;
+text-align: center;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 24px;
+width:70px;
+    position: relative;
+    right: 644px;
+    bottom: 210px;
+    cursor: pointer;
+}
+.btn-3{
+    display: inline-block;
+text-decoration: none;
+font-size: 18px;
+font-weight: 900;
+text-align: center;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 24px;
+width:70px;
+    position: relative;
+    right: 634px;
+    bottom: 210px;
+    cursor: pointer;
+}
+footer{
+    background-color: #282A35; color: azure; height: 120px; text-align: center; width: 1700px; position: relative; right: 21px; bottom: -140px; 
+}
+@media only screen and (max-width:415px){
+ .htmlcode{
+  display: none;
+ }   
+ footer{
+     position: relative;
+     top: 600px;
+     height: 1200px;
+ }
+ h4{
+     position: relative;
+ right: 629px;
+ font-size: 12px;
+ top: 500px;
+    }
+ .btn-1{
+     position: relative;
+     right: -60px;
+     top: 300px;
+ }
+ .container-1-texts-1{
+    position:relative;
+    top: 120px;
+    font-weight:bolder;
+    left: 80px;
+    font-size: 48px;
+}
+.container-1-texts-2{
+    position:relative;
+    top: 200px;
+    left: 20px;
+    font-size: 18px;
+}
+ .btn-2{
+    position: relative;
+    right: 82px;
+    top: 380px;
+}
+.btn-3{
+    position: relative;
+    right: 227px;
+    top: 460px;
+}
+
+}

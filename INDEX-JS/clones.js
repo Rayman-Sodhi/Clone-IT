@@ -9,6 +9,13 @@
 
 const clones = [
     {
+        "id": "2048",
+        "name": "2048 Clone",
+        "description": "2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub.",
+        "class": "2048",
+        "href": "https://624714958b723a4787873a0c--precious-strudel-0f88aa.netlify.app/"
+    },
+    {
         "id": "AIRBNB",
         "name": "Airbnb Clone",
         "description": "Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities",
@@ -100,6 +107,13 @@ const clones = [
         "href": "https://clonelinktree.netlify.app/"
     },
     {
+        "id": "MAC OS",
+        "name": "Mac OS Clone",
+        "description": "It is the primary operating system for Apple's Mac computers. Within the market of desktop and laptop computers",
+        "class": "mac_os",
+        "href": "https://mrjoy832.github.io/MAC-OS-/"
+    },
+    {
         "id": "MICROSOFT",
         "name": "Microsoft Clone",
         "description": "Microsoft Corporation is a technology company which produces computer software related services",
@@ -107,11 +121,25 @@ const clones = [
         "href": "https://19arnab190201.github.io/Microsoft-Clone/"
     },
     {
+        "id": "MICROSOFT TEAMS",
+        "name": "Microsoft Teams Clone",
+        "description": "Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products",
+        "class": "microsoft_teams",
+        "href": "https://htmlpreview.github.io/?https://github.com/XZANATOL/Clone-IT/blob/Teams_Clone/Microsoft_Teams_Page_Clone/index.html"
+    },
+    {
         "id": "NETFLIX",
         "name": "Netflix Clone",
         "description": "Netflix is a streaming service that offers a variety of TV shows, movies, anime and more",
         "class": "netflix",
         "href": "https://chatifyslack.netlify.app/"
+    },
+    {
+        "id": "PLURALSIGHT",
+        "name": "Pluralsight Clone",
+        "description": "Pluralsight, Inc. is an American privately held online education company that offers a variety of video training courses for software developers, IT administrators, and creative professionals through its website.",
+        "class": "pluralsight",
+        "href": "https://mrjoy832.github.io/PluralSight_clone/"
     },
     {
         "id": "QUORA",
@@ -149,11 +177,32 @@ const clones = [
         "href": "https://ayushsleeping-teslaclone.netlify.app/"
     },
     {
+        "id": "UNSPLASH",
+        "name": "Unsplash Clone",
+        "description": "Unsplash is a website dedicated to sharing stock photography under the Unsplash license. Since 2021, it has been owned by Getty Images.",
+        "class": "unsplash",
+        "href": "https://sulagna-dutta-roy.github.io/Unsplash-Clone/"
+    },
+    {
+        "id": "WINDOWS 11",
+        "name": "Windows 11 Clone",
+        "description": "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released in October 2021. It is a free upgrade to its predecessor, Windows 10, on some Windows 10 devices",
+        "class": "windows11",
+        "href": "#"
+    },
+    {
         "id": "YOUTUBE",
         "name": "YouTube Clone",
         "description": "YouTube is an American online video sharing and social media platform owned by Google.",
         "class": "youtube",
         "href": "https://anveshajain19.github.io/YOUTUBE-CLONE/"
+    },
+    {
+        "id": "ZOMATO",
+        "name": "Zomato Clone",
+        "description": "Zomato is an Indian multinational restaurant aggregator and food delivery company founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants.",
+        "class": "zomato",
+        "href": "https://zomatoclone-blush.vercel.app/"
     },
     {
         "id": "ZOOM",
