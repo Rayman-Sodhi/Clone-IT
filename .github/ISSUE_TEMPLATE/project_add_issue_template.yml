@@ -1,7 +1,7 @@
 name: New Project Issue
 description: Clone IT
 title: "[New Issue]: "
-labels: ["HSOC"]
+labels: ["HSOC22"]
 body:
   - type: markdown
     attributes:
