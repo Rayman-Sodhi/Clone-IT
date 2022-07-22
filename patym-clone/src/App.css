@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar style starts */
+
+#navbar{
+  height: 6rem;
+  box-shadow: 5px 1px 6px 1px rgb(0 0 0 / 18%);
+}
+
+#logo{
+  width: 9rem;
+  height: 4rem;
+  margin: 0 2rem;
+}
+
+.drop_font{
+  color: #000;
+  font-weight: 600;
+}
+
+.signup{
+  margin: 0 4rem;
+}
+
+.signup button{
+  padding: 0.36rem 1rem;
+  border: 2px solid #00baf2;
+  border-radius: 50px;
+  background-color: #00baf2;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.signup button span img{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.signup button span{
+  margin-left: 6px;
+}
+
+/* Navbar style ends */
+
+
+/* SectionOne Starts */
+
+.sectionOne{
+  height: 3rem;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionOne p{
+  margin-top: 8px;
+}
+
+.sectionOne p span{
+  font-weight: 600;
+}
+
+.emoji{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#link:hover{
+  cursor: pointer;
+}
+
+/* SectionOne Ends */
+
+
+/* SectionTwo Starts */
+
+#secTwo #leftSec{
+  height: 40rem;
+  padding: 7.5rem;
+}
+
+
+#secTwoleftImg{
+  height: 5rem;
+}
+
+#leftSec h1{
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+}
+
+#leftSec h5{
+  margin-top: 1rem;
+  font-weight: 500; 
+}
+
+#btn{
+  margin-top: 2rem;
+  padding: 11px 26px;
+  border-radius: 34px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+#btn #apple{
+  font-size: 1.2rem;
+  margin: 0 6px;
+}
+
+#secTwo #rightSec{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#secTwoRightImg{
+  height: 32rem;
+}
+
+/* SectionTwo Ends */
+
+
+/* SectionThree Starts */
+
+.secThree{
+  height: 21rem;
+  width: 100%;
+  padding: 4.5rem 7.5rem;
+  background-color: #00baf2;
+}
+
+.secThree h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+#cards{
+  display: flex;
+}
+
+.style{
+  width: 18rem;
+  background-color: #00baf2;
+  border: none;
+  height: 13rem;
+  /* border: 2px solid #000; */
+}
+
+.style img{
+  height: 4rem;
+  width: 64px;
+  margin-top: 2rem;
+}
+
+.style p{
+  /* border: 2px solid #ff0000; */
+  margin-top: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  width: 100px;
+}
+
+/* SectionThree Ends */
+
+
+/* SectionFour Starts */
+
+.secFour{
+  height: 21rem;
+  width: 100%;
+  padding: 4.5rem 7.5rem;
+  background-color: #0f4a8a;
+}
+
+.secFour h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.secFour .style {
+  background-color: #0f4a8a;
+}
+
+/* SectionFour Ends */
+
+
+/* SectionFive Starts */
+
+.secFive{
+  height: 10rem;
+}
+
+.content{
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secFiveLeft{
+  margin: 0 6rem;
+  display: flex;
+}
+
+.secFiveLeft .leftText{
+  width: 200px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.secFiveLeft a{
+  margin: 0 12px;
+  display: flex;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 4px 0;
+}
+
+.secFiveLeft a .icon{
+  width: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.secFiveLeft a .aText{
+  width: 10rem;
+}
+
+.small{
+  font-size: .7rem;
+}
+
+.bold{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.secFiveRight{
+  margin: 0 6rem;
+}
+
+.secFiveRight span i{
+  font-size: 1.5rem;
+  color: #808080;
+  margin: 0 .8rem;
+  cursor: pointer;
+}
+
+.hr{
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+/* SectionFive Ends */
+
+
+/* Footer Section Starts  */
+
+.footer{
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+}
+
+/* Footer Section Ends */
