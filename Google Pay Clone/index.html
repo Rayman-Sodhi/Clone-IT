@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="./manifest.json"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Google Pay</title>
+</head>
+<body>
+
+    <header class="header pd">
+        <div class="header__user">
+            <img class="photo" src="./img/profile.jpg" alt="user profile">
+            <div class="info">
+                <div class="info__username">Rakesh Roshan</div>
+                <div class="info__upiid">rakeshroshan@gpayupi</div>
+            </div>
+        </div>
+        <div class="header__option">
+            <ion-icon class="option-icon" name="ellipsis-vertical"></ion-icon>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="tez">
+            <div class="tez__circle" onClick="window.navigator.vibrate(200)">
+                <ion-icon class="tez-icon" name="filter"></ion-icon>
+            </div>
+            <p class="tez__text">Tap for Tez Mode</p>
+        </div>
+
+    </main>
+
+    <section class="slider">
+        
+        <div class="logo-wrap">
+            <img class="logo-wrap__img" src="./img/logo.png" alt="google pay logo">
+        </div>
+
+        <div class="slider__contact">
+
+            <div class="contact-item">
+                <div class="contact-item__photo">&#x20B9;</div>
+                <p class="contact-item__name">New</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo contact-item__photo--alert" style="background-color: purple">D</div>
+                <p class="contact-item__name">Dhairya</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo contact-item__photo--alert" style="background-color: rgb(241, 102, 52)">H</div>
+                <p class="contact-item__name">Hrithik</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo" style="background-color: rgb(56, 56, 173)">E</div>
+                <p class="contact-item__name">Esha</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo" style="background-color: green">R</div>
+                <p class="contact-item__name">Rudra</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo" style="background-color: rgb(115, 115, 228)">A</div>
+                <p class="contact-item__name">Aditya</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo" style="background-color: purple">R</div>
+                <p class="contact-item__name">Ronak</p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-item__photo" style="background-color: darkgoldenrod">J</div>
+                <p class="contact-item__name">James</p>
+            </div>
+        </div>
+
+        <div class="slider__business">
+            <p class="business-head">Businesses</p>
+            <p class="business-subhead">Frequent and smart suggestions</p>
+
+            <div class="business-list">
+
+                <div class="business-item">
+                    <div class="business-item__photo" style="background-color: orangered;">I</div>
+                    <p class="business-item__name">India</p>
+                </div>
+
+                <div class="business-item">
+                    <div class="business-item__photo" style="background-color: rgb(231, 231, 231)"></div>
+                </div>
+
+                <div class="business-item">
+                    <div class="business-item__photo" style="background-color: rgb(231, 231, 231)"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider__promo">
+            <p class="promo-head">Promotions</p>
+            <div class="promo-list">
+
+                <div class="promo-item">
+                    <img class="promo-item__photo" src="./img/oyo.png" alt="oyo rewards">
+                    <p class="promo-item__name">OYO</p>
+                </div>
+
+                <div class="promo-item">
+                    <img class="promo-item__photo" src="./img/grofers.jpg" alt="grofers rewards">
+                    <p class="promo-item__name">Grofers</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider__options">
+
+            <div class="option">
+                <ion-icon class="option__icon" name="refresh"></ion-icon>
+                <p class="option__text">All transactions</p>
+            </div>
+
+            <div class="option">
+                <ion-icon class="option__icon" name="card-outline"></ion-icon>
+                <p class="option__text">Check balance</p>
+            </div>
+
+            <div class="option">
+                <ion-icon class="option__icon" name="heart"></ion-icon>
+                <div class="text-wrap">
+                    <p class="option__text">Invite a friend</p>
+                    <p class="option__subtext">Get &#x20B9;51 after each friend's first payment</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
