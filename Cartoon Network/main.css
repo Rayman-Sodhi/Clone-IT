@@ -1,0 +1,360 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    background-image: url("./Images/CartoonNetworklogo.jpg");
+    background-repeat: no-repeat;
+    height: 72px;
+    width: 120px;
+    margin: 40px 80px 40px 60px;
+    
+}
+
+.li1{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 60px 25px;
+  font-size: 25px;
+  text-align: center;
+}
+.li1:first-child{
+   border-bottom: 3px solid #40c2e2;
+}
+.li1:hover{
+   border-bottom: 3px solid #40c2e2;
+   border-collapse: separate;
+}
+a{
+   text-decoration-line: none;
+   color: black;
+}
+.content{
+   background-color: black;
+   height: 100%;
+   width: 100%;
+   
+}
+.box{
+   display: flex;
+   align-items: flex-start;
+}
+.feature{
+   color: white;
+   font-weight: bold;
+   padding-left: 110px;
+   padding-top: 30px;
+   font-size: 32px;
+   
+}
+.firstimg{
+   position: relative;
+   background-image: url("./Images/ben-10.png");
+   background-repeat: no-repeat;
+   background-size: 386px;
+   margin-top: 10px ;
+   margin-left: 110px;
+   width: 386px;
+    }
+    .firstimg:hover{
+       opacity: 0.79;
+   }
+   .firstimg span:hover{
+       color: blue;
+   }
+       
+
+   .ben{
+       color: white;
+       font-weight: 600;
+     padding-top: 286px;
+     padding-left: 10px;
+     text-transform: capitalize;
+     text-shadow: 0 0 15px #000000,0 0 15px #000000;
+   }
+   
+   .schedule{
+       color: white;
+       padding-left: 10px;
+       opacity: 1;
+       text-shadow: 0 0 15px #000000,0 0 15px #000000;
+   }
+   .secondimg{
+   background-image: url("./Images/heroes.png") ;
+   background-repeat: no-repeat;
+   background-size: 386px;
+   width: 386px;
+   margin-top: 10px;
+   margin-left: 10px;
+   
+   }
+ 
+   .secondimg:hover{
+       opacity: 0.79;
+   }
+   .secondimg span:hover{
+       color: blue;
+   }
+       
+   .box1{
+       display: flex;
+       align-items: flex-start;
+   }
+   .schedule1{
+       color: white;
+       margin-left:  10px;
+       opacity: 1;
+       text-shadow: 0 0 0px #000000,0 0 6px #000000;
+   }
+   .ben1{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 200px;
+    margin-left: 10px;
+    text-shadow: 0 0 0px #000000,0 0 5px #000000;
+   }
+   .thirdimg{
+   position: relative;
+   background-image: url("./Images/steven-universe.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px ;
+   margin-left: 110px;
+   width: 300px;
+  }
+  .thirdimg:hover{
+       opacity: 0.79;
+   }
+   .thirdimg span:hover{
+       color: blue;
+   }
+       
+   .fourimg{
+    background-image: url("./Images/bare-bear.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px;
+  margin-left: 10px;
+  width: 300px;
+  }
+  .fourimg:hover{
+       opacity: 0.79;
+   }
+   .fourimg span:hover{
+       color: blue;
+   }
+       
+   .fiveimg{
+    background-image: url("./Images/powerpuff.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px;
+   margin-left:10px;
+   width: 300px;
+ }
+ .fiveimg:hover{
+       opacity: 0.79;
+   }
+   .fiveimg span:hover{
+       color: blue;
+   }
+       
+   .siximg{
+    background-image: url("./Images/regular-show.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   width: 300px;
+   margin-top: 10px;
+   margin-left:10px;
+     }
+     .siximg:hover{
+       opacity: 0.79;
+   }
+   .siximg span:hover{
+       color: blue;
+   }
+       
+
+   
+     .box2{
+       display: flex;
+       align-items: flex-start;
+   }
+   .schedule2{
+       color: white;
+       margin-left:  10px;
+       text-shadow: 0 0 3px #000000,0 0 6px #000000;
+   }
+   .ben2{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 200px;
+    margin-left: 10px;
+    text-shadow: 0 0 3px #000000,0 0 10px #000000;
+   }
+   .sevenimg{
+   position: relative;
+   background-image: url("./Images/adventure-time.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px ;
+   margin-left: 110px;
+   width: 300px;
+  }
+  .sevenimg:hover{
+       opacity: 0.79;
+   }
+   .sevenimg span:hover{
+       color: blue;
+   }
+       
+   .eightimg{
+    background-image: url("./Images/apple-onion.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px;
+  margin-left: 10px;
+  width: 300px;
+ 
+   }
+   .eightimg:hover{
+       opacity: 0.79;
+   }
+   .eightimg span:hover{
+       color: blue;
+   }
+       
+   .nineimg{
+    background-image: url("./Images/mao.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   margin-top: 10px;
+   margin-left:10px;
+   width: 300px;
+
+   }
+   .nineimg:hover{
+       opacity: 0.79;
+   }
+   .nineimg span:hover{
+       color: blue;
+   }
+       
+   .tenimg{
+    background-image: url("./Images/gumball.png");
+   background-repeat: no-repeat;
+   background-size: 300px;
+   width: 300px;
+   margin-top: 10px;
+   margin-left:10px;
+     }  
+     .tenimg:hover{
+       opacity: 0.79;
+   }
+   .tenimg span:hover{
+       color: blue;
+   }
+   .ben3{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 200px;
+    margin-left: 10px;
+    font-size: 15.5px;
+    text-shadow: 0 0 3px #000000,0 0 10px #000000;
+   }
+ .about{
+     color: white;
+     margin-left: 110px;
+     margin-bottom: 25px;
+ }      
+.net{
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.contact{
+  color: white;
+  margin-top: 0px;
+  margin-left: 109px;
+  margin-bottom: 70px;
+ 
+}
+.us{
+ font-weight: 700;
+ margin-bottom: 10px;
+ padding-top: 10px;
+}
+.grey{
+  background-color: rgb(37, 37, 37);
+}
+.foot{
+ display: flex;
+ align-content: center;
+ justify-content: center;
+}
+
+.aa{
+display: inline-block;
+  text-decoration: none;
+  color: white;
+margin: 60px 17px 0px 0px;
+  font-size: 15px;
+  text-align: center;
+ 
+}
+.pan{
+  text-decoration: none;
+ color: white;
+}
+.pan:hover{
+  color: blue;
+}
+.co{
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-size: 15px;
+ margin-top: 20px;
+ padding-bottom: 60px;
+}
+.other{
+  color: white;
+  text-align: center;
+ font-size: 15px;
+ padding-bottom: 35px;
+}
+.navbarbot{
+    display: flex;
+    justify-content: center;
+}
+.logo1{
+  
+    height: 50px;
+    margin: 24px 40px 40px 40px;
+      }
+
+.li2{
+  display: inline-block;
+  text-decoration: none;
+ margin-right: 30px;
+ margin-top: 10px;
+ margin-left: 60px;
+  }
+
+
+.vertical{
+  margin-left: 8px;
+  border-left: 0.5px solid white;
+ height: 65px;
+
+}
+
