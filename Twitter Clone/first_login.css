@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border-radius: 9999px;
+    border: none;
+    min-height: 39px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font: 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 92vh;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: inherit;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(113, 201, 248);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.left-bg img {
+    position: absolute;
+    right: -50vh;
+    top: -30vh;
+    height: 150vh;
+    object-fit: cover;
+    overflow: hidden;
+    max-width: none;
+    user-select: none;
+    z-index: -1;
+}
+
+.left .content {
+    font-size: 23px;
+    color: white;
+    width: 24rem;
+}
+
+.left .content-item {
+    display: flex;
+    font-weight: 500;
+    margin: 3rem 0;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.content-img {
+    margin-right: 1rem;
+}
+
+.content-item i {
+    font-weight: 600;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .content {
+    max-width: 80%;
+    width: 24rem;
+}
+
+.right img {
+    height: 2.75rem;
+}
+
+.right .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.right .content .title {
+    color: white;
+}
+
+.right .content .logo {
+    color: white;
+}
+.right .sub-title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right .register {
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.right .login {
+    background-color: #fff;
+    border: 1px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+section.form {
+    width: 90%;
+    margin: 3rem auto;
+    display: none;
+}
+
+section.form .container {
+    display: flex;
+    justify-content: center;
+}
+
+section.form .container button {
+    flex: 1;
+    max-width: 180px;
+}
+
+section.form .container .register {
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+    margin-right: 2em;
+}
+
+section.form .container .login {
+    background-color: #fff;
+    border: 1px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+footer {
+    height: 8vh;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+
+.footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-link li {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.footer-link a,
+.footer-link span {
+    font-size: 12px;
+    color: rgb(101, 119, 134);
+    font-weight: 400;
+}
+
+.footer-link a:hover {
+    border-bottom: 1px solid rgb(101, 119, 134);
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+    }
+    .right {
+        padding: 1rem;
+        order: 1;
+    }
+    .right img {
+        height: 2.5rem;
+    }
+    .left {
+        order: 2;
+    }
+    .left .content {
+        width: 20rem;
+    }
+    .left-bg img {
+        position: absolute;
+        right: -10vh;
+        top: -10vh;
+        height: 60vh;
+        object-fit: cover;
+        overflow: hidden;
+        max-width: none;
+        user-select: none;
+        z-index: -1;
+    }
+    section.form {
+        display: block;
+    }
+    footer .container {
+        width: 100%;
+    }
+}
