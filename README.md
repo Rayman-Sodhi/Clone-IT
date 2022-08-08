@@ -143,25 +143,23 @@ The idea behind this project is to learn how different websites are made by dire
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## Open Source programs this repo has been part of
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge)
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Script-Winter-of-Code/website/master/src/components/img/logo-1.png" height="200px" width="380px" alt="script winter of code">
 </div>
-    
-    
+
+<br>
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/girlscript/gssoc-assets/main/Logos/GS_logo_White.png" height="100px" width="500px" alt="girlscript summer of code">
 </div>
 
+<br>
+
 
 <div align="center">
     <img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">
 </div>
-
-
-<br>
 
 <br>
 
