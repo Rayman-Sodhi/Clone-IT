@@ -17,7 +17,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
 ![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
 ![Github Repo Size](https://img.shields.io/github/repo-size/Rayman-Sodhi/Clone-IT?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge)
 
 </div>
 
