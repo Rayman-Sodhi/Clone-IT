@@ -302,8 +302,9 @@ git push -u origin <your_branch_name>
 <br>
 
 <h1 align="center">Our Valuable Contributors</h1>
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="207" ></a> 
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="123" ></a> 
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="210" ></a> 
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="125" ></a> 
+<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/open-source.svg" height="28" width="125" ></a>
 <br>
 
 ### Thanks to all the **people who contribute**
