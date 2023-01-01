@@ -166,10 +166,6 @@ The idea behind this project is to learn how different websites are made by dire
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<br>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
     
 <h1 align="center">Admin</h1>
 
