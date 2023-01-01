@@ -31,6 +31,8 @@
 <p align="center">
     <a href="https://opensource.guide/"><strong>Open Source Guides »</strong></a>
     <br />
+    <a href="https://github.com/Rayman-Sodhi/Clone-IT/blob/main/CONTRIBUTING.md"> Contributing Guidelines </a>
+    <br />
     <a href="https://rayman-sodhi.github.io/Clone-IT/">View Demo</a>
     ·
     <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Report Bug</a>
@@ -45,7 +47,6 @@
 ### Table of Contents 🧾:
 * [About the Clone IT](#About-the-Clone-IT)
 * [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
-* [Contribution Guidelines](#Contribution-Guidelines)
 * [Contributors](#Contributors)
 
 <br>
