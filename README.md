@@ -134,7 +134,9 @@
 
 |||
 |---|---|
-|<img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">|Hackclub RAIT|
+|<img height="200" width="200" src="https://user-images.githubusercontent.com/94545831/212962369-6a5875f8-5e60-4046-9c33-542aeb846881.png" />| <b> Girlscript Summer Of Code </b>|
+|<img height="200" width="200" src="https://user-images.githubusercontent.com/94545831/212962815-7198d0b8-69a0-426d-b764-a8a12589d475.png" />| <b> Social Summer Of Code </b>|
+|<img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">|<b>Hackclub RAIT</b>|
 
 <br>
 
