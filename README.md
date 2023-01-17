@@ -7,15 +7,8 @@
 <div align="center">
 
 
-    
-![GitHub contributors](https://img.shields.io/github/contributors/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=blue)
-![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=brightgreen)
-![GitHub PR Open](https://img.shields.io/github/issues-pr/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
-![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
-![GitHub language count](https://img.shields.io/github/languages/count/Rayman-Sodhi/Clone-IT?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/Rayman-Sodhi/Clone-IT?style=for-the-badge)
+   
 ![GitHub last commit](https://img.shields.io/github/last-commit/Rayman-Sodhi/Clone-IT?style=for-the-badge&color=red)
-![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)
 ![Github Repo Size](https://img.shields.io/github/repo-size/Rayman-Sodhi/Clone-IT?style=for-the-badge)
 
 </div>
@@ -40,29 +33,22 @@
     <a href="https://github.com/Rayman-Sodhi/Clone-IT/issues">Request Feature</a>
   </p>
 
-<!-- ---------------------------------------------------------------------------------------------------------------------- -->
-
-<!-- TABLE OF CONTENTS -->
-
-### Table of Contents 🧾:
-* [About the Clone IT](#About-the-Clone-IT)
-* [Open Source programs this repo has been part of](#Open-Source-programs-this-repo-has-been-part-of)
-* [Contributors](#Contributors)
 
 <br>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 <!-- ABOUT THE PROJECT -->
-## About the Clone IT
+## About Clone IT
 
-<p align="center">
-The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. New contributors can add more websites clone to the list and suggest new features in the existing ones. Also, there is a scope to introduce new features in websites and thus creating an upgraded version of their clones.
+- The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. 
+- New contributors can add more websites clone to the list and suggest new features in the existing ones.
+- Contributors can introduce new features in websites and thus creating an upgraded version of their clones.
     
-</p>
+
 
 <br>
 
-### Available Clones:
+<details><summary><h2>Available Clones</h2></summary>
 
 | Serial No. | Websites | Clone-Output | Used | Official-Website |
 |:--|:--|:--|:--|:--|
@@ -134,79 +120,42 @@ The idea behind this project is to learn how different websites are made by dire
 | 65.| New Balance | [New Balance Clone](https://kumar-laxmi.github.io/New-Balance-UI-Clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [New Balance Official Web.](https://www.newbalance.com/)
 | 66.| Riot Games | [Riot games Clone](https://pranjalkatiyar.github.io/riotgamesUI_clone/) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a> | [Riot Games Official Web.](https://www.riotgames.com/en)
 | 67. | Cartoon Network Clone | [Cartoon Network Clone](https://khushimarothi.github.io/Project2/Cartoonnetwork.html) | <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a> <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a> | [Cartoon Network Official Web.](https://www.cartoonnetwork.ca/)
-<br>
-
-<br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+</details>
+
+<br>
+
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Open Source programs this repo has been part of
+## Open Source programs this Repo has been part of ⚡
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Script-Winter-of-Code/website/master/src/components/img/logo-1.png" height="200px" width="380px" alt="script winter of code">
-</div>
-
-<br>
-
-<div align="center">
-    <img src="https://raw.githubusercontent.com/girlscript/gssoc-assets/main/Logos/GS_logo_White.png" height="100px" width="500px" alt="girlscript summer of code">
-</div>
+|||
+|---|---|
+|<img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">|Hackclub RAIT|
 
 <br>
-
-
-<div align="center">
-    <img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">
-</div>
-
-<br>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     
-<h1 align="center">Admin</h1>
+## About the Mentors 👻
 
-<table align="center">
-<tr>
-<td align="center"><a href="https://github.com/Rayman-Sodhi"><img src="https://avatars.githubusercontent.com/u/65675692?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Rayman Sodhi</h4><br>
-<a href="https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
-</tr>
-</table>
+|Project Admin|Collaborator|
+|---|----|
+|<a href="https://github.com/Rayman-Sodhi"><img src="https://avatars.githubusercontent.com/u/65675692?v=4" width=150px height=150px /></a>|<a href="https://github.com/gurjeetsinghvirdee"><img src="https://avatars.githubusercontent.com/u/73753957?v=4" width=150px height=150px /></a>|
+|<b>Rayman Sodhi</b>|<b>Gurjeet Singh Virdee</b>|
+|<a href="https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a>|<a href="https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a>|
 
 <br>
-<h1 align="center">Collaborator </h1>
 
-<table align="center">
-<tr>
-<td align="center"><a href="https://github.com/gurjeetsinghvirdee"><img src="https://avatars.githubusercontent.com/u/73753957?v=4" width=150px height=150px /></a></br> <h4 style="color:green;">Gurjeet Singh Virdee</h4><br/><a href="https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
-</tr>
-</table>
-<br>
+## Our Valuable Contributors ❤
 
-<h1 align="center">Our Valuable Contributors</h1>
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" width="210" ></a> 
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="125" ></a> 
-<a href="https://github.com/Rayman-Sodhi/Clone-IT"><img src="https://forthebadge.com/images/badges/open-source.svg" height="28" width="125" ></a>
-<br>
-
-### Thanks to all the **people who contribute**
-<br>
 <a href="https://github.com/Rayman-Sodhi/Clone-IT/graphs/contributors" alt="Contributors">
   <img src="https://contributors-img.web.app/image?repo=Rayman-Sodhi/Clone-IT" />
 </a>
 
 <br>
 
-<br>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<div align="center">
-
-### Show some ❤️ by starring this awesome repository!
-
-</div>
