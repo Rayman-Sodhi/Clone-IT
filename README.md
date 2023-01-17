@@ -135,8 +135,8 @@
 |||
 |---|---|
 |<img height="200" width="200" src="https://user-images.githubusercontent.com/94545831/212962369-6a5875f8-5e60-4046-9c33-542aeb846881.png" />| <b> Girlscript Summer Of Code </b>|
-|<img height="200" width="200" src="https://raw.githubusercontent.com/Script-Winter-of-Code/website/master/src/components/img/logo-1.png" />| <b> Social Winter Of Code </b>|
-|<img src="https://soc.hackclubrait.co/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png" height="200px" width="200px" alt="hackclubrait summer of code">|<b>Hackclub RAIT</b>|
+|<img height="200" width="200" src="https://media.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=1681948800&v=beta&t=cSskGaC0nqOiVbiWUKORZEcEH4pQ6qpE_v9Ln5EZMuk" />| <b> Social Winter Of Code </b>|
+|<img src="https://media.licdn.com/dms/image/C4E0BAQHN1aAA06huNg/company-logo_200_200/0/1632670084686?e=1681948800&v=beta&t=HOz60qMH_k5dt5OCTEscgm_OoxZkA4tcDBk1lYtJ1xM" height="200" width="200px" alt="hackclubrait summer of code">|<b>Hackclub RAIT</b>|
 
 <br>
 
