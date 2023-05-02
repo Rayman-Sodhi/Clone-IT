@@ -417,8 +417,9 @@ li {
   padding: 1.5rem;
   font-size: 0.9rem;
 } */
-.info-left, .info-right {
-  height: 25rem;
+.info-left,
+.info-right {
+  height: 20rem;
   font-size: 1.1rem;
 }
 
