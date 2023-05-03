@@ -134,9 +134,9 @@
 
 |||
 |---|---|
-|<img height="200" width="200" src="https://user-images.githubusercontent.com/94545831/212962369-6a5875f8-5e60-4046-9c33-542aeb846881.png" />| <b> Girlscript Summer Of Code </b>|
-|<img height="200" width="200" src="https://github.com/Rayman-Sodhi/Clone-IT/blob/main/assets/social%20winter%20of%20code.jpeg" />| <b> Social Winter Of Code </b>|
-|<img src="https://github.com/Rayman-Sodhi/Clone-IT/blob/main/assets/hackclubrait.jpeg" height="200" width="200px" alt="hackclubrait summer of code">|<b>Hackclub RAIT</b>|
+|<img height="200" width="200" src="https://user-images.githubusercontent.com/94545831/212962369-6a5875f8-5e60-4046-9c33-542aeb846881.png" />| <b> Girlscript Summer Of Code 2022 </b>|
+|<img height="200" width="200" src="https://github.com/Rayman-Sodhi/Clone-IT/blob/main/assets/social%20winter%20of%20code.jpeg" />| <b> Social Winter Of Code 2022</b>|
+|<img src="https://github.com/Rayman-Sodhi/Clone-IT/blob/main/assets/hackclubrait.jpeg" height="200" width="200px" alt="hackclubrait summer of code">|<b>HackclubRait Summer Of Code 2022</b>|
 
 <br>
 
